@@ -58,8 +58,8 @@ class Wallet:
             optimal_quantity = round((free_quantity // min_qty) * step_size, 8)
             if self.convertor.from_to(origin_currency, dest_currency) and self.is_valid_lot_size(optimal_quantity, min_qty):
                 self.sell(origin_currency, dest_currency, "MARKET", float(optimal_quantity))
-            else:
-                print(origin_currency)
+            #else:
+            #    print(origin_currency)
 
     def is_valid_for_transfer(self, from_currency):
         return self.convertor.from_to(from_currency, "USDT")
@@ -73,9 +73,7 @@ class Wallet:
             return None, None
         return float(symbol_info['filters'][2]['minQty']), float(symbol_info['filters'][2]['stepSize'])
 
-
-
-
-
+    def get_all_prices(self):
+        return self.client.get_all_tickers()
 
 
