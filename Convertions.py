@@ -13,4 +13,3 @@ class Convert:
         with open(json_file_name) as json_file:
             json_file = json.load(json_file)
         return json_file
-
