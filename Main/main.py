@@ -30,5 +30,4 @@ if __name__ == '__main__':
     if TRADE_ON:
         indicator_manager = IndicatorManager()
 
-    IndicatorManager.join_all_threads(join_lst)
 

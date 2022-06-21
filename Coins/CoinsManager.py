@@ -6,10 +6,9 @@ class IndicatorManager:
         # scan a json file that says which indicators to activate and turn them on.
         pass
 
-    def get_price_prediction(self, symbol):
+    def update_price_prediction(self, symbol):
         # collet the price from all the indicators about a specific coin
         # calculate the predicted price considering the accuracy of each indicator
-        # return the hourly price and daily price for a wanted coin
         pass
 
     def clean_useless_indicators(self):
