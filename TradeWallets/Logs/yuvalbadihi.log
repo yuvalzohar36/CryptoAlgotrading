@@ -1,0 +1,19 @@
+ERROR 2022-07-05 15:54:25,783 - Our First Log Message
+INFO 2022-07-05 15:54:25,784 - Start to convert from LTC to DOGE with Percent : 0.5
+WARNING 2022-07-05 15:54:28,361 - Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+WARNING 2022-07-05 15:54:32,447 - Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+INFO 2022-07-05 15:58:49,288 - Start to convert from LTC to DOGE with Percent : 0.5
+INFO 2022-07-05 15:58:50,441 - Quantity : 258.07821239 for Symbol : DOGELTC
+WARNING 2022-07-05 15:58:51,094 - Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+INFO 2022-07-05 15:58:52,444 - Quantity : 0.3496595 for Symbol : LTCDOGE
+WARNING 2022-07-05 15:58:54,372 - Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+INFO 2022-07-05 15:58:55,734 - Quantity : 0.3496595 for Symbol : LTCUSDT
+INFO 2022-07-05 15:58:59,899 - Quantity : 257.81851036 for Symbol : DOGEUSDT
+INFO 2022-07-05 15:59:01,327 - Successfully converted from LTC to DOGE
+INFO 2022-07-05 16:03:13,602 - Start to convert from LTC to DOGE with Percent : 0.01
+INFO 2022-07-05 16:03:14,771 - Quantity : 2.5858654 for Symbol : DOGELTC
+WARNING 2022-07-05 16:03:15,751 - Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+INFO 2022-07-05 16:03:17,098 - Quantity : 0.00350319 for Symbol : LTCDOGE
+WARNING 2022-07-05 16:03:19,033 - Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+INFO 2022-07-05 16:03:21,182 - Quantity : 0.00350319 for Symbol : LTCUSDT
+ERROR 2022-07-05 16:03:23,164 - Failed to convert, APIError(code=-1013): Filter failure: MIN_NOTIONAL
