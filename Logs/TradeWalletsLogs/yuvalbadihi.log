@@ -1,0 +1,23 @@
+[2022-07-06 15:43:00,654] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-06 15:43:00,654] [yuvalbadihi] [__init__] [DEBUG]: ME
+[2022-07-06 15:43:34,112] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-06 15:43:34,112] [yuvalbadihi] [__init__] [DEBUG]: ME
+[2022-07-06 15:43:34,482] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to DOGE with Percent : 0.01
+[2022-07-06 15:43:35,692] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 38.9071322 for Symbol : DOGELTC
+[2022-07-06 15:43:36,877] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-06 15:43:38,257] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.05236782 for Symbol : LTCDOGE
+[2022-07-06 15:43:41,052] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-06 15:43:41,649] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.05236782 for Symbol : LTCUSDT
+[2022-07-06 15:43:42,864] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1013): Filter failure: MIN_NOTIONAL
+[2022-07-06 17:54:30,506] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-06 17:54:30,506] [yuvalbadihi] [__init__] [DEBUG]: ME
+[2022-07-06 17:54:53,982] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-06 17:54:53,982] [yuvalbadihi] [__init__] [DEBUG]: ME
+[2022-07-06 17:56:18,899] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-06 17:56:18,899] [yuvalbadihi] [__init__] [DEBUG]: ME
+[2022-07-06 17:56:28,351] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-06 17:56:28,351] [yuvalbadihi] [__init__] [DEBUG]: ME
+[2022-07-06 17:58:52,451] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-06 17:58:52,451] [yuvalbadihi] [__init__] [DEBUG]: ME
+[2022-07-06 22:03:28,994] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-06 22:03:29,010] [yuvalbadihi] [__init__] [DEBUG]: ME

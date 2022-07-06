@@ -1,37 +1,48 @@
 import json
+import Coins.CoinsManager as CManager
+import TradeWallets.WalletManager as WManager
 from Indicators.IndicatorManager import IndicatorManager
 from TradeWallets.BinanceWallet import BinanceWallet
 import telegramBot
 from threading import Thread
 
-LOCAL_CONFIGURATION_FILE = "local_configuration.json"
-CONFIGURATION_FILE = "configuration.json"
+LOCAL_CONFIGURATION_FILE = "../Configurations/local_configuration.json"
+CONFIGURATION_FILE = "../Configurations/configuration.json"
 
-TELEGRAM_BOT = False
-TRADE_ON = True
+USERNAME = 'yuvalbadihi'
+USERNAME2 = 'yuvalzohar'
+
+
+def execute_telegram_bot(TELEGRAM_BOT):
+    if TELEGRAM_BOT:
+        join_lst = []
+        telegram_bot_token = local_config["TelegramBot"]["telegram_bot_token"]
+        t1 = Thread(target=telegramBot.main_tg_bot, args=(binance_wallet, telegram_bot_token,))
+        t1.start()
+        join_lst.append(t1)
+
+
+def init_indicators_manager(TRADE_ON):
+    if bool(TRADE_ON):
+        indicator_manager = IndicatorManager()
+
 
 if __name__ == '__main__':
     with open(LOCAL_CONFIGURATION_FILE) as local_config_file:
         local_config = json.load(local_config_file)
     with open(CONFIGURATION_FILE) as config_file:
         config = json.load(config_file)
+    TELEGRAM_BOT = config["Enablers"]["TELEGRAM_BOT"] == 'True'
+    TRADE_ON = config["Enablers"]["TRADE_ON"] == 'True'
 
-    api_key = local_config["Details"]["api_key"]
-    api_secret = local_config["Details"]["api_secret"]
-
-    binance_wallet = BinanceWallet(api_key, api_secret, 0.1, "yuvalbadihi", config)
-
-    binance_wallet.convert("LTC", "DOGE", 0.01)
-
-    join_lst = []
-
-    # if TELEGRAM_BOT:
-    #     telegram_bot_token = local_config["Details"]["telegram_bot_token"]
-    #     t1 = Thread(target=telegramBot.main_tg_bot, args=(binance_wallet, telegram_bot_token,))
-    #     t1.start()
-    #     join_lst.append(t1)
-
-    if TRADE_ON:
-        indicator_manager = IndicatorManager()
-
-
+    api_key = local_config["Binance"][USERNAME]["Details"]["api_key"]
+    api_secret = local_config["Binance"][USERNAME]["Details"]["api_secret"]
+    CM = CManager.CoinsManager()
+    WM = WManager.WalletManager(None, CM)
+    binance_wallet = BinanceWallet(api_key, api_secret, 0.1, USERNAME, config)
+    #binance_wallet2 = BinanceWallet(api_key, api_secret, 0.1, USERNAME2, config)
+    #binance_wallet.convert("LTC", "DOGE", 0.01)
+    #binance_wallet2.convert("LTC", "DOGE", 0.01)
+    #
+    # execute_telegram_bot(TELEGRAM_BOT)
+    # init_indicators_manager(TRADE_ON)

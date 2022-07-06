@@ -1,0 +1,11 @@
+[2022-07-06 15:43:01,032] [yuvalzohar] [init_logger] [INFO]: Initialize logger
+[2022-07-06 15:43:01,033] [yuvalzohar] [__init__] [DEBUG]: ME
+[2022-07-06 15:43:34,481] [yuvalzohar] [init_logger] [INFO]: Initialize logger
+[2022-07-06 15:43:34,482] [yuvalzohar] [__init__] [DEBUG]: ME
+[2022-07-06 15:43:42,864] [yuvalzohar] [convert] [INFO]: Start to convert from LTC to DOGE with Percent : 0.01
+[2022-07-06 15:43:44,056] [yuvalzohar] [direct_convert] [INFO]: Quantity : 38.9129005 for Symbol : DOGELTC
+[2022-07-06 15:43:44,969] [yuvalzohar] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-06 15:43:45,560] [yuvalzohar] [direct_convert] [INFO]: Quantity : 0.05236782 for Symbol : LTCDOGE
+[2022-07-06 15:43:47,531] [yuvalzohar] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-06 15:43:49,698] [yuvalzohar] [direct_convert] [INFO]: Quantity : 0.05236782 for Symbol : LTCUSDT
+[2022-07-06 15:43:51,415] [yuvalzohar] [convert] [ERROR]: Failed to convert, APIError(code=-1013): Filter failure: MIN_NOTIONAL

@@ -1,0 +1,17 @@
+{
+  "Paths": {
+    "abs_path": "C:\\Users\\yuval\\Desktop\\CrpytoAlgotrading\\",
+    "logger_folder": "Logs\\",
+    "trade_wallet_logs_path": "TradeWalletsLogs\\",
+    "indicators_logs_path": "IndicatorsLogs\\"
+  },
+  "Enablers": {
+    "TELEGRAM_BOT": "False",
+    "TRADE_ON": "True"
+  },
+  "Logger": {
+    "wallet_log_format": "[%(asctime)s] [%(name)s] [%(funcName)s] [%(levelname)s]: %(message)s",
+    "wallet_log_filemode": "a",
+    "wallet_log_setting_level": "DEBUG"
+  }
+}

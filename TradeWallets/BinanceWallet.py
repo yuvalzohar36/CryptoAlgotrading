@@ -1,6 +1,7 @@
+import logging
+
 from binance.client import Client
 import pandas as pd
-import TradeWallets.Logs.WalletLogger as WLogger
 
 
 class BinanceWallet:
@@ -10,7 +11,22 @@ class BinanceWallet:
         self.risk = risk  # number between 0 -> 1
         self.wallet_name = wallet_name
         self.config_file = config
-        self.logger = WLogger.create_new_logger(self.wallet_name, self.config_file)
+        self.init_logger(wallet_name, config)
+
+    def init_logger(self, logger_name, config_file):
+        # Create a custom logger
+        logger_path = config_file["Paths"]["abs_path"] + config_file["Paths"]["logger_folder"] + config_file["Paths"][
+            "trade_wallet_logs_path"]
+        logger_full_path = logger_path + logger_name + ".log"
+        self.logger = logging.getLogger(name=logger_name)
+        log_formatter = logging.Formatter(config_file["Logger"]["wallet_log_format"])
+        log_file_handler = logging.FileHandler(
+            logger_full_path, mode=config_file["Logger"]["wallet_log_filemode"]
+        )
+        log_file_handler.setFormatter(log_formatter)
+        self.logger.addHandler(log_file_handler)
+        self.logger.setLevel(config_file["Logger"]["wallet_log_setting_level"])
+        self.logger.info("Initialize logger")
 
     def convert(self, first_coin, second_coin, percent, type_market="MARKET"):
         # I want to convert % of my FirstCoin to the SecondCoin
@@ -132,3 +148,20 @@ class BinanceWallet:
             return depth
         except Exception:
             return False
+
+    # @staticmethod
+    # def create_new_logger(logger_name, config_file, log_path):
+    #     # Create a custom logger
+    #     logger_path = config_file["Paths"]["abs_path"] + config_file["Paths"]["logger_folder"] + config_file["Paths"][
+    #         "trade_wallet_logs_path"]
+    #     logger_full_path = logger_path + logger_name + ".log"
+    #     # Creating and Configuring Logger
+    #     Log_Format = "%(levelname)s %(asctime)s - %(message)s"
+    #     print(logger_full_path)
+    #     logging.basicConfig(filename=logger_full_path,
+    #                         filemode="a",
+    #                         format=Log_Format,
+    #                         level=logging.INFO)
+    #     # logger = logging.getLogger()
+    #     return logger_full_path
+
