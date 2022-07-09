@@ -1,26 +1,28 @@
 from threading import Thread
 
+from Coins import CryptoCoin as CC
+
 
 class CoinsManager:
-    def __init__(self):
-        self.indicicators = []
-        self.current_threads = []
+    def __init__(self, config):
+        self.config = config
+        self.coins = self.init_coins()
+        self.current_indicators_threads = {}
 
     def indicator_activate(self, indicator, args):
         # scan a json file that says which indicators to activate and turn them on.
+        args[0] = self.coins[args[0]]  # replace the coin name with its object CryptoCoin
         indicator.execute(args)
-
-    def update_price_prediction(self, symbol):
-        # collet the price from all the indicators about a specific coin
-        # calculate the predicted price considering the accuracy of each indicator
-        pass
-
-    def clean_useless_indicators(self):
-        # run through all of the indicators and if there is an indicators with low accuracy on all coins disable it.
-        pass
-
-    def append_indicator(self, indicator):
-        self.indicicators.append(indicator)
 
     def recv_indicator_result(self, indicator):
         return indicator.get_results()
+
+    def init_coins(self):
+        coins = {}
+        for coin in self.config["Coins"]:
+            if self.config["Coins"][coin] == "ON":
+                coins[coin] = CC.CryptoCoin(coin)
+        return coins
+
+    def append_new_thread(self, indicator, thread):
+        self.current_indicators_threads[indicator] = thread

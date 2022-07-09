@@ -10,13 +10,14 @@ USERNAME = "yuvalbadihi"
 
 
 class Indicator(ABC):
-    def __init__(self):
+    def __init__(self, coin_manager):
         with open(LOCAL_CONFIGURATION_FILE) as local_config_file:
             self.local_config = json.load(local_config_file)
         with open(CONFIGURATION_FILE) as config_file:
             self.config = json.load(config_file)
         self.api_key = self.local_config["Binance"][USERNAME]["Details"]["api_key"]
         self.api_secret = self.local_config["Binance"][USERNAME]["Details"]["api_secret"]
+        self.coin_manager = coin_manager
 
     @abstractmethod
     def execute(self, args):

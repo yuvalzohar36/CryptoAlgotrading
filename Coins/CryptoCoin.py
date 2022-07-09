@@ -1,4 +1,3 @@
-import Indicators.IndicatorManager
 
 
 class CryptoCoin:
