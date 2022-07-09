@@ -1,0 +1,16 @@
+[2022-07-09 21:46:28,666] [MA] [init_logger] [INFO]: Initialize logger
+[2022-07-09 21:46:29,036] [MA] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-09 21:46:29,389] [MA] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-09 21:46:29,721] [MA] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-09 21:46:29,722] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-09 21:46:29,723] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-09 21:46:29,723] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-09 21:46:29,723] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-09 21:46:32,731] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-09 21:46:32,731] [MA] [get_results] [INFO]: Percent result is: 0.9351589421561913
+[2022-07-09 21:46:32,735] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-09 21:46:32,735] [MA] [get_results] [INFO]: Percent result is: 0.9721549799346403
+[2022-07-09 21:46:35,738] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-09 21:46:35,738] [MA] [get_results] [INFO]: Percent result is: 0.9351589421561913
+[2022-07-09 21:46:35,738] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-09 21:46:35,738] [MA] [get_results] [INFO]: Percent result is: 0.9721549799346403

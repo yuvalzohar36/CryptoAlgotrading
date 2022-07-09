@@ -25,10 +25,14 @@ class Indicator(ABC):
         self.result = IR.IndicatorResult(self, args[0])
         self.args = args
         t1 = Thread(target=self.check, args=(self.args))
+        self.logger.info(f"Execute for Symbol {self.args[0].symbol}")
         self.coin_manager.append_new_thread(self, t1)
         t1.start()
 
     def get_results(self):
+        self.logger.info(f"Current result for symbol {self.args[0].symbol} is: ")
+        self.logger.info(
+            f"Percent result is: {self.result.percent_result}")
         return self.result
 
     @staticmethod
@@ -38,18 +42,3 @@ class Indicator(ABC):
     @abstractmethod
     def check(self, args):
         pass
-
-    def init_logger(self, logger_name, config_file):
-        # Create a custom logger
-        logger_path = config_file["Paths"]["abs_path"] + config_file["Paths"]["logger_folder"] + config_file["Paths"][
-            "indicators_logs_path"]
-        logger_full_path = logger_path + logger_name + ".log"
-        self.logger = logging.getLogger(name=logger_name)
-        log_formatter = logging.Formatter(config_file["Logger"]["wallet_log_format"])
-        log_file_handler = logging.FileHandler(
-            logger_full_path, mode=config_file["Logger"]["wallet_log_filemode"]
-        )
-        log_file_handler.setFormatter(log_formatter)
-        self.logger.addHandler(log_file_handler)
-        self.logger.setLevel(config_file["Logger"]["wallet_log_setting_level"])
-        self.logger.info("Initialize logger")

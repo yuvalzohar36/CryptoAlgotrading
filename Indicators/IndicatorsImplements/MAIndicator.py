@@ -6,22 +6,18 @@ import datetime as dt
 
 
 class MAIndicator(Indicator):
-    def __init__(self, coin_manager):
+    def __init__(self, coin_manager, logger):
         super().__init__(coin_manager)
         self.connection = Indicator.connect(self.api_key, self.api_secret)
-        self.init_logger(type(self).__name__, self.config)
+        self.logger = logger
 
     def check(self, args):
-        self.logger.info(f"Execute for Symbol {self.args[0].symbol}")
         days_measure = 14
         data = self.prepare_data(days_measure)
         ma = self.calculate_ma(data['Close'])
         data = self.prepare_data(2)
         self.result.set_percent_result(ma / data['Close'][1])
         self.result.set_result_setted()
-        self.logger.info(f"Current result for symbol {self.args[0].symbol} is: ")
-        self.logger.info(
-            f"Percent result is: {self.result.percent_result}")
 
     @staticmethod
     def calculate_ma(data):

@@ -1,5 +1,7 @@
 from threading import Thread
 
+import logging
+
 from Coins import CryptoCoin as CC
 from Indicators.IndicatorsImplements.MAIndicator import MAIndicator as MA
 import importlib
@@ -10,6 +12,7 @@ class CoinsManager:
         self.config = config
         self.coins, self.coins_indicators = self.init_coins()
         self.current_indicators_threads = {}
+        self.indicators_loggers = self.init_all_loggers()
         self.activate_all_indicators()
 
     @staticmethod
@@ -24,9 +27,15 @@ class CoinsManager:
                 indicator_dict = self.config["Indicators"][indicator]
                 module = importlib.import_module(MAIN_PATH + indicator_dict["MODULE_PATH"])
                 class_ = getattr(module, indicator_dict["MODULE_PATH"])
-                current_indicator = class_(self)
+                current_indicator = class_(self, self.indicators_loggers[indicator])
                 self.indicator_activate(current_indicator, self.coins[coin])
                 self.coins_indicators[coin].append(current_indicator)
+
+    def init_all_loggers(self):
+        indicators_loggers = {}
+        for indicator in self.config["Indicators"].keys():
+            indicators_loggers[indicator] = CoinsManager.init_logger(indicator, self.config)
+        return indicators_loggers
 
     def init_coins(self):
         coins = {}
@@ -55,3 +64,20 @@ class CoinsManager:
             if result.result_setted:
                 percent += result.percent_result
         return percent
+
+    @staticmethod
+    def init_logger(logger_name, config_file):
+        # Create a custom logger
+        logger_path = config_file["Paths"]["abs_path"] + config_file["Paths"]["logger_folder"] + config_file["Paths"][
+            "indicators_logs_path"]
+        logger_full_path = logger_path + logger_name + ".log"
+        logger = logging.getLogger(name=logger_name)
+        log_formatter = logging.Formatter(config_file["Logger"]["wallet_log_format"])
+        log_file_handler = logging.FileHandler(
+            logger_full_path, mode=config_file["Logger"]["wallet_log_filemode"]
+        )
+        log_file_handler.setFormatter(log_formatter)
+        logger.addHandler(log_file_handler)
+        logger.setLevel(config_file["Logger"]["wallet_log_setting_level"])
+        logger.info("Initialize logger")
+        return logger
