@@ -3,7 +3,8 @@
     "abs_path": "C:\\Users\\yuval\\Desktop\\CrpytoAlgotrading\\",
     "logger_folder": "Logs\\",
     "trade_wallet_logs_path": "TradeWalletsLogs\\",
-    "indicators_logs_path": "IndicatorsLogs\\"
+    "indicators_logs_path": "IndicatorsLogs\\",
+    "MAIN_INDICATORS_PATH": "Indicators.IndicatorsImplements."
   },
   "Enablers": {
     "TELEGRAM_BOT": "False",
@@ -15,9 +16,22 @@
     "wallet_log_setting_level": "DEBUG"
   },
   "Coins": {
-    "BTC": "ON",
-    "BURGER": "ON",
-    "LTC": "ON",
-    "DOGE": "OFF"
+    "BTC": {
+      "Mode": "ON"
+    },
+    "BURGER": {
+      "Mode": "ON"
+    },
+    "LTC": {
+      "Mode": "ON"
+    },
+    "DOGE": {
+      "Mode": "OFF"
+    }
+  },
+  "Indicators": {
+    "MA": {
+      "MODULE_PATH": "MAIndicator"
+    }
   }
 }

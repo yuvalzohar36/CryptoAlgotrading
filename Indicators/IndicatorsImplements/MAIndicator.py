@@ -4,8 +4,6 @@ import pandas_datareader as web
 from Indicators.Indicator import Indicator
 import datetime as dt
 
-from Indicators import IndicatorResult as IR
-
 
 class MAIndicator(Indicator):
     def __init__(self, coin_manager):
@@ -13,33 +11,27 @@ class MAIndicator(Indicator):
         self.connection = Indicator.connect(self.api_key, self.api_secret)
         self.init_logger(type(self).__name__, self.config)
 
-    def execute(self, args):
-        self.result = IR.IndicatorResult(self, args[0])
-        self.args = args
-        t1 = Thread(target=self.check, args=())
-        self.coin_manager.append_new_thread(self, t1)
-        t1.start()
-
-    def check(self):
-        time.sleep(5)
+    def check(self, args):
+        self.logger.info(f"Execute for Symbol {self.args[0].symbol}")
         days_measure = 14
         data = self.prepare_data(days_measure)
         ma = self.calculate_ma(data['Close'])
         data = self.prepare_data(2)
         self.result.set_percent_result(ma / data['Close'][1])
         self.result.set_result_setted()
+        self.logger.info(f"Current result for symbol {self.args[0].symbol} is: ")
+        self.logger.info(
+            f"Percent result is: {self.result.percent_result}")
 
-    def get_results(self):
-        return self.result
-
-    def calculate_ma(self, data):
+    @staticmethod
+    def calculate_ma(data):
         sum = 0
         for tup in data:
             sum += int(tup)
         return sum / len(data)
 
     def prepare_data(self, days_measure):
-        crypto_currency = 'BTC'
+        crypto_currency = self.args[0].symbol
         against_currency = 'USD'
         end = dt.datetime.now()
         d = dt.timedelta(days=days_measure - 1)

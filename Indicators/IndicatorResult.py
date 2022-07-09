@@ -1,5 +1,5 @@
 class IndicatorResult:
-    def __init__(self, indicator: object, coin: object) -> object:
+    def __init__(self, indicator, coin):
         self.coin = coin
         self.indicator = indicator
         self.result_setted = False

@@ -1,6 +1,8 @@
 import json
 import logging
 from abc import ABC, abstractmethod
+from threading import Thread
+from Indicators import IndicatorResult as IR
 
 from binance import Client
 
@@ -19,16 +21,22 @@ class Indicator(ABC):
         self.api_secret = self.local_config["Binance"][USERNAME]["Details"]["api_secret"]
         self.coin_manager = coin_manager
 
-    @abstractmethod
     def execute(self, args):
-        pass
+        self.result = IR.IndicatorResult(self, args[0])
+        self.args = args
+        t1 = Thread(target=self.check, args=(self.args))
+        self.coin_manager.append_new_thread(self, t1)
+        t1.start()
+
+    def get_results(self):
+        return self.result
 
     @staticmethod
     def connect(api_key, api_secret):
         return Client(api_key, api_secret)
 
     @abstractmethod
-    def get_results(self):
+    def check(self, args):
         pass
 
     def init_logger(self, logger_name, config_file):
