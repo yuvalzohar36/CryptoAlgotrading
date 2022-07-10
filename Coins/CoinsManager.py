@@ -1,4 +1,6 @@
+import time
 from threading import Thread
+import threading
 
 import logging
 from os.path import exists
@@ -15,23 +17,29 @@ class CoinsManager:
         self.current_indicators_threads = {}
         self.assessment_df = self.init_weights_assessments()
         self.indicators_loggers = self.init_all_loggers()
+        self.semaphore = threading.Semaphore()
+
         self.activate_all_indicators()
+        time.sleep(7)
+        self.assessment_df.to_csv(r"C:\Users\yuval\Desktop\CrpytoAlgotrading\DB\assessment.csv", index=False)  # upgrade
 
     @staticmethod
-    def indicator_activate(indicator, coin_instance):
-        args = [coin_instance]
+    def indicator_activate(indicator, coin_instance, interval):
+        args = [coin_instance, interval]
         indicator.execute(args)
 
     def activate_all_indicators(self):
         MAIN_PATH = self.config["Paths"]["MAIN_INDICATORS_PATH"]
         for coin in self.coins.keys():
             for indicator in self.config["Indicators"].keys():
-                indicator_dict = self.config["Indicators"][indicator]
-                module = importlib.import_module(MAIN_PATH + indicator_dict["MODULE_PATH"])
-                class_ = getattr(module, indicator_dict["MODULE_PATH"])
-                current_indicator = class_(self, self.indicators_loggers[indicator])
-                self.indicator_activate(current_indicator, self.coins[coin])
-                self.coins_indicators[coin].append(current_indicator)
+                for interval in ["15m", "1H", "1D"]:  # upgrade
+                    indicator_dict = self.config["Indicators"][indicator]
+                    module = importlib.import_module(MAIN_PATH + indicator_dict["MODULE_PATH"])
+                    class_ = getattr(module, indicator_dict["MODULE_PATH"])
+                    current_indicator = class_(self, self.indicators_loggers[indicator], self.assessment_df,
+                                               self.semaphore)
+                    self.indicator_activate(current_indicator, self.coins[coin], interval)
+                    self.coins_indicators[coin].append(current_indicator)
 
     def init_all_loggers(self):
         indicators_loggers = {}

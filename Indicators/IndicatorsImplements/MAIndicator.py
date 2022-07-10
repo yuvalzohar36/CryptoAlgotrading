@@ -6,8 +6,8 @@ import datetime as dt
 
 
 class MAIndicator(Indicator):
-    def __init__(self, coin_manager, logger):
-        super().__init__(coin_manager, logger)
+    def __init__(self, coin_manager, logger, assessment_df, semaphore):
+        super().__init__(coin_manager, logger, assessment_df, semaphore)
         self.connection = Indicator.connect(self.api_key, self.api_secret)
 
     def check(self, args):
@@ -16,6 +16,7 @@ class MAIndicator(Indicator):
         ma = self.calculate_ma(data['Close'])
         data = self.prepare_data(2)
         self.result.set_percent_result(ma / data['Close'][1])
+        self.write_result_to_DB(type(self).__name__)
 
     @staticmethod
     def calculate_ma(data):
