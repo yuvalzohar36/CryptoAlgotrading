@@ -1,10 +1,11 @@
 from threading import Thread
 
 import logging
-
+from os.path import exists
 from Coins import CryptoCoin as CC
 from Indicators.IndicatorsImplements.MAIndicator import MAIndicator as MA
 import importlib
+import pandas as pd
 
 
 class CoinsManager:
@@ -12,6 +13,7 @@ class CoinsManager:
         self.config = config
         self.coins, self.coins_indicators = self.init_coins()
         self.current_indicators_threads = {}
+        self.assessment_df = self.init_weights_assessments()
         self.indicators_loggers = self.init_all_loggers()
         self.activate_all_indicators()
 
@@ -81,3 +83,14 @@ class CoinsManager:
         logger.setLevel(config_file["Logger"]["wallet_log_setting_level"])
         logger.info("Initialize logger")
         return logger
+
+    def init_weights_assessments(self):
+        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"]
+        if not exists(full_path):
+            assessment_df = pd.DataFrame(
+                columns=["Coin", "Indicator", "Current_15m", "Current_1H", "Current_1D", "Prev_15m", "Prev_1H",
+                         "Prev_1D"])
+            assessment_df.to_csv(full_path, index=False)
+        else:
+            assessment_df = pd.read_csv(full_path)
+        return assessment_df

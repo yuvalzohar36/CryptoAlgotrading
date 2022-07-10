@@ -1,16 +1,614 @@
-[2022-07-09 21:46:28,666] [MA] [init_logger] [INFO]: Initialize logger
-[2022-07-09 21:46:29,036] [MA] [execute] [INFO]: Execute for Symbol BTC
-[2022-07-09 21:46:29,389] [MA] [execute] [INFO]: Execute for Symbol BURGER
-[2022-07-09 21:46:29,721] [MA] [execute] [INFO]: Execute for Symbol LTC
-[2022-07-09 21:46:29,722] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
-[2022-07-09 21:46:29,723] [MA] [get_results] [INFO]: Percent result is: None
-[2022-07-09 21:46:29,723] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
-[2022-07-09 21:46:29,723] [MA] [get_results] [INFO]: Percent result is: None
-[2022-07-09 21:46:32,731] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
-[2022-07-09 21:46:32,731] [MA] [get_results] [INFO]: Percent result is: 0.9351589421561913
-[2022-07-09 21:46:32,735] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
-[2022-07-09 21:46:32,735] [MA] [get_results] [INFO]: Percent result is: 0.9721549799346403
-[2022-07-09 21:46:35,738] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
-[2022-07-09 21:46:35,738] [MA] [get_results] [INFO]: Percent result is: 0.9351589421561913
-[2022-07-09 21:46:35,738] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
-[2022-07-09 21:46:35,738] [MA] [get_results] [INFO]: Percent result is: 0.9721549799346403
+[2022-07-10 10:01:57,599] [MA] [init_logger] [INFO]: Initialize logger
+[2022-07-10 10:01:57,978] [MA] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-10 10:01:58,315] [MA] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-10 10:01:58,657] [MA] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-10 10:01:58,663] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:01:58,665] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-10 10:01:58,666] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:01:58,666] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-10 10:02:01,667] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:02:01,671] [MA] [get_results] [INFO]: Percent result is: 0.959508894538179
+[2022-07-10 10:02:01,672] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:02:01,672] [MA] [get_results] [INFO]: Percent result is: 0.9469803198869239
+[2022-07-10 10:02:04,674] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:02:04,675] [MA] [get_results] [INFO]: Percent result is: 0.959508894538179
+[2022-07-10 10:02:04,675] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:02:04,676] [MA] [get_results] [INFO]: Percent result is: 0.9469803198869239
+[2022-07-10 10:04:58,121] [MA] [init_logger] [INFO]: Initialize logger
+[2022-07-10 10:04:59,246] [MA] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-10 10:04:59,591] [MA] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-10 10:04:59,930] [MA] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-10 10:04:59,933] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:04:59,933] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-10 10:04:59,933] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:04:59,933] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-10 10:04:59,934] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:04:59,934] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-10 10:05:02,935] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:02,935] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:02,936] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:02,936] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:02,936] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:02,936] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:05,937] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:05,937] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:05,937] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:05,937] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:05,937] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:05,937] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:08,940] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:08,940] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:08,940] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:08,940] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:08,940] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:08,940] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:11,952] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:11,953] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:11,953] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:11,953] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:11,954] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:11,954] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:14,961] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:14,961] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:14,961] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:14,961] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:14,961] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:14,961] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:17,962] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:17,962] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:17,962] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:17,963] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:17,963] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:17,963] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:20,964] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:20,965] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:20,965] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:20,965] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:20,966] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:20,966] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:23,981] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:23,981] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:23,982] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:23,982] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:23,982] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:23,982] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:26,984] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:26,984] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:26,984] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:26,984] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:26,984] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:26,984] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:29,997] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:29,997] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:29,997] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:29,997] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:29,998] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:29,998] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:33,011] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:33,011] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:33,011] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:33,011] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:33,011] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:33,011] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:36,024] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:36,024] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:36,024] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:36,024] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:36,024] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:36,024] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:39,033] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:39,033] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:39,033] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:39,033] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:39,033] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:39,034] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:42,038] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:42,038] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:42,038] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:42,038] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:42,038] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:42,038] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:45,049] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:45,049] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:45,049] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:45,049] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:45,049] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:45,049] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:48,065] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:48,066] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:48,066] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:48,066] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:48,066] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:48,066] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:51,070] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:51,070] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:51,070] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:51,070] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:51,070] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:51,071] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:54,075] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:54,075] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:54,075] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:54,075] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:54,075] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:54,075] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:05:57,082] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:05:57,082] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:05:57,082] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:05:57,082] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:05:57,082] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:05:57,082] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:06:00,090] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:06:00,092] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:06:00,093] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:06:00,093] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:06:00,093] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:06:00,093] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:06:03,097] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:06:03,098] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:06:03,098] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:06:03,099] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:06:03,100] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:06:03,100] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:06:06,105] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:06:06,105] [MA] [get_results] [INFO]: Percent result is: 0.959176026522211
+[2022-07-10 10:06:06,105] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:06:06,105] [MA] [get_results] [INFO]: Percent result is: 0.9459496372079087
+[2022-07-10 10:06:06,105] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:06:06,105] [MA] [get_results] [INFO]: Percent result is: 0.25498381024873085
+[2022-07-10 10:57:53,699] [MA] [init_logger] [INFO]: Initialize logger
+[2022-07-10 10:57:54,041] [MA] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-10 10:57:54,378] [MA] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-10 10:57:54,708] [MA] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-10 10:57:54,709] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:57:54,709] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-10 10:57:54,709] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:57:54,709] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-10 10:57:54,710] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:57:54,710] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-10 10:57:57,714] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:57:57,714] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:57:57,714] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:57:57,714] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:57:57,714] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:57:57,714] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:00,728] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:00,728] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:00,728] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:00,729] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:00,729] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:00,729] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:03,735] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:03,735] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:03,735] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:03,736] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:03,736] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:03,736] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:06,742] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:06,742] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:06,742] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:06,742] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:06,742] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:06,742] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:09,750] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:09,750] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:09,750] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:09,750] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:09,750] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:09,750] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:12,759] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:12,759] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:12,760] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:12,760] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:12,760] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:12,760] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:15,763] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:15,763] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:15,764] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:15,764] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:15,764] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:15,764] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:18,773] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:18,773] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:18,774] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:18,774] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:18,774] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:18,774] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:21,778] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:21,778] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:21,778] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:21,779] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:21,779] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:21,779] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:24,793] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:24,799] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:24,800] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:24,801] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:24,801] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:24,802] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:27,813] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:27,814] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:27,814] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:27,814] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:27,814] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:27,815] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:30,816] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:30,817] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:30,817] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:30,817] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:30,817] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:30,817] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:33,822] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:33,822] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:33,822] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:33,822] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:33,822] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:33,823] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:36,836] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:36,836] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:36,837] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:36,837] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:36,837] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:36,837] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:39,841] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:39,841] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:39,841] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:39,841] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:39,841] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:39,841] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:42,842] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:42,842] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:42,843] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:42,843] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:42,843] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:42,843] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:45,855] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:45,855] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:45,855] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:45,855] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:45,855] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:45,855] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:48,867] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:48,867] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:48,868] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:48,868] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:48,868] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:48,868] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:51,883] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:51,883] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:51,884] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:51,884] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:51,884] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:51,884] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:54,889] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:54,889] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:54,889] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:54,890] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:54,890] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:54,890] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:58:57,891] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:58:57,892] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:58:57,892] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:58:57,892] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:58:57,893] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:58:57,893] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:00,900] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:00,901] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:00,903] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:00,903] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:00,903] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:00,903] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:03,903] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:03,903] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:03,903] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:03,904] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:03,904] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:03,904] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:06,907] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:06,907] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:06,907] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:06,907] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:06,907] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:06,908] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:09,910] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:09,910] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:09,910] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:09,911] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:09,911] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:09,911] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:12,921] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:12,921] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:12,922] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:12,922] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:12,922] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:12,922] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:15,933] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:15,933] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:15,934] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:15,934] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:15,934] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:15,934] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:18,942] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:18,943] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:18,943] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:18,943] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:18,944] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:18,944] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:21,950] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:21,951] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:21,951] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:21,951] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:21,952] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:21,952] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:24,963] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:24,963] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:24,963] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:24,964] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:24,964] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:24,964] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:27,974] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:27,974] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:27,975] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:27,975] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:27,975] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:27,975] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:30,989] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:30,989] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:30,989] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:30,989] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:30,989] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:30,989] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:34,000] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:34,000] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:34,000] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:34,000] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:34,000] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:34,001] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:37,013] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:37,013] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:37,013] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:37,014] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:37,014] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:37,014] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:40,020] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:40,021] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:40,021] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:40,021] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:40,021] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:40,021] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:43,023] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:43,023] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:43,023] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:43,023] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:43,024] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:43,024] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:46,034] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:46,034] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:46,034] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:46,034] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:46,035] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:46,035] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:49,051] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:49,051] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:49,052] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:49,052] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:49,052] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:49,052] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:52,065] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:52,065] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:52,065] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:52,065] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:52,065] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:52,065] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:55,077] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:55,077] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:55,077] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:55,077] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:55,077] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:55,077] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 10:59:58,089] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 10:59:58,089] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 10:59:58,089] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 10:59:58,089] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 10:59:58,089] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 10:59:58,089] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:01,103] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:01,103] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:01,104] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:01,104] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:01,104] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:01,104] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:04,117] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:04,119] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:04,119] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:04,119] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:04,119] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:04,119] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:07,123] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:07,124] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:07,126] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:07,127] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:07,127] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:07,127] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:10,137] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:10,137] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:10,137] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:10,137] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:10,138] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:10,138] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:13,143] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:13,143] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:13,143] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:13,144] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:13,144] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:13,144] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:16,159] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:16,159] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:16,159] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:16,159] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:16,159] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:16,159] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:19,166] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:19,166] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:19,166] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:19,167] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:19,167] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:19,167] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:22,180] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:22,180] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:22,181] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:22,181] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:22,181] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:22,181] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:25,192] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:25,192] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:25,193] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:25,193] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:25,193] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:25,193] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:28,202] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:28,202] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:28,202] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:28,203] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:28,203] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:28,203] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:31,205] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:31,205] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:31,205] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:31,205] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:31,206] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:31,206] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:34,220] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:34,220] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:34,220] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:34,220] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:34,221] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:34,221] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:37,223] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:37,223] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:37,223] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:37,223] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:37,223] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:37,223] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:40,231] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:40,232] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:40,232] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:40,232] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:40,232] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:40,232] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:43,237] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:43,237] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:43,237] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:43,237] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:43,237] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:43,237] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:46,246] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:46,246] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:46,246] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:46,247] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:46,247] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:46,247] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:49,256] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:49,256] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:49,256] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:49,256] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:49,256] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:49,256] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:52,259] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:52,259] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:52,260] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:52,260] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:52,260] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:52,260] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:55,272] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:55,273] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:55,273] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:55,274] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:55,274] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:55,274] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:00:58,282] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:00:58,282] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:00:58,282] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:00:58,282] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:00:58,282] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:00:58,282] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:01:01,291] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:01:01,291] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:01:01,291] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:01:01,291] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:01:01,291] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:01:01,291] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:01:04,307] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:01:04,307] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:01:04,307] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:01:04,308] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:01:04,308] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:01:04,308] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:01:07,308] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:01:07,309] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:01:07,309] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:01:07,310] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:01:07,310] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:01:07,310] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:01:10,310] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:01:10,310] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:01:10,311] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:01:10,311] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:01:10,311] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:01:10,311] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:01:13,324] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:01:13,324] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:01:13,324] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:01:13,325] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:01:13,325] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:01:13,325] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:01:16,327] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:01:16,327] [MA] [get_results] [INFO]: Percent result is: 0.9572654704521643
+[2022-07-10 11:01:16,327] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:01:16,327] [MA] [get_results] [INFO]: Percent result is: 0.9501427311837544
+[2022-07-10 11:01:16,327] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:01:16,327] [MA] [get_results] [INFO]: Percent result is: 0.24626601573715368
+[2022-07-10 11:10:48,628] [MA] [init_logger] [INFO]: Initialize logger
+[2022-07-10 11:10:48,961] [MA] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-10 11:10:49,295] [MA] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-10 11:10:49,639] [MA] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-10 11:10:49,641] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:10:49,642] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-10 11:10:49,644] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:10:49,645] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-10 11:10:49,646] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:10:49,646] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-10 11:10:52,658] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:10:52,658] [MA] [get_results] [INFO]: Percent result is: 0.957082652887636
+[2022-07-10 11:10:52,659] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:10:52,660] [MA] [get_results] [INFO]: Percent result is: 0.9506129427003748
+[2022-07-10 11:10:52,661] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:10:52,661] [MA] [get_results] [INFO]: Percent result is: 0.24598567584289344
+[2022-07-10 11:10:55,678] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:10:55,679] [MA] [get_results] [INFO]: Percent result is: 0.957082652887636
+[2022-07-10 11:10:55,679] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:10:55,679] [MA] [get_results] [INFO]: Percent result is: 0.9506129427003748
+[2022-07-10 11:10:55,679] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:10:55,679] [MA] [get_results] [INFO]: Percent result is: 0.24598567584289344
+[2022-07-10 11:11:12,586] [MA] [init_logger] [INFO]: Initialize logger
+[2022-07-10 11:11:12,895] [MA] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-10 11:11:13,245] [MA] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-10 11:11:13,550] [MA] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-10 11:11:13,551] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:11:13,551] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-10 11:11:13,552] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:11:13,552] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-10 11:11:13,552] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:11:13,552] [MA] [get_results] [INFO]: Percent result is: None
+[2022-07-10 11:11:16,565] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:11:16,565] [MA] [get_results] [INFO]: Percent result is: 0.957082652887636
+[2022-07-10 11:11:16,565] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:11:16,565] [MA] [get_results] [INFO]: Percent result is: 0.9506129427003748
+[2022-07-10 11:11:16,565] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:11:16,566] [MA] [get_results] [INFO]: Percent result is: 0.24598567584289344
+[2022-07-10 11:11:19,578] [MA] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-10 11:11:19,579] [MA] [get_results] [INFO]: Percent result is: 0.957082652887636
+[2022-07-10 11:11:19,580] [MA] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-10 11:11:19,580] [MA] [get_results] [INFO]: Percent result is: 0.9506129427003748
+[2022-07-10 11:11:19,580] [MA] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-10 11:11:19,580] [MA] [get_results] [INFO]: Percent result is: 0.24598567584289344

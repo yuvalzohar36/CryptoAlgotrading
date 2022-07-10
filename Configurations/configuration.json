@@ -4,7 +4,8 @@
     "logger_folder": "Logs\\",
     "trade_wallet_logs_path": "TradeWalletsLogs\\",
     "indicators_logs_path": "IndicatorsLogs\\",
-    "MAIN_INDICATORS_PATH": "Indicators.IndicatorsImplements."
+    "MAIN_INDICATORS_PATH": "Indicators.IndicatorsImplements.",
+    "ASSESSMENT_DB_PATH": "DB\\assessment.csv"
   },
   "Enablers": {
     "TELEGRAM_BOT": "False",

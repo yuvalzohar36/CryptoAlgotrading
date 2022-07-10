@@ -10,3 +10,4 @@ class IndicatorResult:
 
     def set_percent_result(self, percent):
         self.percent_result = percent
+        self.set_result_setted()
