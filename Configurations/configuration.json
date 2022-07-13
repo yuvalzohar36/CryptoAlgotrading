@@ -1,6 +1,6 @@
 {
   "Paths": {
-    "abs_path": "C:\\Users\\yuval\\Desktop\\CrpytoAlgotrading\\",
+    "abs_path": "C:\\CryptoAlgotrading\\",
     "logger_folder": "Logs\\",
     "trade_wallet_logs_path": "TradeWalletsLogs\\",
     "indicators_logs_path": "IndicatorsLogs\\",
@@ -31,8 +31,11 @@
     }
   },
   "Indicators": {
-    "MA": {
+    "MAIndicator": {
       "MODULE_PATH": "MAIndicator"
+    },
+        "EMAIndicator": {
+      "MODULE_PATH": "EMAIndicator"
     }
   }
 }

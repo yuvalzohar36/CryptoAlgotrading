@@ -1,7 +1,6 @@
 import time
 from threading import Thread
 import threading
-
 import logging
 from os.path import exists
 from Coins import CryptoCoin as CC
@@ -18,27 +17,26 @@ class CoinsManager:
         self.assessment_df = self.init_weights_assessments()
         self.indicators_loggers = self.init_all_loggers()
         self.semaphore = threading.Semaphore()
-
         self.activate_all_indicators()
-        time.sleep(7)
-        self.assessment_df.to_csv(r"C:\Users\yuval\Desktop\CrpytoAlgotrading\DB\assessment.csv", index=False)  # upgrade
+        time.sleep(2)
+        print("done!")
+    #    self.assessment_df.to_csv(f"{config['Paths']['abs_path'] + config['Paths']['ASSESSMENT_DB_PATH']}", index=False)  # upgrade
 
     @staticmethod
-    def indicator_activate(indicator, coin_instance, interval):
-        args = [coin_instance, interval]
+    def indicator_activate(indicator, coin_instance):
+        args = [coin_instance]
         indicator.execute(args)
 
     def activate_all_indicators(self):
         MAIN_PATH = self.config["Paths"]["MAIN_INDICATORS_PATH"]
         for coin in self.coins.keys():
             for indicator in self.config["Indicators"].keys():
-                for interval in ["15m", "1H", "1D"]:  # upgrade
                     indicator_dict = self.config["Indicators"][indicator]
                     module = importlib.import_module(MAIN_PATH + indicator_dict["MODULE_PATH"])
                     class_ = getattr(module, indicator_dict["MODULE_PATH"])
                     current_indicator = class_(self, self.indicators_loggers[indicator], self.assessment_df,
                                                self.semaphore)
-                    self.indicator_activate(current_indicator, self.coins[coin], interval)
+                    self.indicator_activate(current_indicator, self.coins[coin])
                     self.coins_indicators[coin].append(current_indicator)
 
     def init_all_loggers(self):
@@ -69,11 +67,12 @@ class CoinsManager:
         self.current_indicators_threads[indicator].join()
 
     def result_per_coin(self, symbol):
-        percent = 0
+        lst = []
         for result in self.recv_indicator_results(symbol):
             if result.result_setted:
-                percent += result.percent_result
-        return percent
+                lst.append(result.result)
+        lst.append("NEED TO DO A SUM IN result_per_coin")
+        return lst
 
     @staticmethod
     def init_logger(logger_name, config_file):
@@ -96,9 +95,10 @@ class CoinsManager:
         full_path = self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"]
         if not exists(full_path):
             assessment_df = pd.DataFrame(
-                columns=["Coin", "Indicator", "Current_15m", "Current_1H", "Current_1D", "Prev_15m", "Prev_1H",
-                         "Prev_1D"])
+                columns=["Coin", "Indicator", "Result", "Credit"])
             assessment_df.to_csv(full_path, index=False)
         else:
             assessment_df = pd.read_csv(full_path)
         return assessment_df
+
+
