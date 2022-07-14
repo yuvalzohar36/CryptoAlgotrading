@@ -14,7 +14,8 @@ class CoinsManager:
         self.config = config
         self.coins, self.coins_indicators = self.init_coins()
         self.current_indicators_threads = {}
-        self.assessment_df = self.init_weights_assessments()
+        self.assessment_df = self.init_weights_assessments(self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"],["Coin", "Indicator", "Result", "Credit"])
+        self.coins_round_df = self.init_weights_assessments(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_ROUND_DATA_DB_PATH"],["Coin", "OldPrice"])
         self.indicators_loggers = self.init_all_loggers()
         self.semaphore = threading.Semaphore()
         self.activate_all_indicators()
@@ -39,6 +40,15 @@ class CoinsManager:
                     self.indicator_activate(current_indicator, self.coins[coin])
                     self.coins_indicators[coin].append(current_indicator)
 
+    def refresh_all_indicators(self):
+
+        for i in self.coins_indicators.keys():
+            indi_lst = self.coins_indicators.get(i)
+            for indi in indi_lst:
+                indi.execute([self.coins[i]])
+          #  for x in self.coins_indicators.values()[i]:
+           #     x.execute([self.coins[coin]])
+
     def init_all_loggers(self):
         indicators_loggers = {}
         for indicator in self.config["Indicators"].keys():
@@ -61,6 +71,7 @@ class CoinsManager:
         results = []
         for indi in self.coins_indicators[symbol]:
             results.append(indi.get_results())
+            indi.write_result_to_DB(type(indi).__name__)
         return results
 
     def join_thread(self, indicator):
@@ -91,11 +102,10 @@ class CoinsManager:
         logger.info("Initialize logger")
         return logger
 
-    def init_weights_assessments(self):
-        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"]
+    def init_weights_assessments(self,full_path,col):
         if not exists(full_path):
             assessment_df = pd.DataFrame(
-                columns=["Coin", "Indicator", "Result", "Credit"])
+                columns=col)
             assessment_df.to_csv(full_path, index=False)
         else:
             assessment_df = pd.read_csv(full_path)

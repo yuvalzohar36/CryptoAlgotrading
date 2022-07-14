@@ -1,11 +1,15 @@
 {
+   "TradeDetail": {
+    "update_step_size": 4
+  },
   "Paths": {
     "abs_path": "C:\\CryptoAlgotrading\\",
     "logger_folder": "Logs\\",
     "trade_wallet_logs_path": "TradeWalletsLogs\\",
     "indicators_logs_path": "IndicatorsLogs\\",
     "MAIN_INDICATORS_PATH": "Indicators.IndicatorsImplements.",
-    "ASSESSMENT_DB_PATH": "DB\\assessment.csv"
+    "ASSESSMENT_DB_PATH": "DB\\assessment.csv",
+    "COINS_ROUND_DATA_DB_PATH": "DB\\coinsround.csv"
   },
   "Enablers": {
     "TELEGRAM_BOT": "False",

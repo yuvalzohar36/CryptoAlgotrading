@@ -12,7 +12,7 @@ class WalletManager:
             print(self.coin_manager.result_per_coin("BTC"))
             print(self.coin_manager.result_per_coin("LTC"))
             print(self.coin_manager.result_per_coin("BURGER"))
-            time.sleep(3)
+            time.sleep(16)
 
     def add_wallet(self, wallet):
         self.wallets.append(wallet)

@@ -25,7 +25,6 @@ class Indicator(ABC):
         self.assessment_df = assessment_df
         self.semaphore = semaphore
 
-
     def execute(self, args):
         self.result = IR.IndicatorResult(self, args[0])
         self.args = args
@@ -61,7 +60,6 @@ class Indicator(ABC):
         coin = self.args[0].symbol
         val = self.result.result
         self.change_row_val(coin, indicator_name, val)
-        time.sleep(5)
         self.unlock()
 
     def find_row(self, coin, indicator_name):
@@ -80,7 +78,6 @@ class Indicator(ABC):
         if res == -1:
             res = self.add_row(coin, indicator_name)
         self.assessment_df.loc[[res], ['Result']] = val
-        print(self.assessment_df.loc[res])
         full_path = self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"]
         self.assessment_df.to_csv(full_path, index=False)
 
