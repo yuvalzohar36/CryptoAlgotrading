@@ -1,5 +1,4 @@
 
-
 class CryptoCoin:
     def __init__(self, symbol):
         self.symbol = symbol
@@ -14,14 +13,6 @@ class CryptoCoin:
         self.usefulness = 0
         self.backup_date = 0
         self.indicators_results = []
-
-    def update_atributes(self):
-        # update all of the atributes
-        pass
-
-    def update_stability(self):
-        pass
-    # also update the rest of the atributes
 
     def exec_indicator(self, indicator):
         self.indicators_results.append(indicator.execute())

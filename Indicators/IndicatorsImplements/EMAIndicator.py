@@ -16,20 +16,18 @@ class EMAIndicator(Indicator):
     def check(self, args):
         while (True):
             time.sleep(4)
-            data = self.prepare_data(self.days_measure)
-            ma = self.calculate_ma(data['Close'])
-            data = self.prepare_data(2)
-            x = random.randint(1, 100)
-            time.sleep(3)
-            if ma / data['Close'][0] > 1:
-
-                self.result.set_result(x)
-            elif ma / data['Close'][0] == 1:
-                self.result.set_result(x)
+         #   data = self.prepare_data(self.days_measure)
+        #    ma = self.calculate_ma(data['Close'])
+           # data = self.prepare_data(2)
+          #  time.sleep(3)
+            x = random.randint(1,100)
+            if x < 40:
+                self.result.set_result('SELL')
+            elif x < 60:
+                self.result.set_result('HOLD')
             else:
-                self.result.set_result(x)
+                self.result.set_result('BUY')
 
-           # self.write_result_to_DB(type(self).__name__) # out!
 
     @staticmethod
     def calculate_ma(data):
@@ -39,10 +37,11 @@ class EMAIndicator(Indicator):
         return sum / len(data)
 
     def prepare_data(self, days_measure):
+        time.sleep(1)
         crypto_currency = self.args[0].symbol
         against_currency = 'USD'
         end = dt.datetime.now()
         d = dt.timedelta(days=days_measure - 1)
         start = end - d
-        data = web.DataReader(f'{crypto_currency}-{against_currency}', 'yahoo', start, end)
+        data = 9#web.DataReader(f'{crypto_currency}-{against_currency}', 'yahoo', start, end)
         return data
