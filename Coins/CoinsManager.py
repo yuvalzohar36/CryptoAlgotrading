@@ -1,27 +1,30 @@
 import time
-from threading import Thread
 import threading
 import logging
 from os.path import exists
 from Coins import CryptoCoin as CC
-from Indicators.IndicatorsImplements.MAIndicator import MAIndicator as MA
+from Coins.ResultForWM import ResultForWM
+from TradeWallets.BinanceWallet import BinanceWallet
 import importlib
 import pandas as pd
 
 
 class CoinsManager:
-    def __init__(self, config):
+    def __init__(self, config, local_config):
         self.config = config
         self.coins, self.coins_indicators = self.init_coins()
         self.current_indicators_threads = {}
-        self.assessment_df = self.init_weights_assessments(self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"],["Coin", "Indicator", "Result", "Credit"])
-        self.coins_round_df = self.init_weights_assessments(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_ROUND_DATA_DB_PATH"],["Coin", "OldPrice"])
+        self.assessment_df = self.init_weights_assessments(self.config["Paths"]["abs_path"] +
+                                                           self.config["Paths"]["ASSESSMENT_DB_PATH"],["Coin", "Indicator", "Result", "Credit", "PrevPrice"])
         self.indicators_loggers = self.init_all_loggers()
         self.semaphore = threading.Semaphore()
         self.activate_all_indicators()
-        time.sleep(2)
-        print("done!")
-    #    self.assessment_df.to_csv(f"{config['Paths']['abs_path'] + config['Paths']['ASSESSMENT_DB_PATH']}", index=False)  # upgrade
+        self.USERNAME = 'yuvalbadihi'
+        self.api_key = local_config["Binance"][self.USERNAME]["Details"]["api_key"]
+        self.api_secret = local_config["Binance"][self.USERNAME]["Details"]["api_secret"]
+        self.binance_module= BinanceWallet(self.api_key, self.api_secret, 0.1, self.USERNAME, config)
+
+        time.sleep(5)
 
     @staticmethod
     def indicator_activate(indicator, coin_instance):
@@ -39,15 +42,6 @@ class CoinsManager:
                                                self.semaphore)
                     self.indicator_activate(current_indicator, self.coins[coin])
                     self.coins_indicators[coin].append(current_indicator)
-
-    def refresh_all_indicators(self):
-
-        for i in self.coins_indicators.keys():
-            indi_lst = self.coins_indicators.get(i)
-            for indi in indi_lst:
-                indi.execute([self.coins[i]])
-          #  for x in self.coins_indicators.values()[i]:
-           #     x.execute([self.coins[coin]])
 
     def init_all_loggers(self):
         indicators_loggers = {}
@@ -71,19 +65,38 @@ class CoinsManager:
         results = []
         for indi in self.coins_indicators[symbol]:
             results.append(indi.get_results())
-            indi.write_result_to_DB(type(indi).__name__)
+            indi_credit = self.get_indi_val(indi, symbol, 'Credit')
+            indi_result = self.get_indi_val(indi, symbol, 'Result')
+            new_indi_credit = self.credit_distributor(indi, symbol, indi_credit, indi_result)
+            indi.write_val_to_DB(type(indi).__name__, new_indi_credit, 'Credit')
+            indi.write_val_to_DB(type(indi).__name__, self.binance_module.currency_price(symbol), 'PrevPrice')
+            indi.write_val_to_DB(type(indi).__name__, None, 'Result')  # writes to database
+
         return results
 
     def join_thread(self, indicator):
         self.current_indicators_threads[indicator].join()
 
     def result_per_coin(self, symbol):
-        lst = []
-        for result in self.recv_indicator_results(symbol):
-            if result.result_setted:
-                lst.append(result.result)
-        lst.append("NEED TO DO A SUM IN result_per_coin")
-        return lst
+        idc = self.recv_indicator_results(symbol)
+        count = 0
+        buy = 0
+        sell = 0
+        for indi in self.coins_indicators[symbol]:
+            indi_credit = self.get_indi_val(indi, symbol, 'Credit')
+            indi_result = self.get_indi_val(indi, symbol, 'Result')
+            if indi_result == 'BUY':
+                buy += indi_credit
+
+            elif indi_result == 'SELL':
+                sell += indi_credit
+
+            count += 1
+        if buy > sell:
+            return ResultForWM([symbol, 'BUY', buy/count])
+        elif buy < sell:
+            return ResultForWM([symbol, 'SELL', sell/count])
+        return ResultForWM([symbol, 'HOLD', 1])
 
     @staticmethod
     def init_logger(logger_name, config_file):
@@ -102,7 +115,8 @@ class CoinsManager:
         logger.info("Initialize logger")
         return logger
 
-    def init_weights_assessments(self,full_path,col):
+    @staticmethod
+    def init_weights_assessments(full_path, col):
         if not exists(full_path):
             assessment_df = pd.DataFrame(
                 columns=col)
@@ -110,5 +124,39 @@ class CoinsManager:
         else:
             assessment_df = pd.read_csv(full_path)
         return assessment_df
+
+    @staticmethod
+    def get_indi_val(indi, symbol, title):
+        return indi.get_indi_val(symbol, type(indi).__name__, title)
+
+    def credit_distributor(self, indi, symbol, indi_credit, indi_result):
+        curr_price = self.binance_module.currency_price(symbol)
+        prev_price = self.get_indi_val(indi, symbol, 'PrevPrice')
+        if prev_price == None:
+            return indi_credit
+        score = (curr_price/prev_price)
+        diff = abs(1-score)
+
+        if indi_result == 'BUY' and score > 0:
+            return indi_credit + diff
+
+        elif indi_result == 'BUY' and score < 0:
+            return indi_credit - diff
+
+        elif indi_result == 'SELL' and score < 0:
+            return indi_credit + diff
+
+        elif indi_result == 'SELL' and score > 0:
+            return indi_credit - diff
+
+        return indi_credit
+
+
+
+
+
+
+
+
 
 

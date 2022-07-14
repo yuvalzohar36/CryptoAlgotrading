@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
     api_key = local_config["Binance"][USERNAME]["Details"]["api_key"]
     api_secret = local_config["Binance"][USERNAME]["Details"]["api_secret"]
-    CM = CManager.CoinsManager(config)
+    CM = CManager.CoinsManager(config, local_config)
     WM = WManager.WalletManager(None, CM)
     binance_wallet = BinanceWallet(api_key, api_secret, 0.1, USERNAME, config)
 
