@@ -11,19 +11,14 @@ import pandas as pd
 
 class CoinsManager:
     def __init__(self, config, local_config):
+        self.binance_module = self.binance_connect(local_config, config)
         self.config = config
         self.coins, self.coins_indicators = self.init_coins()
         self.current_indicators_threads = {}
-        self.assessment_df = self.init_weights_assessments(self.config["Paths"]["abs_path"] +
-                                                           self.config["Paths"]["ASSESSMENT_DB_PATH"],["Coin", "Indicator", "Result", "Credit", "PrevPrice"])
+        self.assessment_df = self.init_weights_assessments(self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"],["Coin", "Indicator", "Result", "Credit", "PrevPrice"])
         self.indicators_loggers = self.init_all_loggers()
         self.semaphore = threading.Semaphore()
         self.activate_all_indicators()
-        self.USERNAME = 'yuvalbadihi'
-        self.api_key = local_config["Binance"][self.USERNAME]["Details"]["api_key"]
-        self.api_secret = local_config["Binance"][self.USERNAME]["Details"]["api_secret"]
-        self.binance_module= BinanceWallet(self.api_key, self.api_secret, 0.1, self.USERNAME, config)
-
         time.sleep(5)
 
     @staticmethod
@@ -91,12 +86,16 @@ class CoinsManager:
             elif indi_result == 'SELL':
                 sell += indi_credit
 
+            elif indi_result == 'HOLD':
+                buy += indi_credit
+                sell += indi_credit
+
             count += 1
         if buy > sell:
-            return ResultForWM([symbol, 'BUY', buy/count])
+            return ResultForWM([symbol, 'BUY', buy/count, count])
         elif buy < sell:
-            return ResultForWM([symbol, 'SELL', sell/count])
-        return ResultForWM([symbol, 'HOLD', 1])
+            return ResultForWM([symbol, 'SELL', sell/count, count])
+        return ResultForWM([symbol, 'HOLD', 1, count])
 
     @staticmethod
     def init_logger(logger_name, config_file):
@@ -150,6 +149,13 @@ class CoinsManager:
             return indi_credit - diff
 
         return indi_credit
+
+    def binance_connect(self, local_config, config):
+        USERNAME = 'yuvalbadihi'
+        api_key = local_config["Binance"][USERNAME]["Details"]["api_key"]
+        api_secret = local_config["Binance"][USERNAME]["Details"]["api_secret"]
+        binance_module = BinanceWallet(api_key,api_secret, 0.1, USERNAME, config)
+        return binance_module
 
 
 

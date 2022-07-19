@@ -23,12 +23,12 @@ class Indicator(ABC):
         self.coin_manager = coin_manager
         self.assessment_df = assessment_df
         self.semaphore = semaphore
-        self.binance_module = BinanceWallet(self.api_key, self.api_secret, 0.1, USERNAME, self.config)
+        self.binance_module = coin_manager.binance_module
 
     def execute(self, args):
         self.result = IR.IndicatorResult(self, args[0])
         self.args = args
-        t1 = Thread(target=self.check, args=[self.args])
+        t1 = Thread(target=self.run, args=[self.args])
         self.logger.info(f"Execute for Symbol {self.args[0].symbol}")
         self.coin_manager.append_new_thread(self, t1)
         t1.start()
@@ -44,7 +44,7 @@ class Indicator(ABC):
         return Client(api_key, api_secret)
 
     @abstractmethod
-    def check(self, args):
+    def run(self, args):
         pass
 
     def lock(self):

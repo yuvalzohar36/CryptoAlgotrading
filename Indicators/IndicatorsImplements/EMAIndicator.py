@@ -13,7 +13,7 @@ class EMAIndicator(Indicator):
         self.days_measure = 10
 
 
-    def check(self, args):
+    def run(self, args):
         while (True):
             time.sleep(4)
          #   data = self.prepare_data(self.days_measure)

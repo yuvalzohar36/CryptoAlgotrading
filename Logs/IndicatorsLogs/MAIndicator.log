@@ -13791,3 +13791,433 @@
 [2022-07-15 00:45:56,043] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
 [2022-07-15 00:45:57,306] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
 [2022-07-15 00:45:57,306] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:50:37,393] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-15 11:50:38,281] [MAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-15 11:50:39,685] [MAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-15 11:50:41,296] [MAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-15 11:50:47,303] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:50:47,303] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:50:48,608] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:50:48,608] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:50:51,952] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:50:51,952] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:50:56,639] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:50:56,639] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:51:02,076] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:51:02,076] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:51:04,420] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:51:04,420] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:51:09,873] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:51:09,873] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:51:12,330] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:51:12,330] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:51:13,596] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:51:13,596] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:51:14,934] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:51:14,934] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:51:17,309] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:51:17,309] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:51:18,573] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:51:18,573] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:51:28,434] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-15 11:51:29,200] [MAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-15 11:51:31,575] [MAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-15 11:51:32,996] [MAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-15 11:51:39,324] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:51:39,324] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:51:44,107] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:51:44,107] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:51:46,486] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:51:46,486] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:51:51,142] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:51:51,142] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:51:53,735] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:51:53,735] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:52:49,776] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-15 11:52:50,541] [MAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-15 11:52:52,197] [MAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-15 11:52:53,595] [MAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-15 11:52:59,688] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:52:59,688] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:53:10,503] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-15 11:53:11,222] [MAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-15 11:53:13,526] [MAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-15 11:53:14,963] [MAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-15 11:53:21,056] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:53:21,056] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:53:22,348] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:53:22,348] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:53:24,802] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:53:24,802] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:53:29,306] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:53:29,306] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:53:33,797] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:53:33,797] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:53:41,209] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:53:41,209] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:53:43,527] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:53:43,527] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:53:46,032] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:53:46,032] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:53:48,370] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:53:48,370] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:53:52,363] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:53:52,363] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:53:55,851] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:53:55,851] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:53:57,179] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:53:57,179] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:54:14,452] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:54:14,452] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:54:15,717] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:54:15,717] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:54:19,201] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:54:19,201] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:54:20,539] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:54:20,539] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:54:21,855] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:54:21,855] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:54:23,121] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:54:23,121] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:54:24,402] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:54:24,402] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:54:25,683] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:54:25,683] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:54:27,026] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:54:27,026] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:54:31,667] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:54:31,667] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:54:34,330] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:54:34,330] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:54:35,608] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:54:35,608] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:57:02,570] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-15 11:57:03,336] [MAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-15 11:57:04,742] [MAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-15 11:57:06,116] [MAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-15 11:57:12,218] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:57:12,218] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:57:15,687] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:57:15,687] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:57:18,077] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:57:18,077] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:57:21,459] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:57:21,459] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:57:27,474] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:57:27,474] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:57:30,927] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:57:30,927] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:57:33,270] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:57:33,270] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:57:35,739] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:57:35,739] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:57:38,153] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:57:38,153] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:57:40,387] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:57:40,387] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:57:41,684] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:57:41,684] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:57:44,075] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:57:44,075] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:58:01,342] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:58:01,342] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:58:03,030] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:58:03,030] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:58:04,311] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:58:04,311] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:58:06,686] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:58:06,686] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:58:07,967] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:58:07,967] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:58:10,389] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:58:10,389] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:58:16,185] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:58:16,185] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:58:18,606] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:58:18,606] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:58:22,075] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:58:22,075] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:58:23,450] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:58:23,450] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:58:25,793] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:58:25,793] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:58:27,090] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:58:27,090] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:58:44,401] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:58:44,401] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:58:45,729] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:58:45,729] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:58:47,072] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:58:47,072] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:58:48,650] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:58:48,650] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:58:50,025] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:58:50,025] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:58:51,322] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:58:51,322] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:58:52,619] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:58:52,619] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:58:53,900] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:58:53,900] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:58:55,165] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:58:55,165] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:58:56,556] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:58:56,556] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:58:57,868] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:58:57,868] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:58:59,149] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:58:59,165] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:59:16,438] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:59:16,438] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:59:18,937] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:59:18,937] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 11:59:22,484] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:59:22,484] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:59:24,827] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:59:24,827] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:59:27,202] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:59:27,202] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:59:31,795] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:59:31,795] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:59:33,061] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:59:33,061] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:59:35,389] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 11:59:35,389] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:59:36,780] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:59:36,780] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:59:38,061] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:59:38,061] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 11:59:39,404] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:59:39,404] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:59:40,680] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 11:59:40,680] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 11:59:57,968] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 11:59:57,968] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:00:00,311] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:00:00,311] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:00:04,061] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:00:04,061] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:00:07,483] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:00:07,483] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:00:10,983] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:00:10,983] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:00:14,717] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:00:14,717] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:00:16,013] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:00:16,013] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:00:18,497] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:00:18,497] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:00:19,763] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:00:19,763] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:00:21,060] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:00:21,060] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:00:22,357] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:00:22,357] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:00:23,623] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:00:23,623] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:00:40,918] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:00:40,918] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:00:42,199] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:00:42,199] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:00:44,667] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:00:44,667] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:00:45,948] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:00:45,948] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:00:47,323] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:00:47,323] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:00:48,615] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:00:48,615] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:00:49,911] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:00:49,911] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:00:51,193] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:00:51,193] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:00:54,755] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:00:54,755] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:00:59,261] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:00:59,261] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:01:00,674] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:01:00,674] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:01:03,096] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:01:03,096] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:01:20,391] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:01:20,391] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:01:22,297] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:01:22,297] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:01:23,953] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:01:23,953] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:01:26,296] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:01:26,296] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:01:27,671] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:01:27,671] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:01:28,968] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:01:28,968] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:01:30,265] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:01:30,265] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:01:31,530] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:01:31,530] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:01:32,811] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:01:32,811] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:01:34,233] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:01:34,233] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:01:35,530] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:01:35,530] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:01:36,827] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:01:36,827] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:01:54,077] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:01:54,077] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:01:56,436] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:01:56,436] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:01:59,920] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:01:59,920] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:02:03,294] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:02:03,294] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:02:05,747] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:02:05,747] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:02:09,177] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:02:09,177] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:02:11,505] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:02:11,505] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:02:12,802] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:02:12,802] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:02:15,255] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:02:15,255] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:02:17,817] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:02:17,817] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:02:19,114] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:02:19,114] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:02:20,410] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:02:20,410] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:02:37,746] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:02:37,746] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:02:39,090] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:02:39,090] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:02:40,371] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:02:40,371] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:02:41,652] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:02:41,652] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:02:43,105] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:02:43,105] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:02:46,605] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:02:46,605] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:02:51,213] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:02:51,213] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:02:53,948] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:02:53,948] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:02:56,354] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:02:56,354] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:02:57,806] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:02:57,806] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:02:59,134] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:02:59,134] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:03:00,416] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:03:00,416] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:03:17,727] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:03:17,727] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:03:19,024] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:03:19,024] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:03:22,647] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:03:22,647] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:03:23,932] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:03:23,932] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:03:25,213] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:03:25,213] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:03:26,510] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:03:26,510] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:03:27,822] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:03:27,822] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:03:29,869] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:03:29,869] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:03:31,150] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:03:31,150] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:03:32,447] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:03:32,447] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:03:33,728] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:03:33,728] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:03:35,150] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:03:35,150] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:03:52,418] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:03:52,418] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:03:54,028] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:03:54,028] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:03:58,247] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:03:58,247] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:04:01,731] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:04:01,731] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:04:05,434] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:04:05,434] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:04:07,777] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:04:07,777] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:04:10,246] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:04:10,246] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:04:12,621] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:04:12,621] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:04:15,636] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:04:15,636] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:04:16,933] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:04:16,933] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:04:18,215] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:04:18,215] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:04:19,496] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:04:19,496] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:04:36,816] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:04:36,816] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:04:39,253] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:04:39,253] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:04:42,784] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:04:42,784] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:04:47,612] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:04:47,612] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:04:50,471] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:04:50,471] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-15 12:04:55,408] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:04:55,408] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:04:58,142] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:04:58,142] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-15 12:05:00,663] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-15 12:05:00,663] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:06:31,704] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:06:31,704] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:06:35,184] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-15 12:06:35,184] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:06:37,327] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:06:37,327] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-15 12:06:41,112] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-15 12:06:41,112] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-16 12:56:53,091] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-16 12:56:53,638] [MAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-16 12:56:55,795] [MAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-16 12:56:57,623] [MAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-16 12:57:03,029] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-16 12:57:03,029] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-16 12:57:04,439] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-16 12:57:04,439] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-16 12:57:08,005] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-16 12:57:08,005] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-16 12:57:12,038] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-16 12:57:12,038] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-16 12:57:16,087] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-16 12:57:16,087] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-16 12:57:21,379] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-16 12:57:21,379] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-16 12:57:23,879] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-16 12:57:23,879] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-16 12:57:26,473] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-16 12:57:26,473] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-16 12:57:27,957] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-16 12:57:27,957] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-16 12:57:30,520] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-16 12:57:30,520] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-16 12:57:31,941] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-16 12:57:31,941] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-16 12:57:33,347] [MAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-16 12:57:33,347] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-16 12:57:50,697] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-16 12:57:50,697] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-16 12:57:52,165] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-16 12:57:52,165] [MAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-16 12:57:55,275] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-16 12:57:55,275] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-16 12:57:57,899] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-16 12:57:57,899] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-16 12:58:02,135] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-16 12:58:02,135] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD

@@ -13,7 +13,7 @@ class MAIndicator(Indicator):
         self.days_measure = 10
 
 
-    def check(self, args):
+    def run(self, args):
         while (True):
             time.sleep(4)
          #   data = self.prepare_data(self.days_measure)
@@ -23,7 +23,7 @@ class MAIndicator(Indicator):
             x = random.randint(1,100)
             if x < 40:
                 self.result.set_result('SELL')
-            elif x<60:
+            elif x < 60:
                 self.result.set_result('HOLD')
             else:
                 self.result.set_result('BUY')
