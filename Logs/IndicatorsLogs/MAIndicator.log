@@ -14221,3 +14221,47 @@
 [2022-07-16 12:57:57,899] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
 [2022-07-16 12:58:02,135] [MAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
 [2022-07-16 12:58:02,135] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-19 20:13:56,866] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 20:13:57,491] [MAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 20:13:58,179] [MAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 20:13:58,865] [MAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 20:14:22,611] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 20:14:23,814] [MAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 20:14:24,519] [MAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 20:14:25,408] [MAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 20:14:54,539] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 20:14:54,918] [MAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 20:14:55,662] [MAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 20:14:56,390] [MAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 20:15:55,066] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 20:15:55,535] [MAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 20:15:56,271] [MAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 20:15:56,996] [MAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 20:17:52,786] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 20:17:53,168] [MAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 20:17:53,885] [MAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 20:17:54,626] [MAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 20:18:00,005] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-19 20:18:00,005] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-19 20:18:23,699] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-19 20:18:23,699] [MAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-19 20:18:45,140] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-19 20:18:45,140] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-19 20:24:33,864] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 20:24:34,304] [MAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 20:24:35,167] [MAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 20:24:35,901] [MAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 20:24:41,285] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-19 20:24:41,286] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-19 20:24:55,158] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 20:24:55,659] [MAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 20:24:56,704] [MAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 20:24:57,410] [MAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 20:25:02,768] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-19 20:25:02,768] [MAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-19 20:25:52,006] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 20:25:52,447] [MAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 20:25:53,154] [MAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 20:25:53,874] [MAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 20:25:59,242] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-19 20:25:59,242] [MAIndicator] [get_results] [INFO]: Percent result is: SELL

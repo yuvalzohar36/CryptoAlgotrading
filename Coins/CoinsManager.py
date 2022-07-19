@@ -7,6 +7,7 @@ from Coins.ResultForWM import ResultForWM
 from TradeWallets.BinanceWallet import BinanceWallet
 import importlib
 import pandas as pd
+import datetime as dt
 
 
 class CoinsManager:
@@ -15,7 +16,8 @@ class CoinsManager:
         self.config = config
         self.coins, self.coins_indicators = self.init_coins()
         self.current_indicators_threads = {}
-        self.assessment_df = self.init_weights_assessments(self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"],["Coin", "Indicator", "Result", "Credit", "PrevPrice"])
+        self.assessment_df = self.init_weights_assessments(self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"],
+                                                           ["Coin", "Indicator", "Result", "Credit", "PrevPrice"])
         self.indicators_loggers = self.init_all_loggers()
         self.semaphore = threading.Semaphore()
         self.activate_all_indicators()
@@ -72,30 +74,31 @@ class CoinsManager:
     def join_thread(self, indicator):
         self.current_indicators_threads[indicator].join()
 
-    def result_per_coin(self, symbol):
-        idc = self.recv_indicator_results(symbol)
-        count = 0
-        buy = 0
-        sell = 0
+    def stats(self, symbol):
+        buy_credit = 0
+        sell_credit = 0
+        hold_credit = 0
+        buy_count = 0
+        sell_count = 0
+        hold_count = 0
+        self.recv_indicator_results(symbol)
         for indi in self.coins_indicators[symbol]:
             indi_credit = self.get_indi_val(indi, symbol, 'Credit')
             indi_result = self.get_indi_val(indi, symbol, 'Result')
             if indi_result == 'BUY':
-                buy += indi_credit
+                buy_credit += indi_credit
+                buy_count += 1
 
             elif indi_result == 'SELL':
-                sell += indi_credit
+                sell_credit += indi_credit
+                sell_count += 1
 
             elif indi_result == 'HOLD':
-                buy += indi_credit
-                sell += indi_credit
+                hold_credit += indi_credit
+                hold_count += 1
 
-            count += 1
-        if buy > sell:
-            return ResultForWM([symbol, 'BUY', buy/count, count])
-        elif buy < sell:
-            return ResultForWM([symbol, 'SELL', sell/count, count])
-        return ResultForWM([symbol, 'HOLD', 1, count])
+        return ResultForWM([self.coins.get(symbol), buy_credit, sell_credit,
+                            hold_credit, buy_count, sell_count, hold_count, dt.datetime.now()])
 
     @staticmethod
     def init_logger(logger_name, config_file):
@@ -150,11 +153,12 @@ class CoinsManager:
 
         return indi_credit
 
-    def binance_connect(self, local_config, config):
+    @staticmethod
+    def binance_connect(local_config, config):
         USERNAME = 'yuvalbadihi'
         api_key = local_config["Binance"][USERNAME]["Details"]["api_key"]
         api_secret = local_config["Binance"][USERNAME]["Details"]["api_secret"]
-        binance_module = BinanceWallet(api_key,api_secret, 0.1, USERNAME, config)
+        binance_module = BinanceWallet(api_key, api_secret, 0.1, USERNAME, config)
         return binance_module
 
 

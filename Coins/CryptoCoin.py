@@ -2,8 +2,6 @@
 class CryptoCoin:
     def __init__(self, symbol):
         self.symbol = symbol
-        self.next_hour_price = 0
-        self.next_day_price = 0
         self.stability = 0
         self.security = 0
         self.scalability = 0
