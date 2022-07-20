@@ -1,7 +1,7 @@
 {
-   "TradeDetail": {
-    "update_step_size": 4 ,
-     "minutes" : 15
+  "TradeDetail": {
+    "update_step_size": 4,
+    "minutes": 15
   },
   "Paths": {
     "abs_path": "C:\\Users\\yuval\\OneDrive\\Desktop\\Coding\\CryptoAlgotrading\\",
@@ -39,8 +39,11 @@
     "MAIndicator": {
       "MODULE_PATH": "MAIndicator"
     },
-        "EMAIndicator": {
+    "EMAIndicator": {
       "MODULE_PATH": "EMAIndicator"
+    },
+    "MACDIndicator": {
+      "MODULE_PATH": "MACDIndicator"
     }
   }
 }
