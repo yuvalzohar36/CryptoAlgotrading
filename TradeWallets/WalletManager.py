@@ -5,9 +5,9 @@ class WalletManager:
         self.wallets = wallets
         self.coin_manager = coin_manager
         while True:
-            self.coin_manager.stats("BTC")
-            self.coin_manager.stats("LTC")
-         #   self.coin_manager.stats("BURGER")
+            print("BTC", self.coin_manager.stats("BTC").assessment())
+            print("LTC", self.coin_manager.stats("LTC").assessment())
+            print("BURGER", self.coin_manager.stats("BURGER").assessment())
            # print(x.assessment())
            # print(x.result_creation)
             time.sleep(20)

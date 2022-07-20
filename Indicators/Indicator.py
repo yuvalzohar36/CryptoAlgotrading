@@ -5,6 +5,7 @@ from threading import Thread
 from Indicators import IndicatorResult as IR
 from binance import Client
 import pandas as pd
+import time
 
 LOCAL_CONFIGURATION_FILE = "../Configurations/local_configuration.json"
 CONFIGURATION_FILE = "../Configurations/configuration.json"
@@ -61,7 +62,8 @@ class Indicator(ABC):
         return -1
 
     def add_row(self, coin, indicator_name):
-        new_line = {'Coin': coin, 'Indicator': indicator_name, 'Result': "HOLD", 'Credit': 1, 'PrevPrice': self.binance_module.currency_price(coin)}
+        new_line = {'Coin': coin, 'Indicator': indicator_name, 'Result': "HOLD", 'Credit': 1,
+                    'PrevPrice': self.binance_module.currency_price(coin), "UpdateTime": time.time()}
         self.assessment_df = self.assessment_df.append(new_line, ignore_index=True)
         return self.find_row(coin, indicator_name)
 
