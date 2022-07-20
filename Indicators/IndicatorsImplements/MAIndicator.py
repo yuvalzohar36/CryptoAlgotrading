@@ -33,11 +33,11 @@ class MAIndicator(Indicator):
             # time.sleep(self.steps*self.mins-150)  #IMPROVE!!!
 
     def cal(self, sum):
-        should_be_price = sum / self.candles_measure
+        should_be_price_ma = sum / self.candles_measure
         curr_price = super().get_binance_module().currency_price(self.coin.symbol)
-        if should_be_price > self.diff * curr_price:
+        if should_be_price_ma > self.diff * curr_price:
             self.result.set_result('BUY')
-        elif curr_price > self.diff * should_be_price:
+        elif curr_price > self.diff * should_be_price_ma:
             self.result.set_result('SELL')
         else:
             self.result.set_result('HOLD')

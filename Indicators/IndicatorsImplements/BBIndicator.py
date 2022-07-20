@@ -5,55 +5,56 @@ import math
 
 
 class BBIndicator(Indicator):
-    def init(self, coin_manager, logger, assessment_df, semaphore):
-        super().init(coin_manager, logger, assessment_df, semaphore)
-        self.connection = Indicator.connect(self.api_key, self.api_secret)
+    def __init__(self, coin_manager, logger, assessment_df, semaphore):
+        super().__init__(coin_manager, logger, assessment_df, semaphore)
+        self.candles_measure = 20
+        self.steps = super().get_config()["TradeDetail"]["update_step_size"]
+        self.mins = super().get_config()["TradeDetail"]["minutes"]
+        self.coin = None
 
-    def check(self, args):
-        days_measure = 20
-        data = self.prepare_data(days_measure)
-        ma = self.calculate_ma(data['Close'])
-        sd = self.calculate_standard_deviaton(data['Close'], ma)
-        data = self.prepare_data(2)
+    def run(self, args):
+        self.coin = args[0]
+        data = self.prepare_data()
+        ma = self.calculate_ma(data)
+        sd = self.calculate_standard_deviaton(data, ma)
         upper = ma + 2 * sd
         lower = ma - 2 * sd
-        curr_value_mean_gap = (data['Close'][1] / ma)
-        if curr_value_mean_gap > 1:
-            result = (upper / data['Close'][1])
-            if result < 1:
-                self.result.set_result(888888)  # above upper band
-            else:
-                self.result.set_result(1 +7878)  # above mean, below upper
-        else:
-            result = data['Close'][1] / lower
-            if result < 1:
-                self.result.set_percent_result(1.99)  # below lower band
-            else:
-                self.result.set_result(18888)  # below mean, above lower
-        self.write_result_to_DB(type(self).__name__)
+        self.res(lower, ma, upper)
 
 
     @staticmethod
     def calculate_ma(data):
         sum = 0
         for tup in data:
-            sum += int(tup)
+            sum += float(tup)
         return sum / len(data)
 
     @staticmethod
     def calculate_standard_deviaton(data, mean):
         sum = 0
         for tup in data:
-            sum += (int(tup) - mean)*(int(tup) - mean)
+            sum += (float(tup) - mean)*(float(tup) - mean)
         to_root = sum / len(data)
         sd = math.sqrt(to_root)
         return sd
 
-    def prepare_data(self, days_measure):
-        crypto_currency = self.args[0].symbol
-        against_currency = 'USD'
-        end = dt.datetime.now()
-        d = dt.timedelta(days=days_measure - 1)
-        start = end - d
-        data = web.DataReader(f'{crypto_currency}-{against_currency}', 'yahoo', start, end)
-        return data
+    def prepare_data(self):
+        interval = 0
+        close_set = []
+        for kline in super().get_binance_module().client.get_historical_klines_generator(f"{self.coin.symbol}USDT",
+                                                                                         super().get_binance_module().client.KLINE_INTERVAL_15MINUTE,
+                                                                                         f"{self.steps * self.mins * self.candles_measure} minutes ago UTC"):
+            if interval % self.steps == 0:
+                close_set.append(kline[1])
+            interval += 1
+        return close_set
+
+    def res(self, lower, ma, upper):
+        curr_price = super().get_binance_module().currency_price(self.coin.symbol)
+        if curr_price <= lower:
+            self.result.set_result('BUY')
+        elif curr_price >= upper:
+            self.result.set_result('SELL')
+        else:
+            self.result.set_result('HOLD')
+
