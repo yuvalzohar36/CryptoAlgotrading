@@ -17,7 +17,7 @@ class CoinsManager:
         self.coins, self.coins_indicators = self.init_coins()
         self.current_indicators_threads = {}
         self.assessment_df = self.init_weights_assessments(self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"],
-                                                           ["Coin", "Indicator", "Result", "Credit", "PrevPrice"])
+                                                           ["Coin", "Indicator", "Result", "Credit", "PrevPrice", "UpdateTime"])
         self.indicators_loggers = self.init_all_loggers()
         self.semaphore = threading.Semaphore()
         self.activate_all_indicators()
@@ -69,6 +69,7 @@ class CoinsManager:
           #  indi.get_results().sem_credit_updated.release()
             indi.write_val_to_DB(type(indi).__name__, new_indi_credit, 'Credit')
             indi.write_val_to_DB(type(indi).__name__, self.binance_module.currency_price(symbol), 'PrevPrice')
+            indi.write_val_to_DB(type(indi).__name__, time.time(), 'UpdateTime')
             indi.write_val_to_DB(type(indi).__name__, None, 'Result')  # writes to database
 
         return results
@@ -85,6 +86,9 @@ class CoinsManager:
         hold_count = 0
         self.recv_indicator_results(symbol)
         for indi in self.coins_indicators[symbol]:
+            if not self.check_if_result_valid(indi, symbol):
+                continue
+
             indi_credit = self.get_indi_val(indi, symbol, 'Credit')
             indi_result = self.get_indi_val(indi, symbol, 'Result')
             if indi_result == 'BUY':
@@ -136,6 +140,10 @@ class CoinsManager:
     def credit_distributor(self, indi, symbol, indi_credit, indi_result):
         curr_price = self.binance_module.currency_price(symbol)
         prev_price = self.get_indi_val(indi, symbol, 'PrevPrice')
+
+        if not self.check_if_result_valid(indi, symbol):
+            return indi_credit
+
         if prev_price == None:
             return indi_credit
         score = (curr_price/prev_price)
@@ -162,6 +170,18 @@ class CoinsManager:
         api_secret = local_config["Binance"][USERNAME]["Details"]["api_secret"]
         binance_module = BinanceWallet(api_key, api_secret, 0.1, USERNAME, config)
         return binance_module
+
+    def check_if_result_valid(self, indi, symbol):
+        update_time = self.get_indi_val(indi, symbol, 'UpdateTime')
+        miss = 1.25
+        if update_time + (self.config["TradeDetail"]["update_step_size"]*self.config["TradeDetail"]["minutes"]*60)*miss < time.time():
+            return False
+
+        elif time.time() < update_time + (self.config["TradeDetail"]["update_step_size"]*self.config["TradeDetail"]["minutes"]*60)*(2-miss):
+            return False
+
+        return True
+
 
 
 
