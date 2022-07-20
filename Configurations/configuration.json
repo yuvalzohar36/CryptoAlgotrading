@@ -42,13 +42,11 @@
     "EMAIndicator": {
       "MODULE_PATH": "EMAIndicator"
     },
-<<<<<<< HEAD
     "MACDIndicator": {
       "MODULE_PATH": "MACDIndicator"
-=======
-            "BBIndicator": {
+    },
+    "BBIndicator": {
       "MODULE_PATH": "BBIndicator"
->>>>>>> ffd67c26b5d5611a118f1df1f3868ebcd90b56de
     }
   }
 }

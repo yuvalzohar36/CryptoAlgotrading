@@ -1,4 +1,3 @@
-import pandas_datareader as web
 from Indicators.Indicator import Indicator
 import datetime as dt
 import math
