@@ -41,6 +41,9 @@
     },
         "EMAIndicator": {
       "MODULE_PATH": "EMAIndicator"
+    },
+            "BBIndicator": {
+      "MODULE_PATH": "BBIndicator"
     }
   }
 }
