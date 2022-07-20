@@ -1,7 +1,6 @@
 import random
 import time
 
-import pandas_datareader as web
 from Indicators.Indicator import Indicator
 import datetime as dt
 
