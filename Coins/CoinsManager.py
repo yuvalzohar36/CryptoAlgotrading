@@ -144,7 +144,7 @@ class CoinsManager:
         if not self.check_if_result_valid(indi, symbol):
             return indi_credit
 
-        if prev_price == None:
+        if prev_price is None:
             return indi_credit
         score = (curr_price/prev_price)
         diff = abs(1-score)
