@@ -97,6 +97,18 @@ class Indicator(ABC):
         self.unlock()
         return self.assessment_df[title][row]
 
+    def get_binance_module(self):
+        return self.binance_module
+
+    def my_credit(self):
+        return self.result.credit
+
+    def sem_credit_updated(self):
+        return self.result.sem_credit_updated
+
+    def get_config(self):
+        return self.config
+
 
 
 

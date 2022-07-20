@@ -1,6 +1,7 @@
 {
    "TradeDetail": {
-    "update_step_size": 4
+    "update_step_size": 4 ,
+     "minutes" : 15
   },
   "Paths": {
     "abs_path": "C:\\CryptoAlgotrading\\",

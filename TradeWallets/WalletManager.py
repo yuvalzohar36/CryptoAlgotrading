@@ -5,11 +5,11 @@ class WalletManager:
         self.wallets = wallets
         self.coin_manager = coin_manager
         while True:
-            x = self.coin_manager.stats("BTC")
-            print(x.assessment())
-            print(x.result_creation
-
-                  )
+            self.coin_manager.stats("BTC")
+            self.coin_manager.stats("LTC")
+         #   self.coin_manager.stats("BURGER")
+           # print(x.assessment())
+           # print(x.result_creation)
             time.sleep(20)
 
     def add_wallet(self, wallet):

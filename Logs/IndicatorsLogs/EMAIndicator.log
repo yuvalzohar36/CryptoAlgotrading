@@ -11966,3 +11966,292 @@
 [2022-07-19 20:25:54,240] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
 [2022-07-19 20:25:59,879] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
 [2022-07-19 20:25:59,879] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-19 22:35:39,674] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 22:35:39,729] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 22:35:39,730] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 22:35:39,731] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 22:35:45,439] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-19 22:35:45,439] [EMAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-19 22:37:22,178] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 22:37:22,222] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 22:37:22,224] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 22:37:22,226] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 22:39:03,048] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 22:39:03,090] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 22:39:03,092] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 22:39:03,093] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 22:39:08,823] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-19 22:39:08,823] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-19 22:40:29,835] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 22:40:29,870] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 22:40:29,871] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 22:40:29,872] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 22:40:35,548] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-19 22:40:35,548] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-19 22:40:42,926] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 22:40:42,966] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 22:40:42,967] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 22:40:42,968] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 22:41:43,515] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 22:41:43,548] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 22:41:43,549] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 22:41:43,550] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 22:41:49,253] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-19 22:41:49,253] [EMAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-19 22:44:08,536] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 22:44:08,567] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 22:44:08,567] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 22:44:08,567] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 22:44:14,294] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-19 22:44:14,294] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-19 22:44:32,008] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 22:44:32,036] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 22:44:32,037] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 22:44:32,038] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 22:45:02,323] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 22:45:02,363] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 22:45:02,365] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 22:45:02,366] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 22:45:08,040] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-19 22:45:08,040] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-19 22:57:07,959] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 22:57:07,992] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 22:57:07,993] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 22:57:07,995] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 22:58:35,815] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 22:58:35,846] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 22:58:35,846] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 22:58:35,846] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 22:58:41,545] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-19 22:58:41,545] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-19 23:00:01,964] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-19 23:00:01,995] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-19 23:00:01,995] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-19 23:00:02,011] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-19 23:00:08,768] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-19 23:00:08,768] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 01:18:37,478] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 01:18:37,559] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 01:18:37,562] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 01:18:37,565] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 01:28:56,893] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 01:28:56,987] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 01:28:56,987] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 01:28:56,987] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 01:29:02,685] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 01:29:02,685] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 01:29:03,013] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 01:29:03,013] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 01:30:15,938] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 01:30:27,399] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 01:30:27,444] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 01:30:27,447] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 01:30:27,448] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 01:30:33,174] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 01:30:33,174] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 01:30:33,516] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 01:30:33,516] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 01:31:33,271] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 01:31:33,312] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 01:31:33,314] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 01:31:33,315] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 01:31:39,711] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 01:31:39,711] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 01:31:40,510] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 01:31:40,510] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 01:31:42,065] [EMAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 01:31:42,065] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 01:31:42,390] [EMAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 01:31:42,391] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 01:31:44,646] [EMAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 01:31:44,646] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 01:31:45,630] [EMAIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 01:31:45,630] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 01:36:43,308] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 01:36:43,355] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 01:36:43,355] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 01:36:43,371] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 01:36:49,058] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 01:36:49,058] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 01:36:49,979] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 01:36:49,979] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 01:36:57,257] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 01:36:57,304] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 01:36:57,304] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 01:36:57,304] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 01:37:43,875] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 01:37:43,969] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 01:37:43,969] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 01:37:43,969] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 01:37:57,939] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 01:37:58,002] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 01:37:58,017] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 01:37:58,017] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 01:56:34,830] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 01:56:34,880] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 01:56:34,880] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 01:56:34,880] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 01:57:07,210] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 01:57:07,260] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 01:57:07,260] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 01:57:07,260] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 01:57:13,020] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 01:57:13,020] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 01:57:13,350] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 01:57:13,350] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 01:57:20,136] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 01:57:20,181] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 01:57:20,183] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 01:57:20,185] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 01:58:38,500] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 01:58:38,580] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 01:58:38,580] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 01:58:38,590] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:05:59,941] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:05:59,995] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:05:59,995] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:06:00,001] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:06:52,051] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:06:52,130] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:06:52,130] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:06:52,130] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:09:52,910] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:09:52,991] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:09:53,001] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:09:53,001] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:11:12,435] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:11:12,522] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:11:12,526] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:11:12,531] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:12:16,131] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:12:16,221] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:12:16,231] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:12:16,231] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:16:29,256] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:16:29,341] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:16:29,341] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:16:29,341] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:17:24,281] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:17:24,361] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:17:24,361] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:17:24,371] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:17:31,121] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:17:31,121] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 02:19:00,210] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:19:00,305] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:19:00,309] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:19:00,313] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:19:06,023] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:19:06,024] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 02:19:48,956] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:19:49,055] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:19:49,059] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:19:49,064] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:20:40,751] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:20:40,831] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:20:40,831] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:20:40,841] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:20:53,191] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:20:53,281] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:20:53,281] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:20:53,291] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:20:59,091] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:20:59,091] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 02:20:59,431] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:20:59,431] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 02:52:25,569] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:52:25,757] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:52:25,763] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:52:25,770] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:52:43,331] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:52:43,450] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:52:43,457] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:52:43,464] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:52:57,040] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:52:57,155] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:52:57,161] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:52:57,166] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:53:02,885] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:53:02,885] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 02:53:03,217] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:53:03,217] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 02:53:03,217] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:53:03,217] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 02:53:47,677] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:53:47,801] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:53:47,806] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:53:47,813] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:53:53,572] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:53:53,572] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 02:53:53,892] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:53:53,892] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 02:53:53,892] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:53:53,892] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 02:55:20,832] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:55:20,952] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:55:20,962] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:55:20,962] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:55:26,642] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:55:26,642] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 02:55:27,647] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:55:27,647] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 02:55:27,647] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:55:27,647] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 02:55:59,282] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:55:59,402] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:55:59,402] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:55:59,412] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:56:05,392] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:56:05,392] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 02:56:06,142] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:56:06,142] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 02:56:06,142] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:56:06,142] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 02:56:36,727] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 02:56:36,865] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 02:56:36,870] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 02:56:36,876] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 02:56:44,073] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:56:44,073] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 02:56:44,403] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:56:44,403] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 02:56:44,403] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 02:56:44,403] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 02:56:46,966] [EMAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 02:56:46,967] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 02:56:47,297] [EMAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 02:56:47,297] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 02:56:47,297] [EMAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 02:56:47,297] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 05:19:50,951] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 05:19:51,045] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 05:19:51,045] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 05:19:51,061] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 05:19:57,013] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 05:19:57,013] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 05:19:57,373] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 05:19:57,373] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 05:19:59,982] [EMAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 05:19:59,982] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 05:20:01,544] [EMAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 05:20:01,544] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 05:20:22,886] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 05:20:22,886] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 05:20:23,277] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 05:20:23,277] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 05:20:25,370] [EMAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 05:20:25,370] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 05:20:25,683] [EMAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 05:20:25,683] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 05:20:48,383] [EMAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 05:20:48,462] [EMAIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 05:20:48,462] [EMAIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 05:20:48,462] [EMAIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 05:20:54,117] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 05:20:54,117] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 05:20:54,492] [EMAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 05:20:54,492] [EMAIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 05:20:55,511] [EMAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 05:20:55,511] [EMAIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 05:20:56,979] [EMAIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 05:20:56,979] [EMAIndicator] [get_results] [INFO]: Percent result is: BUY

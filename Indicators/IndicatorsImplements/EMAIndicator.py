@@ -9,7 +9,6 @@ import datetime as dt
 class EMAIndicator(Indicator):
     def __init__(self, coin_manager, logger, assessment_df, semaphore):
         super().__init__(coin_manager, logger, assessment_df, semaphore)
-        self.connection = Indicator.connect(self.api_key, self.api_secret)
         self.days_measure = 10
 
 

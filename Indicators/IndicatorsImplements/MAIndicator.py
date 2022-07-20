@@ -1,48 +1,55 @@
 import random
 import time
-
-import pandas_datareader as web
 from Indicators.Indicator import Indicator
-import datetime as dt
 
 
 class MAIndicator(Indicator):
     def __init__(self, coin_manager, logger, assessment_df, semaphore):
         super().__init__(coin_manager, logger, assessment_df, semaphore)
-        self.connection = Indicator.connect(self.api_key, self.api_secret)
-        self.days_measure = 10
-
+        self.candles_measure = 10
+        self.diff = 1.1
+        self.bad_credit = 0.9
 
     def run(self, args):
+        self.coin = args[0]
+        self.steps = super().get_config()["TradeDetail"]["update_step_size"]
+        self.mins = super().get_config()["TradeDetail"]["minutes"]
+
         while (True):
-            time.sleep(4)
-         #   data = self.prepare_data(self.days_measure)
-        #    ma = self.calculate_ma(data['Close'])
-           # data = self.prepare_data(2)
-          #  time.sleep(3)
-            x = random.randint(1,100)
-            if x < 40:
-                self.result.set_result('SELL')
-            elif x < 60:
-                self.result.set_result('HOLD')
-            else:
-                self.result.set_result('BUY')
+            i=0
+            sum = 0
+            for kline in super().get_binance_module().client.get_historical_klines_generator(f"{self.coin.symbol}USDT", super().get_binance_module().client.KLINE_INTERVAL_15MINUTE,
+                                                                f"{self.steps*self.mins*self.candles_measure} minutes ago UTC"):
+                if i%self.steps == 0:
+                     sum += float(kline[1])
+                i+=1
+            self.cal(sum)
+           # super().sem_credit_updated().acquire()  # wait to get my new credit after giving those values
 
-           # self.write_result_to_DB(type(self).__name__) # out!
+            time.sleep(100)
+            self.self_consciousness()
+            time.sleep(self.steps*self.mins-150)  #IMPROVE!!!
 
-    @staticmethod
-    def calculate_ma(data):
-        sum = 0
-        for tup in data:
-            sum += int(tup)
-        return sum / len(data)
+    def cal(self, sum):
+        should_be_price = sum/self.candles_measure
+        curr_price = super().get_binance_module().currency_price(self.coin.symbol)
+        if should_be_price > self.diff * curr_price:
+            self.result.set_result('BUY')
+        elif curr_price > self.diff * should_be_price:
+            self.result.set_result('SELL')
+        else:
+            self.result.set_result('HOLD')
 
-    def prepare_data(self, days_measure):
-        time.sleep(1)
-        crypto_currency = self.args[0].symbol
-        against_currency = 'USD'
-        end = dt.datetime.now()
-        d = dt.timedelta(days=days_measure - 1)
-        start = end - d
-        data = 9#web.DataReader(f'{crypto_currency}-{against_currency}', 'yahoo', start, end)
-        return data
+    def self_consciousness(self):
+        my_new_credit = super().my_credit()
+        if my_new_credit < self.bad_credit:
+            self.improve()
+
+    def improve(self):
+        self.candles_measure = random.randint(7, 30)
+        self.diff = random.randint(100, 150)/100
+
+
+
+
+

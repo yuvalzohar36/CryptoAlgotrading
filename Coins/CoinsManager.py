@@ -65,6 +65,8 @@ class CoinsManager:
             indi_credit = self.get_indi_val(indi, symbol, 'Credit')
             indi_result = self.get_indi_val(indi, symbol, 'Result')
             new_indi_credit = self.credit_distributor(indi, symbol, indi_credit, indi_result)
+            indi.get_results().call_back_credit_result(new_indi_credit)
+          #  indi.get_results().sem_credit_updated.release()
             indi.write_val_to_DB(type(indi).__name__, new_indi_credit, 'Credit')
             indi.write_val_to_DB(type(indi).__name__, self.binance_module.currency_price(symbol), 'PrevPrice')
             indi.write_val_to_DB(type(indi).__name__, None, 'Result')  # writes to database
