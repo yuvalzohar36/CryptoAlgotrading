@@ -48,5 +48,10 @@
     "BBIndicator": {
       "MODULE_PATH": "BBIndicator"
     }
+  },
+  "IndicatorsData" : {
+    "indicators_attributes_data": {
+      "max_attributes_val": 150
+    }
   }
 }

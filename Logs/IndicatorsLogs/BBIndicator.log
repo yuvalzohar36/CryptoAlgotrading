@@ -1121,3 +1121,27 @@
 [2022-07-22 07:58:57,756] [BBIndicator] [execute] [INFO]: Execute for Symbol BTC
 [2022-07-22 07:58:57,766] [BBIndicator] [execute] [INFO]: Execute for Symbol BURGER
 [2022-07-22 07:58:57,779] [BBIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 10:21:55,536] [BBIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 10:21:55,692] [BBIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 10:21:55,739] [BBIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 10:21:55,770] [BBIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 10:22:28,065] [BBIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 10:22:28,135] [BBIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 10:22:28,156] [BBIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 10:22:28,177] [BBIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 10:23:49,015] [BBIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 10:23:49,094] [BBIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 10:23:49,114] [BBIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 10:23:49,135] [BBIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 10:24:52,072] [BBIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 10:24:52,166] [BBIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 10:24:52,184] [BBIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 10:24:52,209] [BBIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 10:25:19,806] [BBIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 10:25:19,887] [BBIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 10:25:19,907] [BBIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 10:25:19,927] [BBIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 10:49:41,502] [BBIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 10:49:41,533] [BBIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 10:49:41,533] [BBIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 10:49:41,549] [BBIndicator] [execute] [INFO]: Execute for Symbol LTC

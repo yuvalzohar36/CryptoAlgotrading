@@ -1,9 +1,6 @@
 import random
 import time
-
 from Indicators.Indicator import Indicator
-import datetime as dt
-import math
 
 
 class RANDMAIndicator(Indicator):

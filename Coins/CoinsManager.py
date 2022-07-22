@@ -148,7 +148,7 @@ class CoinsManager:
         if prev_price is None:
             return indi_credit
         score = (curr_price/prev_price)
-        diff = abs(1-score)
+        diff = abs(1-score)*indi_credit
 
         if indi_result == 'BUY' and score > 0:
             return indi_credit + diff

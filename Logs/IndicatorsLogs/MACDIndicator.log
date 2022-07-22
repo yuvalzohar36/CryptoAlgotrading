@@ -1127,3 +1127,27 @@
 [2022-07-22 07:58:57,752] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
 [2022-07-22 07:58:57,763] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
 [2022-07-22 07:58:57,776] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 10:21:55,520] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 10:21:55,677] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 10:21:55,723] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 10:21:55,770] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 10:22:28,065] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 10:22:28,125] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 10:22:28,150] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 10:22:28,171] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 10:23:49,014] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 10:23:49,086] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 10:23:49,107] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 10:23:49,128] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 10:24:52,072] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 10:24:52,157] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 10:24:52,180] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 10:24:52,202] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 10:25:19,806] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 10:25:19,876] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 10:25:19,902] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 10:25:19,922] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 10:49:41,502] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 10:49:41,533] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 10:49:41,533] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 10:49:41,533] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
