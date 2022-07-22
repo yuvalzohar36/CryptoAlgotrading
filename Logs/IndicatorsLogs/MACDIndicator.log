@@ -14,3 +14,1116 @@
 [2022-07-20 18:23:22,104] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
 [2022-07-20 18:23:22,399] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
 [2022-07-20 18:23:22,399] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:27:21,492] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 18:27:21,562] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 18:27:21,607] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 18:27:21,625] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 18:27:28,585] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:27:28,585] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:27:28,926] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:27:28,926] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:27:34,785] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:27:34,785] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:27:35,156] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:27:35,156] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:27:39,146] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:27:39,147] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:27:39,485] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:27:39,485] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:28:04,498] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:28:04,499] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:28:05,091] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:28:05,091] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:28:07,707] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:28:07,707] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:28:08,020] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:28:08,020] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:28:14,745] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:28:14,745] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:28:15,063] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:28:15,063] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:29:48,847] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 18:29:48,885] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 18:29:48,894] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 18:29:48,901] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 18:29:57,518] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:29:57,518] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:29:58,860] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:29:58,860] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:30:05,249] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:30:05,249] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:30:05,569] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:30:05,569] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:30:10,344] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:30:10,344] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:30:11,703] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:30:11,703] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:30:36,109] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:30:36,109] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:30:36,427] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:30:36,427] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:30:39,457] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:30:39,457] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:30:39,848] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:30:39,848] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:30:43,705] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:30:43,705] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:30:44,248] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:30:44,248] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:31:07,562] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:31:07,562] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:31:07,873] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:31:07,873] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:31:11,250] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:31:11,250] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:31:11,586] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:31:11,586] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:31:17,465] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:31:17,465] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:31:18,836] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:31:18,836] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:31:35,858] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 18:31:35,889] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 18:31:35,897] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 18:31:35,904] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 18:31:43,240] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:31:43,240] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:31:43,570] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:31:43,570] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:32:15,219] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 18:32:15,249] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 18:32:15,256] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 18:32:15,263] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 18:32:36,510] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 18:32:36,534] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 18:32:36,541] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 18:32:36,547] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 18:32:42,823] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:32:42,823] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:32:44,178] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:32:44,179] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:32:49,625] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:32:49,625] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:32:49,956] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:32:49,956] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:32:55,310] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:32:55,310] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:32:56,654] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:32:56,654] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:33:00,769] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:33:00,769] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:33:01,079] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:33:01,079] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:33:25,776] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:33:25,776] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:33:26,090] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:33:26,090] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:33:28,836] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:33:28,836] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:33:29,406] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:33:29,407] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:33:32,284] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:33:32,284] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:33:32,594] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:33:32,594] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:34:59,628] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 18:34:59,663] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 18:34:59,671] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 18:34:59,679] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 18:35:05,965] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:35:05,965] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:35:06,272] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:35:06,273] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:35:20,093] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-20 18:35:20,120] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-20 18:35:20,126] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-20 18:35:20,134] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-20 18:35:27,443] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:35:27,443] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:35:27,841] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:35:27,841] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:35:32,216] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:35:32,216] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:35:33,552] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:35:33,553] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:35:37,869] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:35:37,869] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:35:38,178] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:35:38,178] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:35:43,115] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:35:43,116] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:35:43,427] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:35:43,427] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:06,761] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:36:06,761] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:07,082] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:36:07,082] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:10,372] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:36:10,373] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:10,685] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:36:10,685] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:13,698] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:36:13,699] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:14,267] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:36:14,267] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:16,547] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:36:16,547] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:16,858] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:36:16,858] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:39,701] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:36:39,701] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:40,277] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:36:40,277] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:43,347] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:36:43,347] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:43,656] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:36:43,656] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:46,708] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:36:46,708] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:47,014] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:36:47,014] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:51,470] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:36:51,470] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:36:52,070] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:36:52,070] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:14,647] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:37:14,647] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:14,992] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:37:14,992] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:17,543] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:37:17,543] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:17,885] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:37:17,885] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:20,606] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:37:20,606] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:20,931] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:37:20,932] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:27,630] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:37:27,630] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:27,941] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:37:27,941] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:50,499] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:37:50,499] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:51,068] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:37:51,068] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:53,335] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:37:53,335] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:53,641] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:37:53,641] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:55,979] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:37:55,979] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:56,297] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:37:56,297] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:37:58,585] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:37:58,585] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:37:59,158] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:37:59,159] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:38:22,046] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:38:22,046] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:38:23,393] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:38:23,394] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:38:28,622] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:38:28,622] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:38:28,940] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:38:28,940] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:38:32,722] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:38:32,722] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:38:33,292] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:38:33,292] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:38:37,520] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:38:37,520] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:38:38,131] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:38:38,131] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:01,707] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:39:01,707] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:02,092] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:39:02,093] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:05,065] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:39:05,065] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:05,401] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:39:05,401] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:08,070] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:39:08,070] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:08,405] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:39:08,405] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:11,279] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:39:11,279] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:11,645] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:39:11,646] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:35,932] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:39:35,932] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:36,539] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:39:36,539] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:40,810] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:39:40,810] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:41,165] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:39:41,165] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:44,349] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:39:44,349] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:44,689] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:39:44,689] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:47,425] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:39:47,425] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:39:47,751] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:39:47,752] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:13,149] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:40:13,149] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:14,503] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:40:14,503] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:18,860] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:40:18,860] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:19,171] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:40:19,171] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:22,995] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:40:22,995] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:23,317] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:40:23,317] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:26,668] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:40:26,668] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:27,271] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:40:27,271] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:49,844] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:40:49,844] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:50,157] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:40:50,157] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:52,544] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:40:52,544] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:53,894] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:40:53,894] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:56,462] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:40:56,463] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:56,785] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:40:56,785] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:40:59,596] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:40:59,596] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:41:00,194] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:41:00,194] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:41:22,708] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:41:22,708] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:41:24,103] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:41:24,103] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:41:30,258] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:41:30,258] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:41:31,646] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:41:31,646] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:41:34,604] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:41:34,604] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:41:34,911] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:41:34,911] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:41:37,419] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:41:37,420] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:41:37,998] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:41:37,998] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:42:02,084] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:42:02,085] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:42:02,401] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:42:02,401] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:42:08,312] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:42:08,313] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:42:08,635] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:42:08,635] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:42:11,163] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:42:11,163] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:42:11,472] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:42:11,472] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:42:13,788] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:42:13,788] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:42:14,102] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:42:14,102] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:42:36,923] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:42:36,923] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:42:37,494] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:42:37,495] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:42:40,016] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:42:40,016] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:42:40,584] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:42:40,584] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:42:43,392] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:42:43,392] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:42:43,963] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:42:43,963] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:42:46,736] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:42:46,737] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:42:47,080] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:42:47,081] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:43:10,139] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:43:10,139] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:43:10,709] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:43:10,709] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:43:14,023] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:43:14,023] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:43:14,339] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:43:14,339] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:43:17,439] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:43:17,439] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:43:17,759] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:43:17,759] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:43:20,293] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:43:20,293] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:43:20,611] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:43:20,611] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:43:43,468] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:43:43,468] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:43:43,782] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:43:43,782] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:43:46,053] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:43:46,053] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:43:46,362] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:43:46,363] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:43:53,744] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:43:53,744] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:43:54,059] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:43:54,059] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:44:00,516] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:44:00,516] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:44:00,995] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:44:00,996] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:44:23,566] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:44:23,567] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:44:24,142] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:44:24,142] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:44:27,255] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:44:27,255] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:44:27,616] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:44:27,617] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:44:30,685] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:44:30,686] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:44:31,001] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:44:31,001] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:44:33,501] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:44:33,501] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:44:33,811] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:44:33,811] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:44:56,418] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:44:56,418] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:44:56,721] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:44:56,721] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:45:03,356] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:45:03,356] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:45:04,698] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:45:04,698] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:45:08,633] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:45:08,634] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:45:08,948] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:45:08,949] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:45:13,040] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:45:13,040] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:45:13,351] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:45:13,351] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:45:36,122] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:45:36,122] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:45:36,435] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:45:36,436] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:45:39,443] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:45:39,443] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:45:40,811] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:45:40,811] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:45:44,349] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:45:44,349] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:45:44,664] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:45:44,664] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:45:48,451] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:45:48,451] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:45:49,011] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:45:49,011] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:46:13,619] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:46:13,619] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:46:14,200] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:46:14,200] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:46:16,987] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:46:16,987] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:46:17,297] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:46:17,297] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:46:19,556] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:46:19,556] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:46:19,872] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:46:19,872] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:46:22,116] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:46:22,116] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:46:22,433] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:46:22,433] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:46:44,707] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:46:44,707] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:46:46,058] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:46:46,059] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:46:51,699] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:46:51,699] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:46:52,015] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:46:52,015] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:46:57,918] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:46:57,919] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:46:58,238] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:46:58,239] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:47:01,024] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:47:01,025] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:47:01,330] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:47:01,330] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:47:24,693] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:47:24,693] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:47:25,004] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:47:25,005] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:47:27,512] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:47:27,512] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:47:27,839] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:47:27,839] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:47:33,326] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:47:33,326] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:47:34,708] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:47:34,708] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:47:38,800] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:47:38,800] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:47:39,110] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:47:39,110] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:03,774] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:48:03,774] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:05,114] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:48:05,115] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:07,920] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:48:07,920] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:08,496] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:48:08,496] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:10,766] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:48:10,766] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:11,071] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:48:11,071] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:14,574] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:48:14,574] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:14,886] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:48:14,886] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:39,276] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:48:39,276] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:39,838] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:48:39,838] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:43,853] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:48:43,853] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:44,442] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:48:44,443] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:48:48,564] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:48:48,564] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:48,883] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:48:48,883] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:53,481] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:48:53,481] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:48:53,796] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:48:53,796] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:49:16,866] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:49:16,867] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:49:17,179] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:49:17,180] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:49:21,284] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:49:21,284] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:49:22,634] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:49:22,634] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:49:28,292] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:49:28,293] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:49:28,609] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:49:28,610] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:49:32,008] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:49:32,008] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:49:32,324] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:49:32,324] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:49:56,891] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:49:56,891] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:49:57,479] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:49:57,479] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:50:00,246] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:50:00,246] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:50:00,564] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:50:00,564] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:50:03,083] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:50:03,084] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:50:03,400] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:50:03,400] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:50:05,926] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:50:05,927] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:50:06,262] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:50:06,262] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:50:29,686] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:50:29,686] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:50:29,992] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:50:29,992] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:50:32,817] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:50:32,817] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:50:33,127] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:50:33,127] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:50:36,112] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:50:36,112] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:50:36,711] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:50:36,712] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:50:39,571] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:50:39,571] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:50:39,887] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:50:39,887] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:51:02,756] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:51:02,756] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:51:03,100] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:51:03,100] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:51:06,276] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:51:06,276] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:51:06,856] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:51:06,856] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:51:10,940] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:51:10,940] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:51:11,254] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:51:11,254] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:51:18,759] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:51:18,759] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:51:19,077] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:51:19,077] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:51:41,907] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:51:41,907] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:51:42,224] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:51:42,225] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:51:45,015] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:51:45,015] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:51:45,325] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:51:45,325] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:51:48,621] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:51:48,621] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:51:48,934] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:51:48,934] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:51:51,742] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:51:51,742] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:51:52,056] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:51:52,056] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:52:15,377] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:52:15,377] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:52:15,686] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:52:15,687] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:52:21,027] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:52:21,027] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:52:22,373] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:52:22,373] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:52:28,078] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:52:28,079] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:52:29,452] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:52:29,452] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:52:32,313] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:52:32,313] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:52:32,893] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:52:32,893] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:52:56,047] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:52:56,048] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:52:56,403] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:52:56,403] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:52:59,462] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:52:59,462] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:52:59,769] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:52:59,770] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:53:04,339] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:53:04,339] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:53:05,701] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:53:05,701] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:53:11,100] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:53:11,100] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:53:11,415] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:53:11,416] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:53:34,031] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:53:34,032] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:53:34,354] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:53:34,354] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:53:39,454] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:53:39,454] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:53:39,777] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:53:39,777] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:53:43,323] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:53:43,323] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:53:43,657] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:53:43,657] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:53:45,943] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:53:45,943] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:53:46,268] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:53:46,268] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:54:10,756] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:54:10,757] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:54:11,078] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:54:11,079] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:54:15,802] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:54:15,802] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:54:17,184] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:54:17,184] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:54:22,810] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:54:22,810] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:54:23,156] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:54:23,156] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:54:27,103] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:54:27,103] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:54:27,413] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:54:27,414] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:54:52,582] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:54:52,582] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:54:53,174] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:54:53,174] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:55:00,661] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:55:00,661] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:55:01,237] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:55:01,238] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:55:04,501] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:55:04,501] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:55:05,076] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:55:05,076] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:55:08,393] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:55:08,393] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:55:08,712] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:55:08,712] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:55:31,449] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:55:31,449] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:55:31,764] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:55:31,764] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:55:35,359] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:55:35,359] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:55:35,729] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:55:35,729] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:55:38,364] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:55:38,364] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:55:38,854] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:55:38,854] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:55:41,525] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:55:41,525] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:55:41,863] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:55:41,863] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:04,490] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:56:04,490] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:04,811] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:56:04,811] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:08,414] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:56:08,414] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:56:08,730] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:56:08,730] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:12,471] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:56:12,471] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:13,036] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:56:13,036] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:16,330] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:56:16,330] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:16,683] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:56:16,683] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:39,489] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:56:39,489] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:39,798] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:56:39,798] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:44,432] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:56:44,432] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:44,772] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:56:44,772] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:51,354] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:56:51,354] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:51,662] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:56:51,662] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:56,106] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:56:56,106] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:56:56,488] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:56:56,489] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:57:20,903] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:57:20,903] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:57:21,479] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:57:21,479] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:57:25,063] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:57:25,063] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:57:25,376] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:57:25,377] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:57:27,880] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:57:27,881] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:57:28,552] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:57:28,552] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:57:31,961] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:57:31,961] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:57:32,272] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:57:32,272] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:57:54,883] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:57:54,883] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:57:55,474] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:57:55,474] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:57:59,419] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:57:59,419] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:57:59,825] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:57:59,826] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:58:02,697] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:58:02,697] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:58:03,022] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:58:03,022] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:58:05,417] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:58:05,417] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:58:05,748] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:58:05,748] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:58:28,703] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:58:28,704] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:58:29,292] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:58:29,292] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:58:33,271] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:58:33,271] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:58:34,964] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:58:34,964] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:58:41,722] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:58:41,722] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:58:42,057] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:58:42,057] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:58:45,996] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:58:45,996] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:58:46,315] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:58:46,316] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:09,469] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:59:09,470] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:10,052] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:59:10,053] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:12,866] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:59:12,866] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:13,188] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:59:13,188] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:15,738] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:59:15,738] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:16,059] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:59:16,059] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:18,864] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:59:18,864] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:19,438] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:59:19,438] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:41,975] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:59:41,975] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:42,280] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:59:42,280] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:47,091] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:59:47,091] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:47,396] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 18:59:47,396] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:50,693] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:59:50,693] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 18:59:51,003] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 18:59:51,003] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:54,357] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:59:54,357] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 18:59:54,664] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 18:59:54,664] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 19:00:17,788] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 19:00:17,788] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 19:00:18,109] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 19:00:18,109] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 19:00:20,391] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 19:00:20,391] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 19:00:20,706] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 19:00:20,706] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 19:00:25,032] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 19:00:25,032] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 19:00:25,349] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-20 19:00:25,350] [MACDIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-20 19:00:29,673] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 19:00:29,673] [MACDIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 19:00:30,996] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-20 19:00:30,997] [MACDIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-20 19:00:53,911] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 19:00:53,911] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-20 19:00:54,522] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-20 19:00:54,522] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 15:10:39,299] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 15:11:01,966] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 15:11:02,017] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 15:11:02,033] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 15:11:02,051] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 15:13:21,003] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 15:13:21,030] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 15:13:21,037] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 15:13:21,044] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 15:14:48,284] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 15:14:48,314] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 15:14:48,323] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 15:14:48,332] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 15:16:26,090] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 15:16:26,137] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 15:16:26,151] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 15:16:26,161] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 15:42:32,291] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 15:42:47,475] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 15:42:47,507] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 15:42:47,517] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 15:42:47,526] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:00:26,240] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:00:26,289] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:00:26,309] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:00:26,323] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:01:35,932] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:01:35,979] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:01:35,994] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:01:36,006] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:01:42,898] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-21 16:01:42,898] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:01:43,231] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-21 16:01:43,231] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:01:49,802] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-21 16:01:49,802] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:01:50,131] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-21 16:01:50,132] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:01:57,239] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-21 16:01:57,240] [MACDIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-21 16:01:58,616] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-21 16:01:58,616] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:02:04,150] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-21 16:02:04,150] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:02:04,492] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-21 16:02:04,492] [MACDIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-21 16:02:29,181] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-21 16:02:29,182] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:02:29,784] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-21 16:02:29,784] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:02:33,271] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-21 16:02:33,272] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:02:33,611] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-21 16:02:33,611] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:04:06,096] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:04:06,743] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:04:06,769] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:04:06,787] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:05:21,744] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:05:21,806] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:05:21,823] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:05:21,849] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:06:20,139] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:06:20,202] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:06:20,218] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:06:20,239] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:06:57,736] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:06:57,793] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:06:57,809] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:06:57,822] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:07:21,384] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:07:21,468] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:07:21,501] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:07:21,521] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:07:59,361] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:07:59,421] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:07:59,439] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:07:59,462] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:08:27,819] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:08:27,877] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:08:27,895] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:08:27,909] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:08:50,411] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:08:50,465] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:08:50,482] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:08:50,497] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:09:02,741] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:09:02,795] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:09:02,815] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:09:02,830] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:09:16,222] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:09:16,291] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:09:16,309] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:09:16,324] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:09:35,837] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:09:35,896] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:09:35,913] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:09:35,928] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:10:17,393] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:10:17,454] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:10:17,478] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:10:17,500] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:10:36,662] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:10:36,726] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:10:36,746] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:10:36,765] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:10:47,261] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:10:47,329] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:10:47,345] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:10:47,364] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:11:22,883] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:11:22,965] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:11:22,986] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:11:23,004] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:11:44,691] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:11:44,758] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:11:44,779] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:11:44,800] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:12:03,541] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:12:03,617] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:12:03,637] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:12:03,658] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:12:58,196] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:12:58,273] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:12:58,314] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:12:58,346] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:13:26,901] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:13:26,977] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:13:27,005] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:13:27,036] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:13:34,313] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-21 16:13:34,314] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:14:19,869] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:14:19,965] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:14:19,998] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:14:20,029] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:14:42,586] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:14:42,664] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:14:42,693] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:14:42,719] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:15:09,541] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:15:09,640] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:15:09,669] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:15:09,698] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:16:45,249] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:16:45,616] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:16:45,807] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:16:45,862] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:16:52,374] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:16:52,471] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:16:52,496] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:16:52,521] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:16:59,159] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-21 16:16:59,160] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:16:59,580] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-21 16:16:59,581] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:17:33,167] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:17:33,253] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:17:33,288] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:17:33,322] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:17:57,628] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:17:57,682] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:17:57,744] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:17:57,789] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:20:16,123] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:20:16,195] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:20:16,236] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:20:16,263] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:21:22,351] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:21:22,545] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:21:22,599] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:21:22,642] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:21:54,869] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:21:55,038] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:21:55,092] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:21:55,145] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:22:07,181] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:22:07,322] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:22:07,377] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:22:07,428] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:33:47,011] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:33:59,958] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:33:59,994] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:34:00,009] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:34:00,023] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:34:26,285] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:34:26,324] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:34:26,332] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:34:26,343] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:36:20,096] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:36:20,123] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:36:20,138] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:36:20,147] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:36:41,676] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:36:41,712] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:36:41,720] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:36:41,729] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:36:50,687] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-21 16:36:50,726] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-21 16:36:50,734] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-21 16:36:50,744] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-21 16:36:57,343] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-21 16:36:57,344] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:36:58,705] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-21 16:36:58,705] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:37:05,884] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-21 16:37:05,884] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:37:07,243] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-21 16:37:07,243] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:37:12,279] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-21 16:37:12,280] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-21 16:37:12,601] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-21 16:37:12,602] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:12:08,865] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:12:08,911] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:12:08,911] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:12:08,927] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:12:17,343] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-22 07:12:17,343] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:12:17,671] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-22 07:12:17,671] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:12:25,366] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-22 07:12:25,366] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:12:25,678] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-22 07:12:25,678] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:12:29,850] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-22 07:12:29,850] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:12:30,178] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-22 07:12:30,178] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:13:27,069] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:13:27,100] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:13:27,115] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:13:27,115] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:14:27,018] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:14:27,049] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:14:27,065] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:14:27,065] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:14:36,798] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-22 07:14:36,798] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:14:37,117] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-22 07:14:37,117] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:14:44,109] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-22 07:14:44,109] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:14:44,422] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-22 07:14:44,422] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:14:51,265] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-22 07:14:51,265] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:14:51,593] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-22 07:14:51,593] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:15:01,165] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:15:01,196] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:15:01,211] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:15:01,211] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:15:08,351] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-22 07:15:08,351] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:15:08,711] [MACDIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-22 07:15:08,711] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:15:11,289] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-22 07:15:11,289] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:15:11,867] [MACDIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-22 07:15:11,867] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:15:14,163] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-22 07:15:14,163] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:15:14,476] [MACDIndicator] [get_results] [INFO]: Current result for symbol BURGER is: 
+[2022-07-22 07:15:14,476] [MACDIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-22 07:15:30,950] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:15:30,981] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:15:30,997] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:15:30,997] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:15:45,349] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:15:45,380] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:15:45,380] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:15:45,396] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:18:06,064] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:18:06,095] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:18:06,111] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:18:06,111] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:18:55,900] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:18:55,932] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:18:55,947] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:18:55,947] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:20:11,966] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:20:11,998] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:20:11,998] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:20:12,013] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:20:57,908] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:20:57,955] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:20:57,971] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:20:57,971] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:21:16,231] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:21:16,262] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:21:16,277] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:21:16,293] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:22:28,402] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:22:28,449] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:22:28,456] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:22:28,465] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:23:13,327] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:23:13,361] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:23:13,372] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:23:13,379] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:57:08,276] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:57:08,322] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:57:08,336] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:57:08,347] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:57:44,301] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:57:44,343] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:57:44,356] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:57:44,368] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-22 07:58:57,702] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-22 07:58:57,752] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-22 07:58:57,763] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
+[2022-07-22 07:58:57,776] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC

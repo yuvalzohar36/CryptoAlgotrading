@@ -6,7 +6,7 @@ from Indicators.Indicator import Indicator
 class MAIndicator(Indicator):
     def __init__(self, coin_manager, logger, assessment_df, semaphore):
         super().__init__(coin_manager, logger, assessment_df, semaphore)
-        self.candles_measure = 10
+        self.candles_measure = 25
         self.diff = 1.0
         self.bad_credit = 0.9
         self.steps = super().get_config()["TradeDetail"]["update_step_size"]
@@ -28,9 +28,9 @@ class MAIndicator(Indicator):
             self.cal(sum)
             # super().sem_credit_updated().acquire()  # wait to get my new credit after giving those values
 
-            time.sleep(10)
-            # self.self_consciousness()
-            # time.sleep(self.steps*self.mins-150)  #IMPROVE!!!
+            time.sleep(100)
+            self.self_consciousness()
+            time.sleep(self.steps*self.mins-150)  #IMPROVE!!!
 
     def cal(self, sum):
         should_be_price_ma = sum / self.candles_measure

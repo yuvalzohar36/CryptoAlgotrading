@@ -54,7 +54,6 @@ class Indicator(ABC):
     def unlock(self):
         self.semaphore.release()
 
-
     def find_row(self, coin, indicator_name):
         for index, row in self.assessment_df.iterrows():
             if row["Coin"] == coin and row["Indicator"] == indicator_name:

@@ -1,7 +1,6 @@
 import time
 import warnings
 import numpy as np
-
 from Indicators.Indicator import Indicator
 import pandas as pd
 

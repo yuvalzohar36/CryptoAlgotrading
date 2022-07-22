@@ -14,6 +14,7 @@ class CoinsManager:
     def __init__(self, config, local_config):
         self.binance_module = self.binance_connect(local_config, config)
         self.config = config
+        self.local_config = local_config
         self.coins, self.coins_indicators = self.init_coins()
         self.current_indicators_threads = {}
         self.assessment_df = self.init_weights_assessments(self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"],
@@ -52,7 +53,7 @@ class CoinsManager:
         for coin in self.config["Coins"]:
             if self.config["Coins"][coin]["Mode"] == "ON":
                 coins_indicators[coin] = []
-                coins[coin] = CC.CryptoCoin(coin)
+                coins[coin] = CC.CryptoCoin(coin, self.local_config, self.config)
         return coins, coins_indicators
 
     def append_new_thread(self, indicator, thread):
@@ -86,8 +87,8 @@ class CoinsManager:
         hold_count = 0
         self.recv_indicator_results(symbol)
         for indi in self.coins_indicators[symbol]:
-            if not self.check_if_result_valid(indi, symbol):
-                continue
+         #   if not self.check_if_result_valid(indi, symbol):
+          #      continue
 
             indi_credit = self.get_indi_val(indi, symbol, 'Credit')
             indi_result = self.get_indi_val(indi, symbol, 'Result')
@@ -181,6 +182,9 @@ class CoinsManager:
             return False
 
         return True
+
+    def receive_coins(self):
+        return self.coins
 
 
 

@@ -1,4 +1,8 @@
 {
+  "CoinMarketCap": {
+    "coinmarketcap_token": "0dd29fab-3298-43f8-b291-3ee1eaf76982"
+  },
+
   "TelegramBot": {
     "telegram_bot_token": "5370127937:AAG0mbnrsg1yhu27VweX3rRpKZPQU7UCYSA"
   },
