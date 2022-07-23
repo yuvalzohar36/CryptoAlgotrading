@@ -15,13 +15,18 @@ class CoinsManager:
         self.binance_module = self.binance_connect(local_config, config)
         self.config = config
         self.local_config = local_config
+        self.coinsDB = self.init_coins_db(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"])
         self.coins, self.coins_indicators = self.init_coins()
         self.current_indicators_threads = {}
-        self.assessment_df = self.init_weights_assessments(self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"],
-                                                           ["Coin", "Indicator", "Result", "Credit", "PrevPrice", "UpdateTime"])
+        self.assessment_df = self.init_weights_assessments(
+            self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"],
+            ["Coin", "Indicator", "Result", "Credit", "PrevPrice", "UpdateTime"])
         self.indicators_loggers = self.init_all_loggers()
         self.semaphore = threading.Semaphore()
         self.activate_all_indicators()
+
+        #here update all the coinsDB data
+        self.coinsDB.to_csv(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"], index = False)
         time.sleep(5)
 
     @staticmethod
@@ -33,13 +38,13 @@ class CoinsManager:
         MAIN_PATH = self.config["Paths"]["MAIN_INDICATORS_PATH"]
         for coin in self.coins.keys():
             for indicator in self.config["Indicators"].keys():
-                    indicator_dict = self.config["Indicators"][indicator]
-                    module = importlib.import_module(MAIN_PATH + indicator_dict["MODULE_PATH"])
-                    class_ = getattr(module, indicator_dict["MODULE_PATH"])
-                    current_indicator = class_(self, self.indicators_loggers[indicator], self.assessment_df,
-                                               self.semaphore)
-                    self.indicator_activate(current_indicator, self.coins[coin])
-                    self.coins_indicators[coin].append(current_indicator)
+                indicator_dict = self.config["Indicators"][indicator]
+                module = importlib.import_module(MAIN_PATH + indicator_dict["MODULE_PATH"])
+                class_ = getattr(module, indicator_dict["MODULE_PATH"])
+                current_indicator = class_(self, self.indicators_loggers[indicator], self.assessment_df,
+                                           self.semaphore)
+                self.indicator_activate(current_indicator, self.coins[coin])
+                self.coins_indicators[coin].append(current_indicator)
 
     def init_all_loggers(self):
         indicators_loggers = {}
@@ -53,7 +58,7 @@ class CoinsManager:
         for coin in self.config["Coins"]:
             if self.config["Coins"][coin]["Mode"] == "ON":
                 coins_indicators[coin] = []
-                coins[coin] = CC.CryptoCoin(coin, self.local_config, self.config)
+                coins[coin] = CC.CryptoCoin(coin, self.local_config, self.config, self.coinsDB)
         return coins, coins_indicators
 
     def append_new_thread(self, indicator, thread):
@@ -67,7 +72,7 @@ class CoinsManager:
             indi_result = self.get_indi_val(indi, symbol, 'Result')
             new_indi_credit = self.credit_distributor(indi, symbol, indi_credit, indi_result)
             indi.get_results().call_back_credit_result(new_indi_credit)
-          #  indi.get_results().sem_credit_updated.release()
+            #  indi.get_results().sem_credit_updated.release()
             indi.write_val_to_DB(type(indi).__name__, new_indi_credit, 'Credit')
             indi.write_val_to_DB(type(indi).__name__, self.binance_module.currency_price(symbol), 'PrevPrice')
             indi.write_val_to_DB(type(indi).__name__, time.time(), 'UpdateTime')
@@ -87,8 +92,8 @@ class CoinsManager:
         hold_count = 0
         self.recv_indicator_results(symbol)
         for indi in self.coins_indicators[symbol]:
-         #   if not self.check_if_result_valid(indi, symbol):
-          #      continue
+            if not self.check_if_result_valid(indi, symbol):
+                continue
 
             indi_credit = self.get_indi_val(indi, symbol, 'Credit')
             indi_result = self.get_indi_val(indi, symbol, 'Result')
@@ -147,8 +152,8 @@ class CoinsManager:
 
         if prev_price is None:
             return indi_credit
-        score = (curr_price/prev_price)
-        diff = abs(1-score)*indi_credit
+        score = (curr_price / prev_price)
+        diff = abs(1 - score) * indi_credit
 
         if indi_result == 'BUY' and score > 0:
             return indi_credit + diff
@@ -175,10 +180,13 @@ class CoinsManager:
     def check_if_result_valid(self, indi, symbol):
         update_time = self.get_indi_val(indi, symbol, 'UpdateTime')
         miss = 1.25
-        if update_time + (self.config["TradeDetail"]["update_step_size"]*self.config["TradeDetail"]["minutes"]*60)*miss < time.time():
+        if update_time + (self.config["TradeDetail"]["update_step_size"] * self.config["TradeDetail"][
+            "minutes"] * 60) * miss < time.time():
             return False
 
-        elif time.time() < update_time + (self.config["TradeDetail"]["update_step_size"]*self.config["TradeDetail"]["minutes"]*60)*(2-miss):
+        elif time.time() < update_time + (
+                self.config["TradeDetail"]["update_step_size"] * self.config["TradeDetail"]["minutes"] * 60) * (
+                2 - miss):
             return False
 
         return True
@@ -186,13 +194,14 @@ class CoinsManager:
     def receive_coins(self):
         return self.coins
 
-
-
-
-
-
-
-
-
-
-
+    def init_coins_db(self, full_path):
+        if not exists(full_path):
+            columns = ['Coin', 'MaxAttributeVal', 'Stability', 'Security', 'Scalability', 'Supply', 'Decentralisation',
+                       'Demand', 'Usefulness', 'Backup_Date']
+            df = pd.DataFrame(columns=columns)
+            for coin in self.config["Coins"]:
+                if self.config["Coins"][coin]["Mode"] == "ON":
+                    df.loc[len(df.index)] = [coin, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            df.to_csv(full_path, index=False)
+        df = pd.read_csv(full_path)
+        return df

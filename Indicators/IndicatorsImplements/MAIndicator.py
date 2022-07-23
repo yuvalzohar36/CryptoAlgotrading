@@ -30,7 +30,7 @@ class MAIndicator(Indicator):
 
             time.sleep(100)
             self.self_consciousness()
-            time.sleep(self.steps*self.mins-150)  #IMPROVE!!!
+            time.sleep(self.steps*self.mins)  #IMPROVE!!!
 
     def cal(self, sum):
         should_be_price_ma = sum / self.candles_measure

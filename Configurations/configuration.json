@@ -4,13 +4,15 @@
     "minutes": 15
   },
   "Paths": {
-    "abs_path": "C:\\CryptoAlgotrading\\",
+    "abs_path": "C:\\Users\\yuval\\OneDrive\\Desktop\\Coding\\CryptoAlgotrading\\",
     "logger_folder": "Logs\\",
     "trade_wallet_logs_path": "TradeWalletsLogs\\",
     "indicators_logs_path": "IndicatorsLogs\\",
     "MAIN_INDICATORS_PATH": "Indicators.IndicatorsImplements.",
     "ASSESSMENT_DB_PATH": "DB\\assessment.csv",
-    "COINS_ROUND_DATA_DB_PATH": "DB\\coinsround.csv"
+    "COINS_ROUND_DATA_DB_PATH": "DB\\coinsround.csv",
+    "COINS_DB_PATH": "DB\\coins.csv",
+    "FIREBASE_CREDENTIALS": "Firebase/CryptoAlgotradingCredentials.json"
   },
   "Enablers": {
     "TELEGRAM_BOT": "False",
@@ -49,7 +51,7 @@
       "MODULE_PATH": "BBIndicator"
     }
   },
-  "IndicatorsData" : {
+  "IndicatorsData": {
     "indicators_attributes_data": {
       "max_attributes_val": 150
     }
