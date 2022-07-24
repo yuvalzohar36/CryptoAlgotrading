@@ -15,14 +15,11 @@ class RANDMAIndicator(Indicator):
         self.diff = random.randint(100, 150) / 100
 
     def run(self, args):
-        while True:
-            self.coin = args[0]
-            data = self.prepare_data()
-            bma = float(self.calculate_bma(data, self.candles_measure, self.smoothing)[0])
-            self.cal(bma)
-            time.sleep(10)
-          #  self.self_consciousness()
-         #   time.sleep(self.steps * self.mins - 150)  # IMPROVE!!!
+        self.self_consciousness()
+        self.coin = args[0]
+        data = self.prepare_data()
+        bma = float(self.calculate_bma(data, self.candles_measure, self.smoothing)[0])
+        self.cal(bma)
 
     def calculate_bma(self, prices, days, smoothing=2):
         ema = [sum(prices[:days]) / days]

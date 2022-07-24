@@ -61,12 +61,10 @@ class CryptoCoin:
     def update_coin_data(self, coins_df):
         index = coins_df.index[coins_df['Coin'] == self.symbol]
         coins_df.loc[index.values[0], 'MaxAttributeVal'] = self.max_attributes_val
-        sup = self.get_supply()
-        print(sup)
         coins_df.loc[index.values[0], 'Supply'] = self.get_supply()
 
     def attributes_refresh(self):
-        pass  # just copy past the attributes with the funcs
+        print(self.get_supply())
 
     def get_stability(self):
         try:

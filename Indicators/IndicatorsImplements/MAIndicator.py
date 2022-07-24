@@ -14,23 +14,19 @@ class MAIndicator(Indicator):
         self.coin = None
 
     def run(self, args):
+        self.self_consciousness()
         self.coin = args[0]
-
-        while True:
-            interval = 0
-            sum = 0
-            for kline in super().get_binance_module().client.get_historical_klines_generator(f"{self.coin.symbol}USDT",
-                                                                                             super().get_binance_module().client.KLINE_INTERVAL_15MINUTE,
-                                                                                             f"{self.steps * self.mins * self.candles_measure} minutes ago UTC"):
-                if interval % self.steps == 0:
-                    sum += float(kline[1])
-                interval += 1
-            self.cal(sum)
-            # super().sem_credit_updated().acquire()  # wait to get my new credit after giving those values
-
-            time.sleep(100)
-            self.self_consciousness()
-            time.sleep(self.steps*self.mins)  #IMPROVE!!!
+        interval = 0
+        sum = 0
+        for kline in super().get_binance_module().client.get_historical_klines_generator(f"{self.coin.symbol}USDT",
+                                                                                         super().get_binance_module().client.KLINE_INTERVAL_15MINUTE,
+                                                                                         f"{self.steps * self.mins * self.candles_measure} minutes ago UTC"):
+            if interval % self.steps == 0:
+                sum += float(kline[1])
+            interval += 1
+        self.cal(sum)
+        print("DONEMA")
+        # super().sem_credit_updated().acquire()  # wait to get my new credit after giving those values
 
     def cal(self, sum):
         should_be_price_ma = sum / self.candles_measure

@@ -1,7 +1,11 @@
+import datetime
 import time
 import threading
 import logging
 from os.path import exists
+
+from apscheduler.schedulers.background import BackgroundScheduler
+
 from Coins import CryptoCoin as CC
 from Coins.ResultForWM import ResultForWM
 from TradeWallets.BinanceWallet import BinanceWallet
@@ -12,6 +16,8 @@ import datetime as dt
 
 class CoinsManager:
     def __init__(self, config, local_config):
+        self.pickup_duration = 180
+        self.scheduler = BackgroundScheduler()
         self.binance_module = self.binance_connect(local_config, config)
         self.config = config
         self.local_config = local_config
@@ -25,9 +31,37 @@ class CoinsManager:
         self.semaphore = threading.Semaphore()
         self.activate_all_indicators()
 
-        #here update all the coinsDB data
-        self.coinsDB.to_csv(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"], index = False)
-        time.sleep(5)
+        # here update all the coinsDB data
+
+        self.coinsDB.to_csv(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"], index=False)
+        self.schedule_all_indicators_jobs()
+        self.scheduler.start()
+
+    def schedule_all_indicators_jobs(self):
+        for coin in self.coins:
+            self.coins[coin].attributes_refresh()
+        # indicators_timestamp = dt.datetime.now().timestamp() + int(self.config["SAFE_TIME_OFFSET"])
+
+        for coin in self.config["Coins"]:
+            if self.config["Coins"][coin]["Mode"] == "ON":
+                for indicator in self.coins_indicators[coin]:
+                    delta_time = self.pickup_duration - float(
+                        self.config["Indicators"][type(indicator).__name__]["DURATION"])
+                    indicators_timestamp = dt.datetime.now().timestamp() + delta_time - int(
+                        self.config["SAFE_TIME_OFFSET"])
+                    dt_obj = dt.datetime.fromtimestamp(indicators_timestamp)
+                    self.add_scheduler_job(self.indicator_activate, [indicator, self.coins[coin]], dt_obj)
+
+    def add_scheduler_job(self, func, args, start_time):
+        self.scheduler.add_job(
+            func=func,
+            args=args,
+            trigger="date",
+            run_date=start_time,
+            name="new_indicator_job",
+            misfire_grace_time=600,
+            coalesce=True,
+        )
 
     @staticmethod
     def indicator_activate(indicator, coin_instance):
@@ -43,7 +77,7 @@ class CoinsManager:
                 class_ = getattr(module, indicator_dict["MODULE_PATH"])
                 current_indicator = class_(self, self.indicators_loggers[indicator], self.assessment_df,
                                            self.semaphore)
-                self.indicator_activate(current_indicator, self.coins[coin])
+                # self.indicator_activate(current_indicator, self.coins[coin])
                 self.coins_indicators[coin].append(current_indicator)
 
     def init_all_loggers(self):
@@ -77,7 +111,6 @@ class CoinsManager:
             indi.write_val_to_DB(type(indi).__name__, self.binance_module.currency_price(symbol), 'PrevPrice')
             indi.write_val_to_DB(type(indi).__name__, time.time(), 'UpdateTime')
             indi.write_val_to_DB(type(indi).__name__, None, 'Result')  # writes to database
-
         return results
 
     def join_thread(self, indicator):
@@ -92,8 +125,8 @@ class CoinsManager:
         hold_count = 0
         self.recv_indicator_results(symbol)
         for indi in self.coins_indicators[symbol]:
-            if not self.check_if_result_valid(indi, symbol):
-                continue
+            # if not self.check_if_result_valid(indi, symbol):
+            #     continue
 
             indi_credit = self.get_indi_val(indi, symbol, 'Credit')
             indi_result = self.get_indi_val(indi, symbol, 'Result')
@@ -147,8 +180,8 @@ class CoinsManager:
         curr_price = self.binance_module.currency_price(symbol)
         prev_price = self.get_indi_val(indi, symbol, 'PrevPrice')
 
-        if not self.check_if_result_valid(indi, symbol):
-            return indi_credit
+        # if not self.check_if_result_valid(indi, symbol):
+        #     return indi_credit
 
         if prev_price is None:
             return indi_credit

@@ -39,21 +39,26 @@
   },
   "Indicators": {
     "MAIndicator": {
-      "MODULE_PATH": "MAIndicator"
+      "MODULE_PATH": "MAIndicator",
+      "DURATION": 60
     },
-    "BMAIndicator": {
-      "MODULE_PATH": "RANDMAIndicator"
+    "RANDMAIndicator": {
+      "MODULE_PATH": "RANDMAIndicator",
+      "DURATION": 60
     },
     "MACDIndicator": {
-      "MODULE_PATH": "MACDIndicator"
+      "MODULE_PATH": "MACDIndicator",
+      "DURATION": 60
     },
     "BBIndicator": {
-      "MODULE_PATH": "BBIndicator"
+      "MODULE_PATH": "BBIndicator",
+      "DURATION": 60
     }
   },
   "IndicatorsData": {
     "indicators_attributes_data": {
       "max_attributes_val": 150
     }
-  }
+  },
+  "SAFE_TIME_OFFSET": 5
 }

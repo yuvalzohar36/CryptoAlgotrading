@@ -13,15 +13,12 @@ class BBIndicator(Indicator):
 
     def run(self, args):
         self.coin = args[0]
-        while True:
-            data = self.prepare_data()
-            ma = self.calculate_ma(data)
-            sd = self.calculate_standard_deviaton(data, ma)
-            upper = ma + 2 * sd
-            lower = ma - 2 * sd
-            self.res(lower, upper)
-            time.sleep(15)
-
+        data = self.prepare_data()
+        ma = self.calculate_ma(data)
+        sd = self.calculate_standard_deviaton(data, ma)
+        upper = ma + 2 * sd
+        lower = ma - 2 * sd
+        self.res(lower, upper)
 
     @staticmethod
     def calculate_ma(data):
@@ -34,7 +31,7 @@ class BBIndicator(Indicator):
     def calculate_standard_deviaton(data, mean):
         sum = 0
         for tup in data:
-            sum += (float(tup) - mean)*(float(tup) - mean)
+            sum += (float(tup) - mean) * (float(tup) - mean)
         to_root = sum / len(data)
         sd = math.sqrt(to_root)
         return sd
@@ -58,4 +55,3 @@ class BBIndicator(Indicator):
             self.result.set_result('SELL')
         else:
             self.result.set_result('HOLD')
-

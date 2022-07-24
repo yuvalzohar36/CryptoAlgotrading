@@ -19,9 +19,7 @@ class MACDIndicator(Indicator):
     def run(self, args):
         self.coin = args[0]
         warnings.filterwarnings("ignore")
-        while True:
-            self.macd_trade_logic()
-            time.sleep(4)
+        self.macd_trade_logic()
 
     def get_data_frame(self):
         starttime = '1 day ago UTC'

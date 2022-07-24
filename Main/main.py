@@ -4,6 +4,7 @@ import TradeWallets.WalletManager as WManager
 from TradeWallets.BinanceWallet import BinanceWallet
 import telegramBot
 from threading import Thread
+
 LOCAL_CONFIGURATION_FILE = "../Configurations/local_configuration.json"
 CONFIGURATION_FILE = "../Configurations/configuration.json"
 
@@ -36,15 +37,12 @@ if __name__ == '__main__':
     api_key = local_config["Binance"][USERNAME]["Details"]["api_key"]
     api_secret = local_config["Binance"][USERNAME]["Details"]["api_secret"]
     CM = CManager.CoinsManager(config, local_config)
-    #WM = WManager.WalletManager(None, CM)
-    #binance_wallet = BinanceWallet(api_key, api_secret, 0.1, USERNAME, config)
+    binance_wallet = BinanceWallet(api_key, api_secret, 0.1, USERNAME, config)
+    WM = WManager.WalletManager([binance_wallet], CM)
 
-
-
-
-    #binance_wallet2 = BinanceWallet(api_key, api_secret, 0.1, USERNAME2, config)
-    #binance_wallet.convert("LTC", "DOGE", 0.01)
-    #binance_wallet2.convert("LTC", "DOGE", 0.01)
+    # binance_wallet2 = BinanceWallet(api_key, api_secret, 0.1, USERNAME2, config)
+    # binance_wallet.convert("LTC", "DOGE", 0.01)
+    # binance_wallet2.convert("LTC", "DOGE", 0.01)
     #
     # execute_telegram_bot(TELEGRAM_BOT)
     # init_indicators_manager(TRADE_ON)
