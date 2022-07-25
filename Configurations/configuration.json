@@ -1,6 +1,6 @@
 {
   "TradeDetail": {
-    "update_step_size": 4,
+    "update_step_size": 1,
     "minutes": 15
   },
   "Paths": {
@@ -60,5 +60,6 @@
       "max_attributes_val": 150
     }
   },
-  "SAFE_TIME_OFFSET": 5
+  "SAFE_TIME_OFFSET": 5,
+  "ABORT_COIN": "BUSD"
 }

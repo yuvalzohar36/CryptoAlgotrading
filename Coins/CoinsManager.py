@@ -16,7 +16,8 @@ import datetime as dt
 
 class CoinsManager:
     def __init__(self, config, local_config):
-        self.pickup_duration = 180
+        self.pickup_duration = float(config["TradeDetail"]["update_step_size"]) * float(
+            config["TradeDetail"]["minutes"])*60
         self.scheduler = BackgroundScheduler()
         self.binance_module = self.binance_connect(local_config, config)
         self.config = config
@@ -34,14 +35,11 @@ class CoinsManager:
         # here update all the coinsDB data
 
         self.coinsDB.to_csv(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"], index=False)
-        self.schedule_all_indicators_jobs()
-        self.scheduler.start()
 
     def schedule_all_indicators_jobs(self):
+        self.scheduler = BackgroundScheduler()
         for coin in self.coins:
             self.coins[coin].attributes_refresh()
-        # indicators_timestamp = dt.datetime.now().timestamp() + int(self.config["SAFE_TIME_OFFSET"])
-
         for coin in self.config["Coins"]:
             if self.config["Coins"][coin]["Mode"] == "ON":
                 for indicator in self.coins_indicators[coin]:
@@ -51,6 +49,7 @@ class CoinsManager:
                         self.config["SAFE_TIME_OFFSET"])
                     dt_obj = dt.datetime.fromtimestamp(indicators_timestamp)
                     self.add_scheduler_job(self.indicator_activate, [indicator, self.coins[coin]], dt_obj)
+        self.scheduler.start()
 
     def add_scheduler_job(self, func, args, start_time):
         self.scheduler.add_job(
