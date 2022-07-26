@@ -35,22 +35,44 @@ def main_tg_bot(wallet, token):
                 first_update_id = current_update['update_id']
                 if 'text' in current_update['message']:
                     if '/balance' in current_update['message']['text']:
-                        prices = wallet.get_all_prices()
+
+                        #prices = wallet.get_all_prices()
                         chat_id = current_update['message']['chat']['id']
                         info = wallet.relevant_account_info()
-                        str1 = ""
-                        total = 0
-                        for i in range(len(info)):
-                            for j in range(len(prices)):
-                                if prices[j]['symbol'] == info[i]['asset'] + "USDT":
-                                    priced = prices[j]['price']
+                       # total = 0
+                        lst1 = []
+                        for i in info['asset']:
+                            lst1.append(i)
+                        lst2 = []
+                        for i in info['free']:
+                            lst2.append(i)
+                        lst3 = []
+                        for i in info['locked']:
+                            lst3.append(i)
+                        str1 ='Symbol   |   Balance    |   Locked\n\n'
+                        for i in range(len(lst1)):
+                            str1 += str(lst1[i])
+                            str1 += "   |   "
+                            str1 += str(lst2[i])
+                            str1 += "   |   "
+                            str1 += str(lst3[i])
+                            str1 +="\n"
 
-                                elif info[i]['asset'] == "USDT":
-                                    priced = 1
-                            str1 += "★ " + info[i]['asset'] + "\n📊𝐑𝐚𝐭𝐞 " + str(priced) + "\n💰𝐅𝐫𝐞𝐞 " + info[i][
-                                'free'] + "\n💲𝐓𝐨𝐭𝐚𝐥 " + str(
-                                int(float(priced)) * int(float(info[i]['free']))) + "$ \n\n"
-                            total += int(float(priced) * float(info[i]['free']))
-                        str1 += "__________________________\n\n💵 Total Balance: " + str(total) + "$"
-                        badi_bot.send_message(chat_id, str1)
+                        badi_bot.send_message(chat_id,str1)
+
+
+
+                        # for i in range(len(info)):
+                        #     for j in range(len(prices)):
+                        #         if prices[j]['symbol'] == info['asset'][i] + "USDT":
+                        #             priced = prices[j]['price']
+                        #
+                        #         elif info['asset'][i] == "USDT":
+                        #             priced = 1
+                        #     str1 += "★ " + info['asset'][i] + "\n📊𝐑𝐚𝐭𝐞 " + str(priced) + "\n💰𝐅𝐫𝐞𝐞 " + \
+                        #             str(info['free'][i]) + "\n💲𝐓𝐨𝐭𝐚𝐥 " + str(
+                        #         int(float(priced)) * int(float(info['free'][i]))) + "$ \n\n"
+                        #     total += int(float(priced) * float(info['free'][i]))
+                        # str1 += "__________________________\n\n💵 Total Balance: " + str(total) + "$"
+
                 new_offset = first_update_id + 1
