@@ -1,4 +1,6 @@
 import json
+import time
+
 import Coins.CoinsManager as CManager
 import TradeWallets.WalletManager as WManager
 from TradeWallets.BinanceWallet import BinanceWallet
@@ -12,11 +14,13 @@ USERNAME = 'yuvalbadihi'
 USERNAME2 = 'yuvalzohar'
 
 
-def execute_telegram_bot(TELEGRAM_BOT, binance_wallet):
+def execute_telegram_bot(TELEGRAM_BOT, binance_wallet, config):
     if TELEGRAM_BOT:
         join_lst = []
         telegram_bot_token = local_config["TelegramBot"]["telegram_bot_token"]
-        t1 = Thread(target=telegramBot.main_tg_bot, args=(binance_wallet, telegram_bot_token,))
+        delay = config["TradeDetail"]["update_step_size"] * config["TradeDetail"][
+            "minutes"] * 60
+        t1 = Thread(target=telegramBot.main_tg_bot, args=(binance_wallet, telegram_bot_token,delay,))
         t1.start()
         join_lst.append(t1)
 
@@ -51,7 +55,12 @@ if __name__ == '__main__':
     # binance_wallet = BinanceWallet(api_key, api_secret, 0.1, USERNAME, config)
     # WM = WManager.WalletManager([binance_wallet], CM)
 
-    binance_wallet2 = BinanceWallet(api_key, api_secret, 0.1, USERNAME2, config)
-    execute_telegram_bot(True, binance_wallet2)
+    #binance_wallet2 = BinanceWallet(api_key, api_secret, 0.1, USERNAME2, config)
+    #execute_telegram_bot(True, binance_wallet2, config)
     while True:
+<<<<<<< HEAD
         pass
+=======
+        time.sleep(5)
+  #  binance_wallet2.convert("LTC", "DOGE", 0.01)
+>>>>>>> b47225612641344fd873f9dacb4877ad1fd3a5bf

@@ -1,5 +1,6 @@
 import requests
 import time
+from datetime import datetime
 
 
 class BotHandler:
@@ -24,20 +25,21 @@ class BotHandler:
         return resp
 
 
-def main_tg_bot(wallet, token):
+def main_tg_bot(wallet, token, delay):
     badi_bot = BotHandler(token)
+    chat_id = -1001611250626  # current_update['message']['chat']['id']
     new_offset = 0
     print('Telegram Bot Active\n')
+    time.sleep(180)
     while True:
-        all_updates = badi_bot.get_updates(new_offset)
-        if len(all_updates) > 0:
-            for current_update in all_updates:
-                first_update_id = current_update['update_id']
-                if 'text' in current_update['message']:
-                    if '/balance' in current_update['message']['text']:
+        # all_updates = badi_bot.get_updates(new_offset)
+        # if len(all_updates) > 0:
+        #     for current_update in all_updates:
+        #         first_update_id = current_update['update_id']
+        #         if 'text' in current_update['message']:
+        #             if '/balance' in current_update['message']['text'] :
 
                         #prices = wallet.get_all_prices()
-                        chat_id = current_update['message']['chat']['id']
                         info = wallet.relevant_account_info()
                         total = 0
                         lst1 = []
@@ -53,12 +55,21 @@ def main_tg_bot(wallet, token):
                         for i in info['locked']:
                             lst3.append(i)
 
-                        str1 ='Wallet Info:\n\n'
+                        str1 =''
+                        now = datetime.now()
+
+                        print("now =", now)
+
+                        # dd/mm/YY H:M:S
+                        dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+                        str1 +=str(dt_string)
+                        str1 += "\n\n"
                         for i in range(len(lst1)):
                             str1 += "Symbol: "+ str(lst1[i]) + "\n" + f"Amount: {str(lst2[i])}\nValue: {lst4[i]*lst2[i]}$\nLocked: {lst3[i]}\n\n"
                             total += lst4[i]*lst2[i]
                         str1 += f"\nTotal: {total}$"
                         badi_bot.send_message(chat_id,str1)
+                        time.sleep(delay)
 
 
 
@@ -75,4 +86,4 @@ def main_tg_bot(wallet, token):
                         #     total += int(float(priced) * float(info['free'][i]))
                         # str1 += "__________________________\n\n💵 Total Balance: " + str(total) + "$"
 
-                new_offset = first_update_id + 1
+              #  new_offset = first_update_id + 1

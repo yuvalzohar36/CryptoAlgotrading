@@ -79,7 +79,7 @@ class BinanceWallet:
         return optimal_quantity
 
     def currency_price(self, currency):
-        if currency == "USDT":
+        if currency == "USDT" or currency == "BUSD":
             return 1
         df = pd.DataFrame(self.client.get_all_tickers())
         df = df[df['symbol'] == BinanceWallet.get_symbol(currency, "BUSD")]
