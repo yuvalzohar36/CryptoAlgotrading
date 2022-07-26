@@ -19,6 +19,7 @@ class BinanceWallet:
             "trade_wallet_logs_path"]
         logger_full_path = logger_path + logger_name + ".log"
         self.logger = logging.getLogger(name=logger_name)
+        self.logger.propagate = False
         log_formatter = logging.Formatter(config_file["Logger"]["wallet_log_format"])
         log_file_handler = logging.FileHandler(
             logger_full_path, mode=config_file["Logger"]["wallet_log_filemode"]

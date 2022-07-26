@@ -15,7 +15,7 @@
     "FIREBASE_CREDENTIALS": "Firebase/CryptoAlgotradingCredentials.json"
   },
   "Enablers": {
-    "TELEGRAM_BOT": "False",
+    "TELEGRAM_BOT": "True",
     "TRADE_ON": "True"
   },
   "Logger": {
