@@ -25,7 +25,8 @@ class BinanceWallet:
             logger_full_path, mode=config_file["Logger"]["wallet_log_filemode"]
         )
         log_file_handler.setFormatter(log_formatter)
-        self.logger.addHandler(log_file_handler)
+        if not self.logger.handlers:
+            self.logger.addHandler(log_file_handler)
         self.logger.setLevel(config_file["Logger"]["wallet_log_setting_level"])
         self.logger.info("Initialize logger")
 
@@ -167,4 +168,3 @@ class BinanceWallet:
     #                         level=logging.INFO)
     #     # logger = logging.getLogger()
     #     return logger_full_path
-
