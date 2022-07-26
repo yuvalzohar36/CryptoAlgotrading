@@ -61,5 +61,5 @@
     }
   },
   "SAFE_TIME_OFFSET": 5,
-  "ABORT_COIN": "BUSD"
+  "ABORT_COIN": "USDT"
 }

@@ -39,25 +39,25 @@ def main_tg_bot(wallet, token):
                         #prices = wallet.get_all_prices()
                         chat_id = current_update['message']['chat']['id']
                         info = wallet.relevant_account_info()
-                       # total = 0
+                        total = 0
                         lst1 = []
+                        lst4 = []
                         for i in info['asset']:
                             lst1.append(i)
+                            lst4.append(wallet.currency_price(i))
+
                         lst2 = []
                         for i in info['free']:
                             lst2.append(i)
                         lst3 = []
                         for i in info['locked']:
                             lst3.append(i)
-                        str1 ='Symbol   |   Balance    |   Locked\n\n'
-                        for i in range(len(lst1)):
-                            str1 += str(lst1[i])
-                            str1 += "   |   "
-                            str1 += str(lst2[i])
-                            str1 += "   |   "
-                            str1 += str(lst3[i])
-                            str1 +="\n"
 
+                        str1 ='Wallet Info:\n\n'
+                        for i in range(len(lst1)):
+                            str1 += "Symbol: "+ str(lst1[i]) + "\n" + f"Amount: {str(lst2[i])}\nValue: {lst4[i]*lst2[i]}$\nLocked: {lst3[i]}\n\n"
+                            total += lst4[i]*lst2[i]
+                        str1 += f"\nTotal: {total}$"
                         badi_bot.send_message(chat_id,str1)
 
 
