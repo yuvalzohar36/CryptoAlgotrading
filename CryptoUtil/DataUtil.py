@@ -41,30 +41,32 @@ class DataUtil:
                 break
         bars = new_data
 
-
+#list of OHLCV values (Open time, Open, High, Low, Close, Volume, Close time, Quote asset volume, Number of trades, Taker buy base asset volume, Taker buy quote asset volume, Ignore)
         for line in bars:  # Keep only first 5 columns, "date" "open" "high" "low" "close"
-            del line[5:]
-        df = pd.DataFrame(bars, columns=['date', 'open', 'high', 'low', 'close'])  # 2 dimensional tabular data
-        new_df = pd.DataFrame(columns=['date', 'open', 'high', 'low', 'close'])  # 2 dimensional tabular data
+            del line[7:]
+        df = pd.DataFrame(bars, columns=["Open time", "Open", "High", "Low", "Close", "Volume", "Close time"])  # 2 dimensional tabular data
+        new_df = pd.DataFrame(columns=["Open time", "Open", "High", "Low", "Close", "Volume", "Close time"])  # 2 dimensional tabular data
 
-        high, low, close, open, date = 0, float('inf'), 0, 0, 0
-        counter = 0
+        high, low, volume = 0, float('inf'), 0
         for index, row in df.iterrows():
-            date = str(row['date'])
-            if counter == 0:
-                open = float(row['open'])
-            if counter % self.steps == 0 and counter != 0:
-                new_df = new_df.append({'date': date, 'low': low, 'high': high, 'open': open, 'close': close},
-                                       ignore_index=True)
-                high, low, close, open, date = 0, float('inf'), 0, 0, 0
-                open = float(row['open'])
-            close = float(row['close'])
-            if float(row['high']) > high:
-                high = float(row['high'])
-            if float(row['low']) < low:
-                low = float(row['low'])
-            counter += 1
-        print(new_df)
+            if float(row["High"]) > high:
+                high = float(row["High"])
+            if float(row["Low"]) < low:
+                low = float(row["Low"])
+            volume += float(row['Volume'])
+
+            if index % self.steps == 0:
+                open_time = row["Open time"]
+                open = row["Open"]
+
+            if index % self.steps == self.steps-1:
+                close_time = row["Close time"]
+                close = row["Close"]
+                new_df = new_df.append({"Open time" : open_time, "Open" : open, "High" : high, "Low" : low, "Close" : close, "Volume" : volume, "Close time" : close_time},
+                                                                   ignore_index=True)
+                high, low, volume = 0, float('inf'), 0
+
+
 
 
     def set_date(self, date):
