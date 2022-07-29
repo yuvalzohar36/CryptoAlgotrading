@@ -41,12 +41,20 @@ class DataUtil:
                 break
         bars = new_data
 
-#list of OHLCV values (Open time, Open, High, Low, Close, Volume, Close time, Quote asset volume, Number of trades, Taker buy base asset volume, Taker buy quote asset volume, Ignore)
+        if self.mode == "LIVE": # ??????
+            bars = data
+
+        # list of OHLCV values (Open time, Open, High, Low, Close, Volume, Close time, Quote asset volume, Number of trades, Taker buy base asset volume, Taker buy quote asset volume, Ignore)
         for line in bars:  # Keep only first 5 columns, "date" "open" "high" "low" "close"
             del line[7:]
-        df = pd.DataFrame(bars, columns=["Open time", "Open", "High", "Low", "Close", "Volume", "Close time"])  # 2 dimensional tabular data
-        new_df = pd.DataFrame(columns=["Open time", "Open", "High", "Low", "Close", "Volume", "Close time"])  # 2 dimensional tabular data
 
+        bars.reverse()
+        df = pd.DataFrame(bars, columns=["Open time", "Open", "High", "Low", "Close", "Volume",
+                                         "Close time"])  # 2 dimensional tabular data
+        new_df = pd.DataFrame(
+            columns=["Open time", "Open", "High", "Low", "Close", "Volume", "Close time"])  # 2 dimensional tabular data
+
+        count = 0
         high, low, volume = 0, float('inf'), 0
         for index, row in df.iterrows():
             if float(row["High"]) > high:
@@ -55,22 +63,38 @@ class DataUtil:
                 low = float(row["Low"])
             volume += float(row['Volume'])
 
-            if index % self.steps == 0:
+            if index % self.steps == 0 and count != 0:
                 open_time = row["Open time"]
                 open = row["Open"]
 
-            if index % self.steps == self.steps-1:
-                close_time = row["Close time"]
-                close = row["Close"]
-                new_df = new_df.append({"Open time" : open_time, "Open" : open, "High" : high, "Low" : low, "Close" : close, "Volume" : volume, "Close time" : close_time},
-                                                                   ignore_index=True)
+                new_df = new_df.append(
+                    {"Open time": open_time, "Open": open, "High": high, "Low": low, "Close": close, "Volume": volume,
+                     "Close time": close_time},
+                    ignore_index=True)
+
+                close_time = row["Open time"]
+                close = row["Open"]
                 high, low, volume = 0, float('inf'), 0
 
-
-
+            elif index % self.steps == 0 and count == 0:
+                for index, row in df.iterrows():
+                    close_time = row["Open time"]
+                    close = row["Open"]
+                    break
+                high, low, volume = 0, float('inf'), 0
+            count += 1
+        return new_df.iloc[0:candles_count]
 
     def set_date(self, date):
         self.to_date = date
+
+    def timestamp(self):
+        return self.datetime().timestamp()
+
+    def datetime(self):
+        return self.to_date
+
+
 
 
 if __name__ == '__main__':
@@ -78,6 +102,8 @@ if __name__ == '__main__':
         local_config = json.load(local_config_file)
     with open(CONFIGURATION_FILE) as config_file:
         config = json.load(config_file)
-    s = DataUtil(config, local_config, "TEST")
+    s = DataUtil(config, local_config, "LIVE") #TEST / LIVE
     s.set_date(datetime(2022, 7, 25, 17, 15))
-    s.request_historical_data('BTC', 25)
+    x = s.request_historical_data('BTC', 25)
+    for i in x.iterrows():
+        print(i)
