@@ -71,29 +71,26 @@ class BinanceWallet:
             return 0
 
     def direct_convert(self, first_coin, second_coin, percent, side, type_market):
-        self.convert_sem.acquire()
         quantity = self.get_quan_to_trade(first_coin, second_coin, percent, side)
         symbol = BinanceWallet.get_symbol(first_coin, second_coin)
         self.logger.info(f"Quantity : {quantity} for Symbol : {symbol}")
         min_qty, step_size = self.min_qty_step_size(first_coin)
         if min_qty is None or step_size is None:
-            self.convert_sem.release()
             return 0
         optimal_quantity = round((quantity // min_qty) * step_size, 8)
         if self.is_valid_lot_size(optimal_quantity, min_qty):
             self.client.create_order(symbol=symbol, side=side, type=type_market, quantity=optimal_quantity)
 
-        flag = True
-        while flag:
-            flag = False
-            info = self.relevant_account_info()
-            for i in info['locked']:
-                print(float(i))
-                if float(i) != 0 and float(i) != 0.0:
-                    flag = True
-                    time.sleep(5)
+        # flag = True
+        # while flag:
+        #     flag = False
+        #     info = self.relevant_account_info()
+        #     for i in info['locked']:
+        #         print(float(i))
+        #         if float(i) != 0 and float(i) != 0.0:
+        #             flag = True
+        #             time.sleep(5)
 
-        self.convert_sem.release()
         return optimal_quantity
 
     def currency_price(self, currency):

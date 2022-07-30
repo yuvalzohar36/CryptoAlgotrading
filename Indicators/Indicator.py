@@ -3,7 +3,6 @@ from abc import ABC, abstractmethod
 from threading import Thread
 from Indicators import IndicatorResult as IR
 import pandas as pd
-import time
 
 LOCAL_CONFIGURATION_FILE = "../Configurations/local_configuration.json"
 CONFIGURATION_FILE = "../Configurations/configuration.json"
@@ -19,6 +18,8 @@ class Indicator(ABC):
         self.coin_manager = coin_manager
         self.assessment_df = assessment_df
         self.semaphore = semaphore
+        self.result = None
+        self.args = None
 
 
     def execute(self, args):
@@ -34,8 +35,6 @@ class Indicator(ABC):
         self.logger.info(
             f"Percent result is: {self.result.result}")
         return self.result
-
-
 
     @abstractmethod
     def run(self, args):
@@ -55,7 +54,7 @@ class Indicator(ABC):
 
     def add_row(self, coin, indicator_name):
         new_line = {'Coin': coin, 'Indicator': indicator_name, 'Result': "HOLD", 'Credit': 1,
-                    'PrevPrice': self.data_util.currency_price(coin), "UpdateTime": time.time()}
+                    'PrevPrice': self.data_util.currency_price(coin), "UpdateTime": self.data_util.get_timestamp()}
         self.assessment_df = self.assessment_df.append(new_line, ignore_index=True)
         return self.find_row(coin, indicator_name)
 
@@ -64,7 +63,7 @@ class Indicator(ABC):
         if res == -1:
             res = self.add_row(coin, indicator_name)
         self.assessment_df.loc[[res], [title]] = val
-        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"]
+        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"][self.data_util.get_path_for_assessments()]
         self.assessment_df.to_csv(full_path, index=False)
 
     def write_val_to_DB(self, indicator_name, val, title):
@@ -74,7 +73,7 @@ class Indicator(ABC):
             else:
                  val = 'HOLD'
         self.lock()
-        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"]
+        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"][self.data_util.get_path_for_assessments()]
         self.assessment_df = pd.read_csv(full_path)
         coin = self.args[0].symbol
         self.change_row_val(coin, indicator_name, val, title)
@@ -82,7 +81,7 @@ class Indicator(ABC):
 
     def get_indi_val(self, coin, indicator_name, title):
         self.lock()
-        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"]
+        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"][self.data_util.get_path_for_assessments()]
         self.assessment_df = pd.read_csv(full_path)
         row = self.find_row(coin, indicator_name)
         if row == -1:

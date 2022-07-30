@@ -18,6 +18,8 @@ class MAIndicator(Indicator):
 
     def cal(self, sum):
         ma = sum / self.candles_measure
+        print(ma)
+
         curr_price = super().get_data_util().currency_price(self.coin.symbol)
         if ma > self.diff * curr_price:
             self.result.set_result('BUY')
@@ -27,7 +29,9 @@ class MAIndicator(Indicator):
             self.result.set_result('HOLD')
 
     def prepare_data(self):
+        print("start")
         klines = super().get_data_util().request_historical_data(self.coin.symbol, self.candles_measure)
+        print("end")
         lst =[]
         for val in klines['Close']:
             lst.append(float(val))

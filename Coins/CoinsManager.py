@@ -1,4 +1,3 @@
-import time
 import threading
 import logging
 from os.path import exists
@@ -22,7 +21,7 @@ class CoinsManager:
         self.coins, self.coins_indicators = self.init_coins()
         self.current_indicators_threads = {}
         self.assessment_df = self.init_weights_assessments(
-            self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"],
+            self.config["Paths"]["abs_path"] + self.config["Paths"][self.data_util.get_path_for_assessments()],
             ["Coin", "Indicator", "Result", "Credit", "PrevPrice", "UpdateTime"])
         self.indicators_loggers = self.init_all_loggers()
         self.semaphore = threading.Semaphore()
@@ -39,12 +38,15 @@ class CoinsManager:
         for coin in self.config["Coins"]:
             if self.config["Coins"][coin]["Mode"] == "ON":
                 for indicator in self.coins_indicators[coin]:
-                    delta_time = self.pickup_duration - float(
-                        self.config["Indicators"][type(indicator).__name__]["DURATION"])
-                    indicators_timestamp = dt.datetime.now().timestamp() + delta_time - int(
-                        self.config["SAFE_TIME_OFFSET"])
-                    dt_obj = dt.datetime.fromtimestamp(indicators_timestamp)
-                    self.add_scheduler_job(self.indicator_activate, [indicator, self.coins[coin]], dt_obj)
+                    if self.data_util.mode == "TEST":
+                        self.indicator_activate(indicator, self.coins[coin])
+                    else:
+                        delta_time = self.pickup_duration - float(
+                            self.config["Indicators"][type(indicator).__name__]["DURATION"])
+                        indicators_timestamp = dt.datetime.now().timestamp() + delta_time - int(
+                            self.config["SAFE_TIME_OFFSET"])
+                        dt_obj = dt.datetime.fromtimestamp(indicators_timestamp)
+                        self.add_scheduler_job(self.indicator_activate, [indicator, self.coins[coin]], dt_obj)
         self.scheduler.start()
 
     def add_scheduler_job(self, func, args, start_time):
@@ -106,7 +108,7 @@ class CoinsManager:
             #  indi.get_results().sem_credit_updated.release()
             indi.write_val_to_DB(type(indi).__name__, new_indi_credit, 'Credit')
             indi.write_val_to_DB(type(indi).__name__, self.data_util.currency_price(symbol), 'PrevPrice')
-            indi.write_val_to_DB(type(indi).__name__, time.time(), 'UpdateTime')
+            indi.write_val_to_DB(type(indi).__name__, self.data_util.get_timestamp(), 'UpdateTime')
             indi.write_val_to_DB(type(indi).__name__, None, 'Result')  # writes to database
         return results
 
@@ -140,7 +142,7 @@ class CoinsManager:
                 hold_count += 1
 
         return ResultForWM([self.coins.get(symbol), buy_credit, sell_credit,
-                            hold_credit, buy_count, sell_count, hold_count, dt.datetime.now()])
+                            hold_credit, buy_count, sell_count, hold_count, self.data_util.get_timestamp()])
 
     @staticmethod
     def init_logger(logger_name, config_file):
@@ -176,7 +178,6 @@ class CoinsManager:
     def credit_distributor(self, indi, symbol, indi_credit, indi_result):
         curr_price = self.data_util.currency_price(symbol)
         prev_price = self.get_indi_val(indi, symbol, 'PrevPrice')
-
         # if not self.check_if_result_valid(indi, symbol):
         #     return indi_credit
 
@@ -203,10 +204,10 @@ class CoinsManager:
         update_time = self.get_indi_val(indi, symbol, 'UpdateTime')
         miss = 1.25
         if update_time + (self.config["TradeDetail"]["update_step_size"] * self.config["TradeDetail"][
-            "minutes"] * 60) * miss < time.time():
+            "minutes"] * 60) * miss < self.data_util.get_timestamp():
             return False
 
-        elif time.time() < update_time + (
+        elif self.data_util.get_timestamp() < update_time + (
                 self.config["TradeDetail"]["update_step_size"] * self.config["TradeDetail"]["minutes"] * 60) * (
                 2 - miss):
             return False

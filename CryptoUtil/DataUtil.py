@@ -1,6 +1,7 @@
 import random
 from datetime import datetime, timedelta
 import pandas as pd
+import time
 from TradeWallets.BinanceWallet import BinanceWallet
 
 USERNAME = 'yuvalbadihi'
@@ -104,4 +105,19 @@ class DataUtil:
         else:
             price = self.request_historical_data(symbol, 1)
             return float(price["Close"][0])
+
+    def get_timestamp(self):
+        if self.mode == "LIVE":
+            return time.time()
+        return self.to_date.timestamp()
+
+    def get_datetime(self):
+        if self.mode == "LIVE":
+            return datetime.now()
+        return self.to_date
+
+    def get_path_for_assessments(self):
+        if self.mode == "LIVE":
+            return "ASSESSMENT_DB_PATH"
+        return "ASSESSMENT_DB_PATH_TEST"
 

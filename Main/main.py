@@ -21,7 +21,7 @@ def execute_telegram_bot(TELEGRAM_BOT, binance_wallet, config):
         telegram_bot_token = local_config["TelegramBot"]["telegram_bot_token"]
         delay = config["TradeDetail"]["update_step_size"] * config["TradeDetail"][
             "minutes"] * 60
-        t1 = Thread(target=telegramBot.main_tg_bot, args=(binance_wallet, telegram_bot_token,delay,))
+        t1 = Thread(target=telegramBot.main_tg_bot, args=(binance_wallet, telegram_bot_token, delay,))
         t1.start()
         join_lst.append(t1)
 
@@ -41,11 +41,11 @@ if __name__ == '__main__':
     api_key = local_config["Binance"][USERNAME]["Details"]["api_key"]
     api_secret = local_config["Binance"][USERNAME]["Details"]["api_secret"]
     binance_wallet = BinanceWallet(api_key, api_secret, 0.1, USERNAME, config)
-    execute_telegram_bot(TELEGRAM_BOT, binance_wallet,config)
+    execute_telegram_bot(TELEGRAM_BOT, binance_wallet, config)
 
-    DU = DataUtil(config, local_config, "LIVE") #TEST / LIVE
+    DU = DataUtil(config, local_config, "TEST")  # TEST / LIVE
     CM = CManager.CoinsManager(DU)
-    WM = WManager.WalletManager([binance_wallet], CM)
+    WM = WManager.WalletManager([binance_wallet], CM, DU)
 
     # binance_wallet2 = BinanceWallet(api_key, api_secret, 0.1, USERNAME2, config)
     # binance_wallet.convert("BTC", "ETH", 0.5)
@@ -57,7 +57,7 @@ if __name__ == '__main__':
     # binance_wallet = BinanceWallet(api_key, api_secret, 0.1, USERNAME, config)
     # WM = WManager.WalletManager([binance_wallet], CM)
 
-    #binance_wallet2 = BinanceWallet(api_key, api_secret, 0.1, USERNAME2, config)
-    #execute_telegram_bot(True, binance_wallet2, config)
+    # binance_wallet2 = BinanceWallet(api_key, api_secret, 0.1, USERNAME2, config)
+    # execute_telegram_bot(True, binance_wallet2, config)
     while True:
         time.sleep(10)
