@@ -1151,3 +1151,44 @@
 [2022-07-22 10:49:41,533] [MACDIndicator] [execute] [INFO]: Execute for Symbol BTC
 [2022-07-22 10:49:41,533] [MACDIndicator] [execute] [INFO]: Execute for Symbol BURGER
 [2022-07-22 10:49:41,533] [MACDIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-29 22:47:07,475] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:49:47,569] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:50:18,131] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:53:24,108] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:57:08,777] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:58:59,504] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:59:38,834] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:00:30,114] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:01:10,383] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:02:15,085] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:04:05,655] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:16:33,152] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:19:55,352] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:32:35,933] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:34:29,107] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:35:24,780] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:36:18,090] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:37:05,942] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:39:42,228] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:50:03,143] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:55:52,866] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:57:17,289] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:00:16,821] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:10:42,269] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:11:30,636] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:14:37,761] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:23:29,484] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:19:05,484] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:23:31,353] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:46:28,488] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:49:26,063] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:53:16,243] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:53:28,524] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:57:09,674] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:59:23,804] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:15:21,925] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:18:07,606] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:24:05,176] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:26:29,376] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:30:48,086] [MACDIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:36:29,306] [MACDIndicator] [init_logger] [INFO]: Initialize logger

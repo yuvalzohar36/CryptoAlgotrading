@@ -13,7 +13,7 @@ class CryptoCoin:
         self.stability = 0
         self.security = 0
         self.scalability = 0
-        self.supply = self.get_supply()
+        self.supply = 8 #self.get_supply()
         self.decentralisation = 0
         self.demand = 0
         self.usefulness = 0

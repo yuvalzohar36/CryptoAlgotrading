@@ -1,10 +1,10 @@
 {
   "TradeDetail": {
     "update_step_size": 1,
-    "minutes": 15
+    "minutes": 1
   },
   "Paths": {
-    "abs_path": "C:\\Users\\yuval\\OneDrive\\Desktop\\Coding\\CryptoAlgotrading\\",
+    "abs_path": "C:\\CryptoAlgotrading\\",
     "logger_folder": "Logs\\",
     "trade_wallet_logs_path": "TradeWalletsLogs\\",
     "indicators_logs_path": "IndicatorsLogs\\",
@@ -15,7 +15,7 @@
     "FIREBASE_CREDENTIALS": "Firebase/CryptoAlgotradingCredentials.json"
   },
   "Enablers": {
-    "TELEGRAM_BOT": "True",
+    "TELEGRAM_BOT": "False",
     "TRADE_ON": "True"
   },
   "Logger": {
@@ -40,19 +40,19 @@
   "Indicators": {
     "MAIndicator": {
       "MODULE_PATH": "MAIndicator",
-      "DURATION": 60
+      "DURATION": 60,
+      "MODE" : "ON"
     },
-    "RANDMAIndicator": {
-      "MODULE_PATH": "RANDMAIndicator",
-      "DURATION": 60
-    },
+
     "MACDIndicator": {
       "MODULE_PATH": "MACDIndicator",
-      "DURATION": 60
+      "DURATION": 60,
+      "MODE" : "OFF"
     },
     "BBIndicator": {
       "MODULE_PATH": "BBIndicator",
-      "DURATION": 60
+      "DURATION": 60,
+      "MODE" : "OFF"
     }
   },
   "IndicatorsData": {

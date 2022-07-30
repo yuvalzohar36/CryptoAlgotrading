@@ -1,15 +1,12 @@
-import json
+import random
 from datetime import datetime, timedelta
 import pandas as pd
-from Indicators.Indicator import Indicator as IndicatorUtil
+from TradeWallets.BinanceWallet import BinanceWallet
 
 USERNAME = 'yuvalbadihi'
 LOCAL_CONFIGURATION_FILE = "../Configurations/local_configuration.json"
 CONFIGURATION_FILE = "../Configurations/configuration.json"
 
-
-# klines = client.get_historical_klines("ETHBTC", Client.KLINE_INTERVAL_30MINUTE, "1 Dec, 2017", "1 Jan, 2018")
-# klines = client.get_historical_klines("BNBBTC", Client.KLINE_INTERVAL_1MINUTE, "1 day ago UTC")
 
 class DataUtil:
     def __init__(self, config, local_config, mode):
@@ -18,30 +15,30 @@ class DataUtil:
         self.mode = mode  # TEST, LIVE
         self.mins = self.config["TradeDetail"]["minutes"]  # append 'm'
         self.steps = self.config["TradeDetail"]["update_step_size"]
-        self.client = IndicatorUtil.connect(self.local_config["Binance"][USERNAME]["Details"]["api_key"],
-                                            self.local_config["Binance"][USERNAME]["Details"]["api_secret"])
-        self.to_date = None
+        self.to_date = self.get_rand_date()
+        self.moduls = self.load_moduls()
 
     def request_historical_data(self, symbol, candles_count):
         convert_symbol = symbol + "USDT"
-        temp_date = self.to_date + timedelta(days=1)
+        client = self.moduls.get("Binance").client
         start_time = f"{self.steps * self.mins * candles_count + 60} minutes ago UTC"
         if self.mode == "LIVE":
-            data = self.client.get_historical_klines(convert_symbol, str(self.mins) + 'm', start_time)
+            data = client.get_historical_klines(convert_symbol, str(self.mins) + 'm', start_time)
         else:
+            temp_date = self.to_date + timedelta(days=1)
             from_date = self.to_date - timedelta(minutes=self.steps * self.mins * candles_count) - timedelta(days=2)
-            data = self.client.get_historical_klines(convert_symbol, str(self.mins) + 'm',
-                                                     from_date.strftime("%d %b, %Y"),
-                                                     temp_date.strftime("%d %b, %Y"))
+            data = client.get_historical_klines(convert_symbol, str(self.mins) + 'm',
+                                                from_date.strftime("%d %b, %Y"),
+                                                temp_date.strftime("%d %b, %Y"))
 
-        new_data = []
-        for i in data:
-            new_data.append(i)
-            if str(int(datetime.timestamp(self.to_date))) in str(i[0]):
-                break
-        bars = new_data
+            new_data = []
+            for i in data:
+                new_data.append(i)
+                if str(int(datetime.timestamp(self.to_date))) in str(i[0]):
+                    break
+            bars = new_data
 
-        if self.mode == "LIVE": # ??????
+        if self.mode == "LIVE":
             bars = data
 
         # list of OHLCV values (Open time, Open, High, Low, Close, Volume, Close time, Quote asset volume, Number of trades, Taker buy base asset volume, Taker buy quote asset volume, Ignore)
@@ -88,22 +85,23 @@ class DataUtil:
     def set_date(self, date):
         self.to_date = date
 
-    def timestamp(self):
-        return self.datetime().timestamp()
+    @staticmethod
+    def get_rand_date():
+        vals = [0,15,30,45]
+        return datetime(random.randint(2020, 2021), random.randint(1, 12),
+                        random.randint(1, 28), random.randint(0, 23), vals[random.randint(0,3)])
 
-    def datetime(self):
-        return self.to_date
+    def load_moduls(self):
+        api_key = self.local_config["Binance"][USERNAME]["Details"]["api_key"]
+        api_secret = self.local_config["Binance"][USERNAME]["Details"]["api_secret"]
+        binance = BinanceWallet(api_key, api_secret, 0.1, USERNAME, self.config)
+        dict = {"Binance": binance}
+        return dict
 
+    def currency_price(self, symbol):
+        if self.mode == "LIVE":
+            return self.moduls.get("Binance").currency_price(symbol)
+        else:
+            price = self.request_historical_data(symbol, 1)
+            return float(price["Close"][0])
 
-
-
-if __name__ == '__main__':
-    with open(LOCAL_CONFIGURATION_FILE) as local_config_file:
-        local_config = json.load(local_config_file)
-    with open(CONFIGURATION_FILE) as config_file:
-        config = json.load(config_file)
-    s = DataUtil(config, local_config, "LIVE") #TEST / LIVE
-    s.set_date(datetime(2022, 7, 25, 17, 15))
-    x = s.request_historical_data('BTC', 25)
-    for i in x.iterrows():
-        print(i)

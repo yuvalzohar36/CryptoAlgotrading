@@ -108,3 +108,392 @@
 [2022-07-22 10:49:38,877] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
 [2022-07-22 10:49:46,955] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
 [2022-07-22 10:49:46,955] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:45:02,920] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:45:51,592] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:47:01,862] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:49:40,072] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:50:12,413] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:53:15,029] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:56:59,417] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:58:52,058] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 22:59:31,417] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:00:20,121] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:01:04,368] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:02:07,101] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:03:57,766] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:16:26,450] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:19:44,055] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:32:28,295] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:32:29,108] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:34:21,280] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:34:22,061] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:35:18,595] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:35:19,392] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:36:08,082] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:36:10,202] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:36:58,383] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:36:59,258] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:39:36,300] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:39:37,206] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:41:47,090] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:44:06,208] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:46:25,291] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:48:02,586] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:48:02,992] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:49:06,667] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:49:07,931] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:49:49,070] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:49:49,492] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:51:17,360] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x00000221F7F7EDF0> to BTC with Percent : USDT
+[2022-07-29 23:51:18,610] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:51:18,985] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:51:19,297] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:51:20,047] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x00000221F7F7EDF0> to BURGER with Percent : USDT
+[2022-07-29 23:51:20,391] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:51:20,719] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:51:21,031] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:51:22,954] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x00000221F7F7EDF0> to LTC with Percent : USDT
+[2022-07-29 23:51:23,485] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:51:24,094] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:51:24,704] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:52:34,411] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x00000221F7F7EDF0> to BTC with Percent : USDT
+[2022-07-29 23:52:34,771] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:52:35,099] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:52:36,255] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:52:37,068] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x00000221F7F7EDF0> to BURGER with Percent : USDT
+[2022-07-29 23:52:37,380] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:52:37,708] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:52:38,083] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:52:41,442] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x00000221F7F7EDF0> to LTC with Percent : USDT
+[2022-07-29 23:52:41,770] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:52:42,083] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:52:42,411] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-29 23:55:43,868] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:55:44,899] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:57:09,260] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-29 23:57:09,666] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:00:07,162] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:00:08,958] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:10:33,505] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:10:33,958] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:11:22,894] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:11:23,371] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:14:27,934] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:14:28,356] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:23:17,009] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:23:18,424] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:24:43,620] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x0000024445DFD4C0> to BTC with Percent : USDT
+[2022-07-30 00:24:43,949] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:24:44,293] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:24:44,715] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:24:48,543] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x0000024445DFD4C0> to BURGER with Percent : USDT
+[2022-07-30 00:24:48,872] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:24:49,203] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:24:49,533] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:24:50,475] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x0000024445DFD4C0> to LTC with Percent : USDT
+[2022-07-30 00:24:50,813] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:24:52,017] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:24:52,423] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:26:04,990] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x0000024445DFD4C0> to BTC with Percent : USDT
+[2022-07-30 00:26:05,318] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:26:05,658] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:26:06,832] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:26:09,827] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x0000024445DFD4C0> to BURGER with Percent : USDT
+[2022-07-30 00:26:10,160] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:26:10,526] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:26:10,839] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:26:11,720] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x0000024445DFD4C0> to LTC with Percent : USDT
+[2022-07-30 00:26:12,033] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:26:13,195] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:26:13,523] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:28:21,015] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:28:21,015] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BTC with Percent : 0.5
+[2022-07-30 00:28:21,327] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:28:21,640] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:28:22,030] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:30:10,725] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 00:30:10,725] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BTC with Percent : 0.5
+[2022-07-30 00:30:11,053] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:30:11,412] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 00:30:11,741] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 02:07:21,760] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:07:21,760] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BTC with Percent : 0.5
+[2022-07-30 02:07:22,073] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 02:07:22,401] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 02:07:23,135] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-07-30 02:17:06,760] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:17:06,760] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BTC with Percent : 0.5
+[2022-07-30 02:17:08,510] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00844487 for Symbol : BTCLTC
+[2022-07-30 02:17:09,369] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 02:17:11,073] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 3.273943 for Symbol : LTCBTC
+[2022-07-30 02:17:13,213] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to BTC
+[2022-07-30 02:17:38,395] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:17:38,395] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to ETH with Percent : 0.5
+[2022-07-30 02:17:39,957] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.08151412 for Symbol : ETHBTC
+[2022-07-30 02:17:40,910] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to ETH
+[2022-07-30 02:18:57,613] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:18:58,084] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:20:14,219] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x0000012D537DEBB0> to BTC with Percent : USDT
+[2022-07-30 02:20:14,914] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 02:20:15,254] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 02:20:15,584] [yuvalbadihi] [convert] [ERROR]: Failed to convert, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 02:20:16,644] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to BURGER with Percent : 0.5
+[2022-07-30 02:20:19,047] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 41.73273316 for Symbol : BURGERBTC
+[2022-07-30 02:20:20,624] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 02:20:21,274] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00297806 for Symbol : BTCBURGER
+[2022-07-30 02:20:23,363] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 02:20:24,863] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00297806 for Symbol : BTCBUSD
+[2022-07-30 02:20:28,733] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 41.61561581 for Symbol : BURGERBUSD
+[2022-07-30 02:20:30,813] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to BURGER
+[2022-07-30 02:20:30,813] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BURGER with Percent : 0.5
+[2022-07-30 02:20:32,124] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 59.04342573 for Symbol : BURGERLTC
+[2022-07-30 02:20:32,864] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 02:20:34,343] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.637443 for Symbol : LTCBURGER
+[2022-07-30 02:20:35,093] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 02:20:35,774] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.637443 for Symbol : LTCBUSD
+[2022-07-30 02:20:37,708] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 59.0135935 for Symbol : BURGERBUSD
+[2022-07-30 02:20:38,433] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-2010): Account has insufficient balance for requested action.
+[2022-07-30 02:20:38,433] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to BURGER with Percent : 0.5
+[2022-07-30 02:20:40,013] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 42.95843509 for Symbol : BURGERETH
+[2022-07-30 02:20:40,713] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to BURGER
+[2022-07-30 02:20:40,713] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to BURGER with Percent : 0.5
+[2022-07-30 02:20:42,423] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 8.296e-05 for Symbol : BURGERBNB
+[2022-07-30 02:20:42,854] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to BURGER
+[2022-07-30 02:20:42,854] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to BURGER with Percent : 0.5
+[2022-07-30 02:20:43,813] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 29.50679675 for Symbol : BURGERBUSD
+[2022-07-30 02:20:44,577] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to BURGER
+[2022-07-30 02:20:44,577] [yuvalbadihi] [convert] [WARNING]: Trying to convert from BURGER to BURGER
+[2022-07-30 02:20:44,577] [yuvalbadihi] [convert] [INFO]: Start to convert from SHIB to BURGER with Percent : 0.5
+[2022-07-30 02:20:45,933] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 30.50226871 for Symbol : BURGERSHIB
+[2022-07-30 02:20:46,633] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 02:20:47,264] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 4388539.5 for Symbol : SHIBBURGER
+[2022-07-30 02:20:48,333] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 02:20:48,983] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 4388539.5 for Symbol : SHIBBUSD
+[2022-07-30 02:20:50,728] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 59.98535647 for Symbol : BURGERBUSD
+[2022-07-30 02:20:51,774] [yuvalbadihi] [convert] [INFO]: Successfully converted from SHIB to BURGER
+[2022-07-30 02:20:51,774] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to BURGER with Percent : 0.5
+[2022-07-30 02:20:53,113] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2.1e-07 for Symbol : BURGERLUNC
+[2022-07-30 02:20:53,515] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to BURGER
+[2022-07-30 02:20:54,523] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to LTC with Percent : 0.5
+[2022-07-30 02:20:55,858] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.58129305 for Symbol : LTCBTC
+[2022-07-30 02:20:57,634] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to LTC
+[2022-07-30 02:20:57,634] [yuvalbadihi] [convert] [WARNING]: Trying to convert from LTC to LTC
+[2022-07-30 02:20:57,634] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to LTC with Percent : 0.5
+[2022-07-30 02:21:00,874] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.59468543 for Symbol : LTCETH
+[2022-07-30 02:21:03,913] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to LTC
+[2022-07-30 02:21:03,913] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to LTC with Percent : 0.5
+[2022-07-30 02:23:23,273] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:23:24,197] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:24:36,933] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x000002A42DA8C0D0> to BTC with Percent : USDT
+[2022-07-30 02:24:37,608] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 02:24:37,924] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 02:24:38,268] [yuvalbadihi] [convert] [ERROR]: Failed to convert, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 02:24:40,395] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to BURGER with Percent : 0.5
+[2022-07-30 02:24:45,783] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 10.49511489 for Symbol : BURGERBTC
+[2022-07-30 02:24:47,608] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 02:24:48,303] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00074677 for Symbol : BTCBURGER
+[2022-07-30 02:24:50,383] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 02:24:52,673] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00074677 for Symbol : BTCBUSD
+[2022-07-30 02:24:56,823] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 10.48315904 for Symbol : BURGERBUSD
+[2022-07-30 02:24:57,873] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to BURGER
+[2022-07-30 02:24:57,873] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BURGER with Percent : 0.5
+[2022-07-30 02:25:02,468] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 50.75154721 for Symbol : BURGERLTC
+[2022-07-30 02:25:03,473] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 02:25:04,113] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.4058555 for Symbol : LTCBURGER
+[2022-07-30 02:25:05,945] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 02:25:06,614] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.4058555 for Symbol : LTCBUSD
+[2022-07-30 02:25:10,843] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 50.64492678 for Symbol : BURGERBUSD
+[2022-07-30 02:25:11,843] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to BURGER
+[2022-07-30 02:25:11,843] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to BURGER with Percent : 0.5
+[2022-07-30 02:25:13,263] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 10.69425058 for Symbol : BURGERETH
+[2022-07-30 02:25:13,987] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to BURGER
+[2022-07-30 02:25:13,987] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to BURGER with Percent : 0.5
+[2022-07-30 02:25:15,308] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 8.279e-05 for Symbol : BURGERBNB
+[2022-07-30 02:25:16,228] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to BURGER
+[2022-07-30 02:25:16,228] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to BURGER with Percent : 0.5
+[2022-07-30 02:25:17,503] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00773246 for Symbol : BURGERBUSD
+[2022-07-30 02:25:18,170] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to BURGER
+[2022-07-30 02:25:18,170] [yuvalbadihi] [convert] [WARNING]: Trying to convert from BURGER to BURGER
+[2022-07-30 02:25:18,170] [yuvalbadihi] [convert] [INFO]: Start to convert from SHIB to BURGER with Percent : 0.5
+[2022-07-30 02:25:19,573] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 15.22841251 for Symbol : BURGERSHIB
+[2022-07-30 02:25:20,323] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 02:25:21,003] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2194270.0 for Symbol : SHIBBURGER
+[2022-07-30 02:25:21,777] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 02:25:22,413] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2194270.0 for Symbol : SHIBBUSD
+[2022-07-30 02:25:25,503] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 15.21589697 for Symbol : BURGERBUSD
+[2022-07-30 02:25:26,203] [yuvalbadihi] [convert] [INFO]: Successfully converted from SHIB to BURGER
+[2022-07-30 02:25:26,203] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to BURGER with Percent : 0.5
+[2022-07-30 02:25:27,563] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2.1e-07 for Symbol : BURGERLUNC
+[2022-07-30 02:25:28,303] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to BURGER
+[2022-07-30 02:27:41,473] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:27:42,711] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:30:44,888] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:30:45,372] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:32:09,083] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:32:09,863] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:33:06,353] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:33:06,768] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:33:59,762] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:34:00,153] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:38:59,273] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:38:59,715] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:39:58,783] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:39:59,203] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:43:14,233] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:43:14,593] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:46:21,663] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:46:22,103] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:49:18,744] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:49:19,234] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:53:09,114] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:53:09,484] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:53:23,274] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:53:23,694] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:57:08,924] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:57:09,514] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:59:19,614] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 02:59:20,008] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:00:28,969] [yuvalbadihi] [convert] [WARNING]: Trying to convert from BTC to BTC
+[2022-07-30 03:00:28,969] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BTC with Percent : 1
+[2022-07-30 03:00:30,179] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00358937 for Symbol : BTCLTC
+[2022-07-30 03:00:32,214] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 03:00:33,554] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.406711 for Symbol : LTCBTC
+[2022-07-30 03:00:36,318] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to BTC
+[2022-07-30 03:00:36,318] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to BTC with Percent : 1
+[2022-07-30 03:00:40,344] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00076397 for Symbol : BTCETH
+[2022-07-30 03:00:41,054] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 03:00:43,154] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.01053732 for Symbol : ETHBTC
+[2022-07-30 03:00:45,054] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to BTC
+[2022-07-30 03:00:45,054] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to BTC with Percent : 1
+[2022-07-30 03:00:47,279] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1e-08 for Symbol : BTCBNB
+[2022-07-30 03:00:48,184] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to BTC
+[2022-07-30 03:00:48,184] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to BTC with Percent : 1
+[2022-07-30 03:00:49,844] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00382555 for Symbol : BTCBUSD
+[2022-07-30 03:00:50,744] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to BTC
+[2022-07-30 03:00:50,744] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BTC with Percent : 1
+[2022-07-30 03:00:52,234] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00467964 for Symbol : BTCBURGER
+[2022-07-30 03:00:52,874] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 03:00:53,515] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 65.1377 for Symbol : BURGERBTC
+[2022-07-30 03:00:54,235] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 03:00:54,834] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 65.1377 for Symbol : BURGERBUSD
+[2022-07-30 03:00:58,534] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00467298 for Symbol : BTCBUSD
+[2022-07-30 03:01:00,534] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BTC
+[2022-07-30 03:01:00,534] [yuvalbadihi] [convert] [INFO]: Start to convert from SHIB to BTC with Percent : 1
+[2022-07-30 03:01:03,738] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00108447 for Symbol : BTCSHIB
+[2022-07-30 03:01:05,659] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 03:01:06,246] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2194270.0 for Symbol : SHIBBTC
+[2022-07-30 03:01:07,432] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 03:01:08,040] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2194270.0 for Symbol : SHIBBUSD
+[2022-07-30 03:01:10,108] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00108516 for Symbol : BTCBUSD
+[2022-07-30 03:01:10,769] [yuvalbadihi] [convert] [INFO]: Successfully converted from SHIB to BTC
+[2022-07-30 03:01:10,769] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to BTC with Percent : 1
+[2022-07-30 03:01:11,979] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0 for Symbol : BTCLUNC
+[2022-07-30 03:01:12,579] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to BTC
+[2022-07-30 03:01:13,560] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to BURGER with Percent : 1
+[2022-07-30 03:01:14,743] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 346.80600034 for Symbol : BURGERBTC
+[2022-07-30 03:01:15,437] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 03:01:16,038] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.02488132 for Symbol : BTCBURGER
+[2022-07-30 03:01:16,982] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 03:01:17,564] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.02488132 for Symbol : BTCBUSD
+[2022-07-30 03:01:19,214] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 346.31077246 for Symbol : BURGERBUSD
+[2022-07-30 03:01:19,858] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-2010): Account has insufficient balance for requested action.
+[2022-07-30 03:01:19,858] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BURGER with Percent : 1
+[2022-07-30 03:01:21,043] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.02531143 for Symbol : BURGERLTC
+[2022-07-30 03:01:21,389] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to BURGER
+[2022-07-30 03:01:21,389] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to BURGER with Percent : 1
+[2022-07-30 03:01:22,639] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.03765629 for Symbol : BURGERETH
+[2022-07-30 03:01:23,034] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to BURGER
+[2022-07-30 03:01:23,034] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to BURGER with Percent : 1
+[2022-07-30 03:01:24,234] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00016515 for Symbol : BURGERBNB
+[2022-07-30 03:01:25,119] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to BURGER
+[2022-07-30 03:01:25,119] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to BURGER with Percent : 1
+[2022-07-30 03:01:26,144] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 346.31077246 for Symbol : BURGERBUSD
+[2022-07-30 03:01:27,174] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-2010): Account has insufficient balance for requested action.
+[2022-07-30 03:01:27,784] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 591.84511014 for Symbol : BUSDBURGER
+[2022-07-30 03:01:28,424] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to BURGER
+[2022-07-30 03:01:28,424] [yuvalbadihi] [convert] [WARNING]: Trying to convert from BURGER to BURGER
+[2022-07-30 03:01:28,424] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to BURGER with Percent : 1
+[2022-07-30 03:01:30,044] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 4.2e-07 for Symbol : BURGERLUNC
+[2022-07-30 03:01:30,639] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to BURGER
+[2022-07-30 03:01:31,864] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to LTC with Percent : 1
+[2022-07-30 03:01:33,054] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00051634 for Symbol : LTCBTC
+[2022-07-30 03:01:33,404] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to LTC
+[2022-07-30 03:01:33,404] [yuvalbadihi] [convert] [WARNING]: Trying to convert from LTC to LTC
+[2022-07-30 03:01:33,404] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to LTC with Percent : 1
+[2022-07-30 03:01:34,625] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00105789 for Symbol : LTCETH
+[2022-07-30 03:01:35,334] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1013): Filter failure: MIN_NOTIONAL
+[2022-07-30 03:01:35,934] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 3.732e-05 for Symbol : ETHLTC
+[2022-07-30 03:01:36,294] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to LTC
+[2022-07-30 03:01:36,294] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to LTC with Percent : 1
+[2022-07-30 03:01:37,535] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 4.64e-06 for Symbol : LTCBNB
+[2022-07-30 03:01:38,174] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to LTC
+[2022-07-30 03:01:38,174] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to LTC with Percent : 1
+[2022-07-30 03:01:39,054] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 9.73109356 for Symbol : LTCBUSD
+[2022-07-30 03:01:40,014] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-2010): Account has insufficient balance for requested action.
+[2022-07-30 03:01:40,624] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 591.84511014 for Symbol : BUSDLTC
+[2022-07-30 03:01:41,224] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to LTC
+[2022-07-30 03:01:41,224] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to LTC with Percent : 1
+[2022-07-30 03:01:42,439] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00105934 for Symbol : LTCBURGER
+[2022-07-30 03:01:43,129] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 03:01:43,734] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0377 for Symbol : BURGERLTC
+[2022-07-30 03:01:44,324] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to LTC
+[2022-07-30 03:01:44,324] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to LTC with Percent : 1
+[2022-07-30 03:01:45,534] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1e-08 for Symbol : LTCLUNC
+[2022-07-30 03:01:45,904] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to LTC
+[2022-07-30 03:15:17,725] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:15:18,125] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:16:28,845] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x000001C66151E610> to BTC with Percent : USDT
+[2022-07-30 03:16:29,515] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 03:18:02,915] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:18:03,315] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:19:14,945] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x000001F8E4B6D340> to BTC with Percent : USDT
+[2022-07-30 03:19:15,537] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 03:23:49,305] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:23:49,705] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:24:00,416] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:24:00,795] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:25:13,036] [yuvalbadihi] [convert] [WARNING]: Trying to convert from BTC to BTC
+[2022-07-30 03:25:13,036] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BTC with Percent : 1
+[2022-07-30 03:25:14,226] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00617804 for Symbol : BTCLTC
+[2022-07-30 03:25:15,406] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 03:25:16,786] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2.394315 for Symbol : LTCBTC
+[2022-07-30 03:26:23,945] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:26:24,306] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:27:35,983] [yuvalbadihi] [convert] [WARNING]: Trying to convert from BTC to BTC
+[2022-07-30 03:27:35,983] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BTC with Percent : 1
+[2022-07-30 03:27:37,423] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 8.1e-07 for Symbol : BTCLTC
+[2022-07-30 03:30:43,087] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:30:43,565] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:31:56,297] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x0000024D7E7AD280> to BTC with Percent : USDT
+[2022-07-30 03:31:56,966] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 03:31:57,256] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 03:31:57,566] [yuvalbadihi] [convert] [ERROR]: Failed to convert, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 03:31:58,206] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x0000024D7E7AD280> to BURGER with Percent : USDT
+[2022-07-30 03:31:58,806] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 03:31:59,156] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 03:31:59,456] [yuvalbadihi] [convert] [ERROR]: Failed to convert, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 03:32:01,105] [yuvalbadihi] [convert] [INFO]: Start to convert from <TradeWallets.WalletManager.WalletManager object at 0x0000024D7E7AD280> to LTC with Percent : USDT
+[2022-07-30 03:32:02,466] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 03:32:03,556] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 03:32:03,855] [yuvalbadihi] [convert] [ERROR]: Failed to convert, 'WalletManager' object has no attribute 'lower'
+[2022-07-30 03:33:10,245] [yuvalbadihi] [convert] [WARNING]: Trying to convert from BTC to BTC
+[2022-07-30 03:33:10,245] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BTC with Percent : 1
+[2022-07-30 03:33:11,465] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 8.1e-07 for Symbol : BTCLTC
+[2022-07-30 03:36:25,756] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:36:26,186] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 03:37:37,617] [yuvalbadihi] [convert] [WARNING]: Trying to convert from BTC to BTC
+[2022-07-30 03:37:37,617] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BTC with Percent : 1
+[2022-07-30 03:37:38,842] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 8.1e-07 for Symbol : BTCLTC
+[2022-07-30 03:37:40,456] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to BTC
+[2022-07-30 03:37:40,456] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to BTC with Percent : 1
+[2022-07-30 03:37:42,676] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2.7e-06 for Symbol : BTCETH
+[2022-07-30 03:37:45,576] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to BTC
+[2022-07-30 03:37:45,576] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to BTC with Percent : 1
+[2022-07-30 03:37:48,806] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1e-08 for Symbol : BTCBNB
+[2022-07-30 03:37:51,531] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to BTC
+[2022-07-30 03:37:51,531] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to BTC with Percent : 1
+[2022-07-30 03:37:54,201] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 9.07e-06 for Symbol : BTCBUSD
+[2022-07-30 03:37:57,321] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to BTC
+[2022-07-30 03:37:57,321] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BTC with Percent : 1
+[2022-07-30 03:38:00,966] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00613454 for Symbol : BTCBURGER
+[2022-07-30 03:38:02,106] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.

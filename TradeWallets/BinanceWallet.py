@@ -1,4 +1,6 @@
 import logging
+import threading
+import time
 
 from binance.client import Client
 import pandas as pd
@@ -7,11 +9,12 @@ import pandas as pd
 class BinanceWallet:
     def __init__(self, api_key, api_secret, risk, wallet_name, config):
         self.api_key, self.api_secret = BinanceWallet.making_api_key(api_key, api_secret)
-        self.client = self.connect()
+        self.client = self.connect(self.api_key, self.api_secret)
         self.risk = risk  # number between 0 -> 1
         self.wallet_name = wallet_name
         self.config_file = config
         self.init_logger(wallet_name, config)
+        self.convert_sem = threading.Semaphore()
 
     def init_logger(self, logger_name, config_file):
         # Create a custom logger
@@ -31,6 +34,7 @@ class BinanceWallet:
         self.logger.info("Initialize logger")
 
     def convert(self, first_coin, second_coin, percent, type_market="MARKET"):
+
         if first_coin == "USDT":
             return False
         # I want to convert % of my FirstCoin to the SecondCoin
@@ -67,15 +71,29 @@ class BinanceWallet:
             return 0
 
     def direct_convert(self, first_coin, second_coin, percent, side, type_market):
+        self.convert_sem.acquire()
         quantity = self.get_quan_to_trade(first_coin, second_coin, percent, side)
         symbol = BinanceWallet.get_symbol(first_coin, second_coin)
         self.logger.info(f"Quantity : {quantity} for Symbol : {symbol}")
         min_qty, step_size = self.min_qty_step_size(first_coin)
         if min_qty is None or step_size is None:
+            self.convert_sem.release()
             return 0
         optimal_quantity = round((quantity // min_qty) * step_size, 8)
         if self.is_valid_lot_size(optimal_quantity, min_qty):
             self.client.create_order(symbol=symbol, side=side, type=type_market, quantity=optimal_quantity)
+
+        flag = True
+        while flag:
+            flag = False
+            info = self.relevant_account_info()
+            for i in info['locked']:
+                print(float(i))
+                if float(i) != 0 and float(i) != 0.0:
+                    flag = True
+                    time.sleep(5)
+
+        self.convert_sem.release()
         return optimal_quantity
 
     def currency_price(self, currency):
@@ -85,8 +103,9 @@ class BinanceWallet:
         df = df[df['symbol'] == BinanceWallet.get_symbol(currency, "BUSD")]
         return float(df['price'].iloc[0])
 
-    def connect(self):
-        return Client(self.api_key, self.api_secret)
+    @staticmethod
+    def connect(api_key, api_secret):
+        return Client(api_key, api_secret)
 
     @staticmethod
     def get_symbol(from_currency, to_currency):

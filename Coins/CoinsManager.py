@@ -1,27 +1,23 @@
-import datetime
 import time
 import threading
 import logging
 from os.path import exists
-
 from apscheduler.schedulers.background import BackgroundScheduler
-
 from Coins import CryptoCoin as CC
 from Coins.ResultForWM import ResultForWM
-from TradeWallets.BinanceWallet import BinanceWallet
 import importlib
 import pandas as pd
 import datetime as dt
 
 
 class CoinsManager:
-    def __init__(self, config, local_config):
-        self.pickup_duration = float(config["TradeDetail"]["update_step_size"]) * float(
-            config["TradeDetail"]["minutes"])*60
+    def __init__(self,data_util):
+        self.config = data_util.config
+        self.local_config = data_util.local_config
+        self.pickup_duration = float(self.config["TradeDetail"]["update_step_size"]) * float(
+            self.config["TradeDetail"]["minutes"])*60
         self.scheduler = BackgroundScheduler()
-        self.binance_module = self.binance_connect(local_config, config)
-        self.config = config
-        self.local_config = local_config
+        self.data_util = data_util
         self.coinsDB = self.init_coins_db(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"])
         self.coins, self.coins_indicators = self.init_coins()
         self.current_indicators_threads = {}
@@ -71,11 +67,13 @@ class CoinsManager:
         MAIN_PATH = self.config["Paths"]["MAIN_INDICATORS_PATH"]
         for coin in self.coins.keys():
             for indicator in self.config["Indicators"].keys():
+                if self.config["Indicators"][indicator]["MODE"] == "OFF":
+                    continue
                 indicator_dict = self.config["Indicators"][indicator]
                 module = importlib.import_module(MAIN_PATH + indicator_dict["MODULE_PATH"])
                 class_ = getattr(module, indicator_dict["MODULE_PATH"])
                 current_indicator = class_(self, self.indicators_loggers[indicator], self.assessment_df,
-                                           self.semaphore)
+                                           self.semaphore, self.data_util)
                 # self.indicator_activate(current_indicator, self.coins[coin])
                 self.coins_indicators[coin].append(current_indicator)
 
@@ -107,7 +105,7 @@ class CoinsManager:
             indi.get_results().call_back_credit_result(new_indi_credit)
             #  indi.get_results().sem_credit_updated.release()
             indi.write_val_to_DB(type(indi).__name__, new_indi_credit, 'Credit')
-            indi.write_val_to_DB(type(indi).__name__, self.binance_module.currency_price(symbol), 'PrevPrice')
+            indi.write_val_to_DB(type(indi).__name__, self.data_util.currency_price(symbol), 'PrevPrice')
             indi.write_val_to_DB(type(indi).__name__, time.time(), 'UpdateTime')
             indi.write_val_to_DB(type(indi).__name__, None, 'Result')  # writes to database
         return results
@@ -176,7 +174,7 @@ class CoinsManager:
         return indi.get_indi_val(symbol, type(indi).__name__, title)
 
     def credit_distributor(self, indi, symbol, indi_credit, indi_result):
-        curr_price = self.binance_module.currency_price(symbol)
+        curr_price = self.data_util.currency_price(symbol)
         prev_price = self.get_indi_val(indi, symbol, 'PrevPrice')
 
         # if not self.check_if_result_valid(indi, symbol):
@@ -200,14 +198,6 @@ class CoinsManager:
             return indi_credit - diff
 
         return indi_credit
-
-    @staticmethod
-    def binance_connect(local_config, config):
-        USERNAME = 'yuvalbadihi'
-        api_key = local_config["Binance"][USERNAME]["Details"]["api_key"]
-        api_secret = local_config["Binance"][USERNAME]["Details"]["api_secret"]
-        binance_module = BinanceWallet(api_key, api_secret, 0.1, USERNAME, config)
-        return binance_module
 
     def check_if_result_valid(self, indi, symbol):
         update_time = self.get_indi_val(indi, symbol, 'UpdateTime')
