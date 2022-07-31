@@ -1,11 +1,8 @@
 import json
 from abc import ABC, abstractmethod
-from TradeWallets.BinanceWallet import BinanceWallet
 from threading import Thread
 from Indicators import IndicatorResult as IR
-from binance import Client
 import pandas as pd
-import time
 
 LOCAL_CONFIGURATION_FILE = "../Configurations/local_configuration.json"
 CONFIGURATION_FILE = "../Configurations/configuration.json"
@@ -13,18 +10,17 @@ USERNAME = "yuvalbadihi"
 
 
 class Indicator(ABC):
-    def __init__(self, coin_manager, logger, assessment_df, semaphore):
-        with open(LOCAL_CONFIGURATION_FILE) as local_config_file:
-            self.local_config = json.load(local_config_file)
-        with open(CONFIGURATION_FILE) as config_file:
-            self.config = json.load(config_file)
+    def __init__(self, coin_manager, logger, assessment_df, semaphore, data_util):
+        self.data_util = data_util
+        self.local_config = data_util.local_config
+        self.config = data_util.config
         self.logger = logger
-        self.api_key = self.local_config["Binance"][USERNAME]["Details"]["api_key"]
-        self.api_secret = self.local_config["Binance"][USERNAME]["Details"]["api_secret"]
         self.coin_manager = coin_manager
         self.assessment_df = assessment_df
         self.semaphore = semaphore
-        self.binance_module = coin_manager.binance_module
+        self.result = None
+        self.args = None
+
 
     def execute(self, args):
         self.result = IR.IndicatorResult(self, args[0])
@@ -39,10 +35,6 @@ class Indicator(ABC):
         self.logger.info(
             f"Percent result is: {self.result.result}")
         return self.result
-
-    @staticmethod
-    def connect(api_key, api_secret):
-        return Client(api_key, api_secret)
 
     @abstractmethod
     def run(self, args):
@@ -62,7 +54,7 @@ class Indicator(ABC):
 
     def add_row(self, coin, indicator_name):
         new_line = {'Coin': coin, 'Indicator': indicator_name, 'Result': "HOLD", 'Credit': 1,
-                    'PrevPrice': self.binance_module.currency_price(coin), "UpdateTime": time.time()}
+                    'PrevPrice': self.data_util.currency_price(coin), "UpdateTime": self.data_util.get_timestamp()}
         self.assessment_df = self.assessment_df.append(new_line, ignore_index=True)
         return self.find_row(coin, indicator_name)
 
@@ -71,7 +63,7 @@ class Indicator(ABC):
         if res == -1:
             res = self.add_row(coin, indicator_name)
         self.assessment_df.loc[[res], [title]] = val
-        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"]
+        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"][self.data_util.get_path_for_assessments()]
         self.assessment_df.to_csv(full_path, index=False)
 
     def write_val_to_DB(self, indicator_name, val, title):
@@ -81,7 +73,7 @@ class Indicator(ABC):
             else:
                  val = 'HOLD'
         self.lock()
-        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"]
+        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"][self.data_util.get_path_for_assessments()]
         self.assessment_df = pd.read_csv(full_path)
         coin = self.args[0].symbol
         self.change_row_val(coin, indicator_name, val, title)
@@ -89,7 +81,7 @@ class Indicator(ABC):
 
     def get_indi_val(self, coin, indicator_name, title):
         self.lock()
-        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"]["ASSESSMENT_DB_PATH"]
+        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"][self.data_util.get_path_for_assessments()]
         self.assessment_df = pd.read_csv(full_path)
         row = self.find_row(coin, indicator_name)
         if row == -1:
@@ -98,8 +90,6 @@ class Indicator(ABC):
         self.unlock()
         return self.assessment_df[title][row]
 
-    def get_binance_module(self):
-        return self.binance_module
 
     def my_credit(self):
         return self.result.credit
@@ -109,6 +99,9 @@ class Indicator(ABC):
 
     def get_config(self):
         return self.config
+
+    def get_data_util(self):
+        return self.data_util
 
 
 

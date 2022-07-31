@@ -4,18 +4,19 @@
     "minutes": 15
   },
   "Paths": {
-    "abs_path": "C:\\Users\\yuval\\OneDrive\\Desktop\\Coding\\CryptoAlgotrading\\",
+    "abs_path": "C:\\CryptoAlgotrading\\",
     "logger_folder": "Logs\\",
     "trade_wallet_logs_path": "TradeWalletsLogs\\",
     "indicators_logs_path": "IndicatorsLogs\\",
     "MAIN_INDICATORS_PATH": "Indicators.IndicatorsImplements.",
     "ASSESSMENT_DB_PATH": "DB\\assessment.csv",
+    "ASSESSMENT_DB_PATH_TEST": "DB\\assessment_test.csv",
     "COINS_ROUND_DATA_DB_PATH": "DB\\coinsround.csv",
     "COINS_DB_PATH": "DB\\coins.csv",
     "FIREBASE_CREDENTIALS": "Firebase/CryptoAlgotradingCredentials.json"
   },
   "Enablers": {
-    "TELEGRAM_BOT": "True",
+    "TELEGRAM_BOT": "False",
     "TRADE_ON": "True"
   },
   "Logger": {
@@ -28,7 +29,7 @@
       "Mode": "ON"
     },
     "BURGER": {
-      "Mode": "ON"
+      "Mode": "OFF"
     },
     "LTC": {
       "Mode": "ON"
@@ -40,19 +41,19 @@
   "Indicators": {
     "MAIndicator": {
       "MODULE_PATH": "MAIndicator",
-      "DURATION": 60
+      "DURATION": 60,
+      "MODE" : "ON"
     },
-    "RANDMAIndicator": {
-      "MODULE_PATH": "RANDMAIndicator",
-      "DURATION": 60
-    },
+
     "MACDIndicator": {
       "MODULE_PATH": "MACDIndicator",
-      "DURATION": 60
+      "DURATION": 60,
+      "MODE" : "OFF"
     },
     "BBIndicator": {
       "MODULE_PATH": "BBIndicator",
-      "DURATION": 60
+      "DURATION": 60,
+      "MODE" : "OFF"
     }
   },
   "IndicatorsData": {

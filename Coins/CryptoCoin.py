@@ -13,7 +13,7 @@ class CryptoCoin:
         self.stability = 0
         self.security = 0
         self.scalability = 0
-        self.supply = self.get_supply()
+        self.supply = 8 #self.get_supply()
         self.decentralisation = 0
         self.demand = 0
         self.usefulness = 0
@@ -64,7 +64,7 @@ class CryptoCoin:
         coins_df.loc[index.values[0], 'Supply'] = self.get_supply()
 
     def attributes_refresh(self):
-        print(self.get_supply())
+        self.get_supply()
 
     def get_stability(self):
         try:

@@ -1,4 +1,6 @@
 import logging
+import threading
+import time
 
 from binance.client import Client
 import pandas as pd
@@ -7,11 +9,12 @@ import pandas as pd
 class BinanceWallet:
     def __init__(self, api_key, api_secret, risk, wallet_name, config):
         self.api_key, self.api_secret = BinanceWallet.making_api_key(api_key, api_secret)
-        self.client = self.connect()
+        self.client = self.connect(self.api_key, self.api_secret)
         self.risk = risk  # number between 0 -> 1
         self.wallet_name = wallet_name
         self.config_file = config
         self.init_logger(wallet_name, config)
+        self.convert_sem = threading.Semaphore()
 
     def init_logger(self, logger_name, config_file):
         # Create a custom logger
@@ -31,8 +34,8 @@ class BinanceWallet:
         self.logger.info("Initialize logger")
 
     def convert(self, first_coin, second_coin, percent, type_market="MARKET"):
-        if first_coin == "USDT":
-            return False
+       # if first_coin == "USDT":
+        #    return False
         # I want to convert % of my FirstCoin to the SecondCoin
         if first_coin == second_coin:
             self.logger.warning(f"Trying to convert from {first_coin} to {second_coin}")
@@ -48,8 +51,12 @@ class BinanceWallet:
             except Exception as e2:
                 self.logger.warning(f"Failed to convert with second opportunity, {e2}")
                 try:
-                    self.direct_convert(first_coin, "BUSD", percent, "SELL", type_market)
-                    self.direct_convert(second_coin, "BUSD", 1, "BUY", type_market)
+                    if first_coin == "USDT":
+                        self.direct_convert(first_coin, "BNB", percent, "SELL", type_market)
+                        self.direct_convert(second_coin, "BNB", 1, "BUY", type_market)
+                    else:
+                        self.direct_convert(first_coin, "BUSD", percent, "SELL", type_market)
+                        self.direct_convert(second_coin, "BUSD", 1, "BUY", type_market)
                 except Exception as e3:
                     self.logger.error(f"Failed to convert, {e3}")
                     return False
@@ -71,22 +78,38 @@ class BinanceWallet:
         symbol = BinanceWallet.get_symbol(first_coin, second_coin)
         self.logger.info(f"Quantity : {quantity} for Symbol : {symbol}")
         min_qty, step_size = self.min_qty_step_size(first_coin)
+        if first_coin == "BUSD" or first_coin == "USDT":
+            min_qty, step_size = 1, 0.1
+
+
         if min_qty is None or step_size is None:
             return 0
         optimal_quantity = round((quantity // min_qty) * step_size, 8)
         if self.is_valid_lot_size(optimal_quantity, min_qty):
             self.client.create_order(symbol=symbol, side=side, type=type_market, quantity=optimal_quantity)
+
+        # flag = True
+        # while flag:
+        #     flag = False
+        #     info = self.relevant_account_info()
+        #     for i in info['locked']:
+        #         print(float(i))
+        #         if float(i) != 0 and float(i) != 0.0:
+        #             flag = True
+        #             time.sleep(5)
+
         return optimal_quantity
 
     def currency_price(self, currency):
         if currency == "USDT" or currency == "BUSD":
-            return 1
+            return float(1)
         df = pd.DataFrame(self.client.get_all_tickers())
         df = df[df['symbol'] == BinanceWallet.get_symbol(currency, "BUSD")]
         return float(df['price'].iloc[0])
 
-    def connect(self):
-        return Client(self.api_key, self.api_secret)
+    @staticmethod
+    def connect(api_key, api_secret):
+        return Client(api_key, api_secret)
 
     @staticmethod
     def get_symbol(from_currency, to_currency):
@@ -115,6 +138,7 @@ class BinanceWallet:
 
     def min_qty_step_size(self, currency):
         symbol_info = self.client.get_symbol_info(BinanceWallet.get_symbol(currency, "BUSD"))
+
         if symbol_info is None:
             return None, None
         return float(symbol_info['filters'][2]['minQty']), float(symbol_info['filters'][2]['stepSize'])
