@@ -43,12 +43,19 @@ if __name__ == '__main__':
     binance_wallet = BinanceWallet(api_key, api_secret, 0.1, USERNAME, config)
     execute_telegram_bot(TELEGRAM_BOT, binance_wallet, config)
 
-    DU = DataUtil(config, local_config, "TEST")  # TEST / LIVE
-    CM = CManager.CoinsManager(DU)
-    WM = WManager.WalletManager([binance_wallet], CM, DU)
+    # binance_wallet.invest_on_currency("USDT", 1)
+    binance_wallet.invest_on_currency("BTC",0.5)
+    binance_wallet.invest_on_currency("LUNC", 0.5)
+    binance_wallet.invest_on_currency("DOGE", 0.5)
+    binance_wallet.invest_on_currency("LTC", 0.5)
+    binance_wallet.invest_on_currency("SHIB", 0.5)
 
-    # binance_wallet2 = BinanceWallet(api_key, api_secret, 0.1, USERNAME2, config)
-    # binance_wallet.convert("BTC", "ETH", 0.5)
+    #binance_wallet.convert("LUNC", "USDT", 0.5)
+
+    # DU = DataUtil(config, local_config, "TEST")  # TEST / LIVE
+    # CM = CManager.CoinsManager(DU)
+    # WM = WManager.WalletManager([binance_wallet], CM, DU)
+
     # binance_wallet2.convert("LTC", "DOGE", 0.01)
     #
     # init_indicators_manager(TRADE_ON)
@@ -59,5 +66,5 @@ if __name__ == '__main__':
 
     # binance_wallet2 = BinanceWallet(api_key, api_secret, 0.1, USERNAME2, config)
     # execute_telegram_bot(True, binance_wallet2, config)
-    while True:
-        time.sleep(10)
+   # while True:
+    #    time.sleep(10)

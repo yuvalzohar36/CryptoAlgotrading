@@ -8,6 +8,8 @@ class WalletManager:
         self.wallets = wallets
         self.coin_manager = coin_manager
         self.data_util = data_util
+
+
         date = datetime(2022, 7, 30, 0, 0)
         while True:
             data_util.set_date(date)

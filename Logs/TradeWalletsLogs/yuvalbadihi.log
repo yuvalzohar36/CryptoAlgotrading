@@ -932,3 +932,724 @@
 [2022-07-30 19:52:06,104] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
 [2022-07-30 19:52:23,452] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
 [2022-07-30 19:52:23,841] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 23:57:58,951] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 23:57:58,951] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to ETH with Percent : 0.5
+[2022-07-30 23:58:00,221] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.17171836 for Symbol : ETHBURGER
+[2022-07-30 23:58:01,677] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 23:58:03,022] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 173.0474 for Symbol : BURGERETH
+[2022-07-30 23:58:05,098] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to ETH
+[2022-07-30 23:58:18,392] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 23:58:18,392] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BTC with Percent : 0.5
+[2022-07-30 23:58:20,797] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00610091 for Symbol : BTCBURGER
+[2022-07-30 23:58:22,611] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 23:58:23,201] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 86.5474 for Symbol : BURGERBTC
+[2022-07-30 23:58:25,142] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 23:58:27,366] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 86.5474 for Symbol : BURGERBUSD
+[2022-07-30 23:58:31,251] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00608621 for Symbol : BTCBUSD
+[2022-07-30 23:58:32,492] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BTC
+[2022-07-30 23:59:01,787] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 23:59:01,787] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BTC with Percent : 0.5
+[2022-07-30 23:59:05,552] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00304921 for Symbol : BTCBURGER
+[2022-07-30 23:59:07,492] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 23:59:08,852] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 43.2974 for Symbol : BURGERBTC
+[2022-07-30 23:59:10,801] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 23:59:12,998] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 43.2974 for Symbol : BURGERBUSD
+[2022-07-30 23:59:15,821] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00304914 for Symbol : BTCBUSD
+[2022-07-30 23:59:16,991] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BTC
+[2022-07-30 23:59:38,427] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-30 23:59:38,427] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BTC with Percent : 0.5
+[2022-07-30 23:59:41,072] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00152895 for Symbol : BTCBURGER
+[2022-07-30 23:59:42,026] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 23:59:42,625] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 21.6974 for Symbol : BURGERBTC
+[2022-07-30 23:59:45,596] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-30 23:59:46,962] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 21.6974 for Symbol : BURGERBUSD
+[2022-07-30 23:59:51,641] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00153076 for Symbol : BTCBUSD
+[2022-07-30 23:59:53,386] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BTC
+[2022-07-30 23:59:53,386] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to BTC with Percent : 0.5
+[2022-07-30 23:59:57,423] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00608562 for Symbol : BTCETH
+[2022-07-31 00:00:00,263] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 00:00:00,883] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.08565444 for Symbol : ETHBTC
+[2022-07-31 00:00:02,097] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to BTC
+[2022-07-31 00:00:18,237] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:00:18,237] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BTC with Percent : 0.5
+[2022-07-31 00:00:20,512] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00076844 for Symbol : BTCBURGER
+[2022-07-31 00:00:22,162] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 00:00:23,547] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 10.8974 for Symbol : BURGERBTC
+[2022-07-31 00:00:25,482] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 00:00:26,991] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 10.8974 for Symbol : BURGERBUSD
+[2022-07-31 00:00:31,411] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00076157 for Symbol : BTCBUSD
+[2022-07-31 00:00:32,586] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BTC
+[2022-07-31 00:00:32,586] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to BTC with Percent : 1
+[2022-07-31 00:00:39,701] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00608978 for Symbol : BTCETH
+[2022-07-31 00:00:40,376] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 00:00:40,961] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.08570888 for Symbol : ETHBTC
+[2022-07-31 00:00:42,881] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to BTC
+[2022-07-31 00:02:16,091] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:02:16,091] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to DOGE with Percent : 0.5
+[2022-07-31 00:02:17,293] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 4008.25466901 for Symbol : DOGEBTC
+[2022-07-31 00:02:18,301] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to DOGE
+[2022-07-31 00:02:18,301] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to USDT with Percent : 1
+[2022-07-31 00:02:21,006] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 282.06300442 for Symbol : USDTBTC
+[2022-07-31 00:02:21,615] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to USDT
+[2022-07-31 00:02:37,381] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:02:37,381] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to USDT with Percent : 1
+[2022-07-31 00:02:39,331] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 282.04008586 for Symbol : USDTBTC
+[2022-07-31 00:02:40,121] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to USDT
+[2022-07-31 00:03:43,031] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:03:43,031] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to USDT with Percent : 1
+[2022-07-31 00:03:44,991] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 282.02186854 for Symbol : USDTBTC
+[2022-07-31 00:03:45,811] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to USDT
+[2022-07-31 00:03:52,581] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:03:52,581] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to USDT with Percent : 1
+[2022-07-31 00:03:53,741] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 282.02950806 for Symbol : USDTBTC
+[2022-07-31 00:03:54,353] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to USDT
+[2022-07-31 00:05:04,261] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:05:04,261] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to USDT with Percent : 0.99
+[2022-07-31 00:05:05,226] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 279.23725472 for Symbol : USDTBTC
+[2022-07-31 00:05:05,827] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to USDT
+[2022-07-31 00:05:17,161] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:05:17,161] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to USDT with Percent : 0.5
+[2022-07-31 00:05:18,076] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 141.02039552 for Symbol : USDTBTC
+[2022-07-31 00:05:18,702] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to USDT
+[2022-07-31 00:05:43,071] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:05:43,071] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to BUSD with Percent : 0.5
+[2022-07-31 00:05:44,001] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 141.04443063 for Symbol : BUSDBTC
+[2022-07-31 00:05:44,596] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to BUSD
+[2022-07-31 00:05:59,351] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:05:59,351] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to BUSD with Percent : 0.5
+[2022-07-31 00:06:00,673] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 141.09097295 for Symbol : BUSDBTC
+[2022-07-31 00:06:01,541] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to BUSD
+[2022-07-31 00:06:19,495] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:06:19,495] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to DOGE with Percent : 0.5
+[2022-07-31 00:06:21,986] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1997.6801756 for Symbol : DOGEBTC
+[2022-07-31 00:06:23,891] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to DOGE
+[2022-07-31 00:06:37,961] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:06:37,961] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to USDT with Percent : 0.5
+[2022-07-31 00:06:39,881] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 211.164624 for Symbol : USDTDOGE
+[2022-07-31 00:06:40,501] [yuvalbadihi] [convert] [INFO]: Successfully converted from DOGE to USDT
+[2022-07-31 00:07:06,385] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:07:18,678] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:07:18,678] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to BUSD with Percent : 0.5
+[2022-07-31 00:07:20,581] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 210.83467928 for Symbol : BUSDDOGE
+[2022-07-31 00:07:22,193] [yuvalbadihi] [convert] [INFO]: Successfully converted from DOGE to BUSD
+[2022-07-31 00:08:17,660] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:08:17,660] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to USDT with Percent : 0.5
+[2022-07-31 00:08:19,361] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 211.07575 for Symbol : USDTDOGE
+[2022-07-31 00:08:19,791] [yuvalbadihi] [convert] [INFO]: Successfully converted from DOGE to USDT
+[2022-07-31 00:09:41,471] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:09:41,471] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to BTC with Percent : 0.5
+[2022-07-31 00:09:43,211] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00883781 for Symbol : BTCDOGE
+[2022-07-31 00:09:43,961] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 00:09:45,561] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2999.4975 for Symbol : DOGEBTC
+[2022-07-31 00:09:47,561] [yuvalbadihi] [convert] [INFO]: Successfully converted from DOGE to BTC
+[2022-07-31 00:10:42,051] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:10:42,061] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to BTC with Percent : 0.5
+[2022-07-31 00:10:44,290] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00442049 for Symbol : BTCDOGE
+[2022-07-31 00:10:44,961] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 00:10:45,570] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1499.9975 for Symbol : DOGEBTC
+[2022-07-31 00:10:48,301] [yuvalbadihi] [convert] [INFO]: Successfully converted from DOGE to BTC
+[2022-07-31 00:10:56,357] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:10:56,357] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to USDT with Percent : 0.5
+[2022-07-31 00:10:58,011] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 228.16507144 for Symbol : USDTBTC
+[2022-07-31 00:10:58,396] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to USDT
+[2022-07-31 00:11:41,250] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:11:41,250] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to USDT with Percent : 0.5
+[2022-07-31 00:11:42,161] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 228.08773103 for Symbol : USDTBTC
+[2022-07-31 00:11:42,560] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to USDT
+[2022-07-31 00:12:32,550] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:12:32,550] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to DOGE with Percent : 0.5
+[2022-07-31 00:12:33,776] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 3237.0523345 for Symbol : DOGEBTC
+[2022-07-31 00:12:34,591] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to DOGE
+[2022-07-31 00:17:59,380] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:17:59,380] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to DOGE with Percent : 0.5
+[2022-07-31 00:18:00,650] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1619.42198136 for Symbol : DOGEBTC
+[2022-07-31 00:18:02,300] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to DOGE
+[2022-07-31 00:18:26,252] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:18:26,252] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to USDT with Percent : 0.5
+[2022-07-31 00:18:27,160] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 223.24592516 for Symbol : USDTDOGE
+[2022-07-31 00:18:28,120] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 00:18:30,650] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 3176.0695 for Symbol : DOGEUSDT
+[2022-07-31 00:18:32,590] [yuvalbadihi] [convert] [INFO]: Successfully converted from DOGE to USDT
+[2022-07-31 00:18:42,880] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:18:42,880] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to BUSD with Percent : 0.5
+[2022-07-31 00:18:43,814] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 111.62540516 for Symbol : BUSDDOGE
+[2022-07-31 00:18:44,580] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 00:18:45,190] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1588.0695 for Symbol : DOGEBUSD
+[2022-07-31 00:18:47,104] [yuvalbadihi] [convert] [INFO]: Successfully converted from DOGE to BUSD
+[2022-07-31 00:20:19,955] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:20:20,270] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to USDT with Percent : 1
+[2022-07-31 00:20:22,970] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 113.4023679 for Symbol : USDTBTC
+[2022-07-31 00:20:23,870] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 00:20:26,090] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00474765 for Symbol : BTCUSDT
+[2022-07-31 00:20:29,150] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to USDT
+[2022-07-31 00:20:29,150] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to USDT with Percent : 1
+[2022-07-31 00:20:32,055] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.04157906 for Symbol : USDTLTC
+[2022-07-31 00:20:32,910] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to USDT
+[2022-07-31 00:20:32,910] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to USDT with Percent : 1
+[2022-07-31 00:20:33,860] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0150762 for Symbol : USDTETH
+[2022-07-31 00:20:34,715] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to USDT
+[2022-07-31 00:20:34,715] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-07-31 00:20:36,750] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00027696 for Symbol : USDTBNB
+[2022-07-31 00:20:37,370] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-07-31 00:20:37,370] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to USDT with Percent : 1
+[2022-07-31 00:20:38,265] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 111.56676475 for Symbol : USDTDOGE
+[2022-07-31 00:20:40,030] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 00:20:40,650] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1588.139 for Symbol : DOGEUSDT
+[2022-07-31 00:20:42,560] [yuvalbadihi] [convert] [INFO]: Successfully converted from DOGE to USDT
+[2022-07-31 00:20:42,560] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to USDT with Percent : 1
+[2022-07-31 00:20:43,160] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 111.52821882 for Symbol : USDTBUSD
+[2022-07-31 00:20:44,075] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 00:20:44,677] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 111.52821882 for Symbol : BUSDUSDT
+[2022-07-31 00:20:45,345] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1013): Filter failure: LOT_SIZE
+[2022-07-31 00:20:45,950] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 111.52821882 for Symbol : BUSDBUSD
+[2022-07-31 00:20:47,125] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1121): Invalid symbol.
+[2022-07-31 00:20:47,125] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to USDT with Percent : 1
+[2022-07-31 00:20:48,050] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 18.5152432 for Symbol : USDTBURGER
+[2022-07-31 00:20:48,720] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 00:20:49,320] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 10.9948 for Symbol : BURGERUSDT
+[2022-07-31 00:20:50,070] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to USDT
+[2022-07-31 00:20:50,070] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to USDT with Percent : 1
+[2022-07-31 00:20:50,985] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 7.2e-07 for Symbol : USDTLUNC
+[2022-07-31 00:20:51,592] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to USDT
+[2022-07-31 00:21:47,220] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:21:47,220] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to BTC with Percent : 0.5
+[2022-07-31 00:21:48,125] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00233654 for Symbol : BTCBUSD
+[2022-07-31 00:21:48,840] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to BTC
+[2022-07-31 00:22:01,300] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:22:01,300] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to BTC with Percent : 1
+[2022-07-31 00:22:03,250] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00234202 for Symbol : BTCBUSD
+[2022-07-31 00:22:04,250] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to BTC
+[2022-07-31 00:22:20,240] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:22:20,540] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to ETH with Percent : 1
+[2022-07-31 00:22:22,765] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0657743 for Symbol : ETHBTC
+[2022-07-31 00:22:24,662] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to ETH
+[2022-07-31 00:22:24,662] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to ETH with Percent : 1
+[2022-07-31 00:22:28,220] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2.448e-05 for Symbol : ETHLTC
+[2022-07-31 00:22:28,835] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to ETH
+[2022-07-31 00:22:28,835] [yuvalbadihi] [convert] [WARNING]: Trying to convert from ETH to ETH
+[2022-07-31 00:22:28,840] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to ETH with Percent : 1
+[2022-07-31 00:22:32,060] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.6e-07 for Symbol : ETHBNB
+[2022-07-31 00:22:32,672] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to ETH
+[2022-07-31 00:22:32,672] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to ETH with Percent : 1
+[2022-07-31 00:22:37,173] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 5.74e-06 for Symbol : ETHDOGE
+[2022-07-31 00:22:38,075] [yuvalbadihi] [convert] [INFO]: Successfully converted from DOGE to ETH
+[2022-07-31 00:22:38,075] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to ETH with Percent : 1
+[2022-07-31 00:22:40,250] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2.378e-05 for Symbol : ETHBUSD
+[2022-07-31 00:22:40,863] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to ETH
+[2022-07-31 00:22:40,863] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to ETH with Percent : 1
+[2022-07-31 00:22:42,070] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 9.371e-05 for Symbol : ETHBURGER
+[2022-07-31 00:22:42,690] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to ETH
+[2022-07-31 00:22:42,690] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to ETH with Percent : 1
+[2022-07-31 00:22:43,970] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0 for Symbol : ETHLUNC
+[2022-07-31 00:22:44,812] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to ETH
+[2022-07-31 00:22:58,970] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:22:59,280] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to ETH with Percent : 1
+[2022-07-31 00:23:03,056] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 7.128e-05 for Symbol : ETHBTC
+[2022-07-31 00:23:03,455] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to ETH
+[2022-07-31 00:23:03,455] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to ETH with Percent : 1
+[2022-07-31 00:23:24,520] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:23:33,560] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:23:41,390] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 00:23:41,390] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to USDT with Percent : 1
+[2022-07-31 00:23:42,350] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 111.63082261 for Symbol : USDTETH
+[2022-07-31 00:23:44,270] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 00:23:45,630] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.06564318 for Symbol : ETHUSDT
+[2022-07-31 00:23:47,550] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to USDT
+[2022-07-31 00:23:54,520] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:09:49,450] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:10:33,075] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:10:33,075] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BTC with Percent : 1
+[2022-07-31 03:10:34,247] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.02438508 for Symbol : BTCUSDT
+[2022-07-31 03:10:35,403] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BTC
+[2022-07-31 03:12:41,282] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:12:41,282] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to ETH with Percent : 0.5
+[2022-07-31 03:12:42,844] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.16987644 for Symbol : ETHBTC
+[2022-07-31 03:12:43,766] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to ETH
+[2022-07-31 03:12:43,766] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to USDT with Percent : 1
+[2022-07-31 03:12:45,797] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 288.07485803 for Symbol : USDTETH
+[2022-07-31 03:12:47,828] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:12:49,359] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.16967338 for Symbol : ETHUSDT
+[2022-07-31 03:12:50,912] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to USDT
+[2022-07-31 03:12:50,912] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to DOGE with Percent : 0.5
+[2022-07-31 03:12:53,162] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2064.88103115 for Symbol : DOGEUSDT
+[2022-07-31 03:12:55,068] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to DOGE
+[2022-07-31 03:13:00,427] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to USDT with Percent : 1
+[2022-07-31 03:13:03,348] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 288.48370371 for Symbol : USDTBTC
+[2022-07-31 03:13:03,989] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:13:05,551] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.01219632 for Symbol : BTCUSDT
+[2022-07-31 03:13:06,738] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to USDT
+[2022-07-31 03:13:06,738] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to USDT with Percent : 1
+[2022-07-31 03:13:09,769] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.04078374 for Symbol : USDTLTC
+[2022-07-31 03:13:11,395] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to USDT
+[2022-07-31 03:13:11,395] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to USDT with Percent : 1
+[2022-07-31 03:13:14,083] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.12445028 for Symbol : USDTETH
+[2022-07-31 03:13:14,973] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to USDT
+[2022-07-31 03:13:14,973] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-07-31 03:13:15,864] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00027686 for Symbol : USDTBNB
+[2022-07-31 03:13:16,473] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-07-31 03:13:16,473] [yuvalbadihi] [convert] [WARNING]: Trying to convert from USDT to USDT
+[2022-07-31 03:13:16,473] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to USDT with Percent : 1
+[2022-07-31 03:13:18,770] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 143.49979925 for Symbol : USDTDOGE
+[2022-07-31 03:13:19,660] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:13:21,222] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2062.075 for Symbol : DOGEUSDT
+[2022-07-31 03:13:21,863] [yuvalbadihi] [convert] [INFO]: Successfully converted from DOGE to USDT
+[2022-07-31 03:13:21,863] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to USDT with Percent : 1
+[2022-07-31 03:13:22,472] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.04040982 for Symbol : USDTBUSD
+[2022-07-31 03:13:23,066] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to USDT
+[2022-07-31 03:13:23,066] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to USDT with Percent : 1
+[2022-07-31 03:13:25,519] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.1566096 for Symbol : USDTBURGER
+[2022-07-31 03:13:26,129] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to USDT
+[2022-07-31 03:13:26,129] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to USDT with Percent : 1
+[2022-07-31 03:13:27,878] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 7.1e-07 for Symbol : USDTLUNC
+[2022-07-31 03:13:28,472] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to USDT
+[2022-07-31 03:14:38,776] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:14:38,776] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to ETH with Percent : 0.5
+[2022-07-31 03:14:39,839] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.16976468 for Symbol : ETHUSDT
+[2022-07-31 03:14:41,042] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to ETH
+[2022-07-31 03:14:41,042] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BTC with Percent : 0.5
+[2022-07-31 03:14:42,792] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00608884 for Symbol : BTCUSDT
+[2022-07-31 03:14:44,745] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BTC
+[2022-07-31 03:14:44,745] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to DOGE with Percent : 0.5
+[2022-07-31 03:14:47,619] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1035.54516214 for Symbol : DOGEUSDT
+[2022-07-31 03:14:49,525] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to DOGE
+[2022-07-31 03:14:49,525] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 0.5
+[2022-07-31 03:14:51,447] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 21.828774 for Symbol : BURGERUSDT
+[2022-07-31 03:14:53,353] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-07-31 03:14:53,353] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to LTC with Percent : 0.5
+[2022-07-31 03:14:54,275] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.29799231 for Symbol : LTCUSDT
+[2022-07-31 03:14:56,040] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to LTC
+[2022-07-31 03:15:06,398] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to LUNC with Percent : 1
+[2022-07-31 03:15:08,601] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1470206.85871297 for Symbol : LUNCBTC
+[2022-07-31 03:15:10,585] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:15:12,891] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00608632 for Symbol : BTCLUNC
+[2022-07-31 03:15:15,609] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:15:17,140] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00608632 for Symbol : BTCBUSD
+[2022-07-31 03:15:20,421] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1468931.00939734 for Symbol : LUNCBUSD
+[2022-07-31 03:15:22,405] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to LUNC
+[2022-07-31 03:15:22,405] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to LUNC with Percent : 1
+[2022-07-31 03:15:24,905] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 183863.43013279 for Symbol : LUNCLTC
+[2022-07-31 03:15:26,827] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:15:27,420] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.297377 for Symbol : LTCLUNC
+[2022-07-31 03:15:28,326] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:15:28,998] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.297377 for Symbol : LTCBUSD
+[2022-07-31 03:15:30,811] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 183264.87568948 for Symbol : LUNCBUSD
+[2022-07-31 03:15:31,826] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to LUNC
+[2022-07-31 03:15:31,826] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to LUNC with Percent : 1
+[2022-07-31 03:15:33,029] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2936222.56508274 for Symbol : LUNCETH
+[2022-07-31 03:15:33,748] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:15:34,373] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.16960368 for Symbol : ETHLUNC
+[2022-07-31 03:15:35,029] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:15:35,623] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.16960368 for Symbol : ETHBUSD
+[2022-07-31 03:15:37,216] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2935269.82875243 for Symbol : LUNCBUSD
+[2022-07-31 03:15:37,903] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-2010): Account has insufficient balance for requested action.
+[2022-07-31 03:15:37,903] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to LUNC with Percent : 1
+[2022-07-31 03:15:39,122] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2.83056804 for Symbol : LUNCBNB
+[2022-07-31 03:15:39,810] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:15:40,388] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 9.6e-07 for Symbol : BNBLUNC
+[2022-07-31 03:15:40,778] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to LUNC
+[2022-07-31 03:15:40,778] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to LUNC with Percent : 1
+[2022-07-31 03:15:41,696] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 185066.20292224 for Symbol : LUNCUSDT
+[2022-07-31 03:15:43,103] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:15:43,697] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 18.11242928 for Symbol : USDTLUNC
+[2022-07-31 03:15:45,041] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:15:45,634] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 18.11242928 for Symbol : USDTBUSD
+[2022-07-31 03:15:46,541] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:15:46,541] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to LUNC with Percent : 1
+[2022-07-31 03:15:47,900] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 735493.28024502 for Symbol : LUNCDOGE
+[2022-07-31 03:15:48,603] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:15:49,196] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1034.04 for Symbol : DOGELUNC
+[2022-07-31 03:15:49,853] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:15:50,509] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1034.04 for Symbol : DOGEBUSD
+[2022-07-31 03:15:52,337] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 3666104.69803041 for Symbol : LUNCBUSD
+[2022-07-31 03:15:53,009] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-2010): Account has insufficient balance for requested action.
+[2022-07-31 03:15:53,009] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to LUNC with Percent : 1
+[2022-07-31 03:15:53,915] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 3666104.69803041 for Symbol : LUNCBUSD
+[2022-07-31 03:15:55,633] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-2010): Account has insufficient balance for requested action.
+[2022-07-31 03:15:58,508] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 359.24159936 for Symbol : BUSDLUNC
+[2022-07-31 03:15:59,180] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:16:00,711] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 359.24159936 for Symbol : BUSDBUSD
+[2022-07-31 03:16:01,945] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:16:01,961] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to LUNC with Percent : 1
+[2022-07-31 03:16:04,867] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 369385.86734694 for Symbol : LUNCBURGER
+[2022-07-31 03:16:05,571] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:16:06,211] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 21.873 for Symbol : BURGERLUNC
+[2022-07-31 03:16:06,899] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:16:07,493] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 21.873 for Symbol : BURGERBUSD
+[2022-07-31 03:16:10,399] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 4032248.15302999 for Symbol : LUNCBUSD
+[2022-07-31 03:16:11,289] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to LUNC
+[2022-07-31 03:16:11,305] [yuvalbadihi] [convert] [WARNING]: Trying to convert from LUNC to LUNC
+[2022-07-31 03:16:57,288] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:16:57,288] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to LUNC with Percent : 0.5
+[2022-07-31 03:17:00,100] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 92391.49806162 for Symbol : LUNCUSDT
+[2022-07-31 03:17:01,303] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:17:02,677] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 9.05621464 for Symbol : USDTLUNC
+[2022-07-31 03:17:04,334] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to LUNC
+[2022-07-31 03:19:56,724] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:19:56,724] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BTC with Percent : 0.5
+[2022-07-31 03:19:57,624] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0003824 for Symbol : BTCUSDT
+[2022-07-31 03:19:58,544] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1013): Filter failure: MIN_NOTIONAL
+[2022-07-31 03:19:59,194] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 9.05621464 for Symbol : USDTBTC
+[2022-07-31 03:20:00,836] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BTC
+[2022-07-31 03:20:21,814] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:20:21,814] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to USDT with Percent : 0.5
+[2022-07-31 03:20:22,714] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 278.08885679 for Symbol : USDTLUNC
+[2022-07-31 03:20:24,794] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:20:25,404] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2839379.79162 for Symbol : LUNCUSDT
+[2022-07-31 03:20:26,839] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:20:29,081] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2839379.79162 for Symbol : LUNCBUSD
+[2022-07-31 03:20:31,801] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 277.85751696 for Symbol : USDTBUSD
+[2022-07-31 03:20:33,751] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:23:32,384] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:23:32,384] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to LUNC with Percent : 0.5
+[2022-07-31 03:23:35,624] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 92504.74606742 for Symbol : LUNCUSDT
+[2022-07-31 03:23:36,514] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:23:37,104] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 9.05621464 for Symbol : USDTLUNC
+[2022-07-31 03:23:37,734] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to LUNC
+[2022-07-31 03:24:47,694] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:24:47,694] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to LUNC with Percent : 0.5
+[2022-07-31 03:24:48,614] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 92514.19593421 for Symbol : LUNCUSDT
+[2022-07-31 03:24:49,594] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:24:50,194] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 9.05621464 for Symbol : USDTLUNC
+[2022-07-31 03:24:51,832] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to LUNC
+[2022-07-31 03:26:12,074] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:26:12,074] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BTC with Percent : 0.5
+[2022-07-31 03:26:12,994] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00038252 for Symbol : BTCUSDT
+[2022-07-31 03:26:14,914] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1013): Filter failure: MIN_NOTIONAL
+[2022-07-31 03:26:16,294] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 9.05621464 for Symbol : USDTBTC
+[2022-07-31 03:26:16,915] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BTC
+[2022-07-31 03:27:21,979] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:27:21,979] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to BTC with Percent : 1
+[2022-07-31 03:27:23,959] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.01173547 for Symbol : BTCBUSD
+[2022-07-31 03:27:24,859] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to BTC
+[2022-07-31 03:27:34,308] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:27:34,308] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to USDT with Percent : 1
+[2022-07-31 03:27:35,218] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 277.68473473 for Symbol : USDTBTC
+[2022-07-31 03:27:36,378] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:27:36,978] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.01173632 for Symbol : BTCUSDT
+[2022-07-31 03:27:38,898] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to USDT
+[2022-07-31 03:27:48,427] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:27:48,427] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BTC with Percent : 0.5
+[2022-07-31 03:27:49,387] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00624417 for Symbol : BTCUSDT
+[2022-07-31 03:27:50,077] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BTC
+[2022-07-31 03:29:06,370] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:29:06,370] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to USDT with Percent : 0.5
+[2022-07-31 03:29:07,286] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 138.94505018 for Symbol : USDTLUNC
+[2022-07-31 03:29:07,901] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to USDT
+[2022-07-31 03:29:19,348] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:29:19,348] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to USDT with Percent : 0.5
+[2022-07-31 03:29:21,294] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 138.88826259 for Symbol : USDTLUNC
+[2022-07-31 03:29:21,908] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to USDT
+[2022-07-31 03:29:41,167] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:29:41,167] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to USDT with Percent : 0.5
+[2022-07-31 03:29:42,187] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 73.92435395 for Symbol : USDTBTC
+[2022-07-31 03:29:42,797] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to USDT
+[2022-07-31 03:30:29,952] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:30:29,952] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to USDT with Percent : 0.5
+[2022-07-31 03:30:30,870] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 138.90245949 for Symbol : USDTLUNC
+[2022-07-31 03:30:31,763] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:30:34,193] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1419689.89662 for Symbol : LUNCUSDT
+[2022-07-31 03:30:36,242] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:30:37,792] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1419689.89662 for Symbol : LUNCBNB
+[2022-07-31 03:30:39,762] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:31:19,628] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:31:19,628] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to USDT with Percent : 0.5
+[2022-07-31 03:31:20,558] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 138.98764088 for Symbol : USDTLUNC
+[2022-07-31 03:31:22,398] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to USDT
+[2022-07-31 03:33:17,208] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:33:17,208] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to USDT with Percent : 0.5
+[2022-07-31 03:33:18,200] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 139.38515405 for Symbol : USDTLUNC
+[2022-07-31 03:33:18,628] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to USDT
+[2022-07-31 03:33:33,736] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:33:33,736] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to USDT with Percent : 0.5
+[2022-07-31 03:33:35,906] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 139.55551684 for Symbol : USDTLUNC
+[2022-07-31 03:33:37,681] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to USDT
+[2022-07-31 03:34:11,583] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:34:11,583] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to USDT with Percent : 0.5
+[2022-07-31 03:34:13,393] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 74.15293803 for Symbol : USDTBTC
+[2022-07-31 03:34:14,308] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to USDT
+[2022-07-31 03:34:59,039] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:34:59,039] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to USDT with Percent : 0.5
+[2022-07-31 03:35:01,254] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 74.17133344 for Symbol : USDTBTC
+[2022-07-31 03:35:03,449] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:35:04,949] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00312316 for Symbol : BTCUSDT
+[2022-07-31 03:35:06,208] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to USDT
+[2022-07-31 03:35:34,846] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:35:34,846] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BTC with Percent : 0.5
+[2022-07-31 03:35:37,071] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0046752 for Symbol : BTCUSDT
+[2022-07-31 03:35:38,906] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BTC
+[2022-07-31 03:36:00,054] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:36:00,054] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to LUNC with Percent : 0.5
+[2022-07-31 03:36:01,434] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 566380.43911138 for Symbol : LUNCUSDT
+[2022-07-31 03:36:03,474] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:36:04,145] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 55.57891249 for Symbol : USDTLUNC
+[2022-07-31 03:36:05,824] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:36:07,343] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 55.57891249 for Symbol : USDTBUSD
+[2022-07-31 03:36:09,623] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:36:23,452] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:36:23,452] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to LUNC with Percent : 0.5
+[2022-07-31 03:36:24,962] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 566322.72763399 for Symbol : LUNCUSDT
+[2022-07-31 03:36:26,042] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:36:28,671] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 55.57891249 for Symbol : USDTLUNC
+[2022-07-31 03:36:29,691] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:36:31,331] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 55.57891249 for Symbol : USDTBUSD
+[2022-07-31 03:36:34,342] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:36:43,240] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:36:43,240] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BTC with Percent : 0.5
+[2022-07-31 03:36:44,240] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00234175 for Symbol : BTCUSDT
+[2022-07-31 03:36:44,950] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BTC
+[2022-07-31 03:38:34,970] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:38:34,970] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to USDT with Percent : 0.5
+[2022-07-31 03:38:36,340] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 139.34256335 for Symbol : USDTLUNC
+[2022-07-31 03:38:38,550] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:38:40,350] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1419689.89662 for Symbol : LUNCUSDT
+[2022-07-31 03:38:42,430] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:38:44,040] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1419689.89662 for Symbol : LUNCBUSD
+[2022-07-31 03:38:49,959] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 139.27254761 for Symbol : USDTBUSD
+[2022-07-31 03:38:51,599] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:41:31,855] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:41:31,855] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to USDT with Percent : 0.5
+[2022-07-31 03:41:32,792] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 69.55060836 for Symbol : USDTLUNC
+[2022-07-31 03:41:34,195] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:41:35,724] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 709844.95162 for Symbol : LUNCUSDT
+[2022-07-31 03:41:38,700] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:41:41,999] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0002785 for Symbol : USDTBNB
+[2022-07-31 03:41:45,144] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 709844.95162 for Symbol : LUNCBUSD
+[2022-07-31 03:41:47,033] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.71976666 for Symbol : BNBBUSD
+[2022-07-31 03:41:49,133] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to BNB
+[2022-07-31 03:44:09,872] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:44:09,872] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to USDT with Percent : 0.5
+[2022-07-31 03:44:10,807] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 34.77530426 for Symbol : USDTLUNC
+[2022-07-31 03:44:11,992] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:44:13,512] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 354922.47662 for Symbol : LUNCUSDT
+[2022-07-31 03:44:16,381] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:44:17,082] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 354922.47662 for Symbol : LUNCBUSD
+[2022-07-31 03:44:20,682] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 34.92218553 for Symbol : USDTBUSD
+[2022-07-31 03:44:23,541] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:44:59,808] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:45:00,114] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to ETH with Percent : 1
+[2022-07-31 03:45:02,210] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.14096518 for Symbol : ETHBTC
+[2022-07-31 03:45:03,389] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to ETH
+[2022-07-31 03:45:03,389] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to ETH with Percent : 1
+[2022-07-31 03:45:07,408] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.348e-05 for Symbol : ETHLTC
+[2022-07-31 03:45:07,868] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to ETH
+[2022-07-31 03:45:07,868] [yuvalbadihi] [convert] [WARNING]: Trying to convert from ETH to ETH
+[2022-07-31 03:45:07,868] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to ETH with Percent : 1
+[2022-07-31 03:45:10,100] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.12203534 for Symbol : ETHBNB
+[2022-07-31 03:45:12,888] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:45:14,290] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.71775031 for Symbol : BNBETH
+[2022-07-31 03:45:15,192] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to ETH
+[2022-07-31 03:45:15,192] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to ETH with Percent : 1
+[2022-07-31 03:45:16,898] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.03260345 for Symbol : ETHUSDT
+[2022-07-31 03:45:17,797] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to ETH
+[2022-07-31 03:45:17,797] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to ETH with Percent : 1
+[2022-07-31 03:45:18,997] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.64e-06 for Symbol : ETHDOGE
+[2022-07-31 03:45:19,872] [yuvalbadihi] [convert] [INFO]: Successfully converted from DOGE to ETH
+[2022-07-31 03:45:19,872] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to ETH with Percent : 1
+[2022-07-31 03:45:20,807] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.02045451 for Symbol : ETHBUSD
+[2022-07-31 03:45:22,068] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to ETH
+[2022-07-31 03:45:22,068] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to ETH with Percent : 1
+[2022-07-31 03:45:23,277] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 7.162e-05 for Symbol : ETHBURGER
+[2022-07-31 03:45:23,869] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to ETH
+[2022-07-31 03:45:23,869] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to ETH with Percent : 1
+[2022-07-31 03:45:25,509] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.02038654 for Symbol : ETHLUNC
+[2022-07-31 03:45:26,577] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:45:27,157] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 354922.48324 for Symbol : LUNCETH
+[2022-07-31 03:45:27,887] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:45:28,487] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 354922.48324 for Symbol : LUNCBUSD
+[2022-07-31 03:45:30,307] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.02041612 for Symbol : ETHBUSD
+[2022-07-31 03:45:31,227] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to ETH
+[2022-07-31 03:46:15,914] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 03:46:16,214] [yuvalbadihi] [convert] [WARNING]: Trying to convert from BTC to BTC
+[2022-07-31 03:46:16,214] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BTC with Percent : 0.5
+[2022-07-31 03:46:18,544] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 4.8e-07 for Symbol : BTCLTC
+[2022-07-31 03:46:19,224] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to BTC
+[2022-07-31 03:46:19,224] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to BTC with Percent : 0.5
+[2022-07-31 03:46:21,614] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.01208543 for Symbol : BTCETH
+[2022-07-31 03:46:24,373] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:46:25,903] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.16807644 for Symbol : ETHBTC
+[2022-07-31 03:46:26,794] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to BTC
+[2022-07-31 03:46:26,794] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to BTC with Percent : 0.5
+[2022-07-31 03:46:30,328] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 4.2e-07 for Symbol : BTCBNB
+[2022-07-31 03:46:31,943] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to BTC
+[2022-07-31 03:46:31,943] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BTC with Percent : 0.5
+[2022-07-31 03:46:34,823] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2.5e-07 for Symbol : BTCUSDT
+[2022-07-31 03:46:35,723] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BTC
+[2022-07-31 03:46:35,723] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to BTC with Percent : 0.5
+[2022-07-31 03:46:39,132] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 6e-08 for Symbol : BTCDOGE
+[2022-07-31 03:46:39,772] [yuvalbadihi] [convert] [INFO]: Successfully converted from DOGE to BTC
+[2022-07-31 03:46:39,772] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to BTC with Percent : 0.5
+[2022-07-31 03:46:42,592] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 5.8e-07 for Symbol : BTCBUSD
+[2022-07-31 03:46:43,178] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to BTC
+[2022-07-31 03:46:43,178] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BTC with Percent : 0.5
+[2022-07-31 03:46:44,667] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2.58e-06 for Symbol : BTCBURGER
+[2022-07-31 03:46:45,274] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BTC
+[2022-07-31 03:46:45,274] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to BTC with Percent : 0.5
+[2022-07-31 03:46:46,502] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0 for Symbol : BTCLUNC
+[2022-07-31 03:46:46,864] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to BTC
+[2022-07-31 03:46:48,132] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to LUNC with Percent : 0.5
+[2022-07-31 03:46:49,568] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1459979.0026612 for Symbol : LUNCBTC
+[2022-07-31 03:46:50,212] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:46:50,872] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00603648 for Symbol : BTCLUNC
+[2022-07-31 03:46:51,772] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:46:52,367] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00603648 for Symbol : BTCBUSD
+[2022-07-31 03:46:54,071] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1458628.26637466 for Symbol : LUNCBUSD
+[2022-07-31 03:46:54,722] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to LUNC
+[2022-07-31 03:46:54,722] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to LUNC with Percent : 0.5
+[2022-07-31 03:46:55,921] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 117.10924926 for Symbol : LUNCLTC
+[2022-07-31 03:46:56,581] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:46:57,191] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0001885 for Symbol : LTCLUNC
+[2022-07-31 03:46:57,542] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to LUNC
+[2022-07-31 03:46:57,542] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to LUNC with Percent : 0.5
+[2022-07-31 03:46:58,931] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1462289.44097382 for Symbol : LUNCETH
+[2022-07-31 03:46:59,831] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:47:00,481] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.08407644 for Symbol : ETHLUNC
+[2022-07-31 03:47:01,411] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:47:02,001] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.08407644 for Symbol : ETHBUSD
+[2022-07-31 03:47:04,091] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1459874.54824249 for Symbol : LUNCBUSD
+[2022-07-31 03:47:04,741] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-2010): Account has insufficient balance for requested action.
+[2022-07-31 03:47:04,741] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to LUNC with Percent : 0.5
+[2022-07-31 03:47:05,991] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.24113273 for Symbol : LUNCBNB
+[2022-07-31 03:47:06,661] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:47:07,261] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 4.2e-07 for Symbol : BNBLUNC
+[2022-07-31 03:47:07,720] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to LUNC
+[2022-07-31 03:47:07,722] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to LUNC with Percent : 0.5
+[2022-07-31 03:47:08,616] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.56249363 for Symbol : LUNCUSDT
+[2022-07-31 03:47:09,280] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:47:09,890] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00604359 for Symbol : USDTLUNC
+[2022-07-31 03:47:10,241] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to LUNC
+[2022-07-31 03:47:10,241] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to LUNC with Percent : 0.5
+[2022-07-31 03:47:11,495] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 14.25486401 for Symbol : LUNCDOGE
+[2022-07-31 03:47:12,181] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:47:12,782] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.02 for Symbol : DOGELUNC
+[2022-07-31 03:47:13,221] [yuvalbadihi] [convert] [INFO]: Successfully converted from DOGE to LUNC
+[2022-07-31 03:47:13,225] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to LUNC with Percent : 0.5
+[2022-07-31 03:47:14,390] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 729788.5652949 for Symbol : LUNCBUSD
+[2022-07-31 03:47:15,420] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to LUNC
+[2022-07-31 03:47:15,420] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to LUNC with Percent : 0.5
+[2022-07-31 03:47:16,620] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 623.82358933 for Symbol : LUNCBURGER
+[2022-07-31 03:47:17,520] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:47:18,110] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0365 for Symbol : BURGERLUNC
+[2022-07-31 03:47:18,461] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to LUNC
+[2022-07-31 03:47:18,461] [yuvalbadihi] [convert] [WARNING]: Trying to convert from LUNC to LUNC
+[2022-07-31 03:47:18,790] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to DOGE with Percent : 0.5
+[2022-07-31 03:47:20,000] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1025.2451344 for Symbol : DOGEBTC
+[2022-07-31 03:47:20,750] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to DOGE
+[2022-07-31 03:47:20,750] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to DOGE with Percent : 0.5
+[2022-07-31 03:47:21,997] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.16424349 for Symbol : DOGELTC
+[2022-07-31 03:47:22,660] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to DOGE
+[2022-07-31 03:47:22,660] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to DOGE with Percent : 0.5
+[2022-07-31 03:47:23,869] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1026.5472209 for Symbol : DOGEETH
+[2022-07-31 03:47:24,520] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:47:25,110] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.04207644 for Symbol : ETHDOGE
+[2022-07-31 03:47:26,630] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:47:28,880] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.04207644 for Symbol : ETHBUSD
+[2022-07-31 03:47:32,719] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2049.53390183 for Symbol : DOGEBUSD
+[2022-07-31 03:47:34,817] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-2010): Account has insufficient balance for requested action.
+[2022-07-31 03:47:34,817] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to DOGE with Percent : 0.5
+[2022-07-31 03:47:38,715] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00174054 for Symbol : DOGEBNB
+[2022-07-31 03:47:39,579] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to DOGE
+[2022-07-31 03:47:39,579] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to DOGE with Percent : 0.5
+[2022-07-31 03:47:40,498] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.08642342 for Symbol : DOGEUSDT
+[2022-07-31 03:47:41,099] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to DOGE
+[2022-07-31 03:47:41,099] [yuvalbadihi] [convert] [WARNING]: Trying to convert from DOGE to DOGE
+[2022-07-31 03:47:41,099] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to DOGE with Percent : 0.5
+[2022-07-31 03:47:42,004] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1024.03424181 for Symbol : DOGEBUSD
+[2022-07-31 03:47:42,908] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to DOGE
+[2022-07-31 03:47:42,908] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to DOGE with Percent : 0.5
+[2022-07-31 03:47:44,198] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.87426712 for Symbol : DOGEBURGER
+[2022-07-31 03:47:45,058] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to DOGE
+[2022-07-31 03:47:45,060] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to DOGE with Percent : 0.5
+[2022-07-31 03:47:46,294] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1534.48602332 for Symbol : DOGELUNC
+[2022-07-31 03:47:46,978] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:47:47,578] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1093114.20321 for Symbol : LUNCDOGE
+[2022-07-31 03:47:48,478] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:47:49,148] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1093114.20321 for Symbol : LUNCBUSD
+[2022-07-31 03:47:50,988] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2555.36218125 for Symbol : DOGEBUSD
+[2022-07-31 03:47:51,898] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-2010): Account has insufficient balance for requested action.
+[2022-07-31 03:47:52,198] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to LTC with Percent : 0.5
+[2022-07-31 03:47:53,578] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.58787744 for Symbol : LTCBTC
+[2022-07-31 03:47:54,498] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to LTC
+[2022-07-31 03:47:54,498] [yuvalbadihi] [convert] [WARNING]: Trying to convert from LTC to LTC
+[2022-07-31 03:47:54,498] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to LTC with Percent : 0.5
+[2022-07-31 03:47:56,223] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.59025449 for Symbol : LTCETH
+[2022-07-31 03:47:57,112] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to LTC
+[2022-07-31 03:47:57,112] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to LTC with Percent : 0.5
+[2022-07-31 03:47:58,297] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2e-06 for Symbol : LTCBNB
+[2022-07-31 03:47:58,927] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to LTC
+[2022-07-31 03:47:58,927] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to LTC with Percent : 0.5
+[2022-07-31 03:47:59,992] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 9.921e-05 for Symbol : LTCUSDT
+[2022-07-31 03:48:00,343] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to LTC
+[2022-07-31 03:48:00,343] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to LTC with Percent : 0.5
+[2022-07-31 03:48:01,597] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.17537336 for Symbol : LTCDOGE
+[2022-07-31 03:48:02,467] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:48:03,067] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1023.4955 for Symbol : DOGELTC
+[2022-07-31 03:48:03,787] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:48:04,397] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1023.4955 for Symbol : DOGEBUSD
+[2022-07-31 03:48:05,982] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 4.10818531 for Symbol : LTCBUSD
+[2022-07-31 03:48:06,637] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-2010): Account has insufficient balance for requested action.
+[2022-07-31 03:48:06,637] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to LTC with Percent : 0.5
+[2022-07-31 03:48:07,967] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2.05409266 for Symbol : LTCBUSD
+[2022-07-31 03:48:08,707] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to LTC
+[2022-07-31 03:48:08,707] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to LTC with Percent : 0.5
+[2022-07-31 03:48:09,922] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00100324 for Symbol : LTCBURGER
+[2022-07-31 03:48:10,873] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:48:11,477] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0365 for Symbol : BURGERLTC
+[2022-07-31 03:48:11,852] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to LTC
+[2022-07-31 03:48:11,852] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to LTC with Percent : 0.5
+[2022-07-31 03:48:13,086] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.88046457 for Symbol : LTCLUNC
+[2022-07-31 03:48:13,767] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:48:14,366] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 546557.10321 for Symbol : LUNCLTC
+[2022-07-31 03:48:15,080] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:48:15,686] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 546557.10321 for Symbol : LUNCBUSD
+[2022-07-31 03:48:17,316] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2.93215118 for Symbol : LTCBUSD
+[2022-07-31 03:48:17,956] [yuvalbadihi] [convert] [INFO]: Successfully converted from LUNC to LTC
+[2022-07-31 03:48:18,536] [yuvalbadihi] [convert] [INFO]: Start to convert from BTC to SHIB with Percent : 0.5
+[2022-07-31 03:48:20,189] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1500245.38075314 for Symbol : SHIBBTC
+[2022-07-31 03:48:21,076] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:48:21,676] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0007556 for Symbol : BTCSHIB
+[2022-07-31 03:48:22,716] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:48:24,686] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0007556 for Symbol : BTCBUSD
+[2022-07-31 03:48:29,010] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1489620.72970711 for Symbol : SHIBBUSD
+[2022-07-31 03:48:29,776] [yuvalbadihi] [convert] [INFO]: Successfully converted from BTC to SHIB
+[2022-07-31 03:48:29,776] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to SHIB with Percent : 0.5
+[2022-07-31 03:48:31,250] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 15699607.57991632 for Symbol : SHIBLTC
+[2022-07-31 03:48:32,176] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:48:33,795] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 3.078607 for Symbol : LTCSHIB
+[2022-07-31 03:48:34,475] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:48:36,045] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 3.078607 for Symbol : LTCBUSD
+[2022-07-31 03:48:37,725] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 15678243.19497908 for Symbol : SHIBBUSD
+[2022-07-31 03:48:38,405] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to SHIB
+[2022-07-31 03:48:38,405] [yuvalbadihi] [convert] [INFO]: Start to convert from ETH to SHIB with Percent : 0.5
+[2022-07-31 03:48:40,485] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1503910.02474477 for Symbol : SHIBETH
+[2022-07-31 03:48:41,905] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:48:42,575] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.01053609 for Symbol : ETHSHIB
+[2022-07-31 03:48:44,634] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:48:45,295] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.01053609 for Symbol : ETHBUSD
+[2022-07-31 03:48:47,060] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1497347.7916318 for Symbol : SHIBBUSD
+[2022-07-31 03:48:49,424] [yuvalbadihi] [convert] [INFO]: Successfully converted from ETH to SHIB
+[2022-07-31 03:48:49,424] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SHIB with Percent : 0.5
+[2022-07-31 03:48:51,044] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 10.18895397 for Symbol : SHIBBNB
+[2022-07-31 03:48:52,384] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:48:52,994] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 4.2e-07 for Symbol : BNBSHIB
+[2022-07-31 03:48:53,596] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to SHIB
+[2022-07-31 03:48:53,596] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SHIB with Percent : 0.5
+[2022-07-31 03:48:54,540] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 505.73974895 for Symbol : SHIBUSDT
+[2022-07-31 03:48:55,204] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1013): Filter failure: MIN_NOTIONAL
+[2022-07-31 03:48:55,834] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00604359 for Symbol : USDTSHIB
+[2022-07-31 03:48:56,189] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SHIB
+[2022-07-31 03:48:56,189] [yuvalbadihi] [convert] [INFO]: Start to convert from DOGE to SHIB with Percent : 0.5
+[2022-07-31 03:48:57,430] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 2997851.47573222 for Symbol : SHIBDOGE
+[2022-07-31 03:48:58,124] [yuvalbadihi] [convert] [INFO]: Successfully converted from DOGE to SHIB
+[2022-07-31 03:48:58,124] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to SHIB with Percent : 0.5
+[2022-07-31 03:48:59,134] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.3958159 for Symbol : SHIBBUSD
+[2022-07-31 03:48:59,589] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to SHIB
+[2022-07-31 03:48:59,589] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to SHIB with Percent : 0.5
+[2022-07-31 03:49:00,843] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 5110.0 for Symbol : SHIBBURGER
+[2022-07-31 03:49:02,124] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-07-31 03:49:02,824] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0365 for Symbol : BURGERSHIB
+[2022-07-31 03:49:14,253] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out.
+[2022-07-31 03:49:25,432] [yuvalbadihi] [convert] [ERROR]: Failed to convert, HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/account?timestamp=1659228554253&signature=22a83fe27a7ee57293292b1bb7a044f534f5c7b1de6fe307ec6ca6c52c305f74 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022E79C2AD30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2022-07-31 03:49:25,432] [yuvalbadihi] [convert] [INFO]: Start to convert from LUNC to SHIB with Percent : 0.5
+[2022-07-31 03:49:25,432] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/account?timestamp=1659228565432&signature=2b3c982f97b749a5543a004d8fc88560d40eda4484d7a2e74faff1374e8bd728 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022E79D6F250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2022-07-31 03:49:25,432] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/account?timestamp=1659228565432&signature=2b3c982f97b749a5543a004d8fc88560d40eda4484d7a2e74faff1374e8bd728 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022E79D72460>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2022-07-31 03:49:25,442] [yuvalbadihi] [convert] [ERROR]: Failed to convert, HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/account?timestamp=1659228565432&signature=2b3c982f97b749a5543a004d8fc88560d40eda4484d7a2e74faff1374e8bd728 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022E79D69A00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))

@@ -34,9 +34,8 @@ class BinanceWallet:
         self.logger.info("Initialize logger")
 
     def convert(self, first_coin, second_coin, percent, type_market="MARKET"):
-
-        if first_coin == "USDT":
-            return False
+       # if first_coin == "USDT":
+        #    return False
         # I want to convert % of my FirstCoin to the SecondCoin
         if first_coin == second_coin:
             self.logger.warning(f"Trying to convert from {first_coin} to {second_coin}")
@@ -52,8 +51,12 @@ class BinanceWallet:
             except Exception as e2:
                 self.logger.warning(f"Failed to convert with second opportunity, {e2}")
                 try:
-                    self.direct_convert(first_coin, "BUSD", percent, "SELL", type_market)
-                    self.direct_convert(second_coin, "BUSD", 1, "BUY", type_market)
+                    if first_coin == "USDT":
+                        self.direct_convert(first_coin, "BNB", percent, "SELL", type_market)
+                        self.direct_convert(second_coin, "BNB", 1, "BUY", type_market)
+                    else:
+                        self.direct_convert(first_coin, "BUSD", percent, "SELL", type_market)
+                        self.direct_convert(second_coin, "BUSD", 1, "BUY", type_market)
                 except Exception as e3:
                     self.logger.error(f"Failed to convert, {e3}")
                     return False
@@ -75,6 +78,10 @@ class BinanceWallet:
         symbol = BinanceWallet.get_symbol(first_coin, second_coin)
         self.logger.info(f"Quantity : {quantity} for Symbol : {symbol}")
         min_qty, step_size = self.min_qty_step_size(first_coin)
+        if first_coin == "BUSD" or first_coin == "USDT":
+            min_qty, step_size = 1, 0.1
+
+
         if min_qty is None or step_size is None:
             return 0
         optimal_quantity = round((quantity // min_qty) * step_size, 8)
@@ -95,7 +102,7 @@ class BinanceWallet:
 
     def currency_price(self, currency):
         if currency == "USDT" or currency == "BUSD":
-            return 1
+            return float(1)
         df = pd.DataFrame(self.client.get_all_tickers())
         df = df[df['symbol'] == BinanceWallet.get_symbol(currency, "BUSD")]
         return float(df['price'].iloc[0])
@@ -131,6 +138,7 @@ class BinanceWallet:
 
     def min_qty_step_size(self, currency):
         symbol_info = self.client.get_symbol_info(BinanceWallet.get_symbol(currency, "BUSD"))
+
         if symbol_info is None:
             return None, None
         return float(symbol_info['filters'][2]['minQty']), float(symbol_info['filters'][2]['stepSize'])
