@@ -4,8 +4,8 @@ import math
 
 
 class BBIndicator(Indicator):
-    def __init__(self, coin_manager, logger, assessment_df, semaphore):
-        super().__init__(coin_manager, logger, assessment_df, semaphore)
+    def __init__(self, coin_manager, logger, assessment_df, semaphore, data_util):
+        super().__init__(coin_manager, logger, assessment_df, semaphore, data_util)
         self.candles_measure = 20
         self.steps = super().get_config()["TradeDetail"]["update_step_size"]
         self.mins = super().get_config()["TradeDetail"]["minutes"]
@@ -37,21 +37,19 @@ class BBIndicator(Indicator):
         return sd
 
     def prepare_data(self):
-        interval = 0
-        close_set = []
-        for kline in super().get_binance_module().client.get_historical_klines_generator(f"{self.coin.symbol}USDT",
-                                                                                         super().get_binance_module().client.KLINE_INTERVAL_15MINUTE,
-                                                                                         f"{self.steps * self.mins * self.candles_measure} minutes ago UTC"):
-            if interval % self.steps == 0:
-                close_set.append(kline[1])
-            interval += 1
-        return close_set
+        data = super().get_data_util().request_historical_data(self.coin.symbol, self.candles_measure)
+        lst = []
+        for i in data["Close"]:
+            lst.append(float(i))
+        return lst
 
     def res(self, lower, upper):
-        curr_price = super().get_binance_module().currency_price(self.coin.symbol)
+        curr_price = super().get_data_util().currency_price(self.coin.symbol)
         if curr_price <= lower:
             self.result.set_result('BUY')
         elif curr_price >= upper:
             self.result.set_result('SELL')
         else:
             self.result.set_result('HOLD')
+
+
