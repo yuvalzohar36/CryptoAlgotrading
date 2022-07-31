@@ -4,7 +4,7 @@
     "minutes": 15
   },
   "Paths": {
-    "abs_path": "C:\\CryptoAlgotrading\\",
+    "abs_path": "C:\\Users\\yuval\\OneDrive\\Desktop\\Coding\\CryptoAlgotrading\\",
     "logger_folder": "Logs\\",
     "trade_wallet_logs_path": "TradeWalletsLogs\\",
     "indicators_logs_path": "IndicatorsLogs\\",
@@ -48,12 +48,12 @@
     "MACDIndicator": {
       "MODULE_PATH": "MACDIndicator",
       "DURATION": 60,
-      "MODE" : "OFF"
+      "MODE" : "ON"
     },
     "BBIndicator": {
       "MODULE_PATH": "BBIndicator",
       "DURATION": 60,
-      "MODE" : "OFF"
+      "MODE" : "ON"
     }
   },
   "IndicatorsData": {

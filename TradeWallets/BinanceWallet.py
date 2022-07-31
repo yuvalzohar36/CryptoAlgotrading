@@ -34,7 +34,7 @@ class BinanceWallet:
         self.logger.info("Initialize logger")
 
     def convert(self, first_coin, second_coin, percent, type_market="MARKET"):
-       # if first_coin == "USDT":
+        # if first_coin == "USDT":
         #    return False
         # I want to convert % of my FirstCoin to the SecondCoin
         if first_coin == second_coin:
@@ -51,9 +51,14 @@ class BinanceWallet:
             except Exception as e2:
                 self.logger.warning(f"Failed to convert with second opportunity, {e2}")
                 try:
-                    if first_coin == "USDT":
-                        self.direct_convert(first_coin, "BNB", percent, "SELL", type_market)
-                        self.direct_convert(second_coin, "BNB", 1, "BUY", type_market)
+                    if second_coin == "USDT":
+                        self.direct_convert(first_coin, "BUSD", percent, "SELL", type_market)
+                        self.direct_convert("BNB", "BUSD", 1, "BUY", type_market)
+                        self.direct_convert("BNB", second_coin, 1, "SELL", type_market)
+                    elif first_coin == "USDT":
+                        self.direct_convert("BNB", first_coin, percent, "BUY", type_market)
+                        self.direct_convert("BNB", "BUSD", 1, "SELL", type_market)
+                        self.direct_convert(second_coin, "BUSD", 1, "BUY", type_market)
                     else:
                         self.direct_convert(first_coin, "BUSD", percent, "SELL", type_market)
                         self.direct_convert(second_coin, "BUSD", 1, "BUY", type_market)
@@ -81,10 +86,9 @@ class BinanceWallet:
         if first_coin == "BUSD" or first_coin == "USDT":
             min_qty, step_size = 1, 0.1
 
-
         if min_qty is None or step_size is None:
             return 0
-        optimal_quantity = round((quantity // min_qty) * step_size, 8)
+        optimal_quantity = round((quantity * 0.995 // min_qty) * step_size, 8)
         if self.is_valid_lot_size(optimal_quantity, min_qty):
             self.client.create_order(symbol=symbol, side=side, type=type_market, quantity=optimal_quantity)
 
@@ -176,19 +180,3 @@ class BinanceWallet:
             return depth
         except Exception:
             return False
-
-    # @staticmethod
-    # def create_new_logger(logger_name, config_file, log_path):
-    #     # Create a custom logger
-    #     logger_path = config_file["Paths"]["abs_path"] + config_file["Paths"]["logger_folder"] + config_file["Paths"][
-    #         "trade_wallet_logs_path"]
-    #     logger_full_path = logger_path + logger_name + ".log"
-    #     # Creating and Configuring Logger
-    #     Log_Format = "%(levelname)s %(asctime)s - %(message)s"
-    #     print(logger_full_path)
-    #     logging.basicConfig(filename=logger_full_path,
-    #                         filemode="a",
-    #                         format=Log_Format,
-    #                         level=logging.INFO)
-    #     # logger = logging.getLogger()
-    #     return logger_full_path

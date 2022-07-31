@@ -10,17 +10,15 @@ class WalletManager:
         self.data_util = data_util
 
 
-        date = datetime(2022, 7, 30, 0, 0)
+        date = datetime(2021, 7, 30, 0, 0)
         while True:
             data_util.set_date(date)
             self.coin_manager.schedule_all_indicators_jobs()
          #   time.sleep(900)
             print("BTC", self.coin_manager.stats("BTC").assessment())
-            #print("LTC", self.coin_manager.stats("LTC").assessment())
+            print("LTC", self.coin_manager.stats("LTC").assessment())
           #  print("BURGER", self.coin_manager.stats("BURGER").assessment())
-            print("INVERSTING")
         #    self.invest()
-            print("done!")
             date = date + timedelta(minutes=15)
 
 
