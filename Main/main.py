@@ -40,7 +40,7 @@ if __name__ == '__main__':
     api_key = local_config["Binance"][USERNAME]["Details"]["api_key"]
     api_secret = local_config["Binance"][USERNAME]["Details"]["api_secret"]
     binance_wallet = BinanceWallet(api_key, api_secret, 0.1, USERNAME, config)
-    execute_telegram_bot(TELEGRAM_BOT, binance_wallet)
+    execute_telegram_bot(TELEGRAM_BOT, binance_wallet, config)
 
     CM = CManager.CoinsManager(config, local_config)
     WM = WManager.WalletManager([binance_wallet], CM)
@@ -58,9 +58,7 @@ if __name__ == '__main__':
     #binance_wallet2 = BinanceWallet(api_key, api_secret, 0.1, USERNAME2, config)
     #execute_telegram_bot(True, binance_wallet2, config)
     while True:
-<<<<<<< HEAD
         pass
-=======
+
         time.sleep(5)
   #  binance_wallet2.convert("LTC", "DOGE", 0.01)
->>>>>>> b47225612641344fd873f9dacb4877ad1fd3a5bf

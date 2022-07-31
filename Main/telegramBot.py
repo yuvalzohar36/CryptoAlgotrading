@@ -58,7 +58,7 @@ def main_tg_bot(wallet, token, delay):
                         str1 =''
                         now = datetime.now()
 
-                        print("now =", now)
+
 
                         # dd/mm/YY H:M:S
                         dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
