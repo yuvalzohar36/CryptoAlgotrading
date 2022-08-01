@@ -1,0 +1,2057 @@
+[2022-07-31 21:04:41,714] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:04:56,674] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:04:58,064] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:04:58,064] [RSIIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-31 21:04:58,080] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:04:58,080] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:05:02,003] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:05:02,003] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:05:05,331] [RSIIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-31 21:05:05,331] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:05:06,925] [RSIIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-31 21:05:06,925] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:05:12,154] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:05:12,154] [RSIIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-31 21:05:12,154] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:05:12,154] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:05:32,927] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:05:34,913] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:05:34,913] [RSIIndicator] [execute] [INFO]: Execute for Symbol LTC
+[2022-07-31 21:05:34,913] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:05:34,913] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:05:38,906] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:05:38,906] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:05:40,683] [RSIIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-31 21:05:40,683] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:05:42,414] [RSIIndicator] [get_results] [INFO]: Current result for symbol LTC is: 
+[2022-07-31 21:05:42,414] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:05:57,255] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:05:58,159] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:05:58,159] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:05:58,175] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:06:01,072] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:06:01,072] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:06:30,570] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:06:31,148] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:06:31,164] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:06:31,164] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:06:33,773] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:06:33,773] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:10:08,093] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:10:09,186] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:10:09,186] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:10:09,186] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:10:12,233] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:10:12,233] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:10:14,873] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:10:14,873] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:10:14,873] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:10:16,795] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:10:16,795] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:10:19,091] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:10:19,091] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:10:19,091] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:10:21,389] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:10:21,389] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:10:33,280] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:10:34,218] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:10:34,233] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:10:34,233] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:10:37,735] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:10:37,735] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:10:40,781] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:10:40,781] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:10:40,781] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:21:56,228] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:21:56,744] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:21:56,744] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:21:56,744] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:22:00,456] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:22:00,456] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:22:03,832] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:22:03,832] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:22:03,832] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:22:13,208] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:22:13,724] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:22:13,739] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:22:13,739] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:22:16,333] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:22:16,333] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:24:21,546] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:24:22,046] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:24:22,062] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:24:22,062] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:24:24,640] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:24:24,640] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:24:27,468] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:24:27,468] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:24:27,468] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:24:29,499] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:24:29,514] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:24:32,499] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:24:32,499] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:24:32,499] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:24:34,239] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:24:34,239] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:27:38,505] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:27:39,020] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:27:39,036] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:27:39,036] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:27:41,083] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:27:41,098] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:27:46,457] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:27:46,477] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:27:46,477] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:27:49,288] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:27:49,288] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:28:01,257] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:28:01,788] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:28:01,804] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:28:01,804] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:28:04,445] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:28:04,445] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:29:28,424] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:29:28,956] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:29:28,971] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:29:28,971] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:29:31,627] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:29:31,627] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:29:52,884] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:29:54,228] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:29:54,243] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:29:54,243] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:29:56,868] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:29:56,868] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:30:24,963] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:30:26,269] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:30:26,285] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:30:26,285] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:30:28,894] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:30:28,894] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:38:22,835] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:38:23,351] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:38:23,366] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:38:23,366] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:38:26,022] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:38:26,022] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:38:31,318] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:38:31,318] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:38:31,318] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:38:33,304] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:38:33,304] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:38:36,350] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:38:36,350] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:38:36,350] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:38:37,631] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:38:37,631] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:38:39,491] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:38:39,506] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:38:39,506] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:38:41,026] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:38:41,026] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:38:44,475] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:38:44,490] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:38:44,490] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:38:46,756] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:38:46,756] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:38:51,084] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:38:51,100] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:38:51,100] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:38:53,256] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:38:53,256] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:00,938] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:39:00,953] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:00,953] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:02,918] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:02,918] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:05,576] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:39:05,592] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:05,592] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:07,404] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:07,404] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:10,155] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:39:10,170] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:10,170] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:11,592] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:11,592] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:14,967] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:39:14,967] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:14,967] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:16,904] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:16,904] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:20,232] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:39:20,232] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:20,232] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:22,810] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:22,810] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:39:26,200] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:39:26,200] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:26,200] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:27,481] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:27,481] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:30,950] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:39:30,950] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:30,950] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:33,560] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:33,560] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:39:35,856] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:39:35,856] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:35,856] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:37,794] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:37,809] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:40,559] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:39:40,559] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:40,559] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:42,543] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:42,559] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:50,184] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:39:50,184] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:50,184] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:52,262] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:52,262] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:55,636] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:39:55,636] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:55,636] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:39:57,700] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:39:57,700] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:00,669] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:40:00,685] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:00,685] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:02,764] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:02,764] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:08,935] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:40:08,951] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:08,951] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:11,560] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:11,560] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:16,263] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:40:16,278] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:16,278] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:18,325] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:18,325] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:21,075] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:40:21,075] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:21,075] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:22,919] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:22,919] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:26,670] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:40:26,670] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:26,670] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:29,185] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:29,185] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:32,482] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:40:32,482] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:32,482] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:34,654] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:34,669] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:37,685] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:40:37,701] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:37,701] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:39,029] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:39,029] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:42,279] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:40:42,279] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:42,279] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:43,622] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:43,622] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:47,091] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:40:47,091] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:47,091] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:48,684] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:48,684] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:54,309] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:40:54,325] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:54,325] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:56,262] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:56,262] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:40:58,592] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:40:58,592] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:40:58,592] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:00,626] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:00,626] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:03,158] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:41:03,174] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:03,174] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:05,299] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:05,314] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:07,392] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:41:07,392] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:07,392] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:08,736] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:08,736] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:12,252] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:41:12,252] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:12,252] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:14,361] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:14,376] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:17,595] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:41:17,595] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:17,595] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:19,610] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:19,610] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:25,217] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:41:25,217] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:25,217] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:26,576] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:26,576] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:30,420] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:41:30,420] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:30,420] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:32,919] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:32,919] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:41:36,451] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:41:36,451] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:36,451] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:37,826] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:37,826] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:41,325] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:41:41,325] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:41,325] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:42,684] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:42,684] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:46,482] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:41:46,482] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:46,482] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:48,966] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:48,966] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:41:51,903] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:41:51,903] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:51,903] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:54,342] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:54,373] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:41:57,607] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:41:57,607] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:41:57,607] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:01,060] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:01,060] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:42:07,326] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:42:07,326] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:07,326] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:09,644] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:09,644] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:13,614] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:42:13,614] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:13,614] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:15,942] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:15,942] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:20,035] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:42:20,051] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:20,051] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:22,519] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:22,519] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:42:27,097] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:42:27,113] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:27,113] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:30,019] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:30,019] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:42:32,222] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:42:32,222] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:32,222] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:33,644] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:33,644] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:38,105] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:42:38,105] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:38,105] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:40,773] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:40,773] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:42:43,342] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:42:43,342] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:43,342] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:45,951] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:45,951] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:42:48,748] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:42:48,748] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:48,748] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:51,232] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:51,232] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:53,982] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:42:53,982] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:53,982] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:56,341] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:56,341] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:42:59,515] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:42:59,515] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:42:59,515] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:02,000] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:02,000] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:05,171] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:43:05,187] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:05,187] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:07,608] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:07,608] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:10,077] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:43:10,077] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:10,077] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:12,359] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:12,374] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:17,327] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:43:17,327] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:17,327] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:20,649] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:20,649] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:24,561] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:43:24,561] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:24,561] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:27,829] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:27,829] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:32,298] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:43:32,298] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:32,298] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:34,814] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:34,829] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:39,095] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:43:39,095] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:39,095] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:40,581] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:40,581] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:43,487] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:43:43,503] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:43,503] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:46,137] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:46,137] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:49,161] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:43:49,162] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:49,162] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:51,485] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:51,485] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:54,282] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:43:54,282] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:54,282] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:43:56,735] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:43:56,735] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:00,016] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:44:00,016] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:00,016] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:02,359] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:02,359] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:06,297] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:44:06,297] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:06,297] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:09,999] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:09,999] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:44:12,140] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:44:12,140] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:12,140] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:13,640] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:13,640] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:16,530] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:44:16,530] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:16,530] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:19,155] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:19,155] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:22,639] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:44:22,639] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:22,639] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:25,060] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:25,060] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:28,247] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:44:28,247] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:28,247] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:30,872] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:30,872] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:35,107] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:44:35,107] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:35,107] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:37,497] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:37,497] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:42,099] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:44:42,099] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:42,099] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:44,461] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:44,461] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:47,523] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:44:47,523] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:47,523] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:49,884] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:49,884] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:52,862] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:44:52,862] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:52,862] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:44:55,643] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:55,643] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:44:57,864] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:44:57,864] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:44:57,864] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:00,394] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:00,394] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:04,129] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:45:04,129] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:04,129] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:05,956] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:05,956] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:09,175] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:45:09,175] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:09,175] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:10,675] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:10,675] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:14,362] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:45:14,362] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:14,362] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:16,877] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:16,877] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:45:20,955] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:45:20,955] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:20,955] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:23,470] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:23,470] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:45:26,095] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:45:26,095] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:26,095] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:27,642] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:27,642] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:30,829] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:45:30,829] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:30,845] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:33,360] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:33,360] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:45:37,828] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:45:37,828] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:37,828] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:40,406] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:40,406] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:45:44,500] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:45:44,500] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:44,500] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:46,968] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:46,968] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:45:49,640] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:45:49,640] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:49,640] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:52,178] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:52,178] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:45:57,474] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:45:57,474] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:45:57,474] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:00,224] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:00,224] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:46:05,145] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:46:05,145] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:05,145] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:07,660] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:07,660] [RSIIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-31 21:46:11,066] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:46:11,082] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:11,082] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:13,597] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:13,597] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:46:16,191] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:46:16,191] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:16,191] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:18,128] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:18,144] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:21,471] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:46:21,471] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:21,471] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:23,002] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:23,002] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:26,112] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:46:26,127] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:26,127] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:27,643] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:27,643] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:30,549] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:46:30,549] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:30,549] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:33,126] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:33,126] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:35,861] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:46:35,861] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:35,861] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:38,236] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:38,251] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:42,126] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:46:42,126] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:42,126] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:43,673] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:43,673] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:47,424] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:46:47,424] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:47,424] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:50,033] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:50,033] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:46:53,221] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:46:53,221] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:53,221] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:55,955] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:55,955] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:46:59,159] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:46:59,174] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:46:59,174] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:02,705] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:02,705] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:07,691] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:47:07,691] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:07,691] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:10,300] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:10,300] [RSIIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-31 21:47:12,941] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:47:12,941] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:12,941] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:15,331] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:15,331] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:18,581] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:47:18,581] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:18,581] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:20,762] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:20,762] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:23,856] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:47:23,856] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:23,856] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:26,528] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:26,528] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:47:29,449] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:47:29,449] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:29,449] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:32,074] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:32,074] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:34,418] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:47:34,418] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:34,418] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:37,042] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:37,042] [RSIIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-31 21:47:40,308] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:47:40,308] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:40,308] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:43,104] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:43,104] [RSIIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-31 21:47:47,185] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:47:47,185] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:47,185] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:49,044] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:49,044] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:52,482] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:47:52,482] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:52,482] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:55,607] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:55,607] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:47:59,294] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:47:59,294] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:47:59,294] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:00,528] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:00,528] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:04,575] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:48:04,575] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:04,575] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:07,544] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:07,544] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:11,143] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:48:11,143] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:11,143] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:13,377] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:13,377] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:16,424] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:48:16,424] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:16,424] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:18,461] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:18,461] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:21,534] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:48:21,550] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:21,550] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:23,440] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:23,440] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:26,518] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:48:26,518] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:26,518] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:28,346] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:28,346] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:31,627] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:48:31,627] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:31,627] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:34,850] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:34,850] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:38,015] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:48:38,017] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:38,017] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:41,293] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:41,297] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:45,057] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:48:45,073] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:45,073] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:48,311] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:48,311] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:50,972] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:48:50,975] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:50,975] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:52,983] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:52,983] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:56,171] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:48:56,171] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:56,171] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:48:58,561] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:48:58,561] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:01,827] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:49:01,827] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:01,827] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:04,218] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:04,218] [RSIIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-31 21:49:07,045] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:49:07,045] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:07,045] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:08,342] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:08,342] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:11,578] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:49:11,578] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:11,578] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:14,172] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:14,172] [RSIIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-31 21:49:17,718] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:49:17,734] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:17,734] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:20,093] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:20,093] [RSIIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-31 21:49:23,561] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:49:23,561] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:23,561] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:25,045] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:25,045] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:28,514] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:49:28,530] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:28,530] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:29,905] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:29,905] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:32,686] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:49:32,686] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:32,686] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:35,123] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:35,123] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:49:37,529] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:49:37,529] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:37,529] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:39,449] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:39,449] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:44,099] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:49:44,099] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:44,099] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:46,538] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:46,538] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:49:51,522] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:49:51,522] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:51,522] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:53,366] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:53,366] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:56,146] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:49:56,146] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:56,146] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:49:58,865] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:49:58,865] [RSIIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-31 21:50:03,321] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:50:03,321] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:03,321] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:05,367] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:05,367] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:08,320] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:50:08,320] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:08,320] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:10,476] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:10,476] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:13,632] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:50:13,632] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:13,632] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:15,835] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:15,835] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:18,616] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:50:18,616] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:18,616] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:20,709] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:20,709] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:23,865] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:50:23,865] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:23,865] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:26,053] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:26,053] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:29,162] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:50:29,162] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:29,162] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:31,365] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:31,365] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:35,552] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:50:35,552] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:35,552] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:36,942] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:36,942] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:41,066] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:50:41,082] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:41,082] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:44,145] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:44,145] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:47,145] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:50:47,145] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:47,145] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:49,692] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:49,692] [RSIIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-31 21:50:52,653] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:50:52,655] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:52,655] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:56,164] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:56,165] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:50:59,625] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:50:59,625] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:50:59,625] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:02,232] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:02,236] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:05,398] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:51:05,398] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:05,398] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:07,289] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:07,289] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:10,915] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:51:10,915] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:10,915] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:13,243] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:13,243] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:15,587] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:51:15,587] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:15,587] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:17,900] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:17,900] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:20,619] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:51:20,619] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:20,619] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:23,026] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:23,026] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:26,142] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:51:26,142] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:26,142] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:28,347] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:28,347] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:32,613] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:51:32,613] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:32,613] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:34,271] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:34,271] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:37,422] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:51:37,422] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:37,422] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:39,874] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:39,874] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:43,327] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:51:43,327] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:43,327] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:45,608] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:45,608] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:48,061] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:51:48,061] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:48,061] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:49,764] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:49,764] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:53,873] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:51:53,873] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:53,873] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:51:55,983] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:51:55,983] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:03,812] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:52:03,827] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:03,827] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:05,811] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:05,811] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:08,624] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:52:08,624] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:08,624] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:10,983] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:10,998] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:15,514] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:52:15,514] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:15,514] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:18,108] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:18,108] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:20,997] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:52:20,998] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:20,999] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:23,579] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:23,579] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:27,880] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:52:27,880] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:27,880] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:30,114] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:30,114] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:33,208] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:52:33,208] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:33,208] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:35,817] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:35,817] [RSIIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-31 21:52:39,179] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:52:39,179] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:39,179] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:41,194] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:41,194] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:46,555] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:52:46,555] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:46,555] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:48,883] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:48,899] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:52:56,823] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:52:56,823] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:52:56,823] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:00,088] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:00,088] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:03,605] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:53:03,605] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:03,605] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:06,604] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:06,604] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:09,510] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:53:09,510] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:09,510] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:12,276] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:12,276] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:15,229] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:53:15,229] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:15,229] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:17,511] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:17,511] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:21,010] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:53:21,010] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:21,010] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:22,573] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:22,573] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:26,432] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:53:26,432] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:26,432] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:29,463] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:29,463] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:33,994] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:53:34,010] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:34,010] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:35,869] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:35,869] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:39,290] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:53:39,290] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:39,290] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:41,728] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:41,743] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:44,680] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:53:44,680] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:44,680] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:47,055] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:47,055] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:49,664] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:53:49,664] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:49,664] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:52,383] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:52,383] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:56,758] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:53:56,758] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:56,758] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:53:59,945] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:53:59,945] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:02,929] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:54:02,929] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:02,929] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:05,382] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:05,382] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:10,694] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:54:10,694] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:10,694] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:13,194] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:13,194] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:16,085] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:54:16,085] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:16,085] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:18,663] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:18,678] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:22,459] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:54:22,459] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:22,459] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:25,381] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:25,381] [RSIIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-31 21:54:28,849] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:54:28,849] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:28,849] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:30,396] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:30,396] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:34,239] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:54:34,239] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:34,239] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:36,708] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:36,708] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:54:41,598] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:54:41,614] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:41,614] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:44,129] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:44,129] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:46,348] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:54:46,348] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:46,348] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:48,708] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:48,708] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:51,926] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:54:51,942] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:51,942] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:54,473] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:54,473] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:57,059] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:54:57,059] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:57,059] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:54:59,481] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:54:59,481] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:55:02,856] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:55:02,856] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:02,856] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:55:05,418] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:05,418] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:55:08,074] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:55:08,074] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:08,074] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:55:10,621] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:10,621] [RSIIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-31 21:55:13,355] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:55:13,355] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:13,355] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:55:15,886] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:15,886] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:55:20,463] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:55:20,463] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:20,463] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:55:21,994] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:21,994] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:55:26,525] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:55:26,525] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:26,525] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:55:29,307] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:29,307] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:55:32,432] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:55:32,432] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:32,432] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:55:34,978] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:34,978] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:55:39,400] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:55:39,400] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:39,400] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:55:41,025] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:41,025] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:55:44,587] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:55:44,587] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:44,587] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:55:47,415] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:47,415] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:55:51,180] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:55:51,180] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:51,180] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:55:53,789] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:53,789] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:55:56,398] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:55:56,398] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:56,398] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:55:58,945] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:55:58,945] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:56:01,226] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:56:01,226] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:01,226] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:56:03,866] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:03,866] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:56:06,147] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:56:06,147] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:06,147] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:56:08,741] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:08,741] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:56:12,193] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:56:12,193] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:12,193] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:56:15,053] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:15,053] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:56:17,365] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:56:17,365] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:17,365] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:56:20,568] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:20,568] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:56:24,474] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:56:24,474] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:24,474] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:56:26,036] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:26,036] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:56:29,161] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:56:29,161] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:29,161] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:56:31,754] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:31,754] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:56:35,552] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:56:35,552] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:35,552] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:56:38,224] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:38,224] [RSIIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-31 21:56:41,096] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:56:41,096] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:41,096] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:56:43,777] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:43,777] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:56:50,543] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:56:50,543] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:50,543] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:56:53,480] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:53,480] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:56:57,546] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:56:57,546] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:56:57,546] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:00,200] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:00,200] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:57:04,340] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:57:04,340] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:04,340] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:06,981] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:06,981] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:57:10,824] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:57:10,824] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:10,824] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:13,542] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:13,542] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:57:17,011] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:57:17,011] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:17,011] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:18,542] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:18,542] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:21,854] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:57:21,854] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:21,854] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:23,901] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:23,901] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:28,370] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:57:28,370] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:28,370] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:29,635] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:29,635] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:32,432] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:57:32,447] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:32,447] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:34,338] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:34,338] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:37,448] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:57:37,448] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:37,448] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:38,854] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:38,854] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:43,166] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:57:43,166] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:43,166] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:45,041] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:45,041] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:48,009] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:57:48,009] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:48,009] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:49,728] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:49,728] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:54,212] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:57:54,212] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:54,212] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:57:56,212] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:57:56,212] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:00,961] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:58:00,977] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:00,977] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:03,554] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:03,554] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:58:06,320] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:58:06,320] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:06,320] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:08,976] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:08,976] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:58:12,085] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:58:12,085] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:12,085] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:14,351] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:14,351] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:17,366] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:58:17,366] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:17,366] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:18,647] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:18,647] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:22,350] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:58:22,350] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:22,350] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:24,413] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:24,413] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:26,913] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:58:26,913] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:26,913] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:30,007] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:30,007] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:33,268] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:58:33,268] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:33,268] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:35,509] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:35,509] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:38,712] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:58:38,712] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:38,712] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:40,555] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:40,571] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:50,727] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:58:50,727] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:50,727] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:52,649] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:52,664] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:54,820] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:58:54,836] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:54,836] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:58:57,245] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:58:57,245] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:59:00,666] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:59:00,666] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:00,666] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:03,072] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:03,072] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 21:59:06,134] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:59:06,134] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:06,134] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:08,368] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:08,368] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:11,540] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:59:11,540] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:11,540] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:13,618] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:13,634] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:16,743] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:59:16,743] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:16,743] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:19,430] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:19,430] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:22,210] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:59:22,211] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:22,211] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:24,949] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:24,949] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:28,216] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:59:28,216] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:28,216] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:30,339] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:30,339] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:33,153] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:59:33,153] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:33,153] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:34,575] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:34,575] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:38,825] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:59:38,825] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:38,825] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:41,168] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:41,168] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:43,864] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:59:43,879] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:43,879] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:46,149] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:46,149] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:49,935] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:59:49,935] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:49,935] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:51,623] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:51,623] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:55,404] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 21:59:55,419] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:55,419] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:59:57,951] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 21:59:57,951] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:00:02,340] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:00:02,340] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:00:02,340] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:00:03,824] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:00:03,824] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:00:31,856] [RSIIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 22:00:32,793] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:00:32,809] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:00:32,809] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:00:35,449] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:00:35,449] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:00:39,699] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:00:39,699] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:00:39,699] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:00:41,558] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:00:41,558] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:00:44,386] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:00:44,386] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:00:44,386] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:00:46,261] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:00:46,261] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:00:48,948] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:00:48,948] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:00:48,948] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:00:50,198] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:00:50,198] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:00:53,926] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:00:53,926] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:00:53,926] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:00:55,800] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:00:55,800] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:00,628] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:01:00,628] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:00,628] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:01,895] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:01,895] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:04,957] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:01:04,957] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:04,957] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:06,894] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:06,910] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:10,082] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:01:10,082] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:10,082] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:12,019] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:12,019] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:14,894] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:01:14,894] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:14,894] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:16,972] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:16,972] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:19,894] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:01:19,909] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:19,909] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:21,643] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:21,643] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:24,237] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:01:24,237] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:24,237] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:26,456] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:26,456] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:29,402] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:01:29,402] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:29,402] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:31,448] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:31,448] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:34,073] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:01:34,073] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:34,073] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:36,073] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:36,073] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:38,635] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:01:38,635] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:38,635] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:40,650] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:40,650] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:43,166] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:01:43,166] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:43,166] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:46,212] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:46,212] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:50,962] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:01:50,962] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:50,962] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:52,227] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:52,227] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:55,665] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:01:55,665] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:55,665] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:01:56,962] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:01:56,962] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:02,587] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:02:02,587] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:02,587] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:04,947] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:04,963] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:07,135] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:02:07,135] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:07,135] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:09,166] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:09,166] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:11,946] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:02:11,946] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:11,946] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:13,978] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:13,978] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:18,337] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:02:18,337] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:18,337] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:20,255] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:20,255] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:23,161] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:02:23,176] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:23,176] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:25,176] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:25,176] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:28,134] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:02:28,134] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:28,134] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:30,338] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:30,338] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:33,573] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:02:33,589] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:33,589] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:35,621] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:35,621] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:38,246] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:02:38,246] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:38,246] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:40,293] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:40,293] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:44,354] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:02:44,354] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:44,354] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:46,979] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:46,994] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:50,667] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:02:50,682] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:50,682] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:51,995] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:51,995] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:02:58,997] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:02:58,997] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:02:58,997] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:01,763] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:01,763] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:05,826] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:03:05,826] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:05,826] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:08,327] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:08,327] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:11,546] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:03:11,546] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:11,546] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:13,546] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:13,546] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:17,124] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:03:17,140] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:17,140] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:19,265] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:19,265] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:22,234] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:03:22,234] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:22,234] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:24,062] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:24,062] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:26,735] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:03:26,750] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:26,750] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:28,880] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:28,880] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:31,960] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:03:31,976] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:31,976] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:34,460] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:34,460] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:03:39,133] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:03:39,133] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:39,133] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:40,492] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:40,492] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:43,133] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:03:43,133] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:43,133] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:44,524] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:44,524] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:47,509] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:03:47,509] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:47,509] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:50,837] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:50,837] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:54,556] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:03:54,556] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:54,556] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:03:57,136] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:57,136] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:03:59,215] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:03:59,215] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:03:59,215] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:01,746] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:01,746] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:04:04,059] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:04:04,059] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:04,059] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:06,279] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:06,279] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:09,077] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:04:09,077] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:09,077] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:11,437] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:11,453] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:15,000] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:04:15,000] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:15,000] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:17,094] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:17,094] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:19,891] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:04:19,891] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:19,891] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:22,204] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:22,204] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:24,782] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:04:24,782] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:24,782] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:27,407] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:27,407] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:04:31,862] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:04:31,862] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:31,862] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:33,269] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:33,269] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:36,300] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:04:36,300] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:36,300] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:37,707] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:37,707] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:40,801] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:04:40,816] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:40,816] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:43,285] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:43,285] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:47,380] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:04:47,380] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:47,380] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:49,739] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:49,739] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:52,552] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:04:52,552] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:52,552] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:54,849] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:54,849] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:04:57,695] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:04:57,695] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:04:57,695] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:00,195] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:00,195] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:05,946] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:05:05,946] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:05,946] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:08,587] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:08,587] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:05:11,087] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:05:11,087] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:11,087] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:13,353] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:13,369] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:17,604] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:05:17,604] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:17,604] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:19,558] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:19,573] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:22,824] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:05:22,824] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:22,824] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:25,136] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:25,152] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:29,231] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:05:29,231] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:29,231] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:33,309] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:33,309] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:37,497] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:05:37,497] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:37,497] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:39,935] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:39,935] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:42,373] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:05:42,373] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:42,373] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:44,123] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:44,123] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:48,811] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:05:48,811] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:48,811] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:51,630] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:51,630] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:54,677] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:05:54,677] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:54,677] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:05:57,038] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:05:57,038] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:00,414] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:06:00,414] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:00,414] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:02,820] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:02,820] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:06,626] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:06:06,627] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:06,627] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:09,200] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:09,205] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:12,364] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:06:12,366] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:12,366] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:13,886] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:13,886] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:17,024] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:06:17,024] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:17,024] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:19,541] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:19,557] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:24,419] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:06:24,434] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:24,434] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:25,889] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:25,889] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:29,548] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:06:29,548] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:29,548] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:32,580] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:32,580] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:35,773] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:06:35,773] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:35,773] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:38,227] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:38,243] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:41,009] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:06:41,009] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:41,009] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:43,604] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:43,604] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:46,701] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:06:46,701] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:46,701] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:49,530] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:49,530] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:06:52,983] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:06:52,983] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:52,983] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:55,577] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:55,577] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:06:58,749] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:06:58,749] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:06:58,749] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:07:01,109] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:01,109] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:07:07,798] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:07:07,798] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:07,798] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:07:10,220] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:10,220] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:07:13,377] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:07:13,377] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:13,377] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:07:15,877] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:15,877] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:07:20,372] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:07:20,372] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:20,372] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:07:22,857] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:22,857] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:07:27,859] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:07:27,859] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:27,859] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:07:30,500] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:30,500] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:07:33,469] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:07:33,469] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:33,469] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:07:35,969] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:35,969] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:07:38,516] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:07:38,516] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:38,516] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:07:41,063] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:41,063] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:07:44,798] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:07:44,798] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:44,798] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:07:46,300] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:46,300] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:07:49,660] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:07:49,660] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:49,660] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:07:52,222] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:52,222] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:07:55,162] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:07:55,162] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:55,162] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:07:57,695] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:07:57,695] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:08:00,884] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:08:00,884] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:00,884] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:03,475] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:03,475] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:08:06,069] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:08:06,069] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:06,069] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:08,569] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:08,569] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:11,336] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:08:11,336] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:11,336] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:14,602] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:14,602] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:19,649] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:08:19,649] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:19,649] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:22,245] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:22,245] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:25,761] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:08:25,761] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:25,761] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:28,339] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:28,339] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:08:31,871] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:08:31,871] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:31,871] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:34,590] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:34,590] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:08:36,747] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:08:36,747] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:36,747] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:39,278] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:39,278] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:42,375] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:08:42,375] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:42,375] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:44,985] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:44,985] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:08:48,112] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:08:48,112] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:48,112] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:50,535] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:50,535] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:53,332] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:08:53,347] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:53,347] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:54,926] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:54,926] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:08:58,348] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:08:58,348] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:08:58,348] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:00,895] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:00,895] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:05,043] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:09:05,043] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:05,043] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:07,887] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:07,887] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:11,763] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:09:11,763] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:11,763] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:15,123] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:15,123] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:18,107] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:09:18,107] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:18,107] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:20,702] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:20,702] [RSIIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-31 22:09:23,733] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:09:23,733] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:23,733] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:25,280] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:25,280] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:29,125] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:09:29,125] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:29,125] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:31,797] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:31,797] [RSIIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-31 22:09:35,892] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:09:35,892] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:35,892] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:38,517] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:38,517] [RSIIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-31 22:09:41,518] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:09:41,533] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:41,533] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:43,752] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:43,768] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:47,034] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:09:47,034] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:47,034] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:48,862] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:48,862] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:52,597] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:09:52,597] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:52,597] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:54,863] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:54,863] [RSIIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-31 22:09:56,834] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:09:56,834] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:56,834] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:09:58,725] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:09:58,725] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:01,850] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:10:01,850] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:01,850] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:04,132] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:04,132] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:08,023] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:10:08,023] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:08,023] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:09,273] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:09,273] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:12,508] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:10:12,508] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:12,508] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:14,460] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:14,460] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:18,304] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:10:18,304] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:18,304] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:20,242] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:20,242] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:23,164] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:10:23,164] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:23,164] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:25,053] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:25,053] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:27,957] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:10:27,957] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:27,957] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:29,957] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:29,957] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:32,660] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:10:32,660] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:32,660] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:33,926] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:33,926] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:37,208] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:10:37,223] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:37,223] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:39,239] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:39,239] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:42,471] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:10:42,472] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:42,472] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:44,177] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:44,177] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:48,697] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:10:48,697] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:48,697] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:50,744] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:50,744] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:53,698] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:10:53,698] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:53,698] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:10:55,682] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:10:55,682] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:00,745] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:11:00,745] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:00,745] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:03,148] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:03,148] [RSIIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-31 22:11:07,727] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:11:07,727] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:07,727] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:09,024] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:09,024] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:12,743] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:11:12,743] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:12,743] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:15,262] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:15,262] [RSIIndicator] [get_results] [INFO]: Percent result is: SELL
+[2022-07-31 22:11:17,591] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:11:17,591] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:17,591] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:18,904] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:18,904] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:22,217] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:11:22,233] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:22,233] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:23,936] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:23,936] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:28,062] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:11:28,062] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:28,062] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:30,031] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:30,031] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:33,094] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:11:33,109] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:33,109] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:34,984] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:34,984] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:39,126] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:11:39,126] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:39,126] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:41,157] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:41,173] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:44,423] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:11:44,423] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:44,423] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:46,690] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:46,690] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:50,378] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:11:50,378] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:50,378] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:52,661] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:52,661] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:55,863] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:11:55,863] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:55,863] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:11:58,320] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:11:58,320] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:02,416] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:12:02,416] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:02,416] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:04,788] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:04,788] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:07,541] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:12:07,556] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:07,556] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:09,899] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:09,899] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:13,682] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:12:13,697] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:13,697] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:16,339] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:16,339] [RSIIndicator] [get_results] [INFO]: Percent result is: HOLD
+[2022-07-31 22:12:20,022] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:12:20,024] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:20,024] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:21,481] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:21,481] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:25,200] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:12:25,200] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:25,200] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:27,453] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:27,453] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:30,260] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:12:30,260] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:30,260] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:32,761] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:32,761] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:35,818] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:12:35,818] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:35,818] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:38,343] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:38,343] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:45,089] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:12:45,089] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:45,089] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:47,462] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:47,462] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:50,378] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:12:50,378] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:50,378] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:52,284] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:52,300] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:56,066] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:12:56,066] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:56,066] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:12:58,287] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:12:58,287] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:01,961] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:13:01,961] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:01,961] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:04,430] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:04,430] [RSIIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-31 22:13:07,603] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:13:07,603] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:07,603] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:10,119] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:10,119] [RSIIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-31 22:13:12,666] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:13:12,666] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:12,666] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:14,838] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:14,838] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:17,448] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:13:17,448] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:17,448] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:19,529] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:19,529] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:23,030] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:13:23,045] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:23,045] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:25,264] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:25,264] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:27,530] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:13:27,530] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:27,530] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:29,655] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:29,655] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:32,484] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:13:32,484] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:32,484] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:34,703] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:34,703] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:37,438] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:13:37,438] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:37,438] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:39,523] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:39,523] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:42,554] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:13:42,554] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:42,554] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:44,726] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:44,726] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:48,867] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:13:48,867] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:48,867] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:52,243] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:52,243] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:54,946] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:13:54,962] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:54,962] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:13:57,824] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:13:57,824] [RSIIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-31 22:14:01,826] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:14:01,826] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:01,826] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:03,264] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:03,264] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:06,686] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:14:06,686] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:06,686] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:08,749] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:08,749] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:11,625] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:14:11,625] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:11,625] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:14,109] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:14,109] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:16,875] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:14:16,875] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:16,875] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:19,094] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:19,094] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:22,188] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:14:22,188] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:22,188] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:24,439] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:24,439] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:27,236] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:14:27,236] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:27,236] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:29,909] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:29,909] [RSIIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-31 22:14:32,801] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:14:32,801] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:32,801] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:35,520] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:35,520] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:38,567] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:14:38,567] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:38,567] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:40,885] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:40,885] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:44,383] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:14:44,383] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:44,383] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:47,367] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:47,367] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:51,253] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:14:51,253] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:51,253] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:53,550] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:53,550] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:14:58,240] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:14:58,240] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:14:58,240] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:00,631] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:00,631] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:05,601] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:15:05,601] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:05,601] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:07,305] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:07,305] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:11,040] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:15:11,040] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:11,040] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:13,493] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:13,493] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:16,384] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:15:16,399] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:16,399] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:18,775] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:18,775] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:21,994] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:15:21,994] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:21,994] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:24,463] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:24,478] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:27,666] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:15:27,666] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:27,666] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:30,213] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:30,213] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:33,339] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:15:33,339] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:33,339] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:36,073] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:36,073] [RSIIndicator] [get_results] [INFO]: Percent result is: BUY
+[2022-07-31 22:15:39,699] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:15:39,699] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:39,699] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:41,214] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:41,214] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:44,480] [RSIIndicator] [execute] [INFO]: Execute for Symbol BTC
+[2022-07-31 22:15:44,480] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:44,480] [RSIIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 22:15:47,321] [RSIIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
+[2022-07-31 22:15:47,321] [RSIIndicator] [get_results] [INFO]: Percent result is: None

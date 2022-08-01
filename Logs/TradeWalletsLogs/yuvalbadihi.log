@@ -1653,3 +1653,37 @@
 [2022-07-31 03:49:25,432] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/account?timestamp=1659228565432&signature=2b3c982f97b749a5543a004d8fc88560d40eda4484d7a2e74faff1374e8bd728 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022E79D6F250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
 [2022-07-31 03:49:25,432] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/account?timestamp=1659228565432&signature=2b3c982f97b749a5543a004d8fc88560d40eda4484d7a2e74faff1374e8bd728 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022E79D72460>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
 [2022-07-31 03:49:25,442] [yuvalbadihi] [convert] [ERROR]: Failed to convert, HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/account?timestamp=1659228565432&signature=2b3c982f97b749a5543a004d8fc88560d40eda4484d7a2e74faff1374e8bd728 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022E79D69A00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2022-07-31 21:04:39,651] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:04:39,995] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:04:54,174] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:04:54,533] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:05:28,128] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:05:28,726] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:05:55,655] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:05:55,997] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:06:28,977] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:06:29,320] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:10:06,923] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:10:07,259] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:10:31,687] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:10:32,046] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:21:54,635] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:21:54,979] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:22:12,137] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:22:12,465] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:24:19,156] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:24:19,843] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:27:36,114] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:27:37,255] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:28:00,051] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:28:00,395] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:29:26,228] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:29:26,815] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:29:50,608] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:29:50,968] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:30:23,244] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:30:23,604] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:38:21,257] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:38:21,601] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 22:00:30,106] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-07-31 22:00:30,465] [yuvalbadihi] [init_logger] [INFO]: Initialize logger

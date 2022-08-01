@@ -43,15 +43,6 @@ if __name__ == '__main__':
     binance_wallet = BinanceWallet(api_key, api_secret, 0.1, USERNAME, config)
     execute_telegram_bot(TELEGRAM_BOT, binance_wallet, config)
 
-    # binance_wallet.invest_on_currency("USDT", 1)
-    # binance_wallet.invest_on_currency("LUNC",1)
-    # binance_wallet.invest_on_currency("LUNC", 0.5)
-    # binance_wallet.invest_on_currency("DOGE", 0.5)
-    # binance_wallet.invest_on_currency("LTC", 0.5)
-    # binance_wallet.invest_on_currency("SHIB", 0.5)
-    binance_wallet.convert("LUNC", "USDT", 1)
-    time.sleep(5)
-    binance_wallet.convert("USDT", "LUNC", 1)
 
     DU = DataUtil(config, local_config, "TEST")  # TEST / LIVE
     CM = CManager.CoinsManager(DU)

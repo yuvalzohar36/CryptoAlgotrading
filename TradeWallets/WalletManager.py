@@ -16,7 +16,7 @@ class WalletManager:
             self.coin_manager.schedule_all_indicators_jobs()
          #   time.sleep(900)
             print("BTC", self.coin_manager.stats("BTC").assessment())
-            print("LTC", self.coin_manager.stats("LTC").assessment())
+         #   print("LTC", self.coin_manager.stats("LTC").assessment())
           #  print("BURGER", self.coin_manager.stats("BURGER").assessment())
         #    self.invest()
             date = date + timedelta(minutes=15)

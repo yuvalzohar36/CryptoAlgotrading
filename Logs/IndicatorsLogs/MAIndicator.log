@@ -2293,3 +2293,20 @@
 [2022-07-30 19:52:27,917] [MAIndicator] [get_results] [INFO]: Percent result is: None
 [2022-07-30 19:52:30,575] [MAIndicator] [get_results] [INFO]: Current result for symbol BTC is: 
 [2022-07-30 19:52:30,575] [MAIndicator] [get_results] [INFO]: Percent result is: None
+[2022-07-31 21:04:41,714] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:04:56,674] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:05:32,927] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:05:57,255] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:06:30,570] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:10:08,093] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:10:33,280] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:21:56,228] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:22:13,208] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:24:21,546] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:27:38,505] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:28:01,257] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:29:28,424] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:29:52,884] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:30:24,947] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 21:38:22,835] [MAIndicator] [init_logger] [INFO]: Initialize logger
+[2022-07-31 22:00:31,856] [MAIndicator] [init_logger] [INFO]: Initialize logger
