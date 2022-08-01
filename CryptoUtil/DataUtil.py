@@ -20,7 +20,7 @@ class DataUtil:
         self.moduls = self.load_moduls()
 
     def request_historical_data(self, symbol, candles_count):
-        convert_symbol = symbol + "USDT"
+        convert_symbol = symbol + "BUSD"
         client = self.moduls.get("Binance").client
         start_time = f"{self.steps * self.mins * candles_count + 60} minutes ago UTC"
         if self.mode == "LIVE":
@@ -100,6 +100,8 @@ class DataUtil:
         return dict
 
     def currency_price(self, symbol):
+        if symbol == "USDT" or symbol == "BUSD":
+            return 1.0
         if self.mode == "LIVE":
             return self.moduls.get("Binance").currency_price(symbol)
         else:

@@ -6,12 +6,12 @@ import numpy
 class RSIIndicator(Indicator):
     def __init__(self, coin_manager, logger, assessment_df, semaphore, data_util):
         super().__init__(coin_manager, logger, assessment_df, semaphore, data_util)
-        self.timeperiod = 14
+        self.timeperiod = 8
         self.RSI_OVERBOUGHT = 70
         self.RSI_OVERSOLD = 30
-        self.overbought_diff = 0.95
-        self.oversold_diff = 1.05
-        self.multi = 5
+        self.overbought_diff = 1
+        self.oversold_diff = 1
+        self.multi = 2
 
     def run(self, args):
         self.coin = args[0]
@@ -27,6 +27,7 @@ class RSIIndicator(Indicator):
         lst = []
         for i in data["Close"]:
             lst.append(float(i))
+        lst.reverse()
         return numpy.array(lst)
 
     def res(self, rsi):

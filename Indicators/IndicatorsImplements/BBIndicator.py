@@ -52,4 +52,3 @@ class BBIndicator(Indicator):
         else:
             self.result.set_result('HOLD')
 
-

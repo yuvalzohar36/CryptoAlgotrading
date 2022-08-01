@@ -1,10 +1,10 @@
 {
   "TradeDetail": {
-    "update_step_size": 1,
+    "update_step_size": 4,
     "minutes": 15
   },
   "Paths": {
-    "abs_path": "C:\\CryptoAlgotrading\\",
+    "abs_path": "C:\\Users\\yuval\\OneDrive\\Desktop\\Coding\\CryptoAlgotrading\\",
     "logger_folder": "Logs\\",
     "trade_wallet_logs_path": "TradeWalletsLogs\\",
     "indicators_logs_path": "IndicatorsLogs\\",
@@ -42,23 +42,32 @@
     "MAIndicator": {
       "MODULE_PATH": "MAIndicator",
       "DURATION": 60,
-      "MODE" : "OFF"
+      "MODE": "ON",
+      "TYPE": "REGULAR"
     },
-
     "MACDIndicator": {
       "MODULE_PATH": "MACDIndicator",
       "DURATION": 60,
-      "MODE" : "OFF"
+      "MODE": "ON",
+      "TYPE": "MOMENTUM"
     },
     "BBIndicator": {
       "MODULE_PATH": "BBIndicator",
       "DURATION": 60,
-      "MODE" : "OFF"
+      "MODE": "ON",
+      "TYPE": "REGULAR"
     },
     "RSIIndicator": {
       "MODULE_PATH": "RSIIndicator",
       "DURATION": 60,
-      "MODE" : "ON"
+      "MODE": "ON",
+      "TYPE": "MOMENTUM"
+    },
+    "EMAIndicator": {
+      "MODULE_PATH": "EMAIndicator",
+      "DURATION": 60,
+      "MODE": "ON",
+      "TYPE": "MOMENTUM"
     }
   },
   "IndicatorsData": {
