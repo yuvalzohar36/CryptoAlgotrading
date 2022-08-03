@@ -9,6 +9,7 @@ class ResultForWM:
         self.sell_votes_count = args[5]
         self.hold_votes_count = args[6]
         self.result_creation = args[7]
+        self.max_duration = args[8]
 
     def assessment(self):
         safe_range = 0.9

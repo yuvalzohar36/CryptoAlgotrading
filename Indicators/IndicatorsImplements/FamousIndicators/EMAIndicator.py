@@ -4,8 +4,8 @@ import numpy
 
 
 class EMAIndicator(Indicator):
-    def __init__(self, coin_manager, logger, assessment_df, semaphore, data_util):
-        super().__init__(coin_manager, logger, assessment_df, semaphore, data_util)
+    def __init__(self, coin_manager, logger, assessment_df, data_util):
+        super().__init__(coin_manager, logger, assessment_df, data_util)
         self.timeperiod = 10
         self.diff = 1
 
@@ -27,10 +27,11 @@ class EMAIndicator(Indicator):
         return numpy.array(lst)
 
     def res(self, ema):
-        curr_price = super().get_data_util().currency_price(self.coin.symbol)
-        if ema > self.diff * curr_price:
-            self.result.set_result('BUY')
-        elif curr_price > self.diff * ema:
-            self.result.set_result('SELL')
-        else:
-            self.result.set_result('HOLD')
+        self.result.set_result('BUY')
+        # curr_price = super().get_data_util().currency_price(self.coin.symbol)
+        # if ema > self.diff * curr_price:
+        #     self.result.set_result('BUY')
+        # elif curr_price > self.diff * ema:
+        #     self.result.set_result('SELL')
+        # else:
+        #     self.result.set_result('HOLD')

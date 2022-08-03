@@ -4,8 +4,8 @@ import numpy
 
 
 class RSIIndicator(Indicator):
-    def __init__(self, coin_manager, logger, assessment_df, semaphore, data_util):
-        super().__init__(coin_manager, logger, assessment_df, semaphore, data_util)
+    def __init__(self, coin_manager, logger, assessment_df, data_util):
+        super().__init__(coin_manager, logger, assessment_df, data_util)
         self.timeperiod = 8
         self.RSI_OVERBOUGHT = 70
         self.RSI_OVERSOLD = 30

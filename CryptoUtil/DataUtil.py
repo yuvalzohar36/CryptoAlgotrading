@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 import time
 from TradeWallets.BinanceWallet import BinanceWallet
+import threading
 
 USERNAME = 'yuvalbadihi'
 LOCAL_CONFIGURATION_FILE = "../Configurations/local_configuration.json"
@@ -18,6 +19,14 @@ class DataUtil:
         self.steps = self.config["TradeDetail"]["update_step_size"]
         self.to_date = self.get_rand_date()
         self.moduls = self.load_moduls()
+        self.running_indicators_amount = 0
+        self.running_indicators_wrote_result_amount = 0
+
+        self.semaphores = {"MW_all_indi_finish_sem": threading.Semaphore(0),
+                           "INDICATOR_write_to_db_sem": threading.Semaphore(),
+                           "INDIRES_inc_counter_sem": threading.Semaphore()}
+
+
 
     def request_historical_data(self, symbol, candles_count):
         convert_symbol = symbol + "BUSD"
@@ -122,4 +131,10 @@ class DataUtil:
         if self.mode == "LIVE":
             return "ASSESSMENT_DB_PATH"
         return "ASSESSMENT_DB_PATH_TEST"
+
+    def lock(self, sem_name):
+        self.semaphores[sem_name].acquire()
+
+    def unlock(self, sem_name):
+        self.semaphores[sem_name].release()
 

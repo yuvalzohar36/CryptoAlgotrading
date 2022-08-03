@@ -2,8 +2,8 @@ from Indicators.Indicator import Indicator
 
 
 class MAIndicator(Indicator):
-    def __init__(self, coin_manager, logger, assessment_df, semaphore, data_util):
-        super().__init__(coin_manager, logger, assessment_df, semaphore, data_util)
+    def __init__(self, coin_manager, logger, assessment_df, data_util):
+        super().__init__(coin_manager, logger, assessment_df, data_util)
         self.candles_measure = 10
         self.steps = super().get_config()["TradeDetail"]["update_step_size"]
         self.mins = super().get_config()["TradeDetail"]["minutes"]

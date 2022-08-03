@@ -1,7 +1,6 @@
 import json
 import time
 import warnings
-
 import Coins.CoinsManager as CManager
 import TradeWallets.WalletManager as WManager
 from TradeWallets.BinanceWallet import BinanceWallet

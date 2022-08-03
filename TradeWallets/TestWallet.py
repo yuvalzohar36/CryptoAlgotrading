@@ -1,13 +1,12 @@
 import json
 from datetime import datetime
-
 from CryptoUtil.DataUtil import DataUtil
 
 
 class TestWallet:
     def __init__(self, data_util):
         self.data_util = data_util
-        self.coin_dict = {"BTC": 0.2, "USDT": 1000}
+        self.coin_dict = {"BTC": 0.2, "LTC": 3, "USDT": 1000}
 
     def invest_on_currency(self, coin, percent):
         for from_coin in self.coin_dict.keys():

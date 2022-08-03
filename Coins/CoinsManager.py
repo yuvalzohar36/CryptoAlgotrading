@@ -24,7 +24,6 @@ class CoinsManager:
             self.config["Paths"]["abs_path"] + self.config["Paths"][self.data_util.get_path_for_assessments()],
             ["Coin", "Indicator", "Result", "Credit", "PrevPrice", "UpdateTime"])
         self.indicators_loggers = self.init_all_loggers()
-        self.semaphore = threading.Semaphore()
         self.activate_all_indicators()
 
         # here update all the coinsDB data
@@ -72,12 +71,12 @@ class CoinsManager:
                 if self.config["Indicators"][indicator]["MODE"] == "OFF":
                     continue
                 indicator_dict = self.config["Indicators"][indicator]
-                module = importlib.import_module(MAIN_PATH + indicator_dict["MODULE_PATH"])
+                module = importlib.import_module(MAIN_PATH + self.config["Indicators"][indicator]['TYPE'] + '.' + indicator_dict["MODULE_PATH"])
                 class_ = getattr(module, indicator_dict["MODULE_PATH"])
-                current_indicator = class_(self, self.indicators_loggers[indicator], self.assessment_df,
-                                           self.semaphore, self.data_util)
+                current_indicator = class_(self, self.indicators_loggers[indicator], self.assessment_df, self.data_util)
                 # self.indicator_activate(current_indicator, self.coins[coin])
                 self.coins_indicators[coin].append(current_indicator)
+                self.data_util.running_indicators_amount += 1
 
     def init_all_loggers(self):
         indicators_loggers = {}
@@ -100,6 +99,7 @@ class CoinsManager:
     def recv_indicator_results(self, symbol):
         results = []
         for indi in self.coins_indicators[symbol]:
+
             results.append(indi.get_results())
             indi_credit = self.get_indi_val(indi, symbol, 'Credit')
             indi_result = self.get_indi_val(indi, symbol, 'Result')
@@ -122,10 +122,13 @@ class CoinsManager:
         buy_count = 0
         sell_count = 0
         hold_count = 0
+        max_duration = 0
         self.recv_indicator_results(symbol)
         for indi in self.coins_indicators[symbol]:
             # if not self.check_if_result_valid(indi, symbol):
             #     continue
+            if indi.get_results().timer > max_duration:
+                max_duration = indi.get_results().timer
 
             indi_credit = self.get_indi_val(indi, symbol, 'Credit')
             indi_result = self.get_indi_val(indi, symbol, 'Result')
@@ -142,7 +145,8 @@ class CoinsManager:
                 hold_count += 1
 
         return ResultForWM([self.coins.get(symbol), buy_credit, sell_credit,
-                            hold_credit, buy_count, sell_count, hold_count, self.data_util.get_timestamp()])
+                            hold_credit, buy_count, sell_count, hold_count, self.data_util.get_timestamp(),
+                            max_duration])
 
     @staticmethod
     def init_logger(logger_name, config_file):
@@ -151,11 +155,15 @@ class CoinsManager:
             "indicators_logs_path"]
         logger_full_path = logger_path + logger_name + ".log"
         logger = logging.getLogger(name=logger_name)
+        logger.propagate = False
         log_formatter = logging.Formatter(config_file["Logger"]["wallet_log_format"])
         log_file_handler = logging.FileHandler(
             logger_full_path, mode=config_file["Logger"]["wallet_log_filemode"]
         )
         log_file_handler.setFormatter(log_formatter)
+        if not logger.handlers:
+            logger.addHandler(log_file_handler)
+
         logger.addHandler(log_file_handler)
         logger.setLevel(config_file["Logger"]["wallet_log_setting_level"])
         logger.info("Initialize logger")

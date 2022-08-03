@@ -4,11 +4,12 @@
     "minutes": 15
   },
   "Paths": {
-    "abs_path": "C:\\Users\\yuval\\OneDrive\\Desktop\\Coding\\CryptoAlgotrading\\",
+    "abs_path": "C:\\CryptoAlgotrading\\",
     "logger_folder": "Logs\\",
     "trade_wallet_logs_path": "TradeWalletsLogs\\",
     "indicators_logs_path": "IndicatorsLogs\\",
     "MAIN_INDICATORS_PATH": "Indicators.IndicatorsImplements.",
+
     "ASSESSMENT_DB_PATH": "DB\\assessment.csv",
     "ASSESSMENT_DB_PATH_TEST": "DB\\assessment_test.csv",
     "COINS_ROUND_DATA_DB_PATH": "DB\\coinsround.csv",
@@ -32,7 +33,7 @@
       "Mode": "OFF"
     },
     "LTC": {
-      "Mode": "OFF"
+      "Mode": "ON"
     },
     "DOGE": {
       "Mode": "OFF"
@@ -41,33 +42,39 @@
   "Indicators": {
     "MAIndicator": {
       "MODULE_PATH": "MAIndicator",
-      "DURATION": 60,
+      "DURATION": 1,
       "MODE": "ON",
-      "TYPE": "REGULAR"
+      "TYPE": "FamousIndicators"
     },
     "MACDIndicator": {
       "MODULE_PATH": "MACDIndicator",
       "DURATION": 60,
-      "MODE": "ON",
-      "TYPE": "MOMENTUM"
+      "MODE": "OFF",
+      "TYPE": "FamousIndicators"
     },
     "BBIndicator": {
       "MODULE_PATH": "BBIndicator",
       "DURATION": 60,
-      "MODE": "ON",
-      "TYPE": "REGULAR"
+      "MODE": "OFF",
+      "TYPE": "FamousIndicators"
     },
     "RSIIndicator": {
       "MODULE_PATH": "RSIIndicator",
       "DURATION": 60,
-      "MODE": "ON",
-      "TYPE": "MOMENTUM"
+      "MODE": "OFF",
+      "TYPE": "FamousIndicators"
     },
     "EMAIndicator": {
       "MODULE_PATH": "EMAIndicator",
       "DURATION": 60,
+      "MODE": "OFF",
+      "TYPE": "FamousIndicators"
+    },
+    "CWMAIndicator": {
+      "MODULE_PATH": "CWMAIndicator",
+      "DURATION": 60,
       "MODE": "ON",
-      "TYPE": "MOMENTUM"
+      "TYPE": "CustomIndicators"
     }
   },
   "IndicatorsData": {

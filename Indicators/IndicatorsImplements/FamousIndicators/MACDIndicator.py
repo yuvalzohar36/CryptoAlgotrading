@@ -6,8 +6,8 @@ import pandas as pd
 
 
 class MACDIndicator(Indicator):
-    def __init__(self, coin_manager, logger, assessment_df, semaphore, data_util):
-        super().__init__(coin_manager, logger, assessment_df, semaphore, data_util)
+    def __init__(self, coin_manager, logger, assessment_df, data_util):
+        super().__init__(coin_manager, logger, assessment_df, data_util)
         self.candles_measure = 10
         self.diff = 1.0
         self.bad_credit = 0.9
@@ -52,9 +52,12 @@ class MACDIndicator(Indicator):
             if value == 1.0:  # signal to buy
                 if float(current_price['price']) < float(df['Buy'][index]):
                     self.result.set_result('BUY')
+                    break
 
             elif value == -1.0:  # signal to sell
                 if float(current_price['price']) > float(df['Sell'][index]):
                     self.result.set_result('SELL')
+                    break
             else:
                 self.result.set_result('HOLD')
+                break
