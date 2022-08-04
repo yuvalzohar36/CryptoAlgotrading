@@ -33,7 +33,7 @@ def init_indicators_manager(TRADE_ON):
 
 
 if __name__ == '__main__':
-    MODE = "TEST"  # TEST / LIVE
+    MODE = "LIVE"  # TEST / LIVE
 
     warnings.filterwarnings("ignore")
     with open(LOCAL_CONFIGURATION_FILE) as local_config_file:

@@ -7,14 +7,16 @@ from Coins.ResultForWM import ResultForWM
 import importlib
 import pandas as pd
 import datetime as dt
+from threading import Thread
+from Firebase import FireBaseUtil
 
 
 class CoinsManager:
-    def __init__(self,data_util):
+    def __init__(self, data_util):
         self.config = data_util.config
         self.local_config = data_util.local_config
         self.pickup_duration = float(self.config["TradeDetail"]["update_step_size"]) * float(
-            self.config["TradeDetail"]["minutes"])*60
+            self.config["TradeDetail"]["minutes"]) * 60
         self.scheduler = BackgroundScheduler()
         self.data_util = data_util
         self.coinsDB = self.init_coins_db(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"])
@@ -27,13 +29,19 @@ class CoinsManager:
         self.activate_all_indicators()
 
         # here update all the coinsDB data
-
-        self.coinsDB.to_csv(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"], index=False)
+        # self.coinsDB.to_csv(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"], index=False)
 
     def schedule_all_indicators_jobs(self):
         self.scheduler = BackgroundScheduler()
+        # if self.data_util.mode == "LIVE": ~~~~~~~~~~~~~~~~~~~~~~~~~~  RETURN IT WHEN U DONE WORKING
+        self.coinsDB = pd.read_csv(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"])
         for coin in self.coins:
-            self.coins[coin].attributes_refresh()
+            self.coinsDB = self.coins[coin].attributes_refresh(self.coinsDB)
+        self.coinsDB.to_csv(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"], index=False)
+
+        t1 = Thread(target=FireBaseUtil.process_firebase_writing, args=[self.data_util])
+        t1.start()
+
         for coin in self.config["Coins"]:
             if self.config["Coins"][coin]["Mode"] == "ON":
                 for indicator in self.coins_indicators[coin]:
@@ -71,7 +79,8 @@ class CoinsManager:
                 if self.config["Indicators"][indicator]["MODE"] == "OFF":
                     continue
                 indicator_dict = self.config["Indicators"][indicator]
-                module = importlib.import_module(MAIN_PATH + self.config["Indicators"][indicator]['TYPE'] + '.' + indicator_dict["MODULE_PATH"])
+                module = importlib.import_module(
+                    MAIN_PATH + self.config["Indicators"][indicator]['TYPE'] + '.' + indicator_dict["MODULE_PATH"])
                 class_ = getattr(module, indicator_dict["MODULE_PATH"])
                 current_indicator = class_(self, self.indicators_loggers[indicator], self.assessment_df, self.data_util)
                 # self.indicator_activate(current_indicator, self.coins[coin])
@@ -90,7 +99,7 @@ class CoinsManager:
         for coin in self.config["Coins"]:
             if self.config["Coins"][coin]["Mode"] == "ON":
                 coins_indicators[coin] = []
-                coins[coin] = CC.CryptoCoin(coin, self.local_config, self.config, self.coinsDB)
+                coins[coin] = CC.CryptoCoin(coin, self.local_config, self.config, self.data_util)
         return coins, coins_indicators
 
     def append_new_thread(self, indicator, thread):
@@ -99,7 +108,6 @@ class CoinsManager:
     def recv_indicator_results(self, symbol):
         results = []
         for indi in self.coins_indicators[symbol]:
-
             results.append(indi.get_results())
             indi_credit = self.get_indi_val(indi, symbol, 'Credit')
             indi_result = self.get_indi_val(indi, symbol, 'Result')

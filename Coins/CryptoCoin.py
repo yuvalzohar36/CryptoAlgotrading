@@ -1,24 +1,27 @@
 from Coins import CoinMarketCap as CMC
 import pandas as pd
+import Firebase
+from Firebase import FireBaseUtil
 
 
 class CryptoCoin:
-    def __init__(self, symbol, local_config, config, coins_df):
+    def __init__(self, symbol, local_config, config, data_util):
         self.config = config
         self.local_config = local_config
         self.symbol = symbol
         self.max_attributes_val = self.config["IndicatorsData"]["indicators_attributes_data"]["max_attributes_val"]
-        self.coin_df = coins_df
+        self.data_util = data_util
+
         #  attributes
         self.stability = 0
         self.security = 0
         self.scalability = 0
-        self.supply = 8 #self.get_supply()
+        self.supply = 8
         self.decentralisation = 0
-        self.demand = 0
+        self.demand = self.get_demand()
         self.usefulness = 0
-        self.backup_date = 0
-        self.update_coin_data(coins_df)
+        self.backup_date = self.get_backup_date()
+
         # Indicators results (DO NOT DELETE)
         self.indicators_results = []
 
@@ -28,61 +31,24 @@ class CryptoCoin:
     def init_indicators_results(self):
         self.indicators_results = []
 
-    def get_data(self):
-        try:
-            data = CMC.CoinMarketCap.get_data(self.symbol, self.local_config)
-            return data['data'][self.symbol]
-        except Exception as e1:
-            print(e1, " (Should be added to a log!)")
+    def attributes_refresh(self, coins_df):
+        self.demand = self.get_demand()
+        return self.update_coin_data(coins_df)  # Write to pandas
 
-    def get_name(self):
-        return self.get_data()['name']
-
-    def get_supply(self):
-        try:
-            get_supply_capacity_effect = 1
-            return self.get_supply_capacity() * get_supply_capacity_effect
-
-        except Exception as e1:
-            print(e1, " (Should be added to a log!)")
-            return 0
+    def update_coin_data(self, coins_df):
+        index = coins_df.index[coins_df['Coin'] == self.symbol]
+        coins_df.loc[index.values[0], 'Backup_Date'] = self.backup_date
+        coins_df.loc[index.values[0], 'MaxAttributeVal'] = self.max_attributes_val
+        coins_df.loc[index.values[0], 'Demand'] = self.demand
+        return coins_df
 
     def get_max_attributes_val(self):
         return self.max_attributes_val
 
-    def get_supply_capacity(self):
-        try:
-            return self.get_data()["circulating_supply"] // self.get_data()["max_supply"]
+    def get_demand(self):
+        return self.data_util.get_data(self.symbol, "Volume")
 
-        except Exception as e1:
-            print(e1, " (Should be added to a log!)")
-            return 0
+    def get_backup_date(self):
+        return self.data_util.get_datetime()
 
-    def update_coin_data(self, coins_df):
-        index = coins_df.index[coins_df['Coin'] == self.symbol]
-        coins_df.loc[index.values[0], 'MaxAttributeVal'] = self.max_attributes_val
-        coins_df.loc[index.values[0], 'Supply'] = self.get_supply()
 
-    def attributes_refresh(self):
-        self.get_supply()
-
-    def get_stability(self):
-        try:
-            # 1h 24h 7d 30d 60d 90d
-            sum = 0
-            percent_change_x_effect = [0.35, 0.25, 0.20, 0.1, 0.07, 0.03]
-            percent_change_x = [self.get_data()["quote"]["USD"]["percent_change_1h"],
-                                self.get_data()["quote"]["USD"]["percent_change_24h"],
-                                self.get_data()["quote"]["USD"]["percent_change_7d"],
-                                self.get_data()["quote"]["USD"]["percent_change_30d"],
-                                self.get_data()["quote"]["USD"]["percent_change_60d"],
-                                self.get_data()["quote"]["USD"]["percent_change_90d"]]
-
-            for i in range(len(percent_change_x_effect)):
-                sum += percent_change_x_effect[i] * percent_change_x[i]
-
-            return sum
-
-        except Exception as e1:
-            print(e1, " (Should be added to a log!)")
-            return 0

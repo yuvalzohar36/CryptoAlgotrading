@@ -4,6 +4,10 @@ import pandas as pd
 import time
 from TradeWallets.BinanceWallet import BinanceWallet
 import threading
+import firebase_admin
+from firebase_admin import credentials, firestore
+
+
 
 USERNAME = 'yuvalbadihi'
 LOCAL_CONFIGURATION_FILE = "../Configurations/local_configuration.json"
@@ -21,10 +25,12 @@ class DataUtil:
         self.moduls = self.load_moduls()
         self.running_indicators_amount = 0
         self.running_indicators_wrote_result_amount = 0
+        self.fb_db = self.init_FB(config["Paths"]["abs_path"] + config["Paths"]["FIREBASE_CREDENTIALS"])
 
         self.semaphores = {"MW_all_indi_finish_sem": threading.Semaphore(0),
                            "INDICATOR_write_to_db_sem": threading.Semaphore(),
-                           "INDIRES_inc_counter_sem": threading.Semaphore()}
+                           "INDIRES_inc_counter_sem": threading.Semaphore(),
+                           "process_firebase_writing_sem" : threading.Semaphore() }
 
 
 
@@ -137,4 +143,16 @@ class DataUtil:
 
     def unlock(self, sem_name):
         self.semaphores[sem_name].release()
+
+    def get_data(self, symbol, val):
+        return 69
+
+    def init_FB(self, credentials_full_path):
+        cred = credentials.Certificate(credentials_full_path)
+        firebase_admin.initialize_app(cred)
+        db = firestore.client()
+        return db
+
+    def get_fb_db(self):
+        return self.fb_db
 
