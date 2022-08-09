@@ -6,7 +6,7 @@ from binance.client import Client
 import pandas as pd
 
 
-class BinanceWallet:
+class BinanceWallet: # fee 0.1%
     def __init__(self, api_key, api_secret, risk, wallet_name, config):
         self.api_key, self.api_secret = BinanceWallet.making_api_key(api_key, api_secret)
         self.client = self.connect(self.api_key, self.api_secret)

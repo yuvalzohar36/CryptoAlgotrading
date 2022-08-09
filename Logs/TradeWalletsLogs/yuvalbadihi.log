@@ -1687,3 +1687,1266 @@
 [2022-07-31 21:38:21,601] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
 [2022-07-31 22:00:30,106] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
 [2022-07-31 22:00:30,465] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 09:55:51,567] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 09:55:52,510] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 09:55:52,519] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 09:55:52,944] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:55:56,310] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:55:56,794] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:55:56,794] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 09:55:57,319] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:55:57,719] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:55:58,151] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:55:58,151] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 09:56:03,694] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.16553563 for Symbol : SUSHIBNB
+[2022-08-05 09:56:05,947] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1013): Filter failure: MIN_NOTIONAL
+[2022-08-05 09:56:06,402] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:08,154] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:08,154] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 09:56:10,061] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:12,619] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:15,194] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0 for Symbol : SUSHIBUSD
+[2022-08-05 09:56:16,669] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:16,669] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 09:56:17,060] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:17,477] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:17,807] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:17,807] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 09:56:21,435] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0004819 for Symbol : BNBBURGER
+[2022-08-05 09:56:22,452] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BNB
+[2022-08-05 09:56:22,452] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 09:56:24,162] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:24,560] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:24,886] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:24,886] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 09:56:25,263] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:25,693] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:27,585] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:27,585] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 09:56:27,986] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:28,402] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:30,336] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:30,336] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 09:56:30,743] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:31,443] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:31,761] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:31,761] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 09:56:32,110] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:32,540] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:32,969] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:32,969] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 09:56:33,377] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:33,685] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:33,977] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:33,977] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 09:56:34,305] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:34,719] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:35,085] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:35,085] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 09:56:35,552] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:35,919] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:36,227] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:36,227] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 09:56:36,518] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:37,219] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:37,527] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:37,535] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 09:56:38,302] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:38,727] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:39,527] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:39,527] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 09:56:40,044] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:40,435] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:41,293] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:41,293] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 09:56:41,721] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:42,077] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:42,529] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:42,529] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 09:56:43,927] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:44,269] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:44,952] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:44,952] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 09:56:45,277] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:45,603] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:46,021] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:46,021] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 09:56:46,494] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:46,819] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:50,702] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.67285425 for Symbol : BNBUSDT
+[2022-08-05 09:56:54,008] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:54,008] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 09:56:54,310] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:54,685] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:56,102] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:56,102] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 09:56:56,494] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:57,252] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:57,619] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 09:56:57,619] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 09:56:59,126] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:31,460] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 10:00:31,460] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:00:32,111] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:36,919] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:39,270] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:39,270] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:00:39,587] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:39,902] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:40,218] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:40,218] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:00:40,652] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:41,069] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:41,493] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:41,493] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:00:41,802] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:42,244] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:42,562] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:42,562] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:00:42,996] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:43,310] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:43,735] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:43,735] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:00:44,052] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:44,371] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:44,695] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:44,695] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:00:45,028] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:45,351] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:45,668] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:45,668] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:00:45,993] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:46,427] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:46,768] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:46,768] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:00:47,110] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:47,427] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:47,777] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:47,777] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:00:48,135] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:48,477] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:48,793] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:48,793] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:00:49,110] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:49,547] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:49,939] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:49,939] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:00:50,386] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:50,785] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:51,210] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:51,210] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:00:51,627] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:52,060] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:52,493] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:52,493] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:00:53,094] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:53,677] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:54,118] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:54,119] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:00:54,581] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:55,127] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:55,652] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:55,652] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:00:56,152] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:56,552] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:56,984] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:56,984] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:00:57,345] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:57,686] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:58,081] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:00:58,081] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:01:00,444] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:00,992] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:02,518] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:02,518] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:01:04,260] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:04,643] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:05,144] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:05,144] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:01:08,869] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:09,319] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:09,708] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:09,708] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:01:10,177] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:10,560] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:10,993] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:10,993] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:01:11,404] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:12,413] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:12,910] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:12,910] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:01:13,343] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:13,735] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:14,126] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:14,126] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:01:14,653] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:15,210] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:15,743] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:15,743] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:01:16,119] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:16,519] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:17,002] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:17,002] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:01:17,458] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:17,843] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:18,334] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:18,334] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:01:18,740] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:19,109] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:19,493] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:19,493] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:01:20,519] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:20,885] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:21,210] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:21,210] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:01:21,677] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:22,043] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:22,369] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:22,369] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:01:22,693] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:23,035] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:23,369] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:23,369] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:01:23,735] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:24,140] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:24,517] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:24,517] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:01:24,894] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:25,286] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:25,610] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:25,610] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:01:25,985] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:26,360] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:26,719] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:26,719] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:01:27,035] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:27,399] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:27,752] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:27,752] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:01:28,102] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:28,510] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:28,943] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:28,943] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:01:29,364] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:30,352] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:30,854] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:30,854] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:01:31,327] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:32,440] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:32,802] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:32,802] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:01:33,152] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:33,643] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:34,060] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:34,060] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:01:34,436] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:34,768] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:38,197] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:38,197] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:01:38,646] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:39,265] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:39,994] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:39,994] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:01:40,369] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:40,702] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:41,035] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:41,035] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:01:41,385] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:41,777] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:42,097] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:42,097] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:01:43,519] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:45,719] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:46,185] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:46,185] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:01:46,560] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:46,952] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:47,377] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:47,377] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:01:47,793] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:48,293] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:48,802] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:48,802] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:01:49,210] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:49,553] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:49,964] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:49,964] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:01:50,518] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:51,093] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:53,052] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:53,052] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:01:53,552] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:53,978] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:55,535] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:55,535] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:01:56,076] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:56,510] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:56,852] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:56,852] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:01:57,176] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:57,618] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:58,119] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:58,127] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:01:58,585] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:58,993] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:59,453] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:01:59,453] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:01:59,969] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:00,335] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:00,785] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:00,793] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:02:01,142] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:01,564] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:01,948] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:01,948] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:02:02,342] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:02,878] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:04,218] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:04,218] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:02:04,761] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:05,193] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:05,585] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:05,585] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:02:05,968] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:06,427] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:06,877] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:06,877] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:02:09,493] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:09,985] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:10,360] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:10,360] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:02:10,710] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:11,060] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:11,393] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:11,401] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:02:11,727] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:12,143] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:12,502] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:12,502] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:02:12,835] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:14,293] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:14,825] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:14,825] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:02:15,168] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:15,535] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:15,893] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:15,893] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:02:16,243] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:16,568] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:16,951] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:16,959] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:02:17,361] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:18,452] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:18,902] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:18,902] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:02:19,218] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:19,618] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:20,069] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:20,069] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:02:20,518] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:21,019] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:21,485] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:21,485] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:02:22,085] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:22,543] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:22,985] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:22,985] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:02:23,360] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:23,759] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:24,185] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:24,185] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:02:24,560] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:25,043] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:25,535] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:25,535] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:02:25,852] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:26,252] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:26,717] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:26,717] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:02:27,135] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:27,543] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:28,793] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:28,793] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:02:29,319] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:29,795] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:30,222] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:30,222] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:02:32,818] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:33,185] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:33,535] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:33,535] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:02:33,907] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:34,368] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:34,794] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:34,794] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:02:35,176] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:35,685] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:36,226] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:36,226] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:02:36,635] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:37,153] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:38,402] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:38,402] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:02:38,911] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:39,526] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:39,991] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:39,991] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:02:41,330] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:49,202] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+[2022-08-05 10:02:49,518] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:49,518] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:02:49,964] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:50,285] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:50,710] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:50,710] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:02:51,043] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:51,360] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:51,676] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+[2022-08-05 10:02:51,676] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:04:11,244] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 10:04:11,244] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:04:14,155] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 345.77606763 for Symbol : SUSHIBNB
+[2022-08-05 10:04:15,196] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to SUSHI
+[2022-08-05 10:04:15,196] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:04:17,119] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 521.16 for Symbol : USDTSUSHI
+[2022-08-05 10:04:19,898] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:04:21,396] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 344.0 for Symbol : SUSHIUSDT
+[2022-08-05 10:04:24,457] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to USDT
+[2022-08-05 10:04:24,457] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:04:27,326] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 310.95547216 for Symbol : BURGERUSDT
+[2022-08-05 10:04:29,392] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:04:29,392] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:04:32,104] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.64031959 for Symbol : BNBBURGER
+[2022-08-05 10:04:32,806] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:04:33,428] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 309.4887 for Symbol : BURGERBNB
+[2022-08-05 10:04:35,480] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BNB
+[2022-08-05 10:04:35,480] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:04:37,863] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 338.76955485 for Symbol : SUSHIBNB
+[2022-08-05 10:04:39,877] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to SUSHI
+[2022-08-05 10:04:39,877] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:04:40,805] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 513.282 for Symbol : USDTSUSHI
+[2022-08-05 10:04:41,505] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:04:42,115] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 338.8 for Symbol : SUSHIUSDT
+[2022-08-05 10:04:42,782] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to USDT
+[2022-08-05 10:04:42,782] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:04:43,700] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 306.95702533 for Symbol : BURGERUSDT
+[2022-08-05 10:04:44,650] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:04:44,650] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:04:45,883] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.63343733 for Symbol : BNBBURGER
+[2022-08-05 10:04:46,921] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:04:47,671] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 306.9887 for Symbol : BURGERBNB
+[2022-08-05 10:04:48,366] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BNB
+[2022-08-05 10:04:48,366] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:04:50,088] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 336.74306231 for Symbol : SUSHIBNB
+[2022-08-05 10:04:50,971] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to SUSHI
+[2022-08-05 10:04:50,979] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:04:52,190] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 510.1005 for Symbol : USDTSUSHI
+[2022-08-05 10:04:53,533] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:04:54,131] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 336.7 for Symbol : SUSHIUSDT
+[2022-08-05 10:04:54,796] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to USDT
+[2022-08-05 10:04:54,796] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:04:55,705] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 305.41478441 for Symbol : BURGERUSDT
+[2022-08-05 10:04:56,363] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:04:56,363] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:04:57,563] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.62440798 for Symbol : BNBBURGER
+[2022-08-05 10:04:58,230] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:04:58,813] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 305.3887 for Symbol : BURGERBNB
+[2022-08-05 10:04:59,774] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BNB
+[2022-08-05 10:04:59,774] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:05:00,985] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 334.65009093 for Symbol : SUSHIBNB
+[2022-08-05 10:05:01,666] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to SUSHI
+[2022-08-05 10:05:01,666] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:05:02,588] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 506.2498 for Symbol : USDTSUSHI
+[2022-08-05 10:05:03,247] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:05:03,829] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 334.6 for Symbol : SUSHIUSDT
+[2022-08-05 10:05:04,746] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to USDT
+[2022-08-05 10:05:04,746] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:05:05,646] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 300.36539082 for Symbol : BURGERUSDT
+[2022-08-05 10:05:07,363] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:05:07,363] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:05:10,471] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.60162845 for Symbol : BNBBURGER
+[2022-08-05 10:05:13,254] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:05:13,838] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 300.21 for Symbol : BURGERBNB
+[2022-08-05 10:05:14,497] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BNB
+[2022-08-05 10:05:14,497] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:05:15,997] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 329.66645605 for Symbol : SUSHIBNB
+[2022-08-05 10:05:16,646] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to SUSHI
+[2022-08-05 10:05:16,646] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:05:17,538] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 498.8361 for Symbol : USDTSUSHI
+[2022-08-05 10:05:18,455] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:05:19,046] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 329.7 for Symbol : SUSHIUSDT
+[2022-08-05 10:05:20,222] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to USDT
+[2022-08-05 10:05:20,222] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:05:22,171] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 296.08868038 for Symbol : BURGERUSDT
+[2022-08-05 10:05:22,825] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:05:22,825] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:05:24,292] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.57956033 for Symbol : BNBBURGER
+[2022-08-05 10:05:24,942] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:05:25,532] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 295.8154 for Symbol : BURGERBNB
+[2022-08-05 10:05:26,198] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BNB
+[2022-08-05 10:05:26,198] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:05:27,388] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 326.46406586 for Symbol : SUSHIBNB
+[2022-08-05 10:05:28,035] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to SUSHI
+[2022-08-05 10:05:28,035] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:05:28,930] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 493.9945 for Symbol : USDTSUSHI
+[2022-08-05 10:05:29,587] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:05:30,180] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 326.5 for Symbol : SUSHIUSDT
+[2022-08-05 10:05:31,104] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to USDT
+[2022-08-05 10:05:31,104] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:05:31,996] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 293.31478026 for Symbol : BURGERUSDT
+[2022-08-05 10:06:59,613] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 10:06:59,613] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to BURGER with Percent : 1
+[2022-08-05 10:07:03,221] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.03451061 for Symbol : BURGERBNB
+[2022-08-05 10:07:03,971] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to BURGER
+[2022-08-05 10:07:03,971] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to USDT with Percent : 1
+[2022-08-05 10:07:05,004] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 491.9866244 for Symbol : USDTBURGER
+[2022-08-05 10:07:06,458] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:07:08,642] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 293.0236 for Symbol : BURGERUSDT
+[2022-08-05 10:07:09,830] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to USDT
+[2022-08-05 10:07:09,830] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:07:12,596] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 326.09460914 for Symbol : SUSHIUSDT
+[2022-08-05 10:07:13,501] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:07:13,501] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:07:16,029] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.56364004 for Symbol : BNBSUSHI
+[2022-08-05 10:07:18,014] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:07:18,646] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 325.7756 for Symbol : SUSHIBNB
+[2022-08-05 10:07:19,554] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:07:19,554] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to BURGER with Percent : 1
+[2022-08-05 10:07:20,754] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 290.94455039 for Symbol : BURGERBNB
+[2022-08-05 10:07:21,954] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to BURGER
+[2022-08-05 10:07:21,954] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to USDT with Percent : 1
+[2022-08-05 10:07:23,630] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 489.0425716 for Symbol : USDTBURGER
+[2022-08-05 10:07:24,530] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:07:25,107] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 290.9236 for Symbol : BURGERUSDT
+[2022-08-05 10:07:26,316] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to USDT
+[2022-08-05 10:07:26,316] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:07:27,213] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 322.3733943 for Symbol : SUSHIUSDT
+[2022-08-05 10:07:28,139] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:07:28,139] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:07:29,329] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.54529043 for Symbol : BNBSUSHI
+[2022-08-05 10:07:30,242] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:07:30,823] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 322.0549 for Symbol : SUSHIBNB
+[2022-08-05 10:07:31,490] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:07:31,490] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to BURGER with Percent : 1
+[2022-08-05 10:07:32,971] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 288.1698611 for Symbol : BURGERBNB
+[2022-08-05 10:07:33,646] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-2010): Account has insufficient balance for requested action.
+[2022-08-05 10:07:34,233] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.53562395 for Symbol : BNBBURGER
+[2022-08-05 10:07:34,881] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:07:35,471] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.53562395 for Symbol : BNBBUSD
+[2022-08-05 10:07:37,037] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 287.06505376 for Symbol : BURGERBUSD
+[2022-08-05 10:07:37,688] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to BURGER
+[2022-08-05 10:07:37,688] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to USDT with Percent : 1
+[2022-08-05 10:07:38,584] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 481.2191536 for Symbol : USDTBURGER
+[2022-08-05 10:07:39,508] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:07:40,100] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 287.1236 for Symbol : BURGERUSDT
+[2022-08-05 10:07:40,746] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to USDT
+[2022-08-05 10:07:40,746] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:07:41,642] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 318.26895722 for Symbol : SUSHIUSDT
+[2022-08-05 10:07:42,296] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:07:42,304] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:07:43,503] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.52657211 for Symbol : BNBSUSHI
+[2022-08-05 10:07:44,171] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:07:44,780] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 318.2549 for Symbol : SUSHIBNB
+[2022-08-05 10:07:45,688] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:07:45,688] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to BURGER with Percent : 1
+[2022-08-05 10:07:46,896] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 285.35345703 for Symbol : BURGERBNB
+[2022-08-05 10:07:47,572] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-2010): Account has insufficient balance for requested action.
+[2022-08-05 10:07:48,171] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.51970891 for Symbol : BNBBURGER
+[2022-08-05 10:07:48,829] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:07:49,421] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.51970891 for Symbol : BNBBUSD
+[2022-08-05 10:07:52,825] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 285.44426523 for Symbol : BURGERBUSD
+[2022-08-05 10:13:57,770] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 10:13:57,770] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:13:58,724] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.6236382 for Symbol : USDTBNB
+[2022-08-05 10:13:59,594] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:13:59,594] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:14:00,487] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 81.87036757 for Symbol : SUSHIUSDT
+[2022-08-05 10:14:02,714] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:14:02,714] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:14:06,734] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.39776848 for Symbol : BNBSUSHI
+[2022-08-05 10:14:07,649] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:14:09,015] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 83.0549 for Symbol : SUSHIBNB
+[2022-08-05 10:14:09,911] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:14:09,911] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:14:11,893] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 126.26691755 for Symbol : USDTBNB
+[2022-08-05 10:14:12,534] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:14:13,128] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.4002121 for Symbol : BNBUSDT
+[2022-08-05 10:14:14,310] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:14:14,310] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:14:16,584] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 83.46586724 for Symbol : SUSHIUSDT
+[2022-08-05 10:14:19,379] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:14:19,379] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:14:22,506] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.39955752 for Symbol : BNBSUSHI
+[2022-08-05 10:14:23,697] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:14:25,074] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 83.4549 for Symbol : SUSHIBNB
+[2022-08-05 10:14:26,008] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:14:26,008] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:14:27,702] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 125.88859202 for Symbol : USDTBNB
+[2022-08-05 10:14:28,374] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:14:29,756] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.39888654 for Symbol : BNBUSDT
+[2022-08-05 10:14:30,928] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:14:30,928] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:14:32,935] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 83.06401416 for Symbol : SUSHIUSDT
+[2022-08-05 10:14:33,588] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:14:33,588] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:14:35,052] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.39751648 for Symbol : BNBSUSHI
+[2022-08-05 10:14:36,162] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:14:36,913] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 83.0549 for Symbol : SUSHIBNB
+[2022-08-05 10:14:38,259] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:14:38,259] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:14:39,470] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 125.4983684 for Symbol : USDTBNB
+[2022-08-05 10:14:40,353] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:14:40,950] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.39765009 for Symbol : BNBUSDT
+[2022-08-05 10:14:41,836] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:14:41,836] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:14:42,742] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 82.80299497 for Symbol : SUSHIUSDT
+[2022-08-05 10:14:43,399] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:14:43,399] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:14:44,609] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.39608063 for Symbol : BNBSUSHI
+[2022-08-05 10:14:45,249] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:14:45,835] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 82.7549 for Symbol : SUSHIBNB
+[2022-08-05 10:14:46,507] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:14:46,507] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:14:47,397] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 124.86689207 for Symbol : USDTBNB
+[2022-08-05 10:14:48,068] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:14:48,813] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.39552389 for Symbol : BNBUSDT
+[2022-08-05 10:14:49,722] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:14:49,722] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:14:51,085] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 82.42483481 for Symbol : SUSHIUSDT
+[2022-08-05 10:14:51,735] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:14:51,735] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:14:52,943] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.3945198 for Symbol : BNBSUSHI
+[2022-08-05 10:15:15,180] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 10:15:15,180] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:15:17,166] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.61093721 for Symbol : USDTBNB
+[2022-08-05 10:15:17,540] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:15:17,540] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:15:18,447] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.26202872 for Symbol : SUSHIUSDT
+[2022-08-05 10:15:20,145] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1013): Filter failure: MIN_NOTIONAL
+[2022-08-05 10:15:22,328] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.3959254 for Symbol : USDTSUSHI
+[2022-08-05 10:15:24,040] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:15:24,040] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:15:27,413] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.3945198 for Symbol : BNBSUSHI
+[2022-08-05 10:15:28,304] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:15:29,679] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 82.4549 for Symbol : SUSHIBNB
+[2022-08-05 10:15:31,662] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:15:31,662] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:15:32,566] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 124.32659362 for Symbol : USDTBNB
+[2022-08-05 10:15:33,494] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:15:34,088] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.39381246 for Symbol : BNBUSDT
+[2022-08-05 10:15:35,310] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:15:35,310] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:15:36,489] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 81.95541059 for Symbol : SUSHIUSDT
+[2022-08-05 10:15:37,438] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:15:37,438] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:15:38,667] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.39225168 for Symbol : BNBSUSHI
+[2022-08-05 10:15:39,867] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:15:40,570] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 81.9549 for Symbol : SUSHIBNB
+[2022-08-05 10:15:41,795] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:15:41,795] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:15:42,877] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 123.89425809 for Symbol : USDTBNB
+[2022-08-05 10:15:44,645] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:15:45,408] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.39231874 for Symbol : BNBUSDT
+[2022-08-05 10:15:46,651] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:15:46,651] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:15:47,618] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 81.77804461 for Symbol : SUSHIUSDT
+[2022-08-05 10:15:48,524] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:15:48,524] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:15:49,789] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.39129444 for Symbol : BNBSUSHI
+[2022-08-05 10:15:50,586] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:15:51,184] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 81.7549 for Symbol : SUSHIBNB
+[2022-08-05 10:15:52,122] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:15:52,122] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:15:53,083] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 123.30245651 for Symbol : USDTBNB
+[2022-08-05 10:15:53,858] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:15:54,457] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.39056844 for Symbol : BNBUSDT
+[2022-08-05 10:15:55,209] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:15:55,209] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:15:56,148] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 81.38320675 for Symbol : SUSHIUSDT
+[2022-08-05 10:15:56,898] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:15:56,898] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:15:58,484] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.38913344 for Symbol : BNBSUSHI
+[2022-08-05 10:15:59,209] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:15:59,806] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 81.3549 for Symbol : SUSHIBNB
+[2022-08-05 10:16:00,557] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:16:00,557] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:16:01,447] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 122.95057975 for Symbol : USDTBNB
+[2022-08-05 10:16:02,245] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:16:02,878] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.38920728 for Symbol : BNBUSDT
+[2022-08-05 10:16:03,612] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:16:03,612] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:16:04,514] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 81.18022859 for Symbol : SUSHIUSDT
+[2022-08-05 10:16:05,499] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:16:05,499] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:16:06,702] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.38829973 for Symbol : BNBSUSHI
+[2022-08-05 10:16:07,421] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:16:08,062] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 81.1549 for Symbol : SUSHIBNB
+[2022-08-05 10:16:08,765] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:16:08,765] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:16:09,696] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 122.40456317 for Symbol : USDTBNB
+[2022-08-05 10:16:10,666] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:16:11,245] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.38760153 for Symbol : BNBUSDT
+[2022-08-05 10:16:12,156] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:16:12,156] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:16:15,757] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 80.62757792 for Symbol : SUSHIUSDT
+[2022-08-05 10:16:17,750] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:16:17,750] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:16:20,817] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.38666307 for Symbol : BNBSUSHI
+[2022-08-05 10:16:22,001] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:16:22,610] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 80.6549 for Symbol : SUSHIBNB
+[2022-08-05 10:16:23,825] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:16:23,825] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:16:25,538] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 121.5354581 for Symbol : USDTBNB
+[2022-08-05 10:16:26,478] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:16:27,853] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.38509334 for Symbol : BNBUSDT
+[2022-08-05 10:16:28,770] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:16:28,770] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:16:29,713] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 80.21475572 for Symbol : SUSHIUSDT
+[2022-08-05 10:16:30,401] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:16:30,401] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:16:31,874] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.3848674 for Symbol : BNBSUSHI
+[2022-08-05 10:16:32,577] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:16:33,171] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 80.2549 for Symbol : SUSHIBNB
+[2022-08-05 10:16:33,890] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:16:33,890] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:16:34,853] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 121.02474787 for Symbol : USDTBNB
+[2022-08-05 10:16:35,766] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:16:36,345] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.38347512 for Symbol : BNBUSDT
+[2022-08-05 10:16:37,547] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:16:37,547] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:16:38,704] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 79.89082368 for Symbol : SUSHIUSDT
+[2022-08-05 10:16:39,427] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:16:39,427] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:16:40,664] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.38269607 for Symbol : BNBSUSHI
+[2022-08-05 10:16:41,431] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:16:42,029] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 79.8549 for Symbol : SUSHIBNB
+[2022-08-05 10:16:42,982] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:16:42,982] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:16:43,872] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 120.50373269 for Symbol : USDTBNB
+[2022-08-05 10:16:44,807] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:16:45,396] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.38194527 for Symbol : BNBUSDT
+[2022-08-05 10:16:46,096] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:16:46,096] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:16:47,144] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 79.70550622 for Symbol : SUSHIUSDT
+[2022-08-05 10:16:48,358] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:16:48,358] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:16:49,858] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.38221683 for Symbol : BNBSUSHI
+[2022-08-05 10:16:51,202] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:16:51,801] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 79.7549 for Symbol : SUSHIBNB
+[2022-08-05 10:16:52,691] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:16:52,691] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:16:53,608] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 120.18590114 for Symbol : USDTBNB
+[2022-08-05 10:16:54,358] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:16:54,956] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.38093788 for Symbol : BNBUSDT
+[2022-08-05 10:16:55,690] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:16:55,690] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:17:40,736] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 10:17:40,736] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:17:41,640] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.24104445 for Symbol : USDTBNB
+[2022-08-05 10:17:42,040] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:17:42,040] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:17:43,196] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 79.41165701 for Symbol : SUSHIUSDT
+[2022-08-05 10:17:45,988] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:17:45,988] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:17:49,827] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.38089984 for Symbol : BNBSUSHI
+[2022-08-05 10:17:52,044] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:17:54,451] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 79.4549 for Symbol : SUSHIBNB
+[2022-08-05 10:17:55,791] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:17:55,791] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:17:57,541] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 119.45040123 for Symbol : USDTBNB
+[2022-08-05 10:17:59,882] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:18:00,471] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37860666 for Symbol : BNBUSDT
+[2022-08-05 10:18:02,496] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:18:02,496] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:18:04,464] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 78.8718422 for Symbol : SUSHIUSDT
+[2022-08-05 10:18:07,295] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:18:07,295] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:18:10,662] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37802349 for Symbol : BNBSUSHI
+[2022-08-05 10:18:11,576] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:18:12,966] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 78.8549 for Symbol : SUSHIBNB
+[2022-08-05 10:18:13,954] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:18:13,954] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:18:15,164] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 119.03737702 for Symbol : USDTBNB
+[2022-08-05 10:18:15,921] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:18:16,568] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37729755 for Symbol : BNBUSDT
+[2022-08-05 10:18:18,555] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:18:18,555] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:18:19,474] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 78.69604854 for Symbol : SUSHIUSDT
+[2022-08-05 10:18:20,250] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:18:20,250] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:18:21,469] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37730484 for Symbol : BNBSUSHI
+[2022-08-05 10:18:22,682] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:18:23,337] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 78.7549 for Symbol : SUSHIBNB
+[2022-08-05 10:18:24,338] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:18:24,338] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:18:25,259] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 118.82681479 for Symbol : USDTBNB
+[2022-08-05 10:18:26,149] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:18:26,743] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37651082 for Symbol : BNBUSDT
+[2022-08-05 10:18:27,903] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:18:27,903] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:18:28,826] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 78.43639246 for Symbol : SUSHIUSDT
+[2022-08-05 10:18:29,586] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:18:29,586] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:18:30,835] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37586758 for Symbol : BNBSUSHI
+[2022-08-05 10:18:31,564] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:18:32,151] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 78.4549 for Symbol : SUSHIBNB
+[2022-08-05 10:18:32,870] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:18:32,870] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:18:33,846] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 118.1954854 for Symbol : USDTBNB
+[2022-08-05 10:18:34,565] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:18:35,176] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37451041 for Symbol : BNBUSDT
+[2022-08-05 10:18:36,079] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:18:36,079] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:18:37,038] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 78.05940833 for Symbol : SUSHIUSDT
+[2022-08-05 10:18:37,995] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:18:37,995] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:18:39,230] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37395123 for Symbol : BNBSUSHI
+[2022-08-05 10:18:40,433] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:18:41,030] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 78.0549 for Symbol : SUSHIBNB
+[2022-08-05 10:18:41,984] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:18:41,984] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:18:42,928] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 117.63056821 for Symbol : USDTBNB
+[2022-08-05 10:18:43,833] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:18:44,413] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37260237 for Symbol : BNBUSDT
+[2022-08-05 10:18:45,151] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:18:45,151] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:18:46,065] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 77.71649596 for Symbol : SUSHIUSDT
+[2022-08-05 10:18:46,784] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:18:46,784] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:18:48,043] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37203184 for Symbol : BNBSUSHI
+[2022-08-05 10:18:48,746] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:19:22,541] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 10:19:22,541] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BNB with Percent : 1
+[2022-08-05 10:19:23,694] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.00174913 for Symbol : BNBUSDT
+[2022-08-05 10:19:25,667] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1013): Filter failure: MIN_NOTIONAL
+[2022-08-05 10:19:26,252] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.5520254 for Symbol : USDTBNB
+[2022-08-05 10:19:26,882] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BNB
+[2022-08-05 10:19:26,882] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:19:30,201] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.42729151 for Symbol : SUSHIBNB
+[2022-08-05 10:19:32,179] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1013): Filter failure: MIN_NOTIONAL
+[2022-08-05 10:19:34,369] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0020471 for Symbol : BNBSUSHI
+[2022-08-05 10:19:37,176] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:19:38,548] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0020471 for Symbol : BNBBUSD
+[2022-08-05 10:19:40,526] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-1013): Filter failure: MIN_NOTIONAL
+[2022-08-05 10:19:40,526] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:19:41,424] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 117.5654088 for Symbol : USDTSUSHI
+[2022-08-05 10:19:42,370] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:19:42,948] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 77.7549 for Symbol : SUSHIUSDT
+[2022-08-05 10:19:44,150] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to USDT
+[2022-08-05 10:19:44,150] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BNB with Percent : 1
+[2022-08-05 10:19:45,058] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37147617 for Symbol : BNBUSDT
+[2022-08-05 10:19:45,955] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BNB
+[2022-08-05 10:19:45,955] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to SUSHI with Percent : 1
+[2022-08-05 10:19:47,415] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 77.35755994 for Symbol : SUSHIBNB
+[2022-08-05 10:19:48,603] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to SUSHI
+[2022-08-05 10:19:48,603] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to USDT with Percent : 1
+[2022-08-05 10:19:49,539] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 116.9606088 for Symbol : USDTSUSHI
+[2022-08-05 10:19:50,463] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:19:51,057] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 77.3549 for Symbol : SUSHIUSDT
+[2022-08-05 10:20:44,154] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 10:20:44,154] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:20:45,056] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.58974764 for Symbol : USDTBNB
+[2022-08-05 10:20:45,432] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:20:45,432] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:20:48,198] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.51701415 for Symbol : SUSHIUSDT
+[2022-08-05 10:20:50,166] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1013): Filter failure: MIN_NOTIONAL
+[2022-08-05 10:20:51,563] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.7817254 for Symbol : USDTSUSHI
+[2022-08-05 10:20:53,234] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:20:53,234] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:20:58,938] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37036292 for Symbol : BNBSUSHI
+[2022-08-05 10:20:59,585] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:21:00,968] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 77.3549 for Symbol : SUSHIBNB
+[2022-08-05 10:21:01,889] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:21:01,889] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:21:04,643] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 116.58471024 for Symbol : USDTBNB
+[2022-08-05 10:21:07,637] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:21:08,242] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.36917261 for Symbol : BNBUSDT
+[2022-08-05 10:21:09,585] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:21:09,585] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:21:11,542] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 77.16952738 for Symbol : SUSHIUSDT
+[2022-08-05 10:21:12,448] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:21:12,464] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:21:13,674] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.36928841 for Symbol : BNBSUSHI
+[2022-08-05 10:21:14,595] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:21:15,191] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 77.1549 for Symbol : SUSHIBNB
+[2022-08-05 10:21:16,379] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:21:16,379] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:21:17,270] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 116.10407347 for Symbol : USDTBNB
+[2022-08-05 10:21:17,911] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:21:18,504] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.3677671 for Symbol : BNBUSDT
+[2022-08-05 10:21:19,913] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:21:19,913] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:21:20,793] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 76.83507316 for Symbol : SUSHIUSDT
+[2022-08-05 10:21:21,716] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:21:21,716] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:21:23,196] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.36735522 for Symbol : BNBSUSHI
+[2022-08-05 10:21:23,859] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:21:24,438] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 76.8549 for Symbol : SUSHIBNB
+[2022-08-05 10:21:25,330] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:21:25,330] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:21:26,294] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 115.59097492 for Symbol : USDTBNB
+[2022-08-05 10:21:26,934] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:21:27,559] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.36637393 for Symbol : BNBUSDT
+[2022-08-05 10:21:28,481] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:21:28,481] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:21:29,374] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 76.51565633 for Symbol : SUSHIUSDT
+[2022-08-05 10:21:30,024] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:21:30,024] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:21:31,221] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.36615323 for Symbol : BNBSUSHI
+[2022-08-05 10:21:32,127] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:21:32,712] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 76.5549 for Symbol : SUSHIBNB
+[2022-08-05 10:21:33,384] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:21:33,384] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:21:34,280] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 115.08930002 for Symbol : USDTBNB
+[2022-08-05 10:21:34,937] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:21:35,520] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.36455274 for Symbol : BNBUSDT
+[2022-08-05 10:21:36,205] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:21:36,205] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:21:37,084] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 76.10220371 for Symbol : SUSHIUSDT
+[2022-08-05 10:21:37,724] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:21:37,724] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:21:38,935] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.36436597 for Symbol : BNBSUSHI
+[2022-08-05 10:21:39,591] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:21:40,178] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 76.1549 for Symbol : SUSHIBNB
+[2022-08-05 10:21:40,815] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:21:40,815] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:21:43,546] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 114.82016195 for Symbol : USDTBNB
+[2022-08-05 10:21:46,298] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:21:46,875] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.36358506 for Symbol : BNBUSDT
+[2022-08-05 10:21:48,856] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:21:48,856] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:21:50,798] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 75.82710291 for Symbol : SUSHIUSDT
+[2022-08-05 10:21:51,961] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to SUSHI
+[2022-08-05 10:21:51,961] [yuvalbadihi] [convert] [INFO]: Start to convert from SUSHI to BNB with Percent : 1
+[2022-08-05 10:21:54,231] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.36270076 for Symbol : BNBSUSHI
+[2022-08-05 10:21:55,137] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:21:55,718] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 75.8549 for Symbol : SUSHIBNB
+[2022-08-05 10:21:57,445] [yuvalbadihi] [convert] [INFO]: Successfully converted from SUSHI to BNB
+[2022-08-05 10:21:57,445] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:21:58,335] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 114.14044034 for Symbol : USDTBNB
+[2022-08-05 10:21:59,252] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:21:59,845] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.36143268 for Symbol : BNBUSDT
+[2022-08-05 10:22:00,769] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:22:00,769] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to SUSHI with Percent : 1
+[2022-08-05 10:22:45,903] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 10:22:45,903] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:22:46,827] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 63.99203674 for Symbol : BURGERUSDT
+[2022-08-05 10:22:48,533] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:22:48,533] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:22:51,609] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.35921748 for Symbol : BNBBURGER
+[2022-08-05 10:22:53,582] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:22:54,958] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 63.6236 for Symbol : BURGERBNB
+[2022-08-05 10:22:56,921] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BNB
+[2022-08-05 10:22:56,921] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:23:00,478] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 113.45808813 for Symbol : USDTBNB
+[2022-08-05 10:23:02,455] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:23:03,037] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.35927197 for Symbol : BNBUSDT
+[2022-08-05 10:23:04,220] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:23:04,220] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:23:05,926] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 63.21135497 for Symbol : BURGERUSDT
+[2022-08-05 10:23:06,829] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:23:06,829] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:23:08,021] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.35788024 for Symbol : BNBBURGER
+[2022-08-05 10:23:09,988] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:23:10,596] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 63.1236 for Symbol : BURGERBNB
+[2022-08-05 10:23:11,485] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BNB
+[2022-08-05 10:23:11,485] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:23:12,721] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 112.75133442 for Symbol : USDTBNB
+[2022-08-05 10:23:13,627] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:23:14,237] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.35692097 for Symbol : BNBUSDT
+[2022-08-05 10:23:14,963] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:23:14,963] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:23:15,869] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 62.86647655 for Symbol : BURGERUSDT
+[2022-08-05 10:23:16,527] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:23:16,527] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:23:17,879] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.35717374 for Symbol : BNBBURGER
+[2022-08-05 10:23:19,068] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:23:19,828] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 62.8236 for Symbol : BURGERBNB
+[2022-08-05 10:23:20,862] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BNB
+[2022-08-05 10:23:20,877] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:23:21,803] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 112.01428319 for Symbol : USDTBNB
+[2022-08-05 10:23:23,084] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:23:23,662] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.35425137 for Symbol : BNBUSDT
+[2022-08-05 10:23:24,601] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:23:24,601] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:23:25,510] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 62.42777336 for Symbol : BURGERUSDT
+[2022-08-05 10:23:26,166] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:23:26,166] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:23:27,390] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.35473335 for Symbol : BNBBURGER
+[2022-08-05 10:23:28,061] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:23:28,650] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 62.4236 for Symbol : BURGERBNB
+[2022-08-05 10:23:29,564] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BNB
+[2022-08-05 10:23:29,564] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:23:30,474] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 111.46529043 for Symbol : USDTBNB
+[2022-08-05 10:23:31,139] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:23:31,721] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.35251515 for Symbol : BNBUSDT
+[2022-08-05 10:23:32,406] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:23:32,406] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:23:33,319] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.75587849 for Symbol : BURGERUSDT
+[2022-08-05 10:23:36,154] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:23:36,154] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:23:37,603] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.3514789 for Symbol : BNBBURGER
+[2022-08-05 10:23:38,525] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:23:39,931] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.7236 for Symbol : BURGERBNB
+[2022-08-05 10:23:41,932] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to BNB
+[2022-08-05 10:23:41,932] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 10:23:43,123] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 110.82250958 for Symbol : USDTBNB
+[2022-08-05 10:23:43,810] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:23:44,404] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.35048232 for Symbol : BNBUSDT
+[2022-08-05 10:23:45,065] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 10:23:45,065] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:23:46,763] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.53679766 for Symbol : BURGERUSDT
+[2022-08-05 10:23:47,691] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:23:47,691] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to BNB with Percent : 1
+[2022-08-05 10:24:54,315] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 10:24:54,315] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to USDT with Percent : 1
+[2022-08-05 10:24:56,270] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 110.3118148 for Symbol : USDTBURGER
+[2022-08-05 10:24:56,933] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:24:58,340] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.5236 for Symbol : BURGERUSDT
+[2022-08-05 10:25:00,027] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to USDT
+[2022-08-05 10:25:00,027] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:25:02,782] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.60626767 for Symbol : BURGERUSDT
+[2022-08-05 10:25:04,779] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:25:04,779] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to USDT with Percent : 1
+[2022-08-05 10:25:06,475] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 110.434862 for Symbol : USDTBURGER
+[2022-08-05 10:25:09,245] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:25:10,637] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.5236 for Symbol : BURGERUSDT
+[2022-08-05 10:25:11,811] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to USDT
+[2022-08-05 10:25:11,811] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:25:14,562] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.36688533 for Symbol : BURGERUSDT
+[2022-08-05 10:25:15,497] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:25:15,497] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to USDT with Percent : 1
+[2022-08-05 10:25:16,395] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 110.1371856 for Symbol : USDTBURGER
+[2022-08-05 10:25:17,318] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:25:17,923] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.3236 for Symbol : BURGERUSDT
+[2022-08-05 10:25:18,579] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to USDT
+[2022-08-05 10:25:18,579] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:25:19,500] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.43565665 for Symbol : BURGERUSDT
+[2022-08-05 10:25:20,140] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:25:20,140] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to USDT with Percent : 1
+[2022-08-05 10:25:21,305] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 110.1939384 for Symbol : USDTBURGER
+[2022-08-05 10:25:22,506] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:25:23,101] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.4236 for Symbol : BURGERUSDT
+[2022-08-05 10:25:23,754] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to USDT
+[2022-08-05 10:25:23,754] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:25:24,632] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.29867637 for Symbol : BURGERUSDT
+[2022-08-05 10:25:26,366] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:25:26,366] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to USDT with Percent : 1
+[2022-08-05 10:25:28,278] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 109.7870465 for Symbol : USDTBURGER
+[2022-08-05 10:25:30,370] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:25:30,963] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.1627 for Symbol : BURGERUSDT
+[2022-08-05 10:25:32,768] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to USDT
+[2022-08-05 10:25:32,768] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:25:33,943] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.14094863 for Symbol : BURGERUSDT
+[2022-08-05 10:25:34,610] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:25:34,610] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to USDT with Percent : 1
+[2022-08-05 10:25:35,514] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 109.446219 for Symbol : USDTBURGER
+[2022-08-05 10:25:36,695] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:25:38,078] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 61.109 for Symbol : BURGERUSDT
+[2022-08-05 10:25:39,011] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to USDT
+[2022-08-05 10:25:39,011] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:25:39,922] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 60.80877709 for Symbol : BURGERUSDT
+[2022-08-05 10:25:41,097] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:25:41,097] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to USDT with Percent : 1
+[2022-08-05 10:25:42,003] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 108.618318 for Symbol : USDTBURGER
+[2022-08-05 10:25:42,659] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:25:43,237] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 60.7485 for Symbol : BURGERUSDT
+[2022-08-05 10:25:43,940] [yuvalbadihi] [convert] [INFO]: Successfully converted from BURGER to USDT
+[2022-08-05 10:25:43,940] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to BURGER with Percent : 1
+[2022-08-05 10:25:44,830] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 60.6819847 for Symbol : BURGERUSDT
+[2022-08-05 10:25:45,498] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to BURGER
+[2022-08-05 10:25:45,498] [yuvalbadihi] [convert] [INFO]: Start to convert from BURGER to USDT with Percent : 1
+[2022-08-05 10:25:46,403] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 108.6952308 for Symbol : USDTBURGER
+[2022-08-05 10:25:47,048] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 10:25:47,644] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 60.5882 for Symbol : BURGERUSDT
+[2022-08-05 10:58:28,973] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:06:21,621] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:06:41,987] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:06:53,277] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:33:48,804] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:34:31,056] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:35:23,135] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:36:16,144] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:36:58,754] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:38:36,754] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:40:04,366] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:41:15,287] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:42:29,918] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:50:30,625] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:50:54,720] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:56:06,733] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:56:29,684] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:57:28,027] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:58:10,433] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 11:59:37,693] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:07:58,093] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:09:43,505] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:09:54,203] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:10:41,178] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:15:58,211] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:20:58,973] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:25:05,850] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:25:38,767] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:25:43,893] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:26:31,486] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:26:45,375] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:27:31,347] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:28:17,282] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:38:22,757] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:38:53,083] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:40:48,309] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:43:20,108] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:50:37,266] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:50:51,704] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:54:02,713] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to FLOW with Percent : 1
+[2022-08-05 12:54:03,602] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 41.2197595 for Symbol : FLOWUSDT
+[2022-08-05 12:54:04,508] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+[2022-08-05 12:54:05,089] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 121.9280486 for Symbol : USDTFLOW
+[2022-08-05 12:54:06,007] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+[2022-08-05 12:54:09,558] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.38186047 for Symbol : BNBUSDT
+[2022-08-05 12:54:11,261] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+[2022-08-05 12:54:11,261] [yuvalbadihi] [convert] [INFO]: Start to convert from FLOW to BNB with Percent : 1
+[2022-08-05 12:54:14,574] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.0 for Symbol : BNBFLOW
+[2022-08-05 12:54:15,190] [yuvalbadihi] [convert] [INFO]: Successfully converted from FLOW to BNB
+[2022-08-05 12:54:15,190] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 12:54:16,085] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.04599836 for Symbol : USDTBNB
+[2022-08-05 12:54:16,991] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 12:55:21,469] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:55:59,539] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:55:59,539] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to FLOW with Percent : 1
+[2022-08-05 12:56:10,621] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:56:10,621] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to FLOW with Percent : 0.2
+[2022-08-05 12:56:12,336] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 8.30289742 for Symbol : FLOWUSDT
+[2022-08-05 12:56:13,246] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+[2022-08-05 12:56:13,835] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 24.38560972 for Symbol : USDTFLOW
+[2022-08-05 12:56:16,597] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+[2022-08-05 12:56:18,299] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.07644392 for Symbol : BNBUSDT
+[2022-08-05 12:56:21,087] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+[2022-08-05 12:56:47,434] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:56:47,434] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to FLOW with Percent : 0.2
+[2022-08-05 12:56:48,348] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 8.29442507 for Symbol : FLOWUSDT
+[2022-08-05 12:56:49,259] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+[2022-08-05 12:56:49,843] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 24.38560972 for Symbol : USDTFLOW
+[2022-08-05 12:56:52,345] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+[2022-08-05 12:56:55,890] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.07651588 for Symbol : BNBUSDT
+[2022-08-05 12:56:58,694] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+[2022-08-05 12:58:48,405] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 12:58:48,405] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to FLOW with Percent : 0.2
+[2022-08-05 12:58:51,143] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 8.26911147 for Symbol : FLOWUSDT
+[2022-08-05 12:58:53,101] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+[2022-08-05 12:58:53,684] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 24.38560972 for Symbol : USDTFLOW
+[2022-08-05 12:58:55,135] [yuvalbadihi] [convert] [WARNING]: Failed to convert with second opportunity, APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+[2022-08-05 12:58:57,887] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.07649187 for Symbol : BNBUSDT
+[2022-08-05 12:58:59,879] [yuvalbadihi] [convert] [ERROR]: Failed to convert, APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+[2022-08-05 13:02:36,719] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 13:02:36,720] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to FLOW with Percent : 0.2
+[2022-08-05 13:02:37,616] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 8.36269195 for Symbol : FLOWUSDT
+[2022-08-05 13:02:39,113] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to FLOW
+[2022-08-05 13:02:55,225] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 13:02:55,225] [yuvalbadihi] [convert] [INFO]: Start to convert from FLOW to USDT with Percent : 0.2
+[2022-08-05 13:02:56,413] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 4.845568 for Symbol : USDTFLOW
+[2022-08-05 13:02:58,112] [yuvalbadihi] [convert] [INFO]: Successfully converted from FLOW to USDT
+[2022-08-05 13:03:01,715] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 13:03:01,715] [yuvalbadihi] [convert] [INFO]: Start to convert from FLOW to USDT with Percent : 1
+[2022-08-05 13:03:03,832] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 24.22784 for Symbol : USDTFLOW
+[2022-08-05 13:03:06,068] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 13:03:07,480] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 8.32 for Symbol : FLOWUSDT
+[2022-08-05 13:03:09,200] [yuvalbadihi] [convert] [INFO]: Successfully converted from FLOW to USDT
+[2022-08-05 13:04:32,786] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 13:05:21,238] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 13:05:55,846] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 13:07:48,412] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 13:12:37,587] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 13:13:22,332] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 13:15:18,685] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to C98 with Percent : 1
+[2022-08-05 13:15:19,557] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 205.32476998 for Symbol : C98USDT
+[2022-08-05 13:15:20,457] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to C98
+[2022-08-05 13:15:20,457] [yuvalbadihi] [convert] [INFO]: Start to convert from C98 to BNB with Percent : 1
+[2022-08-05 13:15:21,658] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37826613 for Symbol : BNBC98
+[2022-08-05 13:15:22,579] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 13:15:23,169] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 203.9958 for Symbol : C98BNB
+[2022-08-05 13:15:24,084] [yuvalbadihi] [convert] [INFO]: Successfully converted from C98 to BNB
+[2022-08-05 13:15:24,084] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 13:15:24,981] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 120.06371956 for Symbol : USDTBNB
+[2022-08-05 13:15:25,901] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 13:15:27,290] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37531641 for Symbol : BNBUSDT
+[2022-08-05 13:15:30,037] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 13:16:27,850] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 13:18:20,660] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 13:20:48,168] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to C98 with Percent : 1
+[2022-08-05 13:20:49,164] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 203.65431002 for Symbol : C98USDT
+[2022-08-05 13:20:50,154] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to C98
+[2022-08-05 13:20:50,154] [yuvalbadihi] [convert] [INFO]: Start to convert from C98 to BNB with Percent : 1
+[2022-08-05 13:20:51,431] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37504478 for Symbol : BNBC98
+[2022-08-05 13:20:52,256] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 13:20:52,839] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 203.6958 for Symbol : C98BNB
+[2022-08-05 13:20:53,782] [yuvalbadihi] [convert] [INFO]: Successfully converted from C98 to BNB
+[2022-08-05 13:20:53,782] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 13:20:54,704] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 119.5588354 for Symbol : USDTBNB
+[2022-08-05 13:20:55,703] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 13:20:56,293] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37385502 for Symbol : BNBUSDT
+[2022-08-05 13:20:58,063] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-05 13:56:42,613] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-05 14:06:45,848] [yuvalbadihi] [convert] [INFO]: Start to convert from USDT to FLOW with Percent : 1
+[2022-08-05 14:06:46,760] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 42.71733116 for Symbol : FLOWUSDT
+[2022-08-05 14:06:47,695] [yuvalbadihi] [convert] [INFO]: Successfully converted from USDT to FLOW
+[2022-08-05 14:06:47,696] [yuvalbadihi] [convert] [INFO]: Start to convert from FLOW to BNB with Percent : 1
+[2022-08-05 14:06:49,167] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.3729296 for Symbol : BNBFLOW
+[2022-08-05 14:06:50,068] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 14:06:50,659] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 42.55 for Symbol : FLOWBNB
+[2022-08-05 14:06:51,598] [yuvalbadihi] [convert] [INFO]: Successfully converted from FLOW to BNB
+[2022-08-05 14:06:51,598] [yuvalbadihi] [convert] [INFO]: Start to convert from BNB to USDT with Percent : 1
+[2022-08-05 14:06:52,491] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 118.91543584 for Symbol : USDTBNB
+[2022-08-05 14:06:53,391] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-05 14:06:53,983] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.37265884 for Symbol : BNBUSDT
+[2022-08-05 14:06:54,672] [yuvalbadihi] [convert] [INFO]: Successfully converted from BNB to USDT
+[2022-08-06 18:12:38,587] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-06 18:12:38,602] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BUSD with Percent : 1
+[2022-08-06 18:12:39,618] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 312.64899 for Symbol : BUSDLTC
+[2022-08-06 18:12:40,571] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-06 18:12:42,088] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 5.073 for Symbol : LTCBUSD
+[2022-08-06 18:12:44,182] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to BUSD
+[2022-08-06 18:12:44,698] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BUSD with Percent : 1
+[2022-08-06 18:12:46,604] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.60108 for Symbol : BUSDLTC
+[2022-08-06 18:12:48,291] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to BUSD
+[2022-08-06 18:12:48,791] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BUSD with Percent : 1
+[2022-08-06 18:12:52,009] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.60108 for Symbol : BUSDLTC
+[2022-08-06 18:12:52,619] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to BUSD
+[2022-08-06 18:12:53,119] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BUSD with Percent : 1
+[2022-08-06 18:12:55,494] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.60108 for Symbol : BUSDLTC
+[2022-08-06 18:12:56,447] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to BUSD
+[2022-08-06 18:12:56,947] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BUSD with Percent : 1
+[2022-08-06 18:13:00,136] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.60108 for Symbol : BUSDLTC
+[2022-08-06 18:13:01,010] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to BUSD
+[2022-08-06 18:13:01,521] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BUSD with Percent : 1
+[2022-08-06 18:13:33,072] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-06 18:13:33,072] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BUSD with Percent : 1
+[2022-08-06 18:13:34,025] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.60108 for Symbol : BUSDLTC
+[2022-08-06 18:13:34,697] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to BUSD
+[2022-08-06 18:13:34,697] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to LTC with Percent : 1
+[2022-08-06 18:13:35,634] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 5.04201893 for Symbol : LTCBUSD
+[2022-08-06 18:13:37,682] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to LTC
+[2022-08-06 18:13:38,697] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BUSD with Percent : 1
+[2022-08-06 18:13:40,978] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 310.22784456 for Symbol : BUSDLTC
+[2022-08-06 18:13:43,025] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-06 18:13:45,650] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 5.036984 for Symbol : LTCBUSD
+[2022-08-06 18:13:46,666] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to BUSD
+[2022-08-06 18:13:46,666] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to LTC with Percent : 1
+[2022-08-06 18:13:48,510] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 5.03120157 for Symbol : LTCBUSD
+[2022-08-06 18:13:50,385] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to LTC
+[2022-08-06 18:13:51,401] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BUSD with Percent : 1
+[2022-08-06 18:13:53,448] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 309.56130524 for Symbol : BUSDLTC
+[2022-08-06 18:14:23,977] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-06 18:14:23,977] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BUSD with Percent : 1
+[2022-08-06 18:14:24,930] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 309.61157502 for Symbol : BUSDLTC
+[2022-08-06 18:14:25,900] [yuvalbadihi] [convert] [WARNING]: Failed to convert with first opportunity, APIError(code=-1121): Invalid symbol.
+[2022-08-06 18:14:26,587] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 5.026978 for Symbol : LTCBUSD
+[2022-08-06 18:14:29,478] [yuvalbadihi] [convert] [INFO]: Successfully converted from LTC to BUSD
+[2022-08-06 18:14:30,478] [yuvalbadihi] [convert] [INFO]: Start to convert from LTC to BUSD with Percent : 1
+[2022-08-06 18:14:32,541] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 1.59946546 for Symbol : BUSDLTC
+[2022-08-06 18:14:46,672] [yuvalbadihi] [init_logger] [INFO]: Initialize logger
+[2022-08-06 18:14:46,672] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to LTC with Percent : 1
+[2022-08-06 18:14:47,618] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 5.02119544 for Symbol : LTCBUSD
+[2022-08-06 18:14:48,957] [yuvalbadihi] [convert] [INFO]: Successfully converted from BUSD to LTC
+[2022-08-06 18:14:49,958] [yuvalbadihi] [convert] [INFO]: Start to convert from BUSD to LTC with Percent : 1
+[2022-08-06 18:14:54,289] [yuvalbadihi] [direct_convert] [INFO]: Quantity : 0.02275744 for Symbol : LTCBUSD
