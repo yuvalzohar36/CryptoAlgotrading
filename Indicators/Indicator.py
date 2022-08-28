@@ -52,7 +52,7 @@ class Indicator(ABC):
         if res == -1:
             res = self.add_row(coin, indicator_name)
         self.assessment_df.loc[[res], [title]] = val
-        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"][self.data_util.get_path_for_assessments()]
+        full_path = self.config["Paths"]["abs_path"] + self.data_util.get_path_for_assessments()
         self.assessment_df.to_csv(full_path, index=False)
 
     def write_val_to_DB(self, indicator_name, val, title):
@@ -62,7 +62,7 @@ class Indicator(ABC):
             else:
                 val = 'HOLD'
         self.data_util.lock("INDICATOR_write_to_db_sem")
-        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"][self.data_util.get_path_for_assessments()]
+        full_path = self.config["Paths"]["abs_path"] + self.data_util.get_path_for_assessments()
         self.assessment_df = pd.read_csv(full_path)
         coin = self.args[0].symbol
         self.change_row_val(coin, indicator_name, val, title)
@@ -70,7 +70,7 @@ class Indicator(ABC):
 
     def get_indi_val(self, coin, indicator_name, title):
         self.data_util.lock("INDICATOR_write_to_db_sem")
-        full_path = self.config["Paths"]["abs_path"] + self.config["Paths"][self.data_util.get_path_for_assessments()]
+        full_path = self.config["Paths"]["abs_path"] + self.data_util.get_path_for_assessments()
         self.assessment_df = pd.read_csv(full_path)
         row = self.find_row(coin, indicator_name)
         if row == -1:

@@ -1,17 +1,17 @@
 {
   "TradeDetail": {
-    "update_step_size": 4,
+    "update_step_size": 96,
     "minutes": 15
   },
   "Paths": {
-    "abs_path": "C:\\CryptoAlgotrading\\",
+    "abs_path": "C:\\Users\\yuval\\OneDrive\\Desktop\\Coding\\CryptoAlgotrading\\",
     "logger_folder": "Logs\\",
     "trade_wallet_logs_path": "TradeWalletsLogs\\",
     "indicators_logs_path": "IndicatorsLogs\\",
     "MAIN_INDICATORS_PATH": "Indicators.IndicatorsImplements.",
 
-    "ASSESSMENT_DB_PATH": "DB\\assessment.csv",
-    "ASSESSMENT_DB_PATH_TEST": "DB\\assessment_test.csv",
+    "ASSESSMENT_DB_PATH": "DB\\assessment",
+    "ASSESSMENT_DB_PATH_TEST": "DB\\testsDB\\assessment_test_",
     "COINS_ROUND_DATA_DB_PATH": "DB\\coinsround.csv",
     "COINS_DB_PATH": "DB\\coins.csv",
     "FIREBASE_CREDENTIALS": "Firebase/CryptoAlgotradingCredentials.json"

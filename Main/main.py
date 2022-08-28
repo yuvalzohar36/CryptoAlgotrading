@@ -1,6 +1,8 @@
 import json
 import time
 import warnings
+from datetime import datetime, timedelta
+
 import Coins.CoinsManager as CManager
 import TradeWallets.WalletManager as WManager
 from TradeWallets.BinanceWallet import BinanceWallet
@@ -45,17 +47,30 @@ if __name__ == '__main__':
     api_key = local_config["Binance"][USERNAME]["Details"]["api_key"]
     api_secret = local_config["Binance"][USERNAME]["Details"]["api_secret"]
 
-    #execute_telegram_bot(TELEGRAM_BOT, binance_wallet, config)
-
-    DU = DataUtil(config, local_config, MODE)  # TEST / LIVE
-    CM = CManager.CoinsManager(DU)
+    # execute_telegram_bot(TELEGRAM_BOT, binance_wallet, config)
 
     if MODE == "TEST":
-        TW = TestWallet(DU)
-        WM = WManager.WalletManager([TW], CM, DU)
+        threads = []
+        date = datetime(2020, 7, 17, 3, 0)
+        for i in range(24):
+            DU = DataUtil(config, local_config, MODE, date, date + timedelta(days=7))  # TEST / LIVE
+            CM = CManager.CoinsManager(DU)
+            TW = TestWallet(DU)
+            threads.append(Thread(target=WManager.WalletManager, args=([TW], CM, DU)))
+            date = date + timedelta(days=30)
+        print(threads)
+        for i in range(24):
+            threads[i].start()
+
+
+
     else:
+        DU = DataUtil(config, local_config, MODE)  # TEST / LIVE
+        CM = CManager.CoinsManager(DU)
         binance_wallet = BinanceWallet(api_key, api_secret, 0.1, USERNAME, config)
         WM = WManager.WalletManager([binance_wallet], CM, DU)
-
+    for i in range(24):
+        threads[i].join()
+    print("DONE")
     while True:
         time.sleep(10)

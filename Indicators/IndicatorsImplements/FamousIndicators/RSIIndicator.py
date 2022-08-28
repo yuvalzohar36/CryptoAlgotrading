@@ -1,39 +1,64 @@
 from Indicators.Indicator import Indicator
-import talib as tb
-import numpy
 
 
 class RSIIndicator(Indicator):
-    def __init__(self, coin_manager, logger, assessment_df, data_util):
-        super().__init__(coin_manager, logger, assessment_df, data_util)
-        self.timeperiod = 8
-        self.RSI_OVERBOUGHT = 70
-        self.RSI_OVERSOLD = 30
-        self.overbought_diff = 1
-        self.oversold_diff = 1
-        self.multi = 2
+    def init(self, coin_manager, logger, assessment_df, data_util):
+        super()._init_(coin_manager, logger, assessment_df, data_util)
+        self.candles_measure = 14
+        self.steps = super().get_config()["TradeDetail"]["update_step_size"]
+        self.mins = super().get_config()["TradeDetail"]["minutes"]
+        self.coin = None
+        self.diff = 1.0
 
     def run(self, args):
         self.coin = args[0]
-        rsi = self.get_rsi(self.prepare_data())
-        self.res(rsi[-1])
-
-    def get_rsi(self, close):
-        real = tb.RSI(close, timeperiod=self.timeperiod)
-        return real
+        self.calculate()
 
     def prepare_data(self):
-        data = super().get_data_util().request_historical_data(self.coin.symbol, self.timeperiod * self.multi)
+        klines = super().get_data_util().request_historical_data(self.coin.symbol, self.candles_measure)
         lst = []
-        for i in data["Close"]:
-            lst.append(float(i))
-        lst.reverse()
-        return numpy.array(lst)
+        for val in klines['Close']:
+            lst.append(float(val))
+        return lst[::-1]
 
-    def res(self, rsi):
-        if self.RSI_OVERBOUGHT * self.overbought_diff <= rsi:
+    def calculate(self):
+        lst = self.prepare_data()
+        gainsSum = 0
+        lossSum = 0
+        last = lst[0]
+        RS = 0
+        RSI = 0
+        now = 0
+        result = 0
+        for i in range(1, self.candles_measure):
+
+            now = lst[i]
+            result = now - last
+            if (result) >= 0:
+                gainsSum += result
+            else:
+                lossSum += abs(result)
+            last = now
+
+        avgGain = gainsSum / self.candles_measure
+        avgLoss = lossSum / self.candles_measure
+
+        if (avgLoss == 0):
+            return self.result.set_result('BUY')  # avoid diving by 0, it means price went up all days.
+
+        RS = avgGain / avgLoss
+        # print("\nRS IS:",RS)
+
+        RSI = 100 - (100 / (1 + RS))
+        if RSI > 70:
             self.result.set_result('SELL')
-        elif self.RSI_OVERSOLD * self.oversold_diff >= rsi:
+        elif RSI < 30:
             self.result.set_result('BUY')
         else:
             self.result.set_result('HOLD')
+
+    # rsi: if day closes on positive change, add diff to gain,0 to loss.
+    #:after calculations for 14 periods, divide by 14
+    # calculate RS: #RS=(AVG Gain)/(AVG Loss)
+    # calculate RSI: #rsi=100-(100/1+RS)
+    # if rsi above 70 return buy, less than 30 return sell. else return hold.

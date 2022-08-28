@@ -1,6 +1,8 @@
 import time
 from datetime import datetime, timedelta
 
+import time
+
 
 class WalletManager:
     def __init__(self, wallets, coin_manager, data_util):
@@ -9,33 +11,44 @@ class WalletManager:
         self.data_util = data_util
         self.mins = data_util.config["TradeDetail"]["minutes"]  # append 'm'
         self.steps = data_util.config["TradeDetail"]["update_step_size"]
-
-        date = datetime(2022, 7, 17, 3, 0)
+        self.results_dicts = self.init_symbols()
         while True:
-            data_util.set_date(date)
+            print(f"Date - {self.data_util.to_date}")
+
+            start_time = time.time()
+
             self.coin_manager.schedule_all_indicators_jobs()
+
             if data_util.mode == 'LIVE':
                 time.sleep(self.mins * self.steps * 60)
 
             self.data_util.lock('MW_all_indi_finish_sem')
-            print("BTC", self.coin_manager.stats("BTC").assessment())
-            print("LTC", self.coin_manager.stats("LTC").assessment())
-            # print("BURGER", self.coin_manager.stats("BURGER").assessment())
+
+            for coin in self.results_dicts.keys():
+                stat = self.coin_manager.stats(coin)
+                self.results_dicts.update({coin: stat})
             self.invest()
-            date = date + timedelta(minutes=60)
+            print("--- %s seconds ---" % (time.time() - start_time))
+            print()
+            self.data_util.to_date = self.data_util.to_date + timedelta(minutes=self.mins * self.steps)
+            if data_util.mode == 'TEST' and data_util.end_date <= self.data_util.to_date:
+                return
 
     def add_wallet(self, wallet):
         self.wallets.append(wallet)
 
     def invest(self):
         for coin in self.coin_manager.coins.keys():
-            result = self.coin_manager.stats(coin).assessment()
+            result = self.results_dicts[coin].assessment()
+            print(f"Coin : {coin}, Result: {result}")
             if result == "BUY":
-                self.wallets[0].invest_on_currency(coin, 0.5)
+                for wallet in self.wallets:
+                    wallet.buy(coin, 0.5)
 
             elif result == "SELL":
-                abort_coin = self.coin_manager.config["ABORT_COIN"]
-                self.wallets[0].convert(coin, abort_coin, 0.5)
+                for wallet in self.wallets:
+                    wallet.sell(coin, 0.5)
+        self.wallets[0].report()
 
     def get_longest_indicator_duration(self):
         max_duration = 0
@@ -44,3 +57,9 @@ class WalletManager:
             if indicator["MODE"] == 'ON' and indicator['DURATION'] > max_duration:
                 max_duration = indicator['DURATION']
         return max_duration
+
+    def init_symbols(self):
+        results_dict = {}
+        for coin in self.coin_manager.coins.keys():
+            results_dict[coin] = None
+        return results_dict

@@ -1,5 +1,6 @@
 import threading
 import logging
+import time
 from os.path import exists
 from apscheduler.schedulers.background import BackgroundScheduler
 from Coins import CryptoCoin as CC
@@ -19,11 +20,12 @@ class CoinsManager:
             self.config["TradeDetail"]["minutes"]) * 60
         self.scheduler = BackgroundScheduler()
         self.data_util = data_util
-        self.coinsDB = self.init_coins_db(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"])
+        if data_util.mode == 'LIVE':
+            self.coinsDB = self.init_coins_db(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"])
         self.coins, self.coins_indicators = self.init_coins()
         self.current_indicators_threads = {}
         self.assessment_df = self.init_weights_assessments(
-            self.config["Paths"]["abs_path"] + self.config["Paths"][self.data_util.get_path_for_assessments()],
+            self.config["Paths"]["abs_path"] + self.data_util.get_path_for_assessments(),
             ["Coin", "Indicator", "Result", "Credit", "PrevPrice", "UpdateTime"])
         self.indicators_loggers = self.init_all_loggers()
         self.activate_all_indicators()
@@ -34,13 +36,14 @@ class CoinsManager:
     def schedule_all_indicators_jobs(self):
         self.scheduler = BackgroundScheduler()
         # if self.data_util.mode == "LIVE": ~~~~~~~~~~~~~~~~~~~~~~~~~~  RETURN IT WHEN U DONE WORKING
-        self.coinsDB = pd.read_csv(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"])
-        for coin in self.coins:
-            self.coinsDB = self.coins[coin].attributes_refresh(self.coinsDB)
-        self.coinsDB.to_csv(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"], index=False)
-
-        t1 = Thread(target=FireBaseUtil.process_firebase_writing, args=[self.data_util])
-        t1.start()
+        if self.data_util.mode == "LIVE":
+            self.coinsDB = pd.read_csv(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"])
+            for coin in self.coins:
+                self.coinsDB = self.coins[coin].attributes_refresh(self.coinsDB)
+            self.coinsDB.to_csv(self.config["Paths"]["abs_path"] + self.config["Paths"]["COINS_DB_PATH"], index=False)
+            if self.data_util.mode == "LIVE":
+                t1 = Thread(target=FireBaseUtil.process_firebase_writing, args=[self.data_util])
+                t1.start()
 
         for coin in self.config["Coins"]:
             if self.config["Coins"][coin]["Mode"] == "ON":
@@ -118,12 +121,15 @@ class CoinsManager:
             indi.write_val_to_DB(type(indi).__name__, self.data_util.currency_price(symbol), 'PrevPrice')
             indi.write_val_to_DB(type(indi).__name__, self.data_util.get_timestamp(), 'UpdateTime')
             indi.write_val_to_DB(type(indi).__name__, None, 'Result')  # writes to database
+
         return results
 
     def join_thread(self, indicator):
         self.current_indicators_threads[indicator].join()
 
     def stats(self, symbol):
+        start_time = time.time()
+
         buy_credit = 0
         sell_credit = 0
         hold_credit = 0
@@ -131,7 +137,9 @@ class CoinsManager:
         sell_count = 0
         hold_count = 0
         max_duration = 0
+
         self.recv_indicator_results(symbol)
+
         for indi in self.coins_indicators[symbol]:
             # if not self.check_if_result_valid(indi, symbol):
             #     continue
@@ -151,6 +159,7 @@ class CoinsManager:
             elif indi_result == 'HOLD':
                 hold_credit += indi_credit
                 hold_count += 1
+        print("--- %s stats seconds ---" % (time.time() - start_time))
 
         return ResultForWM([self.coins.get(symbol), buy_credit, sell_credit,
                             hold_credit, buy_count, sell_count, hold_count, self.data_util.get_timestamp(),

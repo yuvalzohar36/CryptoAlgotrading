@@ -7,32 +7,32 @@ import threading
 import firebase_admin
 from firebase_admin import credentials, firestore
 
-
-
 USERNAME = 'yuvalbadihi'
 LOCAL_CONFIGURATION_FILE = "../Configurations/local_configuration.json"
 CONFIGURATION_FILE = "../Configurations/configuration.json"
 
 
 class DataUtil:
-    def __init__(self, config, local_config, mode):
+    def __init__(self, config, local_config, mode, start_date=None, end_date = None):
         self.config = config
         self.local_config = local_config
         self.mode = mode  # TEST, LIVE
         self.mins = self.config["TradeDetail"]["minutes"]  # append 'm'
         self.steps = self.config["TradeDetail"]["update_step_size"]
-        self.to_date = self.get_rand_date()
+        self.to_date = start_date  # self.get_rand_date()
+        self.end_date = end_date
+        if start_date is not None:
+            self.starting_date = self.to_date.date()
         self.moduls = self.load_moduls()
         self.running_indicators_amount = 0
         self.running_indicators_wrote_result_amount = 0
-        self.fb_db = self.init_FB(config["Paths"]["abs_path"] + config["Paths"]["FIREBASE_CREDENTIALS"])
+        if mode == 'LIVE':
+            self.fb_db = self.init_FB(config["Paths"]["abs_path"] + config["Paths"]["FIREBASE_CREDENTIALS"])
 
         self.semaphores = {"MW_all_indi_finish_sem": threading.Semaphore(0),
                            "INDICATOR_write_to_db_sem": threading.Semaphore(),
                            "INDIRES_inc_counter_sem": threading.Semaphore(),
-                           "process_firebase_writing_sem" : threading.Semaphore() }
-
-
+                           "process_firebase_writing_sem": threading.Semaphore()}
 
     def request_historical_data(self, symbol, candles_count):
         convert_symbol = symbol + "BUSD"
@@ -99,13 +99,14 @@ class DataUtil:
         return new_df.iloc[0:candles_count]
 
     def set_date(self, date):
+
         self.to_date = date
 
     @staticmethod
     def get_rand_date():
-        vals = [0,15,30,45]
+        vals = [0, 15, 30, 45]
         return datetime(random.randint(2020, 2021), random.randint(1, 12),
-                        random.randint(1, 28), random.randint(0, 23), vals[random.randint(0,3)])
+                        random.randint(1, 28), random.randint(0, 23), vals[random.randint(0, 3)])
 
     def load_moduls(self):
         api_key = self.local_config["Binance"][USERNAME]["Details"]["api_key"]
@@ -135,8 +136,8 @@ class DataUtil:
 
     def get_path_for_assessments(self):
         if self.mode == "LIVE":
-            return "ASSESSMENT_DB_PATH"
-        return "ASSESSMENT_DB_PATH_TEST"
+            return self.config["Paths"]["ASSESSMENT_DB_PATH"] + '.csv'
+        return self.config["Paths"]["ASSESSMENT_DB_PATH_TEST"] + str(self.starting_date).replace('-', '_') + '.csv'
 
     def lock(self, sem_name):
         self.semaphores[sem_name].acquire()
@@ -155,4 +156,3 @@ class DataUtil:
 
     def get_fb_db(self):
         return self.fb_db
-
