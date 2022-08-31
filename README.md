@@ -1,2 +1,2 @@
 # CryptoAlgotrading
-Indicators implements in private mode .
+Indicators implementations in private mode .
